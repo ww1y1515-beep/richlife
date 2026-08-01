@@ -1,0 +1,142 @@
+{
+  "todos": [],
+  "sports": [
+    {
+      "id": "ms4r4el7ve9i",
+      "date": "2026-07-28",
+      "name": "散步",
+      "weight": 0,
+      "dur": 0
+    },
+    {
+      "id": "ms4r4lrifh59",
+      "date": "2026-07-27",
+      "name": "游泳",
+      "weight": 0,
+      "dur": 0
+    },
+    {
+      "id": "ms65sbjy8rwb",
+      "date": "2026-07-29",
+      "name": "散步",
+      "weight": 0,
+      "dur": 30
+    },
+    {
+      "id": "ms7btcovetno",
+      "date": "2026-07-30",
+      "name": "游泳",
+      "weight": 0,
+      "dur": 60
+    },
+    {
+      "id": "ms8h0sw5fi2y",
+      "date": "2026-07-31",
+      "name": "瑜伽",
+      "weight": 51.7,
+      "dur": 10
+    },
+    {
+      "id": "msa9g3xjkm74",
+      "date": "2026-08-01",
+      "name": "游泳",
+      "weight": 0,
+      "dur": 90
+    }
+  ],
+  "money": [
+    {
+      "id": "ms4r2xalro4w",
+      "date": "2026-07-28",
+      "type": "income",
+      "cat": "工资",
+      "amt": 10332,
+      "note": ""
+    }
+  ],
+  "books": [],
+  "moods": [
+    {
+      "id": "ms4r5g9ueh6l",
+      "date": "2026-07-28",
+      "mood": 1,
+      "diary": "很神奇的是今天跟着抖音搭了一个人生管理系统的工作台 AI真的太强大了 i",
+      "time": "22:29"
+    },
+    {
+      "id": "ms7p6494qc82",
+      "date": "2026-07-30",
+      "mood": 3,
+      "diary": "下午一个人去游泳 暑期小朋友很多 自己练习的时候突然领悟了抬头 争取明天把手部动作加上\n晚上继续装opencode 发现用上workbuddy之后 对于电脑的操作更简单了\n也许当时只是做了一个小小的工作流 \n有的评论认为没有什么大的用处 有很多已有的app可以替代\n但是正是由于这样的尝试\n可以为后面装opencode奠定了基础\n发现有了更加简便的方式 不然照着公众号 可能早就卡在某一步没有办法继续下去",
+      "time": "23:57"
+    }
+  ],
+  "words": [],
+  "studies": [],
+  "topics": [],
+  "research": [],
+  "reviews": [
+    {
+      "id": "ms4r7ip900g0",
+      "date": "2026-07-28",
+      "text": "搭建了workbuddy的工作台",
+      "time": "22:31"
+    },
+    {
+      "id": "ms65s1chwclu",
+      "date": "2026-07-29",
+      "text": "今天继续完成 Work buddy 链接上codex",
+      "time": "22:06"
+    },
+    {
+      "id": "ms7bu70ze8hh",
+      "date": "2026-07-30",
+      "text": "安装好了codex中的skills，包括科研skills",
+      "time": "17:44"
+    },
+    {
+      "id": "ms7m47capgvy",
+      "date": "2026-07-30",
+      "text": "下载连玉君的课程和配置ai环境",
+      "time": "22:32"
+    },
+    {
+      "id": "ms8gzz6f9m76",
+      "date": "2026-07-31",
+      "text": "投稿了澳大利亚的会议",
+      "time": "12:56"
+    },
+    {
+      "id": "msafhxe811r9",
+      "date": "2026-08-01",
+      "text": "今天学了一个半小时的连玉君ai agent网课 学会用visual code了",
+      "time": "21:50"
+    }
+  ],
+  "cook": [],
+  "buy": [],
+  "settings": {
+    "calTarget": 2000,
+    "wordGoal": 10,
+    "theme": "light",
+    "diaryPwd": "66",
+    "colors": {
+      "light": {},
+      "dark": {}
+    },
+    "ai": {
+      "provider": "gemini",
+      "key": "",
+      "model": "gemini-1.5-flash",
+      "baseUrl": ""
+    },
+    "douyin": {
+      "name": "",
+      "avatar": ""
+    },
+    "navOrder": [],
+    "useProxy": false,
+    "proxyUrl": ""
+  },
+  "aiLearn": []
+}
