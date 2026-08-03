@@ -1,0 +1,34 @@
+{
+  "date": "2026-08-03",
+  "overview": "今天 AI 圈最热闹的是各家大模型又「卷」起来了——有免费开放的、有被泼冷水的、还有能直接「看」视频的。",
+  "items": [
+    {
+      "title": "阿里发布 Qwen3.8-Max：目前开源里写代码最强的模型",
+      "summary": "阿里把自家最强的「写代码 AI」免费开放了出来（参数高达 2.4 万亿）。对程序员是重磅福利：以后能白嫖顶级编程助手；普通人暂用不上，但说明国产开源模型又往前迈了一大步。",
+      "source": "Qwen 官方",
+      "time": "2026-08-03 10:00",
+      "url": "https://aihot.virxact.com/items/cmscldw820c4kroeu7bw1kb27"
+    },
+    {
+      "title": "OpenAI 新模型 Astra 数学很猛，但有人泼了冷水",
+      "summary": "这个内部新模型做数学题特别强，但有人提醒：数学好不等于啥都懂，就像「考试高分」不等于「生活里事事精通」。而且官方还没公布细节，先别急着吹。",
+      "source": "Gary Marcus 评论",
+      "time": "2026-08-03 05:25",
+      "url": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0"
+    },
+    {
+      "title": "有人发现让 AI 编程助手「带徒弟」的省额度技巧",
+      "summary": "高阶玩家让一个 AI 负责拆任务、审代码，把具体写代码交给另一个 AI。等于「老板 AI 带徒弟 AI」，活干得更多还更省额度。偏极客，普通用户看看热闹就行。",
+      "source": "开发者社区",
+      "time": "2026-08-02 18:47",
+      "url": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1"
+    },
+    {
+      "title": "Grok 现在能「看」视频了",
+      "summary": "你丢一段视频给 Grok，它能帮你总结、分析里面讲了啥。以后看长视频、录播，不用自己快进找重点。",
+      "source": "马斯克 / xAI",
+      "time": "2026-08-02 14:23",
+      "url": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk"
+    }
+  ]
+}
