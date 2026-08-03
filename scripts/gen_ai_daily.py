@@ -217,8 +217,12 @@ def clean(text, limit=90):
 
 def main():
     repo = os.environ.get("GITHUB_REPOSITORY", "ww1y1515-beep/richlife")
-    owner, name = (repo.split("/", 1) + [""])[:2] if "/" in repo else (repo, "")
-    pages_base = f"https://{owner}.github.io/{name}" if owner else ""
+    # 国内化：若配置了 PAGES_BASE_URL（如 Gitee Pages 国内域名），优先使用；
+    # 否则回退 GitHub Pages。这样既彻底国内化，又不影响未配置 Gitee 的仓库。
+    pages_base = os.environ.get("PAGES_BASE_URL", "").strip()
+    if not pages_base:
+        owner, name = (repo.split("/", 1) + [""])[:2] if "/" in repo else (repo, "")
+        pages_base = f"https://{owner}.github.io/{name}" if owner else ""
     img_url = f"{pages_base}/ai_daily.png" if pages_base else ""
 
     font_path = find_font()
