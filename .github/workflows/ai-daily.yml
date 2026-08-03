@@ -1,0 +1,78 @@
+name: AI 每日要报（云端推送 · 国内镜像）
+
+on:
+  schedule:
+    # 北京时间 08:00 = UTC 00:00（GitHub Actions 用 UTC）
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}   # 允许手动触发测试
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖与中文字体
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-wqy-zenhei
+          python -m pip install --quiet --disable-pip-version-check pillow requests
+
+      - name: 计算国内镜像地址（彻底国内化）
+        env:
+          GITEE_REPO: ${{ secrets.GITEE_REPO }}
+        run: |
+          if [ -n "$GITEE_REPO" ]; then
+            OWNER=${GITEE_REPO%/*}
+            NAME=${GITEE_REPO#*/}
+            echo "PAGES_BASE_URL=https://${OWNER}.gitee.io/${NAME}" >> "$GITHUB_ENV"
+            echo "国内镜像地址: https://${OWNER}.gitee.io/${NAME}"
+          else
+            echo "PAGES_BASE_URL=https://ww1y1515-beep.github.io/richlife" >> "$GITHUB_ENV"
+            echo "未配置 GITEE_REPO，回退 GitHub Pages"
+          fi
+
+      - name: 生成要报并推送到微信
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PAGES_BASE_URL: ${{ env.PAGES_BASE_URL }}
+        run: python scripts/gen_ai_daily.py
+
+      - name: 提交信息图与页面到 GitHub（更新工作台）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ai_daily.png ai-daily.html ai-daily.json
+          git commit -m "AI daily $(date +%F)" || echo "no changes"
+          git push
+
+      - name: 镜像到 Gitee Pages（国内加速）
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_REPO: ${{ secrets.GITEE_REPO }}   # 形如 owner/repo
+        if: ${{ env.GITEE_REPO != '' }}
+        run: |
+          GH_URL="https://ww1y1515-beep.github.io/richlife"
+          GE_URL="https://${GITEE_REPO%/*}.gitee.io/${GITEE_REPO#*/}"
+          # 把页面里的 GitHub 图片地址改写成 Gitee，国内打开更快
+          sed -i "s|${GH_URL}|${GE_URL}|g" ai-daily.html
+          git clone https://${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git gitee_mirror
+          cp ai_daily.png ai-daily.html ai-daily.json gitee_mirror/
+          cd gitee_mirror
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "AI daily mirror $(date +%F)" || echo "no changes"
+          git push
