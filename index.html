@@ -244,7 +244,21 @@ progress-none{display:none;}
   <button class="side-btn analysis" id="btnWeekly">📊 <span class="txt">周度数据分析</span></button>
   <button class="side-btn" id="btnExport">⬇️ <span class="txt">导出数据备份</span></button>
   <button class="side-btn" id="btnImport">⬆️ <span class="txt">导入数据备份</span></button>
+  <button class="side-btn" id="btnSeedRestore">🔐 <span class="txt">从加密备份恢复</span></button>
   <input type="file" id="importFile" accept=".json" style="display:none">
+  <script type="application/json" id="lifeos-seed">{"v":1,"kdf":"pbkdf2","iter":100000,"salt":"9khPTtDloZmDBMiYT778fg==","iv":"7BMApcVh+ZhG99DM","ct":"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"}</script>
+  <div id="seedModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(40,50,45,.55);backdrop-filter:blur(4px);align-items:center;justify-content:center;">
+    <div style="background:#fbfaf6;border-radius:20px;padding:28px 26px;width:min(92vw,380px);box-shadow:0 18px 50px rgba(0,0,0,.18);">
+      <div style="font-size:18px;font-weight:700;color:#5b6b5a;margin-bottom:6px;">🔓 恢复历史数据</div>
+      <div style="font-size:13px;color:#7a8576;margin-bottom:16px;line-height:1.6;">检测到这是新设备，请输入恢复口令，自动解密并导入你的历史数据。口令仅在本地使用，不会上传。</div>
+      <input id="seedPass" type="password" placeholder="恢复口令" autocomplete="off" style="width:100%;box-sizing:border-box;padding:12px 14px;border:1.5px solid #d9e2d4;border-radius:14px;font-size:15px;outline:none;margin-bottom:10px;">
+      <div id="seedErr" style="color:#c0584f;font-size:12px;min-height:16px;margin-bottom:10px;"></div>
+      <div style="display:flex;gap:10px;">
+        <button id="seedOk" style="flex:1;padding:11px;border:none;border-radius:14px;background:#9caf88;color:#fff;font-size:15px;font-weight:600;cursor:pointer;">恢复</button>
+        <button id="seedCancel" style="padding:11px 16px;border:1.5px solid #d9e2d4;border-radius:14px;background:#fff;color:#7a8576;font-size:14px;cursor:pointer;">稍后</button>
+      </div>
+    </div>
+  </div>
 </aside>
 
 <main id="main">
@@ -1881,6 +1895,7 @@ function mergeDB(imp){
   out.settings=Object.assign({},DEFAULT.settings,imp.settings||{},DB.settings||{});
   out.settings.colors=Object.assign({light:{},dark:{}},(imp.settings||{}).colors||{},(DB.settings||{}).colors||{});
   out.settings.ai=Object.assign({},DEFAULT.settings.ai,(imp.settings||{}).ai||{},(DB.settings||{}).ai||{});
+  out.settings.seedImported=true;
   return out;
 }
 $('#importFile').addEventListener('change',e=>{
@@ -1900,11 +1915,52 @@ $('#importFile').addEventListener('change',e=>{
   r.readAsText(f);
 });
 
+/* ================= 内置加密备份恢复 ================= */
+function b64ToBuf(b){const s=atob(b);const u=new Uint8Array(s.length);for(let i=0;i<s.length;i++)u[i]=s.charCodeAt(i);return u.buffer;}
+async function decryptSeed(pass){
+  const el=document.getElementById('lifeos-seed'); if(!el||!el.textContent.trim())return null;
+  const seed=JSON.parse(el.textContent); if(!seed||!seed.ct)return null;
+  const salt=b64ToBuf(seed.salt), iv=b64ToBuf(seed.iv), ct=b64ToBuf(seed.ct);
+  const enc=new TextEncoder();
+  const mk=await crypto.subtle.importKey('raw',enc.encode(pass),'PBKDF2',false,['deriveKey']);
+  const aes=await crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:seed.iter||100000,hash:'SHA-256'},mk,{name:'AES-GCM',length:256},false,['decrypt']);
+  const plain=await crypto.subtle.decrypt({name:'AES-GCM',iv},aes,ct);
+  return JSON.parse(new TextDecoder().decode(plain));
+}
+function refreshAll(){['plan','sport','book','mood','word','topic','research','cook','ailearn','dev'].forEach(v=>{try{renders[v]&&renders[v]();}catch(e){}});}
+function openSeedModal(){
+  const m=document.getElementById('seedModal'); if(!m)return; m.style.display='flex';
+  const inp=document.getElementById('seedPass'), err=document.getElementById('seedErr');
+  err.textContent=''; inp.value=''; inp.focus();
+  const doRestore=async()=>{
+    const pw=inp.value.trim(); if(!pw){err.textContent='请输入恢复口令';return;}
+    try{ const data=await decryptSeed(pw); if(!data){err.textContent='口令错误或数据损坏';return;}
+      const merged=mergeDB(data);
+      localStorage.setItem('lifeos_v1',JSON.stringify(merged));
+      DB=load(); applyTheme(); applyNavOrder(); refreshAll();
+      m.style.display='none'; toast('🔓 已用内置加密备份恢复历史数据');
+    }catch(e){ err.textContent='口令错误，请重试'; }
+  };
+  document.getElementById('seedOk').onclick=doRestore;
+  document.getElementById('seedCancel').onclick=()=>{m.style.display='none';};
+  inp.onkeydown=e=>{ if(e.key==='Enter')doRestore(); };
+}
+function maybeSeedRestore(){
+  const el=document.getElementById('lifeos-seed'); if(!el||!el.textContent.trim())return;
+  const ARR=['todos','sports','books','moods','words','studies','topics','research','reviews','cook','buy','aiLearn'];
+  let has=false; ARR.forEach(k=>{ if((DB[k]||[]).length)has=true; });
+  if(has)return;
+  if(DB.settings&&DB.settings.seedImported)return;
+  openSeedModal();
+}
+$('#btnSeedRestore').addEventListener('click',openSeedModal);
+
 /* ================= 启动 ================= */
 function renderGreeting(){try{const d=new Date();const w=['周日','周一','周二','周三','周四','周五','周六'][d.getDay()];const el=$('#greetDate');if(el)el.textContent=`${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日 ${w}`;}catch(e){}}
 applyTheme();
 renderPlan();
 renderGreeting();
+  maybeSeedRestore();
 </script>
 </body>
 </html>
