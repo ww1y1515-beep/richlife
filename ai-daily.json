@@ -1,27 +1,41 @@
 {
-  "date": "2026-08-03",
-  "overview": "今天 AI 圈共有 3 条值得关注的进展，已帮你用大白话整理好了，打开就能看。",
+  "date": "2026-08-04",
+  "overview": "今天 AI 圈共有 5 条值得关注的进展，已帮你用大白话整理好了，打开就能看。",
   "items": [
     {
-      "title": "Kimi Work 幻灯片制作教程发布",
-      "summary": "使用 Kimi Work 制作幻灯片 - 教程 #1。 Kimi Slides 处理整个幻灯片制作流程： - 清晰的结构与研究，由 Kimi K3 驱动 - 连贯的设计，包括精美的…",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "time": "2026-08-03 19:51",
-      "url": "https://aihot.virxact.com/items/cmsd6q57g12pwroeu6iacjuqj"
+      "title": "Reflex 开源 XY：基于 Rust 的超快 Python 绘图库，可保持 …",
+      "summary": "Reflex AI 发布 Apache-2.0 许可的 Python 交互式 2D 绘图库 XY，通过 Rust 原生核心、二进制缓冲传输和 WebGL2 渲染，在 1 万至 1 …",
+      "source": "MarkTechPost（RSS）",
+      "time": "2026-08-04 16:57",
+      "url": "https://aihot.virxact.com/items/cmsefnjpn0q20ro2el7g7lyjw"
     },
     {
-      "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
-      "summary": "Qwen 正式发布 Qwen3.8-Max，这是 Qwen 家族迄今最强的模型，拥有 2.4T 参数（95B 激活），并首次开源 Qwen-Max 级权重，开放权重将于下周发布。",
-      "source": "Qwen：Blog Retrieval（API）",
-      "time": "2026-08-03 10:00",
-      "url": "https://aihot.virxact.com/items/cmscldw820c4kroeu7bw1kb27"
+      "title": "用 NVIDIA SkillSpector、LangGraph、YARA 规则、…",
+      "summary": "本教程演示如何用 NVIDIA SkillSpector 评估 AI 技能的安全态势，构建包含干净、风险、恶意及 MCP 示例的合成技能市场，并通过 LangGraph 检查流水线…",
+      "source": "MarkTechPost（RSS）",
+      "time": "2026-08-04 16:12",
+      "url": "https://aihot.virxact.com/items/cmseekz5g0oncro2ehfyz40ps"
     },
     {
-      "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
-      "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数…",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "time": "2026-08-03 05:25",
-      "url": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0"
+      "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+      "summary": "腾讯混元发布新一代语音识别模型 Hy ASR 3.0 preview，基于大语言模型 Hy3 与 MoE 架构，融合高精度识别与语义理解。其在开源评测集中中文普通话 WER 3.3…",
+      "source": "公众号：腾讯混元",
+      "time": "2026-08-04 16:12",
+      "url": "https://aihot.virxact.com/items/cmsee1mhf0nn6ro2em6rt7tr4"
+    },
+    {
+      "title": "Swiftlet：在 Mac 上运行 80B 版 Qwen（内存 4.3 GB）…",
+      "summary": "Swiftlet 是一个 Swift + Metal 运行时，可在普通 Apple 设备上运行 Qwen3-Next 和 Qwen3.5/3.6 MoE 混合模型，仅将小型稠密核心…",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "2026-08-04 14:32",
+      "url": "https://aihot.virxact.com/items/cmsebb0mc0kn1ro2ejvmi5lg8"
+    },
+    {
+      "title": "GPT-5.6 Luna降价80%永久生效",
+      "summary": "有些人显然误解了，但 GPT-5.6 Luna 降价 80% 不是临时噱头，而是永久的。效率提升不会消失。幸运的是。",
+      "source": "X：Tibo (@thsottiaux)",
+      "time": "2026-08-04 13:07",
+      "url": "https://aihot.virxact.com/items/cmse7yrut0gupro2ejfet4a10"
     }
   ]
 }
