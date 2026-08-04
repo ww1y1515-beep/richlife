@@ -604,6 +604,34 @@ progress-none{display:none;}
       直连模式：Key 仅存本机浏览器（localStorage）并会进入「导出备份」，请勿分享备份。AI 总结按次调用、本地保存结果，不会重复扣费。
     </div>
   </div>
+  <div class="card" style="margin-top:16px;">
+    <h3>☁️ 云端同步 <span style="font-size:12px;color:var(--text2);font-weight:400;">（腾讯云 COS · 手机电脑自动同步）</span></h3>
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;">
+      <span style="font-size:14px;">同步开关</span>
+      <div class="switch" id="syncSwitch" onclick="toggleSync()"><i></i></div>
+      <span id="syncState" style="font-size:12.5px;color:var(--text2);"></span>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end;">
+      <div style="flex:1;min-width:220px;"><div style="font-size:12px;color:var(--text2);margin-bottom:4px;">存储桶（含 APPID）</div><input id="syncBucket" placeholder="richlife-sync-aria-125xxxxxxx"></div>
+      <div style="width:180px;"><div style="font-size:12px;color:var(--text2);margin-bottom:4px;">地域</div><input id="syncRegion" placeholder="ap-guangzhou"></div>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end;margin-top:10px;">
+      <div style="flex:1;min-width:220px;"><div style="font-size:12px;color:var(--text2);margin-bottom:4px;">SecretId</div><input id="syncSecretId" placeholder="AKID..."></div>
+      <div style="flex:1;min-width:220px;"><div style="font-size:12px;color:var(--text2);margin-bottom:4px;">SecretKey</div><input id="syncSecretKey" type="password" placeholder="......."></div>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end;margin-top:10px;">
+      <div style="width:260px;"><div style="font-size:12px;color:var(--text2);margin-bottom:4px;">加密口令（可改）</div><input id="syncPass" type="password" placeholder="gold-book-deer-75"></div>
+    </div>
+    <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+      <button class="btn purple" onclick="saveSyncConfig()">保存配置</button>
+      <button class="btn gray" onclick="doSyncNow()">立即同步</button>
+      <button class="btn gray" onclick="disconnectSync()">断开</button>
+      <span id="syncStatus" style="font-size:12.5px;color:var(--text2);"></span>
+    </div>
+    <div style="margin-top:10px;font-size:12px;color:var(--text2);line-height:1.6;">
+      开启后：打开网页自动从云端拉取，任意改动约 3 秒后自动推送。数据以 AES-GCM 加密，密钥仅存本机。需在腾讯云创建私有桶并配置 CORS（来源 https://ww1y1515-beep.github.io，方法含 OPTIONS）。
+    </div>
+  </div>
 </section>
 
 
@@ -704,7 +732,7 @@ const WD=['一','二','三','四','五','六','日'];
 function dayLabel(ds){const d=new Date(ds+'T00:00:00');return '周'+WD[(d.getDay()+6)%7];}
 
 const DEFAULT={todos:[],meals:[],sports:[],books:[],moods:[],words:[],studies:[],topics:[],research:[],reviews:[],cook:[],buy:[],aiLearn:[],
-  settings:{calTarget:2000,wordGoal:10,theme:'light',diaryPwd:'123456',colors:{light:{},dark:{}},ai:{provider:'gemini',key:'',model:'gemini-1.5-flash',baseUrl:''},navOrder:[],douyin:{name:'',avatar:''}}};
+  settings:{calTarget:2000,wordGoal:10,theme:'light',diaryPwd:'123456',colors:{light:{},dark:{}},ai:{provider:'gemini',key:'',model:'gemini-1.5-flash',baseUrl:''},navOrder:[],douyin:{name:'',avatar:''},sync:{enabled:false,secretId:'',secretKey:'',bucket:'',region:'',encrypt:true,pass:'gold-book-deer-75'}}};
 let DB=load();
 function load(){
   try{const raw=localStorage.getItem('lifeos_v1');
@@ -717,7 +745,7 @@ function load(){
   }catch(e){console.warn(e);}
   return JSON.parse(JSON.stringify(DEFAULT));
 }
-function save(){localStorage.setItem('lifeos_v1',JSON.stringify(DB));}
+function save(){localStorage.setItem('lifeos_v1',JSON.stringify(DB)); schedulePush();}
 let toastTimer=null;
 function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2200);}
 
@@ -1417,6 +1445,14 @@ function renderDev(){
   document.querySelector('input[name=aimode][value="'+(ai.useProxy?'proxy':'direct')+'"]').checked=true;
   onAiMode();
   aiPreset(true);
+  const sy=DB.settings.sync||{};
+  $('#syncBucket').value=sy.bucket||'';
+  $('#syncRegion').value=sy.region||'';
+  $('#syncSecretId').value=sy.secretId||'';
+  $('#syncSecretKey').value=sy.secretKey||'';
+  $('#syncPass').value=sy.pass||'gold-book-deer-75';
+  $('#syncSwitch').classList.toggle('on',!!sy.enabled);
+  $('#syncState').textContent=sy.enabled?'已开启':'已关闭';
 }
 function setColor(v,hex){
   document.body.style.setProperty(v,hex);
@@ -1955,12 +1991,145 @@ function maybeSeedRestore(){
 }
 $('#btnSeedRestore').addEventListener('click',openSeedModal);
 
+/* ================= 云端同步（腾讯云 COS，零外部依赖） ================= */
+function b64(buf){const b=new Uint8Array(buf);let s='';for(let i=0;i<b.length;i++)s+=String.fromCharCode(b[i]);return btoa(s);}
+function b64d(s){const bin=atob(s);const u=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);return u.buffer;}
+function enc(s){return String(s).replace(/[^A-Za-z0-9\-._~]/g,c=>'%'+c.charCodeAt(0).toString(16).toUpperCase().padStart(2,'0'));}
+async function hmacHex(key,data){const e=new TextEncoder();const k=await crypto.subtle.importKey('raw',e.encode(key),{name:'HMAC',hash:'SHA-1'},false,['sign']);const sig=await crypto.subtle.sign('HMAC',k,e.encode(data));return [...new Uint8Array(sig)].map(x=>x.toString(16).padStart(2,'0')).join('');}
+async function sha1hex(data){const e=new TextEncoder();const h=await crypto.subtle.digest('SHA-1',e.encode(data));return [...new Uint8Array(h)].map(x=>x.toString(16).padStart(2,'0')).join('');}
+async function cosAuth(opt){
+  const now=Math.floor(Date.now()/1000);
+  const keyTime=now-60+';'+(now+(opt.expire||600));
+  const signKey=await hmacHex(opt.secretKey,keyTime);
+  const m=(opt.method||'GET').toLowerCase();
+  const uri=encodeURIComponent(opt.path||'/').replace(/%2F/g,'/');
+  const qKeys=Object.keys(opt.query||{}).filter(k=>opt.query[k]!==undefined&&opt.query[k]!=='').sort();
+  const httpParams=qKeys.map(k=>enc(k)+'='+enc(opt.query[k])).join('&');
+  const hKeys=Object.keys(opt.headers||{}).map(k=>k.toLowerCase()).sort();
+  const httpHeaders=hKeys.map(k=>enc(k)+'='+enc(opt.headers[k])).join('&');
+  const httpString=await sha1hex(m+'\n'+uri+'\n'+httpParams+'\n'+httpHeaders+'\n');
+  const stringToSign='sha1\n'+keyTime+'\n'+keyTime+'\n'+httpString+'\n';
+  const signature=await hmacHex(signKey,stringToSign);
+  return 'q-sign-algorithm=sha1&q-ak='+opt.secretId+'&q-sign-time='+keyTime+'&q-key-time='+keyTime+'&q-header-list='+hKeys.join(';')+'&q-url-param-list='+qKeys.join(';')+'&q-signature='+signature;
+}
+async function aesEnc(plainText,pass){
+  const e=new TextEncoder();
+  const salt=crypto.getRandomValues(new Uint8Array(16));
+  const iv=crypto.getRandomValues(new Uint8Array(12));
+  const mk=await crypto.subtle.importKey('raw',e.encode(pass),'PBKDF2',false,['deriveKey']);
+  const aes=await crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:100000,hash:'SHA-256'},mk,{name:'AES-GCM',length:256},false,['encrypt']);
+  const ct=await crypto.subtle.encrypt({name:'AES-GCM',iv},aes,e.encode(plainText));
+  return {v:1,kdf:'pbkdf2',iter:100000,salt:b64(salt),iv:b64(iv),ct:b64(ct)};
+}
+async function aesDec(payload,pass){
+  const e=new TextEncoder();
+  const salt=b64d(payload.salt),iv=b64d(payload.iv),ct=b64d(payload.ct);
+  const mk=await crypto.subtle.importKey('raw',e.encode(pass),'PBKDF2',false,['deriveKey']);
+  const aes=await crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:payload.iter||100000,hash:'SHA-256'},mk,{name:'AES-GCM',length:256},false,['decrypt']);
+  const pt=await crypto.subtle.decrypt({name:'AES-GCM',iv},aes,ct);
+  return new TextDecoder().decode(pt);
+}
+let _pushTimer=null,_syncing=false,_lastETag=null;
+function syncCfg(){return DB.settings.sync||{};}
+function syncReady(){const c=syncCfg();return c.enabled&&c.bucket&&c.secretId&&c.secretKey;}
+function schedulePush(){
+  if(!syncReady()||_syncing)return;
+  clearTimeout(_pushTimer);
+  _pushTimer=setTimeout(()=>{pushToCloud().catch(e=>console.warn('push fail',e));},3000);
+}
+async function pullFromCloud(){
+  if(!syncReady())return;
+  _syncing=true;
+  let code=0;
+  try{
+    const c=syncCfg();
+    const url='https://'+c.bucket+'.cos.'+c.region+'.myqcloud.com/data.json';
+    const auth=await cosAuth({method:'GET',path:'/data.json',headers:{host:c.bucket+'.cos.'+c.region+'.myqcloud.com'},secretId:c.secretId,secretKey:c.secretKey});
+    const r=await fetch(url,{headers:{Authorization:auth}});
+    code=r.status;
+    if(r.status===200){
+      const txt=await r.text();
+      if(txt&&txt.trim()){
+        const payload=JSON.parse(txt);
+        const plain=await aesDec(payload,c.pass||'gold-book-deer-75');
+        const data=JSON.parse(plain);
+        const merged=mergeDB(data);
+        localStorage.setItem('lifeos_v1',JSON.stringify(merged));
+        DB=load();applyTheme();applyNavOrder();refreshAll();
+        toast('☁️ 已从云端同步');
+      }
+    }else if(r.status===404){
+      await pushToCloud(true);
+    }
+    _lastETag=r.headers.get('ETag');
+  }catch(e){console.warn('pull fail',e);}
+  finally{_syncing=false;}
+  return code;
+}
+async function pushToCloud(force){
+  if(!syncReady())return;
+  if(!force&&_lastETag){
+    try{
+      const c=syncCfg();
+      const hu='https://'+c.bucket+'.cos.'+c.region+'.myqcloud.com/data.json';
+      const ha=await cosAuth({method:'HEAD',path:'/data.json',headers:{host:c.bucket+'.cos.'+c.region+'.myqcloud.com'},secretId:c.secretId,secretKey:c.secretKey});
+      const hr=await fetch(hu,{method:'HEAD',headers:{Authorization:ha}});
+      const cur=hr.headers.get('ETag');
+      if(cur&&cur!==_lastETag)await pullFromCloud();
+    }catch(e){}
+  }
+  _syncing=true;
+  try{
+    const c=syncCfg();
+    const clone=JSON.parse(JSON.stringify(DB));
+    delete clone.settings.sync;
+    const payload=await aesEnc(JSON.stringify(clone),c.pass||'gold-book-deer-75');
+    const url='https://'+c.bucket+'.cos.'+c.region+'.myqcloud.com/data.json';
+    const auth=await cosAuth({method:'PUT',path:'/data.json',headers:{host:c.bucket+'.cos.'+c.region+'.myqcloud.com'},secretId:c.secretId,secretKey:c.secretKey});
+    const r=await fetch(url,{method:'PUT',headers:{Authorization:auth,'Content-Type':'application/octet-stream'},body:JSON.stringify(payload)});
+    if(r.ok){_lastETag=r.headers.get('ETag');toast('☁️ 已同步到云端');}
+    else console.warn('push status',r.status);
+  }catch(e){console.warn('push fail',e);}
+  finally{_syncing=false;}
+}
+function initSync(){
+  if(!syncReady())return;
+  pullFromCloud();
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)schedulePush();});
+}
+function toggleSync(){
+  const sy=DB.settings.sync;sy.enabled=!sy.enabled;
+  if(sy.enabled&&(!sy.bucket||!sy.secretId||!sy.secretKey)){toast('请先填写桶/密钥再开启');sy.enabled=false;}
+  save();renderDev();
+  if(sy.enabled)initSync();
+}
+function saveSyncConfig(){
+  const sy=DB.settings.sync;
+  sy.bucket=$('#syncBucket').value.trim();
+  sy.region=$('#syncRegion').value.trim();
+  sy.secretId=$('#syncSecretId').value.trim();
+  sy.secretKey=$('#syncSecretKey').value.trim();
+  sy.pass=$('#syncPass').value.trim()||'gold-book-deer-75';
+  save();$('#syncStatus').textContent='已保存';toast('☁️ 同步配置已保存');
+}
+async function doSyncNow(){
+  saveSyncConfig();
+  const code=await pullFromCloud();
+  if(code===404||code===200)await pushToCloud(true);
+  $('#syncStatus').textContent=code===200?'同步完成':(code===404?'已上传首份':'同步异常');
+}
+function disconnectSync(){
+  const sy=DB.settings.sync;sy.enabled=false;sy.secretId='';sy.secretKey='';
+  save();renderDev();$('#syncStatus').textContent='已断开';toast('已断开云端同步');
+}
+
 /* ================= 启动 ================= */
 function renderGreeting(){try{const d=new Date();const w=['周日','周一','周二','周三','周四','周五','周六'][d.getDay()];const el=$('#greetDate');if(el)el.textContent=`${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日 ${w}`;}catch(e){}}
 applyTheme();
 renderPlan();
-renderGreeting();
+  renderGreeting();
   maybeSeedRestore();
+  initSync();
 </script>
 </body>
 </html>
