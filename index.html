@@ -232,7 +232,6 @@ progress-none{display:none;}
   </div>
   <button class="nav-item active" data-view="plan">📋 <span class="txt">每日待办</span></button>
   <button class="nav-item" data-view="sport">🏃 <span class="txt">运动打卡</span></button>
-  <button class="nav-item" data-view="money">💰 <span class="txt">记账存钱</span></button>
   <button class="nav-item" data-view="book">📚 <span class="txt">读书收获</span></button>
   <button class="nav-item" data-view="cook">🍳 <span class="txt">做饭记录</span></button>
   <button class="nav-item" data-view="mood">📔 <span class="txt">我的日记</span></button>
@@ -354,36 +353,6 @@ progress-none{display:none;}
   <div class="card"><h3 id="sportListTitle">📝 今日记录</h3><div id="sportList"></div></div>
 </section>
 
-<!-- ============ 4 记账存钱 ============ -->
-<section class="view" id="view-money">
-  <h1 class="page-title">💰 记账存钱</h1>
-  <p class="page-sub">每一笔都心里有数</p>
-  <div class="grid3">
-    <div class="stat-card"><div class="lab">本月收入</div><div class="val" style="color:var(--c-green);">¥<span id="mIncome">0</span></div></div>
-    <div class="stat-card"><div class="lab">本月支出</div><div class="val" style="color:var(--c-pink);">¥<span id="mExpense">0</span></div></div>
-    <div class="stat-card"><div class="lab">本月结余</div><div class="val" style="color:var(--c-blue);">¥<span id="mBalance">0</span></div></div>
-  </div>
-  <div class="grid3" style="margin-top:16px;">
-    <div class="stat-card"><div class="lab">📅 本年累计收入</div><div class="val" style="color:var(--c-green);">¥<span id="yIncome">0</span></div></div>
-    <div class="stat-card"><div class="lab">📅 本年累计支出</div><div class="val" style="color:var(--c-pink);">¥<span id="yExpense">0</span></div></div>
-    <div class="stat-card"><div class="lab">📅 本年累计结余</div><div class="val" style="color:var(--c-blue);">¥<span id="yBalance">0</span></div></div>
-  </div>
-  <div class="card" style="margin-top:20px;">
-    <h3>➕ 记一笔</h3>
-    <div style="display:flex;gap:10px;flex-wrap:wrap;">
-      <select id="moneyType"><option value="expense">💸 支出</option><option value="income">💵 收入</option></select>
-      <select id="moneyCat"></select>
-      <input id="moneyAmt" type="number" placeholder="金额" style="width:120px;">
-      <input id="moneyNote" placeholder="备注（可选）" style="flex:1;min-width:120px;">
-      <input id="moneyDt" type="datetime-local" style="width:190px;" title="留空则自动记录当前时间，也可手动选择">
-      <button class="btn" onclick="addMoney()">记录</button>
-    </div>
-  </div>
-  <div class="grid2">
-    <div class="card" style="margin-bottom:0;"><h3>🥧 本月支出分类</h3><canvas id="moneyChart" height="240"></canvas></div>
-    <div class="card" style="margin-bottom:0;"><h3>📝 最近记录</h3><div id="moneyList" style="max-height:320px;overflow-y:auto;"></div></div>
-  </div>
-</section>
 
 <!-- ============ 5 读书收获 ============ -->
 <section class="view" id="view-book">
@@ -715,13 +684,12 @@ const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 function fmtDate(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 const today=()=>fmtDate(new Date());
 const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,6);
-function nowDT(){const d=new Date(),p=n=>String(n).padStart(2,'0');return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes());}
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function last7(){const a=[];for(let i=6;i>=0;i--){const d=new Date();d.setDate(d.getDate()-i);a.push(fmtDate(d));}return a;}
 const WD=['一','二','三','四','五','六','日'];
 function dayLabel(ds){const d=new Date(ds+'T00:00:00');return '周'+WD[(d.getDay()+6)%7];}
 
-const DEFAULT={todos:[],meals:[],sports:[],money:[],books:[],moods:[],words:[],studies:[],topics:[],research:[],reviews:[],cook:[],buy:[],aiLearn:[],
+const DEFAULT={todos:[],meals:[],sports:[],books:[],moods:[],words:[],studies:[],topics:[],research:[],reviews:[],cook:[],buy:[],aiLearn:[],
   settings:{calTarget:2000,wordGoal:10,theme:'light',diaryPwd:'123456',colors:{light:{},dark:{}},ai:{provider:'gemini',key:'',model:'gemini-1.5-flash',baseUrl:''},navOrder:[],douyin:{name:'',avatar:''}}};
 let DB=load();
 function load(){
@@ -749,7 +717,7 @@ function makeChart(id,cfg){
 }
 function chartTextColor(){return getComputedStyle(document.body).getPropertyValue('--text2').trim()||'#86868b';}
 function gridColor(){return document.body.classList.contains('dark')?'rgba(255,255,255,.08)':'rgba(0,0,0,.06)';}
-const renders={plan:renderPlan,sport:renderSport,money:renderMoney,book:renderBooks,mood:renderMood,word:renderWords,topic:renderTopics,research:renderResearch,cook:renderCook,ailearn:renderAiLearn,dev:renderDev};
+const renders={plan:renderPlan,sport:renderSport,book:renderBooks,mood:renderMood,word:renderWords,topic:renderTopics,research:renderResearch,cook:renderCook,ailearn:renderAiLearn,dev:renderDev};
 let curView='plan';
 $$('.nav-item').forEach(b=>b.addEventListener('click',()=>{
   $$('.nav-item').forEach(x=>x.classList.remove('active'));b.classList.add('active');
@@ -958,51 +926,6 @@ function renderSportCal(){
   }).join('');
 }
 
-/* ================= 4 记账存钱 ================= */
-const CATS_EXP=['餐饮','交通','购物','娱乐','住房','医疗','教育','通讯','人情','其他'];
-const CATS_INC=['工资','理财','其他'];
-const CAT_COLORS=['#af52de','#5ac8fa','#5856d6','#0071e3','#34c759','#ff9500','#ff375f','#ffcc00','#8e8e93','#64d2ff','#bf5af2','#30d158'];
-function fillCats(){
-  const type=$('#moneyType').value;
-  const cats=type==='income'?CATS_INC:CATS_EXP;
-  $('#moneyCat').innerHTML=cats.map(c=>`<option>${c}</option>`).join('');
-}
-$('#moneyType').addEventListener('change',fillCats);
-function addMoney(type,cat,amt,note){
-  if(type===undefined){type=$('#moneyType').value;cat=$('#moneyCat').value;amt=+$('#moneyAmt').value;note=$('#moneyNote').value.trim();}
-  if(!amt||amt<=0)return toast('请输入有效金额');
-  const dtRaw=$('#moneyDt').value||nowDT();
-  const date=dtRaw.slice(0,10),time=dtRaw.slice(11,16);
-  DB.money.push({id:uid(),date:date,time:time,dt:dtRaw,type:type,cat:cat,amt:amt,note:note||''});
-  $('#moneyAmt').value='';$('#moneyNote').value='';$('#moneyDt').value='';
-  save();renderMoney();toast((type==='income'?'💵 收入':'💸 支出')+' ¥'+amt+' 已记录');
-}
-function renderMoney(){
-  if(!$('#moneyCat').options.length)fillCats();
-  if(!$('#moneyDt').value)$('#moneyDt').value=nowDT();
-  const ym=today().slice(0,7);
-  const mm=DB.money.filter(m=>m.date.slice(0,7)===ym);
-  const inc=mm.filter(m=>m.type==='income').reduce((s,m)=>s+m.amt,0);
-  const exp=mm.filter(m=>m.type==='expense').reduce((s,m)=>s+m.amt,0);
-  $('#mIncome').textContent=inc.toFixed(0);$('#mExpense').textContent=exp.toFixed(0);$('#mBalance').textContent=(inc-exp).toFixed(0);
-  const ycur=today().slice(0,4);
-  const yAll=DB.money.filter(m=>m.date.slice(0,4)===ycur);
-  const yInc=yAll.filter(m=>m.type==='income').reduce((s,m)=>s+m.amt,0);
-  const yExp=yAll.filter(m=>m.type==='expense').reduce((s,m)=>s+m.amt,0);
-  $('#yIncome').textContent=yInc.toFixed(0);$('#yExpense').textContent=yExp.toFixed(0);$('#yBalance').textContent=(yInc-yExp).toFixed(0);
-  const byCat={};mm.filter(m=>m.type==='expense').forEach(m=>{byCat[m.cat]=(byCat[m.cat]||0)+m.amt;});
-  const labels=Object.keys(byCat);
-  makeChart('moneyChart',{type:'doughnut',data:{labels:labels,datasets:[{data:labels.map(l=>byCat[l]),backgroundColor:CAT_COLORS,borderWidth:0}]},
-    options:{plugins:{legend:{position:'right',labels:{color:chartTextColor(),boxWidth:12,font:{size:12}}}},cutout:'55%'}});
-  const recent=[...DB.money].reverse().slice(0,30);
-  $('#moneyList').innerHTML=recent.length?recent.map(m=>`
-    <div class="list-item">
-      <span class="badge" style="background:${m.type==='income'?'var(--c-green)':'var(--c-pink)'}">${m.cat}</span>
-      <span style="flex:1;font-size:13px;color:var(--text2);">${m.date.slice(5)}${m.time?' '+m.time:''}${m.note?' · '+esc(m.note):''}</span>
-      <b style="color:${m.type==='income'?'var(--c-green)':'var(--text)'};font-size:14px;">${m.type==='income'?'+':'-'}¥${m.amt}</b>
-      <button class="del-btn" onclick="delItem('money','${m.id}',renderMoney)">✕</button>
-    </div>`).join(''):'<div class="empty">还没有账目记录</div>';
-}
 
 /* ================= 5 读书收获 ================= */
 function addBook(){
@@ -1521,29 +1444,6 @@ function aiParse(t){
     const m=t.match(/(\d+(?:\.\d+)?)/);
     if(m&&+m[1]>0){addSport('散步',+m[1]);return '⚖️ 已写入【运动打卡】：体重 '+m[1]+' kg';}
   }
-  /* 收入 */
-  if(/(工资|收入|到账|赚了|进账|发了)/.test(t)){
-    let amt=numFrom(t); if(/万/.test(t))amt*=10000;
-    if(amt>0){addMoney('income','工资',amt,t);return '💵 已写入【记账存钱】：收入 ¥'+amt;}
-  }
-  /* 支出 */
-  if(/(花了|花费|支出|付了|消费|买了|买.*花)/.test(t)){
-    const m=t.match(/(\d+(?:\.\d+)?)\s*(块|元|万)?/);
-    if(m&&+m[1]>0){
-      let amt=+m[1]; if(m[2]==='万')amt*=10000;
-      let cat='其他';
-      if(/(吃|饭|餐|奶茶|咖啡|外卖|夜宵|零食)/.test(t))cat='餐饮';
-      else if(/(打车|地铁|公交|高铁|机票|加油|停车|滴滴)/.test(t))cat='交通';
-      else if(/(买|购|淘宝|京东|拼多多|衣服|鞋)/.test(t))cat='购物';
-      else if(/(电影|游戏|KTV|演出|门票)/.test(t))cat='娱乐';
-      else if(/(房租|水电|物业|房贷)/.test(t))cat='住房';
-      else if(/(药|医院|挂号|体检)/.test(t))cat='医疗';
-      else if(/(课|书|培训|学费)/.test(t))cat='教育';
-      else if(/(话费|流量|宽带)/.test(t))cat='通讯';
-      addMoney('expense',cat,amt,t);
-      return '💸 已写入【记账存钱】：'+cat+'支出 ¥'+amt;
-    }
-  }
   /* 心情 */
   const moodMap=[[/(超开心|太开心|开心|高兴|兴奋|太棒|爽)/,0],[/(不错|愉快|挺好|满意|还不错|美滋滋)/,1],[/(平静|放松|安静|淡定)/,2],[/(一般|还行|无聊|平平)/,3],[/(难过|伤心|沮丧|失落|累|疲惫|想哭|emo)/,4],[/(生气|愤怒|烦|气死|恼火)/,5]];
   if(/(心情|开心|难过|生气|平静|无聊|烦|累|emo|高兴|沮丧|兴奋)/.test(t)){
@@ -1891,12 +1791,6 @@ $('#btnWeekly').addEventListener('click',()=>{
   const wStart=wWeights.length?wWeights[0].weight:0;
   const wEnd=wWeights.length?wWeights[wWeights.length-1].weight:0;
   const wDelta=wWeights.length>1?+(wEnd-wStart).toFixed(1):0;
-  /* 记账 */
-  const wmo=DB.money.filter(inDays);
-  const wInc=wmo.filter(m=>m.type==='income').reduce((s,m)=>s+m.amt,0);
-  const wExp=wmo.filter(m=>m.type==='expense').reduce((s,m)=>s+m.amt,0);
-  const byCat={};wmo.filter(m=>m.type==='expense').forEach(m=>{byCat[m.cat]=(byCat[m.cat]||0)+m.amt;});
-  const topCat=Object.entries(byCat).sort((a,b)=>b[1]-a[1])[0];
   /* 读书 */
   const reading=DB.books.filter(b=>b.cur<b.pages).length;
   const finished=DB.books.filter(b=>b.pages&&b.cur>=b.pages).length;
@@ -1934,8 +1828,6 @@ $('#btnWeekly').addEventListener('click',()=>{
   else ins.push('🏃 本周运动打卡 '+sportDaySet.size+' 天，自律的身材不会说谎！');
   if(wWeights.length>1)ins.push(wDelta<0?'⚖️ 本周体重下降 '+Math.abs(wDelta)+' kg，运动效果正在显现，继续保持！':wDelta>0?'⚖️ 本周体重上升 '+wDelta+' kg，结合饮食模块看看摄入是否偏高。':'⚖️ 本周体重保持稳定。');
   else if(wWeights.length<=1)ins.push('⚖️ 本周体重记录较少，打卡时顺手记录体重，才能看到趋势变化。');
-  if(wExp>wInc&&wInc>0)ins.push('💰 本周支出（¥'+wExp+'）超过收入（¥'+wInc+'），注意控制'+(topCat?'「'+topCat[0]+'」':'')+'类消费。');
-  else if(topCat)ins.push('💰 本周最大支出类别是「'+topCat[0]+'」（¥'+topCat[1]+'），可以看看是否有优化空间。');
   if(avgMood>0&&avgMood<3.5)ins.push('💜 本周情绪偏低，记得给自己留点喘息时间：散步、听歌、和朋友聊聊都有帮助。');
   if(ww<goalW&&DB.words.length>0)ins.push('🔤 本周新学 '+ww+' 个单词，距离周目标（'+goalW+'个）还有差距，利用碎片时间翻翻单词卡吧。');
   else if(ww>0)ins.push('🔤 本周新学 '+ww+' 个单词，达成目标，词汇量稳步增长！');
@@ -1956,7 +1848,6 @@ $('#btnWeekly').addEventListener('click',()=>{
     <div style="font-size:12.5px;color:var(--text2);margin:-10px 0 16px;">${days[0]} ~ ${days[6]}</div>
     <div class="wk-sec"><b class="t">📋 每日待办</b>共 ${wt.length} 项待办，完成 ${wtDone} 项，完成率 <b style="color:var(--c-purple)">${rate}%</b></div>
     <div class="wk-sec"><b class="t">🏃 运动打卡</b>打卡 <b style="color:var(--c-green)">${sportDaySet.size}</b> 天，当前连续 ${sportStreak()} 天${wWeights.length?'，最新体重 '+wEnd+' kg':''}${wWeights.length>1?'（本周 '+(wDelta>0?'+':'')+wDelta+' kg）':''}</div>
-    <div class="wk-sec"><b class="t">💰 记账存钱</b>收入 ¥${wInc} · 支出 ¥${wExp} · 结余 <b style="color:var(--c-blue)">¥${wInc-wExp}</b>${topCat?'，最大支出类别「'+topCat[0]+'」¥'+topCat[1]:''}</div>
     <div class="wk-sec"><b class="t">📚 读书收获</b>在读 ${reading} 本 · 读完 ${finished} 本，本周写笔记 ${notes} 条</div>
     <div class="wk-sec"><b class="t">📔 日记</b>记录 ${wmd.length} 次，平均心情指数 ${avgMood?avgMood.toFixed(1):'—'} / 6，${moodTxt}</div>
     <div class="wk-sec"><b class="t">🔤 英语学习</b>本周学习 ${wStudy} 分钟，新学 ${ww} 个单词（周目标 ${goalW} 个），累计词汇 ${DB.words.length} 个 · 累计学习 ${DB.studies.reduce((s,x)=>s+x.min,0)} 分钟</div>
@@ -1984,7 +1875,7 @@ $('#btnImport').addEventListener('click',()=>$('#importFile').click());
 function mergeDB(imp){
   const out=JSON.parse(JSON.stringify(DEFAULT));
   const curIds=new Set();
-  const ARR=['todos','sports','money','books','moods','words','studies','topics','research','reviews','cook','buy','aiLearn'];
+  const ARR=['todos','sports','books','moods','words','studies','topics','research','reviews','cook','buy','aiLearn'];
   ARR.forEach(k=>{ (DB[k]||[]).forEach(x=>{ if(x&&x.id)curIds.add(k+':'+x.id); out[k]=DB[k]?DB[k].slice():[]; }); });
   ARR.forEach(k=>{ (imp[k]||[]).forEach(x=>{ if(!x)return; const id=x.id||(''+JSON.stringify(x)); if(curIds.has(k+':'+id))return; out[k].push(x); curIds.add(k+':'+id); }); });
   out.settings=Object.assign({},DEFAULT.settings,imp.settings||{},DB.settings||{});
@@ -2012,7 +1903,6 @@ $('#importFile').addEventListener('change',e=>{
 /* ================= 启动 ================= */
 function renderGreeting(){try{const d=new Date();const w=['周日','周一','周二','周三','周四','周五','周六'][d.getDay()];const el=$('#greetDate');if(el)el.textContent=`${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日 ${w}`;}catch(e){}}
 applyTheme();
-fillCats();
 renderPlan();
 renderGreeting();
 </script>
