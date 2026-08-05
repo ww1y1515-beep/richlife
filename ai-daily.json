@@ -1,41 +1,41 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "overview": "今天 AI 圈共有 5 条值得关注的进展，已帮你用大白话整理好了，打开就能看。",
   "items": [
     {
-      "title": "Reflex 开源 XY：基于 Rust 的超快 Python 绘图库，可保持 …",
-      "summary": "Reflex AI 发布 Apache-2.0 许可的 Python 交互式 2D 绘图库 XY，通过 Rust 原生核心、二进制缓冲传输和 WebGL2 渲染，在 1 万至 1 …",
+      "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦…",
+      "summary": "作者为Codex和Claude Code中300多个Skill做上下文瘦身，发现每次新会话仅Skill列表就占约9.9k token，按7月使用强度粗算，多余Skill列表约吃掉4…",
+      "source": "公众号：卡尔的AI沃茨",
+      "time": "2026-08-05 14:46",
+      "url": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71"
+    },
+    {
+      "title": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与…",
+      "summary": "NVIDIA 发布 Alpamayo 2 Super，一款 34B 参数的视觉-语言-动作（VLA）模型，专为自动驾驶长尾事件设计，权重采用 Linux 基金会 OpenMDW-1…",
       "source": "MarkTechPost（RSS）",
-      "time": "2026-08-04 16:57",
-      "url": "https://aihot.virxact.com/items/cmsefnjpn0q20ro2el7g7lyjw"
+      "time": "2026-08-05 16:25",
+      "url": "https://aihot.virxact.com/items/cmsfu19g30eg5rochm0d4q3po"
     },
     {
-      "title": "用 NVIDIA SkillSpector、LangGraph、YARA 规则、…",
-      "summary": "本教程演示如何用 NVIDIA SkillSpector 评估 AI 技能的安全态势，构建包含干净、风险、恶意及 MCP 示例的合成技能市场，并通过 LangGraph 检查流水线…",
-      "source": "MarkTechPost（RSS）",
-      "time": "2026-08-04 16:12",
-      "url": "https://aihot.virxact.com/items/cmseekz5g0oncro2ehfyz40ps"
+      "title": "Video-DeepResearch：迈向下一代多模态深度研究智能体",
+      "summary": "Video-DeepResearch（Video-DR）将多模态智能体从静态图像扩展到连续视频流，提出解耦感知-探索流水线与分阶段工具解锁，以应对模态偏差和参数知识泄漏两大瓶颈。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "2026-08-04 08:00",
+      "url": "https://aihot.virxact.com/items/cmsfoajgx07p9roch4d7vrjuh"
     },
     {
-      "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
-      "summary": "腾讯混元发布新一代语音识别模型 Hy ASR 3.0 preview，基于大语言模型 Hy3 与 MoE 架构，融合高精度识别与语义理解。其在开源评测集中中文普通话 WER 3.3…",
-      "source": "公众号：腾讯混元",
-      "time": "2026-08-04 16:12",
-      "url": "https://aihot.virxact.com/items/cmsee1mhf0nn6ro2em6rt7tr4"
+      "title": "Grok 4.5 免费体验，推荐 Build 工具链",
+      "summary": "使用 Grok 的最佳方式是通过我们的 Build 工具链。 下载地址：http://X.ai/cli",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "time": "2026-08-05 12:21",
+      "url": "https://aihot.virxact.com/items/cmsflglsq04k6rochfekqziad"
     },
     {
-      "title": "Swiftlet：在 Mac 上运行 80B 版 Qwen（内存 4.3 GB）…",
-      "summary": "Swiftlet 是一个 Swift + Metal 运行时，可在普通 Apple 设备上运行 Qwen3-Next 和 Qwen3.5/3.6 MoE 混合模型，仅将小型稠密核心…",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "time": "2026-08-04 14:32",
-      "url": "https://aihot.virxact.com/items/cmsebb0mc0kn1ro2ejvmi5lg8"
-    },
-    {
-      "title": "GPT-5.6 Luna降价80%永久生效",
-      "summary": "有些人显然误解了，但 GPT-5.6 Luna 降价 80% 不是临时噱头，而是永久的。效率提升不会消失。幸运的是。",
-      "source": "X：Tibo (@thsottiaux)",
-      "time": "2026-08-04 13:07",
-      "url": "https://aihot.virxact.com/items/cmse7yrut0gupro2ejfet4a10"
+      "title": "字节 Seed 发布 SeedRealtime 音视频全双工大模型，走向全模态自…",
+      "summary": "字节 Seed 发布 SeedRealtime，用统一架构原生融合音频、视频与文本，实现\"边看、边听、边说\"的实时交互。相比级联模型，其音视频对话节奏问题减少一半，并已在豆包 Ap…",
+      "source": "字节 Seed：Research Feed（网页内嵌数据）",
+      "time": "2026-08-05 00:00",
+      "url": "https://aihot.virxact.com/items/cmsfkn6cf03ciroch6tfynepy"
     }
   ]
 }
