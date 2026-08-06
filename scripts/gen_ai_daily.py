@@ -373,6 +373,7 @@ def make_html(companies, skills, date_str, overview, out_path, img_url, web_url)
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI 要报 {date_str}</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23af52de'/%3E%3Cstop offset='1' stop-color='%235ac8fa'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Ctext x='50' y='71' font-size='54' font-family='Arial,sans-serif' font-weight='bold' text-anchor='middle' fill='white'%3EAI%3C/text%3E%3C/svg%3E">
 <style>
   body{{margin:0;background:#f5f5fa;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:#2c2c3a;}}
   .wrap{{max-width:820px;margin:0 auto;padding:28px 18px 60px;}}
