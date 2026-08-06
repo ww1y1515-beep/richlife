@@ -48,6 +48,8 @@ jobs:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PAGES_BASE_URL: ${{ env.PAGES_BASE_URL }}
+          SILICONFLOW_KEY: ${{ secrets.SILICONFLOW_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/gen_ai_daily.py
 
       - name: 提交信息图与页面到 GitHub（更新工作台）
