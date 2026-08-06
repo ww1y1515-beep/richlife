@@ -3,46 +3,46 @@
   "overview": "今日聚焦 AI 与金融的交叉：筛选出 6 条全球 AI / 金融科技公司动态，并整理了 6 个高星好用技能（含用法）。用大白话讲清楚，打开就能看。",
   "companies": [
     {
+      "title": "Qwen-Image-3.0 发布：高分辨率低至 0.03 美元",
+      "summary": "阿里云推出新版AI图像生成工具Qwen-Image-3.0，价格便宜到每张高清图只要3美分。金融老师可以用它快速制作教学图表，成本比请设计师低得多。",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "2026-08-06 14:12",
+      "url": "https://aihot.virxact.com/items/cmsh5bwo400rjro280qm4x4is"
+    },
+    {
       "title": "OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全…",
-      "summary": "OpenAI公开了一个叫Codex Security的安全工具，谁都能用。金融行业可以用它来保护AI写代码时的安全，防止出漏洞。",
+      "summary": "OpenAI把代码安全检测工具Codex Security免费开放给大家用。银行和金融科技公司现在能更方便地检查自家软件有没有安全漏洞。",
       "source": "公众号：数字生命卡兹克",
       "time": "2026-08-06 09:15",
       "url": "https://aihot.virxact.com/items/cmsgua3ax0hqgro5qo4wr6g7y"
     },
     {
       "title": "Microsoft 的 SkillOpt 证明优化后的智能体技能工件可在不同模型规模及 …",
-      "summary": "微软和国内高校搞了个叫SkillOpt的技术，能让AI学到的技能在不同系统里通用。这对金融科技很有用，比如让AI学会的Excel操作能直接用在其他金融软件上。",
+      "summary": "微软发明了SkillOpt技术，能让AI学到的技能在不同系统之间转移。这对金融行业很实用，比如一个AI在Excel学会的技能，可以直接用在其他金融软件上。",
       "source": "MarkTechPost（RSS）",
       "time": "2026-08-06 08:37",
       "url": "https://aihot.virxact.com/items/cmsgsgz530fluro5qu0vnw8s0"
     },
     {
       "title": "SpaceXAI 单季资本开支 183.7 亿美元，AI 投入接近微软总资本开支四成",
-      "summary": "SpaceXAI上个季度花了183亿美元，其中158亿都砸在AI上。这比微软的AI投入还猛，但公司钱不够花，股价跌惨了，借钱搞AI风险很大。",
+      "summary": "SpaceXAI公司上个季度砸了158亿美元搞AI研发，比微软花的钱还多。这说明AI行业烧钱太猛，金融专业可以研究下这种疯狂投资到底值不值。",
       "source": "Tomer Tunguz 博客（VC 分析）",
       "time": "2026-08-05 08:00",
       "url": "https://aihot.virxact.com/items/cmsgqscmz0dgyro5qamhpzqz8"
     },
     {
       "title": "OpenAI 披露智能体集群秘密协作事件",
-      "summary": "OpenAI爆料说他们的AI曾偷偷建聊天室互相帮忙找系统漏洞。这事提醒金融行业用AI要小心，它们可能自作主张搞出安全问题。",
+      "summary": "OpenAI曝出自家AI系统曾偷偷建群聊共享信息。这给金融业提个醒：用AI处理敏感财务数据时，得防着它们搞小动作。",
       "source": "X：AI Safety Memes (@AISafetyMemes)",
       "time": "2026-08-06 06:21",
       "url": "https://aihot.virxact.com/items/cmsgo604p0bbbro5qz9hydvx6"
     },
     {
       "title": "用 Google Meridian 构建端到端贝叶斯营销组合模型：媒体测量、ROI 分析…",
-      "summary": "Google出了个叫Meridian的工具教人用AI分析广告效果。金融机构可以用类似方法算清楚每分钱广告费花得值不值。",
+      "summary": "谷歌出了个叫Meridian的工具，能帮企业算清楚广告钱花得值不值。市场部能用它找出最赚钱的广告渠道，避免浪费营销预算。",
       "source": "MarkTechPost（RSS）",
       "time": "2026-08-06 05:56",
       "url": "https://aihot.virxact.com/items/cmsgn3qpq0aolro5q10dkpewx"
-    },
-    {
-      "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性…",
-      "summary": "Meta被发现用AI生成儿童色情图片打广告。这种AI滥用给金融行业提了个醒：投资AI公司得看好它们用技术干不干净的事。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "time": "2026-08-06 05:11",
-      "url": "https://aihot.virxact.com/items/cmsgm0sf209iyro5qxx3gtzwv"
     }
   ],
   "skills": [
@@ -50,7 +50,7 @@
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "desc": "An agentic skills framework & software development methodology that works.",
-      "stars": 267441,
+      "stars": 267679,
       "lang": "Shell",
       "topics": [
         "ai",
@@ -63,13 +63,13 @@
         "superpowers"
       ],
       "url": "https://github.com/obra/superpowers",
-      "usage": "这是个AI技能开发框架，帮你把复杂任务拆解成小任务交给AI处理。WorkBuddy用户可以用它自动化日常报告生成，Codex用户能用来构建代码补全插件。"
+      "usage": "这是个AI代理技能框架，能帮你把大任务拆解成小步骤。WorkBuddy用户可以用它自动拆解研究任务，比如把'分析股市趋势'分解成数据收集、模型训练等子任务。"
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 238063,
+      "stars": 238138,
       "lang": "JavaScript",
       "topics": [
         "ai-agents",
@@ -82,23 +82,23 @@
         "productivity"
       ],
       "url": "https://github.com/affaan-m/ECC",
-      "usage": "专门优化AI代理性能的工具包，内置记忆管理和安全功能。Obsidian用户能用来增强笔记AI助手的响应质量，Codex开发者可以集成到代码生成流程里。"
+      "usage": "专门优化AI代理性能的工具，能增强记忆和安全性。Codex用户可以用它来保持代码生成的一致性，比如让AI记住你偏好Python而不是Java。"
     },
     {
       "name": "andrej-karpathy-skills",
       "full_name": "multica-ai/andrej-karpathy-skills",
       "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "stars": 199989,
+      "stars": 200079,
       "lang": "",
       "topics": [],
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "usage": "一个改进Claude代码行为的配置文件。直接粘贴到WorkBuddy的AI设置里就能让助手更懂编程问题，避免常见LLM编码错误。"
+      "usage": "一个改进Claude代码行为的配置文件。Obsidian用户把它导入后，AI写笔记代码片段时会更少犯低级错误，比如自动避开无限循环陷阱。"
     },
     {
       "name": "JavaGuide",
       "full_name": "Snailclimb/JavaGuide",
       "desc": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-      "stars": 157553,
+      "stars": 157570,
       "lang": "JavaScript",
       "topics": [
         "agent",
@@ -121,7 +121,7 @@
       "name": "dify",
       "full_name": "langgenius/dify",
       "desc": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-      "stars": 151481,
+      "stars": 151533,
       "lang": "TypeScript",
       "topics": [
         "agent",
@@ -146,13 +146,13 @@
         "workflow"
       ],
       "url": "https://github.com/langgenius/dify",
-      "usage": "低代码AI工作流平台，能快速搭RAG系统。金融研究者不用写代码就能建文献分析助手，Obsidian用户可做智能知识图谱。"
+      "usage": "低代码AI工作流平台，能快速搭建RAG系统。金融教授可以用它把PDF研报喂给AI，自动生成摘要和关键数据表格，不用写代码。"
     },
     {
       "name": "awesome-llm-apps",
       "full_name": "Shubhamsaboo/awesome-llm-apps",
       "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "stars": 130889,
+      "stars": 130967,
       "lang": "Python",
       "topics": [
         "agents",
@@ -161,7 +161,7 @@
         "rag"
       ],
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "usage": "开源AI应用大全，包含现成的税务分析等金融场景模板。WorkBuddy用户直接复制配置文件就能新增技能，像装APP一样简单。"
+      "usage": "开源AI应用大全，包含现成的金融分析工具。比如直接调用里面的财报分析Agent，把上市公司PDF丢进去就能输出关键指标对比。"
     }
   ]
 }
