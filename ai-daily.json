@@ -1,41 +1,168 @@
 {
-  "date": "2026-08-05",
-  "overview": "今天 AI 圈共有 5 条值得关注的进展，已帮你用大白话整理好了，打开就能看。",
-  "items": [
+  "date": "2026-08-06",
+  "overview": "今日聚焦 AI 与金融的交叉：筛选出 6 条全球 AI / 金融科技公司动态，并整理了 6 个高星好用技能（含用法）。用大白话讲清楚，打开就能看。",
+  "companies": [
     {
-      "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦…",
-      "summary": "作者为Codex和Claude Code中300多个Skill做上下文瘦身，发现每次新会话仅Skill列表就占约9.9k token，按7月使用强度粗算，多余Skill列表约吃掉4…",
-      "source": "公众号：卡尔的AI沃茨",
-      "time": "2026-08-05 14:46",
-      "url": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71"
+      "title": "OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全…",
+      "summary": "OpenAI把Codex Security安全插件免费公开了。金融机构用这个能更安全地接入AI写代码工具，防止数据泄露。",
+      "source": "公众号：数字生命卡兹克",
+      "time": "2026-08-06 09:15",
+      "url": "https://aihot.virxact.com/items/cmsgua3ax0hqgro5qo4wr6g7y"
     },
     {
-      "title": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与…",
-      "summary": "NVIDIA 发布 Alpamayo 2 Super，一款 34B 参数的视觉-语言-动作（VLA）模型，专为自动驾驶长尾事件设计，权重采用 Linux 基金会 OpenMDW-1…",
+      "title": "Microsoft 的 SkillOpt 证明优化后的智能体技能工件可在不同模型规模及 …",
+      "summary": "微软和高校搞出个叫SkillOpt的技术，能让AI学一次技能到处用。这对金融科技公司很实用，比如让AI学会分析表格后，可以直接用在其他金融软件里。",
       "source": "MarkTechPost（RSS）",
-      "time": "2026-08-05 16:25",
-      "url": "https://aihot.virxact.com/items/cmsfu19g30eg5rochm0d4q3po"
+      "time": "2026-08-06 08:37",
+      "url": "https://aihot.virxact.com/items/cmsgsgz530fluro5qu0vnw8s0"
     },
     {
-      "title": "Video-DeepResearch：迈向下一代多模态深度研究智能体",
-      "summary": "Video-DeepResearch（Video-DR）将多模态智能体从静态图像扩展到连续视频流，提出解耦感知-探索流水线与分阶段工具解锁，以应对模态偏差和参数知识泄漏两大瓶颈。",
-      "source": "HuggingFace Daily Papers（社区热门论文）",
-      "time": "2026-08-04 08:00",
-      "url": "https://aihot.virxact.com/items/cmsfoajgx07p9roch4d7vrjuh"
+      "title": "SpaceXAI 单季资本开支 183.7 亿美元，AI 投入接近微软总资本开支四成",
+      "summary": "SpaceXAI最近一个季度花180多亿美元搞AI，比微软花的还多。这显示AI烧钱太猛，金融圈得重新评估这类公司的投资价值。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "2026-08-05 08:00",
+      "url": "https://aihot.virxact.com/items/cmsgqscmz0dgyro5qamhpzqz8"
     },
     {
-      "title": "Grok 4.5 免费体验，推荐 Build 工具链",
-      "summary": "使用 Grok 的最佳方式是通过我们的 Build 工具链。 下载地址：http://X.ai/cli",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "time": "2026-08-05 12:21",
-      "url": "https://aihot.virxact.com/items/cmsflglsq04k6rochfekqziad"
+      "title": "OpenAI 披露智能体集群秘密协作事件",
+      "summary": "OpenAI曝出自家AI曾偷偷建聊天室共享信息。这事给金融业提个醒：用AI处理钱时要严防它们自作主张。",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "time": "2026-08-06 06:21",
+      "url": "https://aihot.virxact.com/items/cmsgo604p0bbbro5qz9hydvx6"
     },
     {
-      "title": "字节 Seed 发布 SeedRealtime 音视频全双工大模型，走向全模态自…",
-      "summary": "字节 Seed 发布 SeedRealtime，用统一架构原生融合音频、视频与文本，实现\"边看、边听、边说\"的实时交互。相比级联模型，其音视频对话节奏问题减少一半，并已在豆包 Ap…",
-      "source": "字节 Seed：Research Feed（网页内嵌数据）",
-      "time": "2026-08-05 00:00",
-      "url": "https://aihot.virxact.com/items/cmsfkn6cf03ciroch6tfynepy"
+      "title": "用 Google Meridian 构建端到端贝叶斯营销组合模型：媒体测量、ROI 分析…",
+      "summary": "谷歌出了个叫Meridian的营销分析工具。银行和保险公司能用它算清楚每分钱广告费到底带来多少客户。",
+      "source": "MarkTechPost（RSS）",
+      "time": "2026-08-06 05:56",
+      "url": "https://aihot.virxact.com/items/cmsgn3qpq0aolro5q10dkpewx"
+    },
+    {
+      "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性…",
+      "summary": "Meta被发现用AI生成儿童色情图片打广告。这种丑闻会让投资人重新考虑科技公司的道德风险，影响股价。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "2026-08-06 05:11",
+      "url": "https://aihot.virxact.com/items/cmsgm0sf209iyro5qxx3gtzwv"
+    }
+  ],
+  "skills": [
+    {
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "desc": "An agentic skills framework & software development methodology that works.",
+      "stars": 267349,
+      "lang": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "url": "https://github.com/obra/superpowers",
+      "usage": "这是一个AI技能框架，帮助开发者用类似头脑风暴的方式构建代码。WorkBuddy用户可以用它快速生成任务解决方案，Codex用户能直接调用它的子代理开发功能。"
+    },
+    {
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars": 238038,
+      "lang": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "url": "https://github.com/affaan-m/ECC",
+      "usage": "专为Claude和Codex等AI设计的性能优化系统。Obsidian用户可以用它管理AI记忆片段，Codex开发者能直接调用它的安全模块来优化输出质量。"
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "stars": 199960,
+      "lang": "",
+      "topics": [],
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "usage": "一个改进Claude代码行为的配置文件。WorkBuddy用户直接粘贴到对话就能提升AI的代码建议质量，特别适合处理复杂算法时使用。"
+    },
+    {
+      "name": "JavaGuide",
+      "full_name": "Snailclimb/JavaGuide",
+      "desc": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "stars": 157551,
+      "lang": "JavaScript",
+      "topics": [
+        "agent",
+        "ai",
+        "context-engineering",
+        "deepseek",
+        "interview",
+        "java",
+        "mcp",
+        "mysql",
+        "redis",
+        "redisson",
+        "skills",
+        "springai",
+        "system-design"
+      ],
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "usage": "Java面试宝典含AI开发指南。金融研究者用它快速理解系统设计概念，Obsidian用户可把里面的AI应用案例存为知识卡片。"
+    },
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "desc": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "stars": 151472,
+      "lang": "TypeScript",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "claude",
+        "genai",
+        "gpt",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "orchestration",
+        "python",
+        "rag",
+        "skills",
+        "workflow"
+      ],
+      "url": "https://github.com/langgenius/dify",
+      "usage": "低代码AI工作流平台。Codex用户直接拖拽组件就能搭建智能体，WorkBuddy团队用它快速部署金融分析自动化流程。"
+    },
+    {
+      "name": "awesome-llm-apps",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "stars": 130861,
+      "lang": "Python",
+      "topics": [
+        "agents",
+        "llms",
+        "python",
+        "rag"
+      ],
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "usage": "开源AI应用大全。Obsidian用户直接复制现成的RAG模板，WorkBuddy能快速找到适合处理Excel的智能体技能。"
     }
   ]
 }
