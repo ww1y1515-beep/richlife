@@ -17,7 +17,7 @@ AI HOT 每日要报生成器 v3（云端版，供 GitHub Actions 运行）
   - 推微信（Server酱）：精简版 + 完整网页链接
 依赖：pip install pillow
 """
-import json, os, sys, html, datetime
+import json, os, sys, html, datetime, base64, re
 import urllib.request, urllib.parse, urllib.error
 
 AIHOT = "https://aihot.virxact.com"
@@ -422,6 +422,33 @@ def push_serverchan(key, title, desp):
     return resp
 
 
+# ---------- 防重复推送：若云端当天内容已上线，则跳过微信推送 ----------
+def today_already_live(repo, date_human):
+    """检查 main 分支 ai-daily.html 标题是否已是今天日期。
+    是则代表当天内容已推送过，返回 True（跳过再次推送，避免重复通知）。"""
+    if not repo:
+        return False
+    try:
+        url = f"https://api.github.com/repos/{repo}/contents/ai-daily.html?ref=main"
+        headers = {"User-Agent": UA, "Accept": "application/vnd.github+json"}
+        tok = os.environ.get("GITHUB_TOKEN", "").strip()
+        if tok:
+            headers["Authorization"] = f"Bearer {tok}"
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=30) as r:
+            obj = json.load(r)
+        content = base64.b64decode(obj.get("content", "")).decode("utf-8", "replace")
+        # 取 <title>…</title>
+        m = re.search(r"<title>([^<]+)</title>", content)
+        title = m.group(1) if m else ""
+        already = date_human in title
+        log("live title:", title, "| already today?", already)
+        return already
+    except Exception as e:
+        log("today_already_live 检查失败，按未上线处理（正常推送）:", type(e).__name__, str(e)[:80])
+        return False
+
+
 def main():
     repo = os.environ.get("GITHUB_REPOSITORY", "ww1y1515-beep/richlife")
     pages_base = os.environ.get("PAGES_BASE_URL", "").strip()
@@ -507,7 +534,11 @@ def main():
     lines.append(f"—— 共 {total} 条 / 五版块")
     desp = "\n".join(lines)
 
-    push_serverchan(sc_key, title, desp)
+    # 防重复推送：当天内容若已上线（标题已是今天），跳过微信推送
+    if today_already_live(repo, date_human):
+        log("当天内容已上线，跳过微信推送（避免与云端 cron 重复通知）")
+    else:
+        push_serverchan(sc_key, title, desp)
     log("DONE")
 
 
