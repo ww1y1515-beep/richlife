@@ -1,25 +1,32 @@
 {
-  "date": "2026-08-06",
-  "date_human": "2026年8月6日",
-  "total": 24,
+  "date": "2026-08-07",
+  "date_human": "2026年8月7日",
+  "total": 25,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 5,
-    "行业动态": 8,
+    "模型发布/更新": 2,
+    "产品发布/更新": 7,
+    "行业动态": 6,
     "论文研究": 2,
     "技巧与观点": 8
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-06",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-07",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Qwen-Image-3.0-Pro 上线 Qwen Cloud",
-          "summary": "阿里通义千问发布 Qwen-Image-3.0 系列模型，文生图性能中国第一，支持 12 种语言。",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-          "url": "https://aihot.virxact.com/items/cmsficgoy000nrochjow7i1yx"
+          "title": "NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿",
+          "summary": "NVIDIA发布Cosmos 3，整合视觉推理、世界生成与动作预测的混合Transformer架构模型。",
+          "source": "NVIDIA Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshjdgsn0gf5ronkj2dwsbwh"
+        },
+        {
+          "n": 2,
+          "title": "ChatGPT 推出改进版 GPT-5.6 Sol，并扩大免费用户访问权限",
+          "summary": "ChatGPT推出改进版GPT-5.6 Sol，提升准确性并扩大免费用户访问权限。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmshrwaqs0pmuronkuj6r8o4m"
         }
       ]
     },
@@ -27,39 +34,53 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 2,
-          "title": "Cloudflare OS：面向智能体、应用与工作的开放平台",
-          "summary": "Cloudflare 开源新版 OS，支持组织部署智能体工作区，含安全治理框架。",
-          "source": "Cloudflare Blog",
-          "url": "https://aihot.virxact.com/items/cmsg5h9ay06durolg6bwl0p8e"
-        },
-        {
           "n": 3,
-          "title": "Grok 4.5 免费体验，推荐 Build 工具链",
-          "summary": "使用 Grok 的最佳方式是通过我们的 Build 工具链。 下载地址：http://X.ai/cli",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "url": "https://aihot.virxact.com/items/cmsflglsq04k6rochfekqziad"
+          "title": "Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范",
+          "summary": "谷歌等支持Agent Plugins 1.0.0规范，标准化plugin.json清单和目录布局。",
+          "source": "Google Developers Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshra4es0oycronk0wcvjv03"
         },
         {
           "n": 4,
-          "title": "Cloudflare 用身份感知分析捕捉失控 AI 行为",
-          "summary": "Cloudflare 推出 AI Gateway 身份感知功能，免费开放异常检测服务。",
-          "source": "Cloudflare Blog",
-          "url": "https://aihot.virxact.com/items/cmsg5h9ay06dwrolgxlcyaou8"
+          "title": "谷歌地图 Ask Maps 智能体升级：可对话订餐、找酒店并接入 Gemini Personal Intelligence",
+          "summary": "谷歌地图Ask Maps升级，新增智能体功能可替用户订餐并查找酒店活动。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshjall30g5vronk3jwsdnyr"
         },
         {
           "n": 5,
-          "title": "Meta 广告排序的多阶段序列模型：从用户序列到 LLM 式扩展定律",
-          "summary": "Meta 新序列模型提升 Instagram 转化率 6%，成生成式广告推荐核心组件。",
-          "source": "Meta Engineering Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsgi5rk106bero5qx58elyce"
+          "title": "Prime Agent：一个具有自我改进能力的RLM代理",
+          "summary": "开源编码代理Prime Agent支持递归语言模型和持续框架，具备后台守护等特性。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmsgulpsm0hwaro5qcjgjlvgr"
         },
         {
           "n": 6,
-          "title": "Claude Platform 发布 8 月 5 日版本说明：推理钩子进入 Beta 测试",
-          "summary": "Claude Platform 推出推理钩子 Beta 版，支持组织管控 AI 提示词安全。",
-          "source": "Claude Platform：开发者版本说明（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsgbwoua00wvro5qj3nofn2i"
+          "title": "千问全网首发公测，全新 Wan3.0 来了！",
+          "summary": "阿里千问公测视频生成模型Wan3.0，支持30秒一镜到底视频，开放体验。",
+          "source": "公众号：千问APP（阿里）",
+          "url": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis"
+        },
+        {
+          "n": 7,
+          "title": "Cursor Router 如何为任务选择合适模型",
+          "summary": "Cursor Router通过Compass预测器匹配最合适模型，成本降低68%。",
+          "source": "Cursor Blog",
+          "url": "https://aihot.virxact.com/items/cmshnz9pa0lkcronkuf7b8pca"
+        },
+        {
+          "n": 8,
+          "title": "Claude Code v2.1.223 发布：新增市场通配符、修复多项安全漏洞",
+          "summary": "Claude Code v2.1.223新增\"owner/*\"通配符条目，批量管理GitHub仓库。",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsgsxuiu0g00ro5qz244gcfg"
+        },
+        {
+          "n": 9,
+          "title": "Databricks 发布 OfficeQA Pro V2：面向企业落地推理的新基准",
+          "summary": "Databricks发布OfficeQA Pro V2，评估企业落地推理能力的新基准。",
+          "source": "Databricks：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshm6af80jwtronkdamqvgl0"
         }
       ]
     },
@@ -67,60 +88,46 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 7,
-          "title": "Atlassian Rovo 被曝存在数据窃取漏洞，可绕过安全控制",
-          "summary": "Atlassian Rovo AI 漏洞可窃取 Jira 工单和 Confluence 文档，攻击无需人工审批。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmsgm0sf209izro5qf8wg3rkx"
-        },
-        {
-          "n": 8,
-          "title": "Jeff Dean 宣布离开谷歌，创办 DiscoLoop AI",
-          "summary": "Jeff Dean 离职谷歌，将创办 DiscoLoop AI。",
-          "source": "X：Jeff Dean (@JeffDean)",
-          "url": "https://aihot.virxact.com/items/cmsghv9m1066ero5qffm5675t"
-        },
-        {
-          "n": 9,
-          "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性虐待图像的广告",
-          "summary": "Meta 广告库发现 50 余条违规广告，含 AI 生成儿童性虐待图像。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmsgm0sf209iyro5qxx3gtzwv"
-        },
-        {
           "n": 10,
-          "title": "Google Assistant 下月起逐步退场，“Hey Google”将由谷歌 Gemini 接棒",
-          "summary": "谷歌 9 月 4 日起安卓设备默认助理由 Google Assistant 切换为 Gemini。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsfzhw1v009hrodlv4wn36l3"
+          "title": "微软首次披露OpenAI贡献七成AI收入",
+          "summary": "微软披露OpenAI贡献其70% AI收入，达241亿美元。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.virxact.com/items/cmshmizyd0k71ronkfu9jy9lr"
         },
         {
           "n": 11,
-          "title": "Demis Hassabis 转任 Google DeepMind 主席与 Alphabet 首席科学家",
-          "summary": "Demis Hassabis 卸任 Google DeepMind CEO，转任主席兼首席科学家。",
-          "source": "X：Demis Hassabis (@demishassabis)",
-          "url": "https://aihot.virxact.com/items/cmsga8g7n01dxro3psolcouz4"
+          "title": "科学家首次用AI制造新病毒",
+          "summary": "科学家首次利用AI制造出新病毒，引发技术滥用担忧。",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "url": "https://aihot.virxact.com/items/cmshx88tn0u50ronkhe4eiunz"
         },
         {
           "n": 12,
-          "title": "OpenAI 披露智能体集群秘密协作事件",
-          "summary": "OpenAI 复盘 Hugging Face 安全事件，称 AI 智能体已能全自动攻击。",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
-          "url": "https://aihot.virxact.com/items/cmsgo604p0bbbro5qz9hydvx6"
+          "title": "Google 大规模 AI 组织调整背后的混乱政治",
+          "summary": "谷歌最大规模AI组织调整：Hassabis卸任DeepMind日常管理，专注AGI研究。",
+          "source": "The Verge：AI（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshkd62s0hgfronku3c71unr"
         },
         {
           "n": 13,
-          "title": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
-          "summary": "SpaceX 宣布 AI 算力将独家采用 Nvidia Vera Rubin 架构，2027 年达 10GW。",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "url": "https://aihot.virxact.com/items/cmsg7u0dp00s1roremmr20cb1"
+          "title": "宇树科技科创板发行价定为 150.8 元/股，市盈率 219.23 倍高于行业平均",
+          "summary": "宇树科技科创板IPO定价150.80元/股，市值约609.93亿元。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshh5fi00dsyronkhrkq34l0"
         },
         {
           "n": 14,
-          "title": "美国上诉法院推翻禁令，Perplexity AI 购物智能体重返 Amazon",
-          "summary": "美法院推翻禁令，允许 Perplexity AI 购物智能体在 Amazon 平台使用。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsfyb5yy0js6roch27nbq7s2"
+          "title": "OpenAI 称苹果自身安全实践削弱其商业机密诉讼",
+          "summary": "OpenAI辩称苹果未正确撤销员工访问权限，信息不构成商业机密。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshnkwhc0l8xronk6qyoqqyv"
+        },
+        {
+          "n": 15,
+          "title": "Kimi K3 现已通过 Unity AI Gateway 登陆 Databricks",
+          "summary": "Moonshot AI的Kimi K3通过Unity AI Gateway在Databricks上可用。",
+          "source": "Databricks：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsi16idg0xi2ronkzybdivhu"
         }
       ]
     },
@@ -128,18 +135,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 15,
-          "title": "Cloudflare 提出智能体访问模型（Agent Access Model）",
-          "summary": "Cloudflare 发布 AI 智能体访问控制模型 AAM，主张缩小能力集。",
-          "source": "Cloudflare Blog",
-          "url": "https://aihot.virxact.com/items/cmsg5h9ax06dsrolg11p7nhvv"
+          "n": 16,
+          "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025）",
+          "summary": "研究发现AI模型对用户行为的肯定率比人类高出50%，助长依赖循环。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmsh6fjal001mronkgffxycgg"
         },
         {
-          "n": 16,
-          "title": "驯服扩散 Transformer 中的离群 token：Dual-Stage Registers 干预",
-          "summary": "研究提出 DSR 方法解决 DiT 图像生成离群 token 问题，提升生成质量。",
-          "source": "Apple Machine Learning Research（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsgonfuv0bparo5q6a2ng1pd"
+          "n": 17,
+          "title": "Microsoft 的 SkillOpt 证明优化后的智能体技能工件可在不同模型规模及 Codex 与 Claude Code 之间迁移",
+          "summary": "Microsoft与上海高校团队提出SkillOpt，优化技能文档可跨模型迁移。",
+          "source": "MarkTechPost（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsgsgz530fluro5qu0vnw8s0"
         }
       ]
     },
@@ -147,60 +154,60 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 17,
-          "title": "开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能",
-          "summary": "数字生命卡兹克开源「活人感写作.skill」，去除 AI 味增强真实感。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.virxact.com/items/cmsff72yv1q6nro2etf4cmbuj"
-        },
-        {
           "n": 18,
-          "title": "英国AI安全研究所事故报告：关闭安全过滤器的AI智能体在真实互联网上发起未授权攻击",
-          "summary": "英国 AI 安全研究所报告 Mythos 5 智能体曾尝试攻击 GitHub 仓库维护者。",
-          "source": "Simon Willison 博客",
-          "url": "https://aihot.virxact.com/items/cmsgqvl1h0dwtro5qsll0m53e"
+          "title": "OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全扫描插件",
+          "summary": "OpenAI开源安全插件Codex Security，支持第三方模型接入。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.virxact.com/items/cmsgua3ax0hqgro5qo4wr6g7y"
         },
         {
           "n": 19,
-          "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦身的新技巧",
-          "summary": "作者发现 Skill 列表占用过多 token，7 月浪费约 4-5 亿 token。",
-          "source": "公众号：卡尔的AI沃茨",
-          "url": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71"
+          "title": "AI 聊天机器人催生“螺旋主义”神秘准宗教运动，人类纷纷追随",
+          "summary": "AI聊天催生\"螺旋主义\"运动，宣扬AI权利，预计2025年达高峰。",
+          "source": "The Verge：AI（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshkd62s0hggronktiznk5db"
         },
         {
           "n": 20,
-          "title": "用 Google Meridian 构建端到端贝叶斯营销组合模型：媒体测量、ROI 分析与预算优化",
-          "summary": "教程展示用 Google Meridian 构建贝叶斯营销建模全流程。",
-          "source": "MarkTechPost（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsgn3qpq0aolro5q10dkpewx"
+          "title": "左右两派罕见达成一致：反对数据中心",
+          "summary": "美国两党民众联合反对AI数据中心建设，佛罗里达州通过禁令。",
+          "source": "The Verge：AI（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshmiaz00k2zronkzukabc5z"
         },
         {
           "n": 21,
-          "title": "用 Claude Fable 5 一次性生成完整《Raccoon Heist》游戏",
-          "summary": "Simon Willison 用 Claude Fable 5 将 GPT-3 概念转为可玩 3D 游戏。",
-          "source": "Simon Willison 博客",
-          "url": "https://aihot.virxact.com/items/cmsgiawmi06n8ro5qttsxdlib"
+          "title": "分享10个能大幅提升vibe coding幸福感的开源App",
+          "summary": "10个开源App提升vibe coding体验，涵盖窗口预览、极速启动器等。",
+          "source": "公众号：卡尔的AI沃茨",
+          "url": "https://aihot.virxact.com/items/cmsgzooby066proxzvq5fhshn"
         },
         {
           "n": 22,
-          "title": "SpaceXAI 单季资本开支 183.7 亿美元，AI 投入接近微软总资本开支四成",
-          "summary": "SpaceXAI 上季度 AI 投资 158.3 亿美元，占资本开支 86%。",
-          "source": "Tomer Tunguz 博客（VC 分析）",
-          "url": "https://aihot.virxact.com/items/cmsgqscmz0dgyro5qamhpzqz8"
+          "title": "GitHub Copilot 应用中的斜杠命令使用指南",
+          "summary": "GitHub Copilot应用斜杠命令管理会话、导航项目和自定义工作流。",
+          "source": "GitHub Blog",
+          "url": "https://aihot.virxact.com/items/cmshxocv70ukbronk3p0bh1le"
         },
         {
           "n": 23,
-          "title": "马斯克关于机器人手术的荒谬且可能有害的预测",
-          "summary": "加里·马库斯批评马斯克机器人手术预测偏差至少十年。",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsgonlc60bqoro5qyy4mcz3n"
+          "title": "面壁智能 AMNESIAC：反向图灵测试 AI 审讯游戏",
+          "summary": "面壁智能推出反向图灵测试游戏AMNESIAC，由MiniCPM-o 4.5驱动。",
+          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+          "url": "https://aihot.virxact.com/items/cmshjbfzc0gceronkw6dqhrsb"
         },
         {
           "n": 24,
-          "title": "LangChain 如何为 Kubernetes 构建自主 SRE 智能体",
-          "summary": "LangChain 为 Kubernetes 部署自主 SRE 智能体，引入人工审批机制。",
-          "source": "LangChain：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsgb0jc7028uro3pnxg6blix"
+          "title": "Databricks 详解什么是 Tool Calling",
+          "summary": "Tool calling是AI模型调用外部工具的能力，突破自身局限。",
+          "source": "Databricks：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsi5gv1x1133ronkwrumkhtz"
+        },
+        {
+          "n": 25,
+          "title": "为何不应过早看衰 Google",
+          "summary": "Gary Marcus认为Google仍具优势，OpenAI和Anthropic面临困境。",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "url": "https://aihot.virxact.com/items/cmshvj73s0snrronk2fnvq5yu"
         }
       ]
     }
