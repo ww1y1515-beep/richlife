@@ -2,9 +2,13 @@ name: AI 每日要报（云端推送 · 国内镜像）
 
 on:
   schedule:
-    # 北京时间 08:00 = UTC 00:00（GitHub Actions 用 UTC）
-    - cron: '0 0 * * *'
+    # 说明：GitHub Actions cron 实际有 ~10h 延迟（计划 UTC 00:00 实际 ~UTC 10:00 跑）。
+    # 为保证北京时间 08:00 左右命中，设 cron 为 UTC 14:00，延迟后约 UTC 00:00 = 北京 08:00 跑。
+    # 若某天延迟规律变化导致错过早上，可由 repository_dispatch 兜底触发。
+    - cron: '0 14 * * *'
   workflow_dispatch: {}   # 允许手动触发测试
+  repository_dispatch:
+    types: [ai-daily-trigger]   # 允许用 Contents:write PAT 通过 API 强制触发（无需网页点）
 
 permissions:
   contents: write
@@ -57,7 +61,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add ai_daily.png ai-daily.html ai-daily.json
-          git commit -m "AI daily $(date +%F)" || echo "no changes"
+          git commit -m "AI daily $(TZ='Asia/Shanghai' date '+%Y-%m-%d')" || echo "no changes"
           git push
 
       - name: 镜像到 Gitee Pages（国内加速）
