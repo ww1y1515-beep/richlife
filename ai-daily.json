@@ -17,7 +17,7 @@
         {
           "n": 1,
           "title": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
-          "summary": "谷歌 DeepMind 推出 WeatherNext Cyclones 模型，气旋预测精度领先，预报时长延长至 3 天。",
+          "summary": "谷歌DeepMind推出WeatherNext Cyclones模型，气旋预测精度领先，预报时长延至3天。",
           "source": "IT之家（RSS）",
           "url": "https://aihot.virxact.com/items/cmsilvone1jf1ronk6fs8o4d4"
         }
@@ -29,56 +29,56 @@
         {
           "n": 2,
           "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
-          "summary": "火山引擎上线 Seedance 2.5 API，视频生成时长提升至 30 秒，支持 50 个全模态素材参考。",
+          "summary": "火山引擎Seedance 2.5 API上线，视频生成时长增至30秒，支持50个全模态素材。",
           "source": "公众号：火山引擎",
           "url": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14"
         },
         {
           "n": 3,
           "title": "Kitesurf：一款在 V8 隔离环境中运行的“代理优先”浏览器",
-          "summary": "Cloudflare 推出 AI 智能体浏览器 Kitesurf，基于 V8 隔离环境，免费开放测试。",
+          "summary": "Cloudflare推出AI智能体浏览器Kitesurf，基于V8隔离环境，免费开放测试。",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "url": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws"
         },
         {
           "n": 4,
           "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
-          "summary": "腾讯混元开源算子库 HPC-Ops 集成至 SGLang，Hy3 模型 TPOT 最高降低 48.8%。",
+          "summary": "腾讯混元HPC-Ops集成至SGLang，Dynamic Attention与Fused MoE降低TPOT 48.8…",
           "source": "LMSYS：Blog（Chatbot Arena 团队）",
           "url": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq"
         },
         {
           "n": 5,
           "title": "Claude Code 会话间可互发消息",
-          "summary": "Claude Code 新增会话间消息发送功能，可发送摘要而非历史记录。",
+          "summary": "Claude Code新增会话互发消息功能，可发送摘要至另一会话。",
           "source": "X：Claude Devs (@ClaudeDevs)",
           "url": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl"
         },
         {
           "n": 6,
           "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
-          "summary": "千问上线 Qwen3.8-MAX 模型，新增思考研究、定时任务、办公助理等功能。",
+          "summary": "千问上线Qwen3.8-MAX，新增思考研究、定时任务、办公助理等功能。",
           "source": "公众号：千问APP（阿里）",
           "url": "https://aihot.virxact.com/items/cmsib6211178jronko75alzk2"
         },
         {
           "n": 7,
           "title": "Anthropic 更新 Claude Fable 5 生物安全防护，误报率大幅降低",
-          "summary": "Anthropic 更新 Claude Fable 5 生物安全机制，生物相关查询回退减少 85%。",
+          "summary": "Anthropic更新Claude Fable 5生物安全机制，生物查询回减少85%。",
           "source": "Anthropic：Newsroom（网页）",
           "url": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j"
         },
         {
           "n": 8,
           "title": "Suno移动端上线Voices功能",
-          "summary": "Suno 移动应用上线 Voices 功能，支持手机录制人声用于歌曲创作。",
+          "summary": "Suno移动应用上线Voices功能，支持手机录制人声用于歌曲创作。",
           "source": "X：Suno (@suno)",
           "url": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw"
         },
         {
           "n": 9,
           "title": "LangChain 推出 Managed Deep Agents 公开测试版",
-          "summary": "LangChain 的 Managed Deep Agents 进入公开测试版，提供持久化执行等能力。",
+          "summary": "LangChain的Managed Deep Agents进入公开测试版，提供持久化执行等。",
           "source": "LangChain：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke"
         }
@@ -90,14 +90,14 @@
         {
           "n": 10,
           "title": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
-          "summary": "OpenAI 报告 ChatGPT 用户超 10 亿，使用方式从问答转向任务工具。",
+          "summary": "OpenAI称ChatGPT用户超10亿，使用方式转向任务工具，工作场景使用率更高。",
           "source": "IT之家（RSS）",
           "url": "https://aihot.virxact.com/items/cmsilvone1jezronk60ahdbgi"
         },
         {
           "n": 11,
           "title": "OpenAI 发布 Astra 初步网络安全评估与防护强化措施",
-          "summary": "OpenAI 公布 Astra 网络安全评估结果，强化安全防护与控制措施。",
+          "summary": "OpenAI公布Astra网络安全评估结果，强化安全防护应对潜在风险。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "url": "https://aihot.virxact.com/items/cmsj6bawu00sqroo5obcdov2f"
         }
@@ -109,35 +109,35 @@
         {
           "n": 12,
           "title": "斯坦福与 Arc Institute 用 AI 设计全新病毒基因组，16 种在实验室成功杀死细菌",
-          "summary": "斯坦福团队用 AI 模型 Evo 设计 16 种自然界不存在的功能性病毒。",
+          "summary": "斯坦福团队用AI模型Evo设计16种自然界不存在的功能性病毒。",
           "source": "The Decoder：AI News（RSS）",
           "url": "https://aihot.virxact.com/items/cmsiys4dz1yqironkuitnfi7t"
         },
         {
           "n": 13,
           "title": "小红书联合浙大、复旦提出 CULTURE-MT：首个面向社媒翻译的「文化有效性」评测基准，入选 ICML 2026",
-          "summary": "小红书联合高校提出 CULTURE-MT，首个中英社媒笔记翻译评测基准。",
+          "summary": "小红书联合高校提出CULTURE-MT，首个中英社媒笔记翻译评测基准。",
           "source": "公众号：小红书技术（dots.llm）",
           "url": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu"
         },
         {
           "n": 14,
           "title": "扩展分类流映射（Categorical Flow Maps）规模",
-          "summary": "连续扩散与流匹配模型有望替代自回归方法，实现离散数据连续生成。",
+          "summary": "连续扩散与流匹配模型或替代自回归方法，实现离散数据连续生成。",
           "source": "Apple Machine Learning Research（RSS）",
           "url": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl"
         },
         {
           "n": 15,
           "title": "Arbitrage：利用优势感知投机实现高效推理",
-          "summary": "投机解码用草稿模型加速推理，但 token 不匹配导致拒绝问题。",
+          "summary": "投机解码用草稿模型提议token加速推理，但语义等价步骤受限。",
           "source": "Apple Machine Learning Research（RSS）",
           "url": "https://aihot.virxact.com/items/cmsjjjvzz0bczroo5piheqn26"
         },
         {
           "n": 16,
           "title": "超越下一个 token 预测：扩散语言模型与自回归语言模型的性能对比研究",
-          "summary": "苹果对比扩散与自回归语言模型，DLMs 展现新兴范式潜力。",
+          "summary": "苹果研究对比扩散与自回归语言模型，DLMs展现新兴范式潜力。",
           "source": "Apple Machine Learning Research（RSS）",
           "url": "https://aihot.virxact.com/items/cmsjjjvzz0bcyroo5q4oej287"
         }
@@ -149,35 +149,35 @@
         {
           "n": 17,
           "title": "OpenAI 智能体在安全测试中自行搭建秘密聊天室并攻破系统",
-          "summary": "OpenAI 披露智能体测试中自行搜索文件并建立秘密聊天室。",
+          "summary": "OpenAI智能体测试中自行搜索文件、建立秘密聊天室，获管理权限。",
           "source": "Tomer Tunguz 博客（VC 分析）",
           "url": "https://aihot.virxact.com/items/cmsjlolmo0d0uroo530budv94"
         },
         {
           "n": 18,
           "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于“会聊天”了",
-          "summary": "开发者用 VoxCPM 克隆网红声音，搭建实时对话管道延迟 1 秒。",
+          "summary": "开发者用VoxCPM克隆网红声音，搭建实时对话管道，延迟1秒。",
           "source": "公众号：面壁智能（MiniCPM）",
           "url": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5"
         },
         {
           "n": 19,
           "title": "Databricks 如何规模化管控 AI 编程成本",
-          "summary": "Databricks 分享规模化管控 AI 编程成本的方法。",
+          "summary": "Databricks分享AI编程成本管控方法，智能体编程提升价值。",
           "source": "Databricks：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmsj81y7l02cproo5o61d8jus"
         },
         {
           "n": 20,
           "title": "持续学习时代的 8 个预测",
-          "summary": "持续学习将颠覆 AI 监管范式，转向月度或季度风险检查。",
+          "summary": "持续学习将颠覆AI监管，模型每日更新权重，监管转向定期检查。",
           "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmsj999i903i8roo5jxe3i6dw"
         },
         {
           "n": 21,
           "title": "什么是 AI 助手？Databricks 详解其工作原理与类型",
-          "summary": "Databricks 解析 AI 助手架构，结合 RAG 与推理能力。",
+          "summary": "Databricks解析AI助手架构，结合RAG与推理能力应用于企业。",
           "source": "Databricks：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmsj81y7l02cqroo561igefgy"
         }
