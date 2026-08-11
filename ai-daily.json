@@ -1,62 +1,178 @@
 {
-  "date": "2026-08-10",
-  "date_human": "2026年8月10日",
-  "total": 4,
+  "date": "2026-08-11",
+  "date_human": "2026年8月11日",
+  "total": 20,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 0,
-    "行业动态": 0,
-    "论文研究": 0,
-    "技巧与观点": 4
+    "模型发布/更新": 3,
+    "产品发布/更新": 8,
+    "行业动态": 2,
+    "论文研究": 1,
+    "技巧与观点": 6
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-10",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-11",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "SGLang 为 Muse Glimmer 提供 Day-0 支持，针对本地智能体工作流优化推理",
+          "summary": "SGLang与Meta合作支持30B参数多模态模型Muse Glimmer，支持128k+ token上下文窗口。",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "url": "https://aihot.virxact.com/items/cmsn68brx03q2ron5vwp3pwta"
+        },
+        {
+          "n": 2,
+          "title": "Meta 发布开源模型 Muse Glimmer",
+          "summary": "Muse Glimmer开放300亿参数模型权重，优化本地智能体工作流，支持消费级硬件运行。",
+          "source": "X：AI at Meta (@AIatMeta)",
+          "url": "https://aihot.virxact.com/items/cmsn2u3mt067ero8opidmwvz7"
+        },
+        {
+          "n": 3,
+          "title": "OpenAI 推出 GPT-5.6-Cyber，面向授权漏洞研究的网络安全专用模型",
+          "summary": "OpenAI发布网络安全专用模型GPT-5.6-Cyber，用于漏洞研究和安全测试。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmsnkpjin0c2nrohfczauf2t2"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 4,
+          "title": "OpenRouter 推出由市场智慧驱动的新版 Auto 路由器",
+          "summary": "OpenRouter推出新版Auto路由器，基于社区数据优化模型选择，支持30种任务类型。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsnejv4i042qrohff64pz0jh"
+        },
+        {
+          "n": 5,
+          "title": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
+          "summary": "千问开放平台上线，开放手机、PC和AI眼镜服务接入，覆盖物流、房产等十多个领域。",
+          "source": "公众号：千问APP（阿里）",
+          "url": "https://aihot.virxact.com/items/cmsmlho8005dmrohfoz27j6em"
+        },
+        {
+          "n": 6,
+          "title": "Qwen-MM-Plugins 让智能体原生支持多模态",
+          "summary": "Qwen-MM-Plugins支持智能体原生多模态处理图片、视频和文档。",
+          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "url": "https://aihot.virxact.com/items/cmsmpwjyh0b0drohfw1hpbbzh"
+        },
+        {
+          "n": 7,
+          "title": "OpenChamber：一个基于代理的开发环境",
+          "summary": "OpenChamber开源跨平台代理开发环境，支持多模型并行运行与完整开发流程。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmsmjglqx034prohfslczvkpb"
+        },
+        {
+          "n": 8,
+          "title": "Claude Code 自动模式默认开启原理",
+          "summary": "Claude Code默认启用自动模式，无需手动批准每个操作。",
+          "source": "X：Claude Devs (@ClaudeDevs)",
+          "url": "https://aihot.virxact.com/items/cmsnfpcwf05ecrohfuzbjwyar"
+        },
+        {
+          "n": 9,
+          "title": "我花了54个小时，做了一个可能更公平的AI大模型排行榜。",
+          "summary": "LatentRank免费开放AI大模型综合排行榜，采用Bradley-Terry算法。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.virxact.com/items/cmsmizpgb02yerohf3bh8jesi"
+        },
+        {
+          "n": 10,
+          "title": "Omnigent 上下文策略如何阻断“致命三重奏”组合攻击",
+          "summary": "Omnigent上下文策略阻断组合攻击，提升安全性不影响正常功能。",
+          "source": "Databricks：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsnkk68z0byorohfynveywic"
+        },
+        {
+          "n": 11,
+          "title": "Google 为 Google Ads 和 Google Analytics 推出新 AI 与智能体功能",
+          "summary": "Google在Ads和Analytics中新增AI功能，基于Gemini构建，面向英文账户测试。",
+          "source": "Google Blog：AI（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsnchnus0240rohfaltoqlae"
+        }
+      ]
     },
     {
       "name": "行业动态",
-      "items": []
+      "items": [
+        {
+          "n": 12,
+          "title": "英伟达联合六大机构融资5000亿美元建AI工厂",
+          "summary": "英伟达与多家机构合作，动员超5000亿美元支持AI基础设施建设。",
+          "source": "X：Jensen Huang (@JensenHuang)",
+          "url": "https://aihot.virxact.com/items/cmsnrwnsb0i1erohfuhfjc4q6"
+        },
+        {
+          "n": 13,
+          "title": "Zapier 如何用 ChatGPT Work 改造核心营销流程",
+          "summary": "Zapier企业营销团队用ChatGPT Work自动化线索优化，提升销售管道价值。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmsntacii0j0urohfz48viimb"
+        }
+      ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 14,
+          "title": "Claude 未发布研究版将黎曼 zeta 函数零点下界从 41.6% 提升至 67.2%",
+          "summary": "Anthropic员工用Claude研究黎曼猜想，将zeta函数零点比例下界提升至67.2%。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.virxact.com/items/cmsnix1by08d3rohfftiex1xp"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 1,
-          "title": "Seedance 2.5 上线一周新增六种创意玩法",
-          "summary": "Seedance 2.5 上线一周后涌现六类热门玩法，视频时长增至300秒，生成成本最低0.4元/秒。",
-          "source": "公众号：卡尔的AI沃茨",
-          "url": "https://aihot.virxact.com/items/cmslmv6kx03muroqyxyo4fbtl"
+          "n": 15,
+          "title": "tl;dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
+          "summary": "tl;dv数据库漏洞致18.1万段会议记录泄露，含23国政府及高校会议。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmsnbc14r0aezron58wsytu43"
         },
         {
-          "n": 2,
-          "title": "Anthropic 称已基本解决提示注入攻击",
-          "summary": "Anthropic称Claude模型通过训练解决提示注入威胁，攻击成功率可降至0。",
-          "source": "X：Boris Cherny (@bcherny)",
-          "url": "https://aihot.virxact.com/items/cmsm5mk1109hdroy9apis4bb7"
+          "n": 16,
+          "title": "智能体真的会用电脑吗？a16z 用数据给出答案",
+          "summary": "a16z数据显示计算机操作智能体性能达85%，超过人类测试者72%。",
+          "source": "a16z：News（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsnbzkyr01qjrohfmjqlmjk5"
         },
         {
-          "n": 3,
-          "title": "用DistilBERT LoRA与TF-IDF基线做IMDb情感分析：校准、可解释性与半监督学习",
-          "summary": "教程基于IMDb数据集对比情感分析模型，评估指标包括准确率、F1等。",
-          "source": "MarkTechPost（RSS）",
-          "url": "https://aihot.virxact.com/items/cmslhy76p03hdroo0l8dsaskb"
+          "n": 17,
+          "title": "扎克伯格：超级智能应人人可用",
+          "summary": "Meta发布长文阐述为所有人构建超级智能的理念与价值观。",
+          "source": "X：Mark Zuckerberg (@finkd)",
+          "url": "https://aihot.virxact.com/items/cmsn32xab06ehro8ou4tskajr"
         },
         {
-          "n": 4,
-          "title": "从黑客事件中汲取的教训：前沿模型攻击暴露激励与治理失衡",
-          "summary": "前沿模型引发网络攻击事件，作者认为当前激励体系难以适应技术快速变革。",
-          "source": "Nathan Lambert：Interconnects（RSS）",
-          "url": "https://aihot.virxact.com/items/cmslxhx3t05n3ro0w2lcmvjol"
+          "n": 18,
+          "title": "Linear 如何构建 Linear Agent：在系统提示词、工具设计与系统技能中划定边界",
+          "summary": "Linear Agent通过系统提示词和工具设计划定边界，支持未预设工作完成。",
+          "source": "Linear：Now（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsn9ug4u08wwron5dlzviqy4"
+        },
+        {
+          "n": 19,
+          "title": "Forking-Sequences：一种统计与计算上更高效的多步预测训练范式",
+          "summary": "CMU团队定义并评测forking-sequences训练范式，无需新增参数。",
+          "source": "CMU：Machine Learning Blog",
+          "url": "https://aihot.virxact.com/items/cmsnrnxfm0hl6rohfifnv9qdj"
+        },
+        {
+          "n": 20,
+          "title": "开源不等于开放权重：Gary Marcus 剖析两者本质差异",
+          "summary": "开放权重模型与开源软件在透明度和可定制性上存在根本区别。",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsnewsbp04hmrohf62i8y8xx"
         }
       ]
     }
