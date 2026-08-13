@@ -1,39 +1,46 @@
 {
-  "date": "2026-08-12",
-  "date_human": "2026年8月12日",
-  "total": 26,
+  "date": "2026-08-13",
+  "date_human": "2026年8月13日",
+  "total": 20,
   "counts": {
-    "模型发布/更新": 3,
+    "模型发布/更新": 4,
     "产品发布/更新": 5,
-    "行业动态": 7,
-    "论文研究": 3,
-    "技巧与观点": 8
+    "行业动态": 2,
+    "论文研究": 2,
+    "技巧与观点": 7
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-12",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-13",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
-          "summary": "NVIDIA发布开源30B混合专家模型Nemotron 3.5 Lightning，生成速度提升4倍。",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq"
+          "title": "xAI 发布 Grok 4.6，强化长时运行智能体能力",
+          "summary": "xAI发布Grok 4.6，强化智能体与视觉能力，追平GPT-5.6 Sol。",
+          "source": "xAI：News（网页）",
+          "url": "https://aihot.virxact.com/items/cmsqabu0f001krouc6sfhic2d"
         },
         {
           "n": 2,
-          "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
-          "summary": "SGLang支持NVIDIA Nemotron 3.5 Lightning，提供1M token上下文和投机解码技术。",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "url": "https://aihot.virxact.com/items/cmsopyoum028urohdhqzve6ba"
+          "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
+          "summary": "阿里开源Qwen3.8-2.4T-A95B模型，支持26万Token上下文。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsqagyyz00yuroucf55e5fue"
         },
         {
           "n": 3,
-          "title": "Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务",
-          "summary": "蚂蚁百灵开源7.9B参数混合推理模型Ling-3.0-tiny，提供多版本权重。",
-          "source": "公众号：蚂蚁百灵（Ling）",
-          "url": "https://aihot.virxact.com/items/cmsogatbh0qdgrofwzm7gdk0a"
+          "title": "LTX-2.5 模型登场：AI 生成 10 秒 720P 视频仅需 6.8 秒，原生集成 ComfyUI",
+          "summary": "LTX-2.5集成ComfyUI，6.8秒生成10秒720P视频，小组织免费。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmspr6h6s01hero4hjcdf95mw"
+        },
+        {
+          "n": 4,
+          "title": "微软首发自研推理模型MAI-Thinking-1",
+          "summary": "MAI-Thinking-1推理模型上线Microsoft Foundry。",
+          "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+          "url": "https://aihot.virxact.com/items/cmsqbnb8j01nrroosmwa5r6mj"
         }
       ]
     },
@@ -41,39 +48,39 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 4,
-          "title": "Runway Seedance 2.5 上线，支持50角色参考",
-          "summary": "Seedance 2.5上线Runway，支持50角色和30秒音乐同步片段生成。",
-          "source": "X：Runway (@runwayml)",
-          "url": "https://aihot.virxact.com/items/cmsp1lufu03a9rortoc0ci36q"
-        },
-        {
           "n": 5,
-          "title": "Gemini 助力 Database Migration Service 加速 PostgreSQL 迁移",
-          "summary": "Google Cloud推出Gemini驱动的AI代码转换，支持Oracle/SQL Server转PostgreSQ…",
-          "source": "Google Cloud：Databases（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsow47ob08oarohd6vhpqrwt"
+          "title": "OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型",
+          "summary": "OpenRouter发布实时排行榜，搜索预算增25轮得分翻倍。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsq9h6gs01x5ronde8fdla7e"
         },
         {
           "n": 6,
-          "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
-          "summary": "ZCode上线四大功能，GLM-5.2搭配ZCode任务通过率提升2.39%。",
-          "source": "公众号：智谱（GLM）",
-          "url": "https://aihot.virxact.com/items/cmso95agg0ig3rofwaqvy9crw"
+          "title": "Claude in Chrome 侧边栏升级为 Claude Cowork 会话",
+          "summary": "Claude浏览器扩展升级为Cowork会话，支持多端切换。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmsqj4ly004izroxvzl349s3r"
         },
         {
           "n": 7,
-          "title": "ChatGPT 桌面端支持导入其他智能体工作数据",
-          "summary": "ChatGPT桌面应用支持同步智能体工作内容，可导入项目和自动更新。",
-          "source": "X：OpenAI Developers (@OpenAIDevs)",
-          "url": "https://aihot.virxact.com/items/cmsp0j1ph027prortm21absbh"
+          "title": "SGLang 与 Miles 为 Qwen3.8-2.4T-A95B 提供 Day-0 支持",
+          "summary": "SGLang与Miles支持Qwen3.8-2.4T-A95B开源模型。",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "url": "https://aihot.virxact.com/items/cmsq9tn9a001mroxag87x1ltg"
         },
         {
           "n": 8,
-          "title": "Databricks 开源 Metals v2：面向数百万行代码库的 Java 和 Scala 语言服务器",
-          "summary": "Databricks开源Java/Scala语言服务器Metals v2，提升智能体开发效率。",
-          "source": "Databricks：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsp25dko03pvrort4v2ifnsx"
+          "title": "WhatsApp 如何用端到端加密与可验证性构建 Scam Alert 诈骗提醒功能",
+          "summary": "WhatsApp推出Scam Alert功能，端到端加密识别诈骗消息。",
+          "source": "Meta Engineering Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsq5eksf0481ro2ebve4t2jq"
+        },
+        {
+          "n": 9,
+          "title": "Claude Code v2.1.229 发布：新增远程会话恢复、插件市场命令源及多项修复",
+          "summary": "Claude Code v2.1.229发布，新增远程控制会话恢复等功能。",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsqklahe05ifroxvk12gixbx"
         }
       ]
     },
@@ -81,53 +88,18 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 9,
-          "title": "研究人员发现可读取ChatGPT等模型加密推理过程的API漏洞",
-          "summary": "团队发现OpenAI等API漏洞，可读取加密推理过程，成本约720美元。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsoydypn029yro3yvsi036au"
-        },
-        {
           "n": 10,
-          "title": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化 AI 模型竞争等挑战",
-          "summary": "Anthropic计划9月IPO，估值9650亿美元，年收入超470亿美元。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.virxact.com/items/cmso58oqr0b7trofwl3dcmz7y"
+          "title": "Research Gold 号称“100%人类撰写、绝不使用AI”，实则全程由AI驱动",
+          "summary": "Research Gold网站宣称人工撰写，实为AI生成虚假审稿人。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmspo193n05q2rojeue8j2k5a"
         },
         {
           "n": 11,
-          "title": "Gemini月活破10亿，成谷歌增长最快产品",
-          "summary": "Gemini月活超10亿，成为增长最快产品。",
-          "source": "X：Sundar Pichai (@sundarpichai)",
-          "url": "https://aihot.virxact.com/items/cmsoxh6oa0a3drohdskp7cb9u"
-        },
-        {
-          "n": 12,
-          "title": "消息称英伟达开发万亿参数开源 AI 模型 Nemotron 4，目标挑战全球顶级",
-          "summary": "英伟达研发1万亿参数开源模型Nemotron 4，或秋季发布。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsostkpq05iurohd30b8ubmy"
-        },
-        {
-          "n": 13,
-          "title": "NVIDIA 为何需要新供电架构以扩展 AI 算力性能",
-          "summary": "NVIDIA推800VDC直流配电方案，联合Google等制定规范。",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsoswb3i05ksrohdjycjrgpi"
-        },
-        {
-          "n": 14,
-          "title": "英伟达循环融资达到新高度，黄仁勋是否过度出牌？",
-          "summary": "英伟达股价下滑，将发布开源Nemotron模型削弱OpenAI地位。",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsoq4td202ghrohdxxsbd756"
-        },
-        {
-          "n": 15,
-          "title": "Electric 加入 Databricks，将 WASM Postgres 引入 AI 智能体沙箱",
-          "summary": "Databricks引入Electric团队，强化智能体沙箱数据库支持。",
-          "source": "Databricks：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsorfkrj0449rohd7ltvn624"
+          "title": "RingCentral 如何用 ChatGPT Work 和 Codex 构建 AI 原生工作流",
+          "summary": "RingCentral全员使用ChatGPT Work和Codex推动AI开发。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmsqmvjex02jbrow2udzat483"
         }
       ]
     },
@@ -135,25 +107,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 16,
-          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11–16 倍的 LLM 推理加速",
-          "summary": "研究团队提升macOS虚拟机Metal性能，接近裸机98%。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmsox86zv09u6rohdqr80wg0x"
+          "n": 12,
+          "title": "空货架还是丢钥匙？Google 研究：Recall 是参数化事实性的瓶颈",
+          "summary": "Google提出知识画像框架，发现LLM回忆能力不足。",
+          "source": "Google Research：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmsqe6mat01bsroli3hw71nz7"
         },
         {
-          "n": 17,
-          "title": "统一 Radix 缓存：为混合模型前缀缓存构建单一树结构",
-          "summary": "LMSYS提出Unified Radix Cache统一管理混合模型缓存。",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "url": "https://aihot.virxact.com/items/cmsopyoum028vrohd4dgeksz9"
-        },
-        {
-          "n": 18,
-          "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
-          "summary": "Google医疗AI系统AMIE实现实时视频问诊，获临床好评。",
-          "source": "Google Blog：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsoxbh180a00rohdooafsmzp"
+          "n": 13,
+          "title": "Anthropic 联合独立研究者发布工人再培训项目证据综述",
+          "summary": "Anthropic发布报告评估AI对劳动力市场冲击的应对效果。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.virxact.com/items/cmsqcs2m402xzroosy1xpgvm0"
         }
       ]
     },
@@ -161,60 +126,53 @@
       "name": "技巧与观点",
       "items": [
         {
+          "n": 14,
+          "title": "零基础用户半天上手AI的12步实操流程",
+          "summary": "零基础用户半天上手AI的12步实操流程发布。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.virxact.com/items/cmspc30un0e4xrorts1kax9zg"
+        },
+        {
+          "n": 15,
+          "title": "DeepSeek V4 Pro与Grok 4.6同日发布，双双逼近Claude Fable 5体验",
+          "summary": "DeepSeek V4 Pro与Grok 4.6相继发布，逼近Claude Fable 5。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.virxact.com/items/cmsqq3bc001snro7vo8picfbp"
+        },
+        {
+          "n": 16,
+          "title": "AutoGPT 如何用 AGENTS.md 和技能门控管理 AI 生成的拉取请求",
+          "summary": "AutoGPT维护者发现AI智能体不主动阅读文档，改进PR流程。",
+          "source": "GitHub Blog",
+          "url": "https://aihot.virxact.com/items/cmsqgeo2e02cvroxvpnycl2zi"
+        },
+        {
+          "n": 17,
+          "title": "我写了一本 AI 教科书——AI 还要多久才能写得更好？",
+          "summary": "作者反思LLM长文写作停滞，编码数学接近超人水平。",
+          "source": "Nathan Lambert：Interconnects（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsq5saxh051mro2e90h10exo"
+        },
+        {
+          "n": 18,
+          "title": "OpenRouter 工具调用指南：一次编写循环，切换模型字符串即可跨模型运行",
+          "summary": "OpenRouter发布工具调用指南，支持多模型切换。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsql9mbw065uroxvb09rxir4"
+        },
+        {
           "n": 19,
-          "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
-          "summary": "OpenAI未发布模型Astra解决10道数学难题，发布250页论文。",
-          "source": "The Verge：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsokd2b00viorofwaq9wrsv1"
+          "title": "LangChain 详解：什么是 AI 智能体？",
+          "summary": "AI智能体与工作流互补，智能体提供灵活性。",
+          "source": "LangChain：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsppq8pe01dxrog7ppmbaug9"
         },
         {
           "n": 20,
-          "title": "用 ComfyUI API 实现 MiniMax-H3 多模态视频与音频生成流水线",
-          "summary": "教程演示ComfyUI构建MiniMax-H3视频生成工作流。",
-          "source": "MarkTechPost（RSS）",
-          "url": "https://aihot.virxact.com/items/cmso8nqa70eq4rofw24w1wlwt"
-        },
-        {
-          "n": 21,
-          "title": "将 GitHub Copilot 置于中间人（MitM）代理之后后，我学到了什么",
-          "summary": "作者逆向分析VS Code中GitHub Copilot网络流量与架构。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmsp0g9v20242rort4zh7mzx0"
-        },
-        {
-          "n": 22,
-          "title": "编写智能体时，哪种编程语言最合适？",
-          "summary": "实测显示动态与静态语言在LLM token效率上各有优劣。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmso7i0al0dlsrofwivmpsjh1"
-        },
-        {
-          "n": 23,
-          "title": "微信小微AI帮写与AI点评内测：朋友圈最后一点人味正在消失",
-          "summary": "微信测试朋友圈AI帮写与点评，或改变社交内容生态。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.virxact.com/items/cmsnx040k01glrofwfqxdc8h5"
-        },
-        {
-          "n": 24,
-          "title": "Ryan Greenblatt：人类级AI或于2032年前通过递归自我改进催生失控超级智能",
-          "summary": "专家探讨AI递归自我改进，中位预期2031年自动化AI研发。",
-          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsowxh6d09rrrohdkhpckhpi"
-        },
-        {
-          "n": 25,
-          "title": "每个类别都有赢家：AI 时代 SaaS 龙头的估值溢价",
-          "summary": "SaaS估值承压，AI龙头CrowdStrike前瞻收入达34.4x。",
-          "source": "Tomer Tunguz 博客（VC 分析）",
-          "url": "https://aihot.virxact.com/items/cmsoylk4i02drro3yt4l3vhyn"
-        },
-        {
-          "n": 26,
-          "title": "Can you trust what AI tells you?",
-          "summary": "",
-          "source": "Claude：YouTube（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsossd1l05iirohdxfa23vta"
+          "title": "OpenAI 研究：企业如何用 ChatGPT 和 Codex 落地智能体 AI",
+          "summary": "OpenAI研究企业如何通过智能体AI拉开差距。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmsq3ulbm02wero2em6p0huto"
         }
       ]
     }
