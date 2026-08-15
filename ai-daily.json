@@ -17,28 +17,28 @@
         {
           "n": 1,
           "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-          "summary": "小红书开源 dots3-note Preview，280B 参数支持 512K 上下文及多模态理解。",
+          "summary": "小红书开源dots3-note Preview模型，280B参数支持512K上下文及多模态理解。",
           "source": "公众号：小红书技术（dots.llm）",
           "url": "https://aihot.virxact.com/items/cmssv94cg0h4mroffsb9e7a88"
         },
         {
           "n": 2,
           "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
-          "summary": "智谱发布 GLM-5.3，编程能力提升 50%，开源基准第一，两周后开源。",
+          "summary": "智谱发布GLM-5.3，编程能力提升50%，开源基准第一，两周后开源权重。",
           "source": "公众号：智谱（GLM）",
           "url": "https://aihot.virxact.com/items/cmssir12d047oroffnpn5pcx1"
         },
         {
           "n": 3,
           "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
-          "summary": "Gemini 3.7 Flash 开放，提升多步骤任务推理，整合文件邮件更智能。",
+          "summary": "Gemini 3.7 Flash开放给Pro/Ultra用户，提升多步骤任务推理能力。",
           "source": "X：Gemini (@GeminiApp)",
           "url": "https://aihot.virxact.com/items/cmst9yj3c05utrodz443l0odv"
         },
         {
           "n": 4,
           "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
-          "summary": "DeepSeek-V4-Pro-0813 上线 SiliconFlow，1M 上下文窗口，侧重编码与智能体。",
+          "summary": "DeepSeek-V4-Pro-0813上线硅基流动，1M上下文窗口，MIT开源协议。",
           "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
           "url": "https://aihot.virxact.com/items/cmssi38vn03o9rofffr0z8lyb"
         }
@@ -50,7 +50,7 @@
         {
           "n": 5,
           "title": "Claude Code v2.1.233 发布：新增 GitLab MR 支持与内存 cgroup 限制",
-          "summary": "Claude Code v2.1.233 发布，新增 GitLab 合并请求 URL 支持。",
+          "summary": "Claude Code v2.1.233新增GitLab合并请求URL支持。",
           "source": "Claude Code：GitHub Releases（RSS）",
           "url": "https://aihot.virxact.com/items/cmstjrtxi0a28ro0xbdowgrvf"
         }
@@ -62,28 +62,28 @@
         {
           "n": 6,
           "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-          "summary": "OpenAI 和 Anthropic 降价，用户重新比较模型能力与价格。",
+          "summary": "OpenAI和Anthropic降价引发用户重新比较模型能力与价格。",
           "source": "Ars Technica：AI（RSS）",
           "url": "https://aihot.virxact.com/items/cmst2gs6d02lmro06sb7as7av"
         },
         {
           "n": 7,
           "title": "Cursor 正式被 SpaceX 收购",
-          "summary": "Cursor 被 SpaceX 收购，将利用全球最大 GPU 集群构建更强模型。",
+          "summary": "Cursor被SpaceX收购，将获全球最大GPU集群提升模型能力。",
           "source": "Cursor Blog",
           "url": "https://aihot.virxact.com/items/cmst3joqo03pwro0658o4g1m3"
         },
         {
           "n": 8,
           "title": "Claude 文本水印机制如何运作",
-          "summary": "Claude 模型文本将含水印，基于 SynthID-Text 技术，不影响质量。",
+          "summary": "Claude模型将添加水印以遵守欧盟《AI法案》，不影响输出质量。",
           "source": "Anthropic：Newsroom（网页）",
           "url": "https://aihot.virxact.com/items/cmstc3u8j02xhro0xf5o1ouas"
         },
         {
           "n": 9,
           "title": "印尼首个大学AI中心落成：UGM、Indosat与NVIDIA合作培养本地AI人才",
-          "summary": "印尼首个大学 AI 技术中心 UGM Indosat NVIDIA AI 启动。",
+          "summary": "印尼首个大学AI技术中心UGM Indosat NVIDIA AI技术中心启动。",
           "source": "NVIDIA Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmst7s3xg02x3rodz3uvww36c"
         }
@@ -99,42 +99,42 @@
         {
           "n": 10,
           "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量",
-          "summary": "Hugging Face 模型仓库增至 296 万，85.6% 下载量不足 200 次。",
+          "summary": "Hugging Face模型仓库增至296万，85.6%下载量不足200次。",
           "source": "Hugging Face：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmst4z2qp05boro06ce7kxtgd"
         },
         {
           "n": 11,
           "title": "Claude Code 会话如何最大化 token 价值",
-          "summary": "Claude Code token 成本由模型、输入输出和提示缓存决定。",
+          "summary": "Claude Code成本由模型、输入/输出token和提示缓存决定。",
           "source": "Claude：Blog（网页）",
           "url": "https://aihot.virxact.com/items/cmst2fc5802f1ro062rp0wdez"
         },
         {
           "n": 12,
           "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
-          "summary": "蚂蚁百灵与 ASystem 合作，用 Ling-3.0-tiny 跑通单机 Agentic RL。",
+          "summary": "蚂蚁百灵与ASystem用Ling-3.0-tiny跑通单机Agentic RL训练。",
           "source": "公众号：蚂蚁百灵（Ling）",
           "url": "https://aihot.virxact.com/items/cmssf79uf05rwrod09r9ocb2w"
         },
         {
           "n": 13,
           "title": "OpenRouter 视觉指南：如何通过 API 向多模态模型发送图像",
-          "summary": "OpenRouter 发布视觉指南，详解多模态模型发送图像方法。",
+          "summary": "OpenRouter发布视觉指南，详解多模态模型发送图像方法。",
           "source": "OpenRouter：Announcements（RSS）",
           "url": "https://aihot.virxact.com/items/cmst8uvbr03l7rodzff6fiiml"
         },
         {
           "n": 14,
           "title": "谁真的需要SOTA模型？OpenRouter数据显示84%token来自非前沿模型",
-          "summary": "OpenRouter 数据显示 84% token 非 SOTA 模型，开源模型性能提升。",
+          "summary": "OpenRouter数据显示84%token非来自SOTA模型，开源模型性能提升。",
           "source": "Tomer Tunguz 博客（VC 分析）",
           "url": "https://aihot.virxact.com/items/cmstlse4t0bhbro0x08idymf2"
         },
         {
           "n": 15,
           "title": "Databricks 如何在数据仓库中使用 AI_Functions：主要用例解析",
-          "summary": "Databricks 探讨 AI_Functions 在数据仓库中处理非结构化数据。",
+          "summary": "Databricks探讨AI_Functions在数据仓库中处理非结构化数据应用。",
           "source": "Databricks：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmstgucbq067zro0xkuon9ioi"
         }
