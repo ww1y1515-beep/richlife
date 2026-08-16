@@ -1,144 +1,43 @@
 {
-  "date": "2026-08-15",
-  "date_human": "2026年8月15日",
-  "total": 15,
+  "date": "2026-08-16",
+  "date_human": "2026年8月16日",
+  "total": 1,
   "counts": {
-    "模型发布/更新": 4,
-    "产品发布/更新": 1,
-    "行业动态": 4,
-    "论文研究": 0,
-    "技巧与观点": 6
+    "模型发布/更新": 0,
+    "产品发布/更新": 0,
+    "行业动态": 0,
+    "论文研究": 1,
+    "技巧与观点": 0
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-15",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-16",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-          "summary": "小红书开源dots3-note Preview模型，280B参数支持512K上下文及多模态理解。",
-          "source": "公众号：小红书技术（dots.llm）",
-          "url": "https://aihot.virxact.com/items/cmssv94cg0h4mroffsb9e7a88"
-        },
-        {
-          "n": 2,
-          "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
-          "summary": "智谱发布GLM-5.3，编程能力提升50%，开源基准第一，两周后开源权重。",
-          "source": "公众号：智谱（GLM）",
-          "url": "https://aihot.virxact.com/items/cmssir12d047oroffnpn5pcx1"
-        },
-        {
-          "n": 3,
-          "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
-          "summary": "Gemini 3.7 Flash开放给Pro/Ultra用户，提升多步骤任务推理能力。",
-          "source": "X：Gemini (@GeminiApp)",
-          "url": "https://aihot.virxact.com/items/cmst9yj3c05utrodz443l0odv"
-        },
-        {
-          "n": 4,
-          "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
-          "summary": "DeepSeek-V4-Pro-0813上线硅基流动，1M上下文窗口，MIT开源协议。",
-          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-          "url": "https://aihot.virxact.com/items/cmssi38vn03o9rofffr0z8lyb"
-        }
-      ]
-    },
-    {
-      "name": "产品发布/更新",
-      "items": [
-        {
-          "n": 5,
-          "title": "Claude Code v2.1.233 发布：新增 GitLab MR 支持与内存 cgroup 限制",
-          "summary": "Claude Code v2.1.233新增GitLab合并请求URL支持。",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "url": "https://aihot.virxact.com/items/cmstjrtxi0a28ro0xbdowgrvf"
-        }
-      ]
-    },
-    {
-      "name": "行业动态",
-      "items": [
-        {
-          "n": 6,
-          "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-          "summary": "OpenAI和Anthropic降价引发用户重新比较模型能力与价格。",
-          "source": "Ars Technica：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmst2gs6d02lmro06sb7as7av"
-        },
-        {
-          "n": 7,
-          "title": "Cursor 正式被 SpaceX 收购",
-          "summary": "Cursor被SpaceX收购，将获全球最大GPU集群提升模型能力。",
-          "source": "Cursor Blog",
-          "url": "https://aihot.virxact.com/items/cmst3joqo03pwro0658o4g1m3"
-        },
-        {
-          "n": 8,
-          "title": "Claude 文本水印机制如何运作",
-          "summary": "Claude模型将添加水印以遵守欧盟《AI法案》，不影响输出质量。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.virxact.com/items/cmstc3u8j02xhro0xf5o1ouas"
-        },
-        {
-          "n": 9,
-          "title": "印尼首个大学AI中心落成：UGM、Indosat与NVIDIA合作培养本地AI人才",
-          "summary": "印尼首个大学AI技术中心UGM Indosat NVIDIA AI技术中心启动。",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmst7s3xg02x3rodz3uvww36c"
-        }
-      ]
-    },
-    {
-      "name": "论文研究",
       "items": []
     },
     {
-      "name": "技巧与观点",
+      "name": "产品发布/更新",
+      "items": []
+    },
+    {
+      "name": "行业动态",
+      "items": []
+    },
+    {
+      "name": "论文研究",
       "items": [
         {
-          "n": 10,
-          "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量",
-          "summary": "Hugging Face模型仓库增至296万，85.6%下载量不足200次。",
-          "source": "Hugging Face：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmst4z2qp05boro06ce7kxtgd"
-        },
-        {
-          "n": 11,
-          "title": "Claude Code 会话如何最大化 token 价值",
-          "summary": "Claude Code成本由模型、输入/输出token和提示缓存决定。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmst2fc5802f1ro062rp0wdez"
-        },
-        {
-          "n": 12,
-          "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
-          "summary": "蚂蚁百灵与ASystem用Ling-3.0-tiny跑通单机Agentic RL训练。",
-          "source": "公众号：蚂蚁百灵（Ling）",
-          "url": "https://aihot.virxact.com/items/cmssf79uf05rwrod09r9ocb2w"
-        },
-        {
-          "n": 13,
-          "title": "OpenRouter 视觉指南：如何通过 API 向多模态模型发送图像",
-          "summary": "OpenRouter发布视觉指南，详解多模态模型发送图像方法。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.virxact.com/items/cmst8uvbr03l7rodzff6fiiml"
-        },
-        {
-          "n": 14,
-          "title": "谁真的需要SOTA模型？OpenRouter数据显示84%token来自非前沿模型",
-          "summary": "OpenRouter数据显示84%token非来自SOTA模型，开源模型性能提升。",
-          "source": "Tomer Tunguz 博客（VC 分析）",
-          "url": "https://aihot.virxact.com/items/cmstlse4t0bhbro0x08idymf2"
-        },
-        {
-          "n": 15,
-          "title": "Databricks 如何在数据仓库中使用 AI_Functions：主要用例解析",
-          "summary": "Databricks探讨AI_Functions在数据仓库中处理非结构化数据应用。",
-          "source": "Databricks：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmstgucbq067zro0xkuon9ioi"
+          "n": 1,
+          "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
+          "summary": "AI生成电子书数量激增导致人类作者单书收入下降，14,419本样本显示书目总量增长38.3倍而收入仅增8.9倍。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsuaf2hr05zgroe0y1e7275v"
         }
       ]
+    },
+    {
+      "name": "技巧与观点",
+      "items": []
     }
   ]
 }
