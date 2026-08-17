@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-16",
-  "date_human": "2026年8月16日",
-  "total": 1,
+  "date": "2026-08-17",
+  "date_human": "2026年8月17日",
+  "total": 2,
   "counts": {
     "模型发布/更新": 0,
     "产品发布/更新": 0,
     "行业动态": 0,
-    "论文研究": 1,
-    "技巧与观点": 0
+    "论文研究": 0,
+    "技巧与观点": 2
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-16",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-17",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -25,19 +25,26 @@
     },
     {
       "name": "论文研究",
-      "items": [
-        {
-          "n": 1,
-          "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
-          "summary": "AI生成电子书数量激增导致人类作者单书收入下降，14,419本样本显示书目总量增长38.3倍而收入仅增8.9倍。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsuaf2hr05zgroe0y1e7275v"
-        }
-      ]
+      "items": []
     },
     {
       "name": "技巧与观点",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+          "summary": "阿里 Qwen 实验室发布 27B 参数视觉大模型 Qwen 3.8 27B，性能超越前代。",
+          "source": "Simon Willison 博客",
+          "url": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c"
+        },
+        {
+          "n": 2,
+          "title": "The hyping of Anthropic’s IPO",
+          "summary": "Anthropic IPO 静默期流传 2028 年 1900 亿美元营收预测，信源未披露。",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsw88ide0liyrovmhjpvtel2"
+        }
+      ]
     }
   ]
 }
