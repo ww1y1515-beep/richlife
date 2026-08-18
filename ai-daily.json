@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-17",
-  "date_human": "2026年8月17日",
-  "total": 2,
+  "date": "2026-08-18",
+  "date_human": "2026年8月18日",
+  "total": 18,
   "counts": {
     "模型发布/更新": 0,
-    "产品发布/更新": 0,
-    "行业动态": 0,
-    "论文研究": 0,
-    "技巧与观点": 2
+    "产品发布/更新": 5,
+    "行业动态": 4,
+    "论文研究": 1,
+    "技巧与观点": 8
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-17",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-18",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -17,32 +17,147 @@
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+          "summary": "Cursor 向付费用户开放 Origin 代码托管测试版，支持仓库管理、GitHub 同步及智能体功能。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h"
+        },
+        {
+          "n": 2,
+          "title": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用成本",
+          "summary": "OpenRouter 发布 Activity 仪表盘和 Analytics API，支持查看支出、token 量等指标。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02"
+        },
+        {
+          "n": 3,
+          "title": "OpenRouter 图像生成 API：代码优先的接入教程",
+          "summary": "OpenRouter 推出图像生成 API，统一调用多个提供商模型，支持参考图像生成变体。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsxqq46m07msroz0jt2la4p6"
+        },
+        {
+          "n": 4,
+          "title": "AgentCore Payments 中间件为 LangChain 智能体提供 API 支付能力",
+          "summary": "AgentCore Payments 中间件让 LangChain 智能体以预算支付 API 费用，支持支付追踪。",
+          "source": "LangChain：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsxebmb6021wroi2l5h9u16e"
+        },
+        {
+          "n": 5,
+          "title": "Claude Code v2.1.234 发布：新增项目目录名变量与 GitLab MR 徽章，修复多项安全与稳定性问题",
+          "summary": "Claude Code v2.1.234 新增环境变量、键绑定及 GitLab MR 徽章，自动继续会话。",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsxpts5p06yoroz00hfoz9ch"
+        }
+      ]
     },
     {
       "name": "行业动态",
-      "items": []
+      "items": [
+        {
+          "n": 6,
+          "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
+          "summary": "NVIDIA 与 SB Energy 合作锁定电力容量，OpenAI 将作为租户部署算力。",
+          "source": "NVIDIA Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb"
+        },
+        {
+          "n": 7,
+          "title": "A 股迎来“人形机器人第一股”，宇树科技官宣 8 月 19 日科创板上市",
+          "summary": "宇树科技 2026 年科创板上市，发行价 150.80 元/股，市值约 609.93 亿元。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t"
+        },
+        {
+          "n": 8,
+          "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
+          "summary": "亚马逊批量购书扫描用于 AI 训练后销毁，追踪设备揭露其未公开行动。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9"
+        },
+        {
+          "n": 9,
+          "title": "OpenAI 为 14 个独立项目提供资助，推动智能时代经济机遇与韧性研究",
+          "summary": "OpenAI 向 14 个项目提供 100 万美元资金及 API 额度，推动 AI 经济机遇研究。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmsx4vvm301g9romm3o5n8btx"
+        }
+      ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 10,
+          "title": "PhotoScan：用智能手机照片估算胰岛素抵抗，精度接近DXA",
+          "summary": "Google Research 推出 PhotoScan，从 2D 照片估算三维身体成分，精度接近 DXA 扫描。",
+          "source": "Google Research：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmsxq3q3x07h2roz0z906es50"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 1,
-          "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
-          "summary": "阿里 Qwen 实验室发布 27B 参数视觉大模型 Qwen 3.8 27B，性能超越前代。",
-          "source": "Simon Willison 博客",
-          "url": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c"
+          "n": 11,
+          "title": "OpenAI 如何用前沿智能加固自身防御：The Defender’s Window",
+          "summary": "OpenAI 反思模型网络攻击能力，通过四大支柱强化安全，演示 ChatGPT 修复漏洞。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmsx9696t05u7rommdoa60l4p"
         },
         {
-          "n": 2,
-          "title": "The hyping of Anthropic’s IPO",
-          "summary": "Anthropic IPO 静默期流传 2028 年 1900 亿美元营收预测，信源未核实。",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsw88ide0liyrovmhjpvtel2"
+          "n": 12,
+          "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
+          "summary": "操作指南帮助用户减少侵入式 AI，涵盖 Adobe、Google、Apple 等平台。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu"
+        },
+        {
+          "n": 13,
+          "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+          "summary": "Google 开源零信任客服智能体示例，通过三层硬性安全机制防御提示注入攻击。",
+          "source": "Google Developers Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j"
+        },
+        {
+          "n": 14,
+          "title": "开源模型生态的未来：Nvidia 押注“教所有人炼 token”",
+          "summary": "开源模型生态依赖 Nvidia 资助，训练门槛升高，社区转向模型微调。",
+          "source": "Nathan Lambert：Interconnects（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsxfcx2n036jroi2rxg0tdmq"
+        },
+        {
+          "n": 15,
+          "title": "同一集群利用率提升 33 个百分点：改变的是分配顺序",
+          "summary": "Hugging Face GPU 分配器提升利用率 33 个百分点，优先级加权输出最高增 105%。",
+          "source": "Hugging Face：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsxnxhxa05wjroz0grlpa8a9"
+        },
+        {
+          "n": 16,
+          "title": "ABC Legal 如何借助 Claude Managed Agents 让每位员工成为构建者",
+          "summary": "ABC Legal 部署 Claude Enterprise，50 多个智能体降低人工成本约 50%。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmsxi809j02vnroswjnpyp2gv"
+        },
+        {
+          "n": 17,
+          "title": "当模型持续学习：测试时训练如何改变 AI 的记忆与成本",
+          "summary": "测试时训练让模型持续更新权重，推理速度最高提升 2.7 倍，适合个性化场景。",
+          "source": "Tomer Tunguz 博客（VC 分析）",
+          "url": "https://aihot.virxact.com/items/cmsxj97e9016aroz080y9zfto"
+        },
+        {
+          "n": 18,
+          "title": "SGLang 重构 CUDA Graph 支持，Breakable CUDA Graph 成 prefill 默认方案",
+          "summary": "SGLang 重构 CUDA Graph 支持，Breakable CUDA Graph 构建速度快 3.8–5.2 …",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "url": "https://aihot.virxact.com/items/cmsxjbtk6018lroz0ywmuve4h"
         }
       ]
     }
