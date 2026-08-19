@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-18",
-  "date_human": "2026年8月18日",
-  "total": 18,
+  "date": "2026-08-19",
+  "date_human": "2026年8月19日",
+  "total": 16,
   "counts": {
     "模型发布/更新": 0,
-    "产品发布/更新": 5,
-    "行业动态": 4,
-    "论文研究": 1,
-    "技巧与观点": 8
+    "产品发布/更新": 6,
+    "行业动态": 1,
+    "论文研究": 4,
+    "技巧与观点": 5
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-18",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-19",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -20,38 +20,45 @@
       "items": [
         {
           "n": 1,
-          "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
-          "summary": "Cursor 向付费用户开放 Origin 代码托管测试版，支持仓库管理、GitHub 同步及智能体功能。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h"
+          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+          "summary": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持加载 PyLat…",
+          "source": "Hugging Face：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv"
         },
         {
           "n": 2,
-          "title": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用成本",
-          "summary": "OpenRouter 发布 Activity 仪表盘和 Analytics API，支持查看支出、token 量等指标。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02"
+          "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+          "summary": "Mojo🔥 语言正式开源，采用 Apache 2.0 许可证，编译器与工具链已发布。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmsz79zol04j8rodpvun6zobl"
         },
         {
           "n": 3,
-          "title": "OpenRouter 图像生成 API：代码优先的接入教程",
-          "summary": "OpenRouter 推出图像生成 API，统一调用多个提供商模型，支持参考图像生成变体。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsxqq46m07msroz0jt2la4p6"
+          "title": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理",
+          "summary": "Claude 现可管理 Gmail 邮件和 Google Drive 文件，付费套餐均可用。",
+          "source": "X：Claude (@claudeai)",
+          "url": "https://aihot.virxact.com/items/cmsz49ptt022qrodp5mc1nt1x"
         },
         {
           "n": 4,
-          "title": "AgentCore Payments 中间件为 LangChain 智能体提供 API 支付能力",
-          "summary": "AgentCore Payments 中间件让 LangChain 智能体以预算支付 API 费用，支持支付追踪。",
-          "source": "LangChain：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsxebmb6021wroi2l5h9u16e"
+          "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
+          "summary": "OpenAI 发布 ChatGPT for Teens，为 13-17 岁用户提供安全保护与学习功能。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmsykcnkt0yh1roz0a9h404r5"
         },
         {
           "n": 5,
-          "title": "Claude Code v2.1.234 发布：新增项目目录名变量与 GitLab MR 徽章，修复多项安全与稳定性问题",
-          "summary": "Claude Code v2.1.234 新增环境变量、键绑定及 GitLab MR 徽章，自动继续会话。",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsxpts5p06yoroz00hfoz9ch"
+          "title": "Git 大规模托管为何如此困难",
+          "summary": "Git 大规模托管面临 packfile 瓶颈，分布式存储方案因性能问题被放弃。",
+          "source": "Cursor Blog",
+          "url": "https://aihot.virxact.com/items/cmsyzrrob04xpro20arbjlil6"
+        },
+        {
+          "n": 6,
+          "title": "Claude Science 产品指南：面向生命科学研究的 AI 工作台",
+          "summary": "Anthropic 发布 Claude Science 测试版，支持生命科学数字化流程。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmsywmxwn01itro20kjm5l7rh"
         }
       ]
     },
@@ -59,32 +66,11 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 6,
-          "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
-          "summary": "NVIDIA 与 SB Energy 合作锁定电力容量，OpenAI 将作为租户部署算力。",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb"
-        },
-        {
           "n": 7,
-          "title": "A 股迎来“人形机器人第一股”，宇树科技官宣 8 月 19 日科创板上市",
-          "summary": "宇树科技 2026 年科创板上市，发行价 150.80 元/股，市值约 609.93 亿元。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t"
-        },
-        {
-          "n": 8,
-          "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
-          "summary": "亚马逊批量购书扫描用于 AI 训练后销毁，追踪设备揭露其未公开行动。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9"
-        },
-        {
-          "n": 9,
-          "title": "OpenAI 为 14 个独立项目提供资助，推动智能时代经济机遇与韧性研究",
-          "summary": "OpenAI 向 14 个项目提供 100 万美元资金及 API 额度，推动 AI 经济机遇研究。",
+          "title": "OpenAI 启动新计划，强化国家安全领域 AI 的民主监督",
+          "summary": "OpenAI 启动计划，提供 500 万美元支持民主监督机构监督政府 AI 使用。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmsx4vvm301g9romm3o5n8btx"
+          "url": "https://aihot.virxact.com/items/cmsz3p3rp01t1rodp1d431n7i"
         }
       ]
     },
@@ -92,11 +78,32 @@
       "name": "论文研究",
       "items": [
         {
+          "n": 8,
+          "title": "Claude 如何加速蛋白质设计与分析化学研究",
+          "summary": "Anthropic 实验显示 Claude 设计蛋白质结合剂成功率达 22.6%-35.1%。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek"
+        },
+        {
+          "n": 9,
+          "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+          "summary": "智能体记忆需按模型能力校准，强模型注入完整指南集效果更佳。",
+          "source": "Hugging Face：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78"
+        },
+        {
           "n": 10,
-          "title": "PhotoScan：用智能手机照片估算胰岛素抵抗，精度接近DXA",
-          "summary": "Google Research 推出 PhotoScan，从 2D 照片估算三维身体成分，精度接近 DXA 扫描。",
-          "source": "Google Research：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmsxq3q3x07h2roz0z906es50"
+          "title": "GRPO 超越英语：多语言与非英语环境下的大规模研究",
+          "summary": "研究显示 GRPO 在多语言环境下表现与英语相近，RLVR 同样有效。",
+          "source": "Apple Machine Learning Research（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsysep9401r2ros3trfpnowd"
+        },
+        {
+          "n": 11,
+          "title": "MVICAD2：引入延迟与膨胀的多视图独立成分分析",
+          "summary": "MVICAD2 解决 MVICA 假设严格问题，模拟显示其优于现有方法。",
+          "source": "Apple Machine Learning Research（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsyyu6un0363ro20tlno5hzl"
         }
       ]
     },
@@ -104,60 +111,39 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 11,
-          "title": "OpenAI 如何用前沿智能加固自身防御：The Defender’s Window",
-          "summary": "OpenAI 反思模型网络攻击能力，通过四大支柱强化安全，演示 ChatGPT 修复漏洞。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmsx9696t05u7rommdoa60l4p"
-        },
-        {
           "n": 12,
-          "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
-          "summary": "操作指南帮助用户减少侵入式 AI，涵盖 Adobe、Google、Apple 等平台。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu"
+          "title": "设计 AI 评测：先求清晰，再谈可视化",
+          "summary": "演示用 Inspect AI 和 Harbor 评估 agent 技能并进行可视化分析。",
+          "source": "Google AI：DEV 作者专属（RSS）",
+          "url": "https://aihot.virxact.com/items/cmsycmgww0rkrroz0nfma0z05"
         },
         {
           "n": 13,
-          "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
-          "summary": "Google 开源零信任客服智能体示例，通过三层硬性安全机制防御提示注入攻击。",
-          "source": "Google Developers Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j"
+          "title": "OpenAI 在“关键网络能力”时代放缓模型开发节奏",
+          "summary": "OpenAI 因安全事件放缓模型扩展，加强 Astra 模型防护措施。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv"
         },
         {
           "n": 14,
-          "title": "开源模型生态的未来：Nvidia 押注“教所有人炼 token”",
-          "summary": "开源模型生态依赖 Nvidia 资助，训练门槛升高，社区转向模型微调。",
-          "source": "Nathan Lambert：Interconnects（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsxfcx2n036jroi2rxg0tdmq"
+          "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+          "summary": "Anthropic 用 Claude Tag 构建值班智能体，快速响应 CI/CD 故障。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra"
         },
         {
           "n": 15,
-          "title": "同一集群利用率提升 33 个百分点：改变的是分配顺序",
-          "summary": "Hugging Face GPU 分配器提升利用率 33 个百分点，优先级加权输出最高增 105%。",
-          "source": "Hugging Face：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmsxnxhxa05wjroz0grlpa8a9"
+          "title": "笔记本模型也能媲美云端前沿模型：Qwen3.8-27B 登顶智能指数",
+          "summary": "Qwen3.8-27B 在 Artificial Analysis 智能指数中排名第一。",
+          "source": "Tomer Tunguz 博客（VC 分析）",
+          "url": "https://aihot.virxact.com/items/cmsyyp5v302yoro20yixaalt7"
         },
         {
           "n": 16,
-          "title": "ABC Legal 如何借助 Claude Managed Agents 让每位员工成为构建者",
-          "summary": "ABC Legal 部署 Claude Enterprise，50 多个智能体降低人工成本约 50%。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmsxi809j02vnroswjnpyp2gv"
-        },
-        {
-          "n": 17,
-          "title": "当模型持续学习：测试时训练如何改变 AI 的记忆与成本",
-          "summary": "测试时训练让模型持续更新权重，推理速度最高提升 2.7 倍，适合个性化场景。",
-          "source": "Tomer Tunguz 博客（VC 分析）",
-          "url": "https://aihot.virxact.com/items/cmsxj97e9016aroz080y9zfto"
-        },
-        {
-          "n": 18,
-          "title": "SGLang 重构 CUDA Graph 支持，Breakable CUDA Graph 成 prefill 默认方案",
-          "summary": "SGLang 重构 CUDA Graph 支持，Breakable CUDA Graph 构建速度快 3.8–5.2 …",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "url": "https://aihot.virxact.com/items/cmsxjbtk6018lroz0ywmuve4h"
+          "title": "Populous 如何用 Runway 呈现全球标志性场馆设计",
+          "summary": "Populous 用 Runway 缩短体育场馆设计渲染时间，支持多场景迭代。",
+          "source": "Runway：News（网页）",
+          "url": "https://aihot.virxact.com/items/cmsyuee7f000irobqbzybcq21"
         }
       ]
     }
