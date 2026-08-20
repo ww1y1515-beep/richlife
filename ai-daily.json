@@ -29,28 +29,28 @@
         {
           "n": 2,
           "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-          "summary": "GLM-5.3 API 上线，AA 智能指数 60 分，下周五开源权重。",
+          "summary": "GLM-5.3 API 上线，AA 智能指数 60 分，与闭源旗舰同级，下周五开源权重。",
           "source": "公众号：智谱（GLM）",
           "url": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0"
         },
         {
           "n": 3,
           "title": "FastMetal 让 Mac 本地 30 秒生成视频",
-          "summary": "FastMetal 在 Mac 上生成 5 秒 480P 视频，占用 3.9 GiB 内存。",
+          "summary": "FastMetal 在 Mac 上生成 5 秒 480P 视频，耗时 30 秒，占用 3.9 GiB 内存。",
           "source": "X：Sky Computing Lab (@haoailab)",
           "url": "https://aihot.virxact.com/items/cmt0kxcuu07f2ro2owuqpbjc8"
         },
         {
           "n": 4,
           "title": "Google 搜索推出 5 项 AI 学习工具",
-          "summary": "Google 搜索推出 5 项 AI 学习工具，支持交互式可视化。",
+          "summary": "Google 搜索推出 5 项 AI 学习工具，包括交互式可视化和免费练习测验。",
           "source": "Google Blog：AI（RSS）",
           "url": "https://aihot.virxact.com/items/cmt0he5pq04q2ro2ojil0908q"
         },
         {
           "n": 5,
           "title": "Replit 推出由 GPT-5.6 Luna 驱动的 Free Mode，免费构建软件",
-          "summary": "Replit 推出 GPT-5.6 Luna 驱动的 Free Mode，免费转化想法为软件。",
+          "summary": "Replit 推出 GPT-5.6 Luna 驱动的 Free Mode，免费将想法转化为可运行软件。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "url": "https://aihot.virxact.com/items/cmt07woov14ymrodpwkcxd42w"
         },
@@ -69,14 +69,14 @@
         {
           "n": 7,
           "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-          "summary": "Anthropic 因安全考虑放缓模型扩展，暂停部分训练工作。",
+          "summary": "Anthropic 因安全事件放缓模型扩展，暂停部分训练和评估工作。",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "url": "https://aihot.virxact.com/items/cmt0mqceo08lzro2o6xi3rlk4"
         },
         {
           "n": 8,
           "title": "OpenRouter 宣布加入 Stripe",
-          "summary": "OpenRouter 与 Stripe 合并，每日处理 10+ 万亿 token。",
+          "summary": "OpenRouter 与 Stripe 合并，每日处理 10+ 万亿 token，服务 1000 万开发者。",
           "source": "OpenRouter：Announcements（RSS）",
           "url": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc"
         }
@@ -88,21 +88,21 @@
         {
           "n": 9,
           "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
-          "summary": "LMSYS 团队优化 DeepSeek-V4-Pro，H20 GPU 性能接近 B300。",
+          "summary": "LMSYS 团队在 H20 GPU 上优化 DeepSeek-V4-Pro，性能逼近 B300。",
           "source": "LMSYS：Blog（Chatbot Arena 团队）",
           "url": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh"
         },
         {
           "n": 10,
           "title": "苹果研究：LLM 类人行为的多维度分析——模型行为、用户因素与系统提示词的影响",
-          "summary": "苹果研究 LLM 类人行为，样本超 21,000 条数据。",
+          "summary": "苹果研究 LLM 类人行为，样本超 21000 条，提供决策依据。",
           "source": "Apple Machine Learning Research（RSS）",
           "url": "https://aihot.virxact.com/items/cmt05pnil12t8rodpf71tnq00"
         },
         {
           "n": 11,
           "title": "倒排索引遍历的 P-完全性：布尔查询 DAG 的复杂度评估",
-          "summary": "现代 AI 智能体搜索基础设施面临 O(2^|Q|) 复杂度问题。",
+          "summary": "现代 AI 智能体搜索基础设施面临 O(2^|Q|) 查询复杂度爆炸问题。",
           "source": "Apple Machine Learning Research（RSS）",
           "url": "https://aihot.virxact.com/items/cmt0eab5901fzro2oaa87wvg6"
         }
@@ -114,7 +114,7 @@
         {
           "n": 12,
           "title": "GitHub Copilot app 初学者教程：用 My work 面板管理你的工作",
-          "summary": "GitHub Copilot 新增 My work 面板，集中管理拉取请求和问题。",
+          "summary": "GitHub Copilot app 的 My work 面板集中管理拉取请求和问题。",
           "source": "GitHub Blog",
           "url": "https://aihot.virxact.com/items/cmt0eewgp02noro2otibj5hge"
         },
@@ -128,7 +128,7 @@
         {
           "n": 14,
           "title": "Databricks 如何从单一提示词设计高效的 Genie Agents",
-          "summary": "Databricks 发布指南，优化 Genie Agents 提示词设计。",
+          "summary": "Databricks 发布指南，优化 Genie Agents 提示词设计提升查询准确性。",
           "source": "Databricks：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt0bd90e17xyrodpl457pxr2"
         }
