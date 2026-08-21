@@ -1,25 +1,32 @@
 {
-  "date": "2026-08-20",
-  "date_human": "2026年8月20日",
-  "total": 14,
+  "date": "2026-08-21",
+  "date_human": "2026年8月21日",
+  "total": 17,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 5,
-    "行业动态": 2,
-    "论文研究": 3,
-    "技巧与观点": 3
+    "模型发布/更新": 2,
+    "产品发布/更新": 8,
+    "行业动态": 1,
+    "论文研究": 2,
+    "技巧与观点": 4
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-20",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-21",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
-          "summary": "Liquid AI 发布四款 Q4_0 GGUF 检查点，恢复 BF16 精度损失 97%。",
+          "title": "阿里发布 Qwen-UI-Agent，主打让模型真正“会用”每一块屏幕",
+          "summary": "阿里巴巴推出Qwen-UI-Agent，覆盖多端GUI智能体基座模型。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt1di48c04vuro1q95i06dby"
+        },
+        {
+          "n": 2,
+          "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
+          "summary": "Hugging Face发布LFM2.5系列DSpark草稿模型，提升GPU吞吐最高3.18倍。",
           "source": "Hugging Face：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt05zhyg139trodp6bxsy9e2"
+          "url": "https://aihot.virxact.com/items/cmt1rv5n8066iroovaxgoej1b"
         }
       ]
     },
@@ -27,39 +34,60 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 2,
-          "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-          "summary": "GLM-5.3 API 上线，AA 智能指数 60 分，与闭源旗舰同级，下周五开源权重。",
-          "source": "公众号：智谱（GLM）",
-          "url": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0"
-        },
-        {
           "n": 3,
-          "title": "FastMetal 让 Mac 本地 30 秒生成视频",
-          "summary": "FastMetal 在 Mac 上生成 5 秒 480P 视频，耗时 30 秒，占用 3.9 GiB 内存。",
-          "source": "X：Sky Computing Lab (@haoailab)",
-          "url": "https://aihot.virxact.com/items/cmt0kxcuu07f2ro2owuqpbjc8"
+          "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
+          "summary": "Mistral发布Agentic Search，通过五工具实现多步检索循环。",
+          "source": "Mistral AI：News（网页）",
+          "url": "https://aihot.virxact.com/items/cmt1pkwbj04bxroovzkfca5c7"
         },
         {
           "n": 4,
-          "title": "Google 搜索推出 5 项 AI 学习工具",
-          "summary": "Google 搜索推出 5 项 AI 学习工具，包括交互式可视化和免费练习测验。",
-          "source": "Google Blog：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt0he5pq04q2ro2ojil0908q"
+          "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
+          "summary": "AlloyDB的ScaNN索引支持超100亿向量，查询复杂度降至O(N^1/4)。",
+          "source": "Google Cloud：Databases（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt1r7jjh05lgroovc4zwypj6"
         },
         {
           "n": 5,
-          "title": "Replit 推出由 GPT-5.6 Luna 驱动的 Free Mode，免费构建软件",
-          "summary": "Replit 推出 GPT-5.6 Luna 驱动的 Free Mode，免费将想法转化为可运行软件。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmt07woov14ymrodpwkcxd42w"
+          "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
+          "summary": "Anthropic宣布Computer Use等API全面可用，新增浏览器操作工具。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmt1z1q5n0c93roovlvh40tew"
         },
         {
           "n": 6,
-          "title": "Claude Code v2.1.236 发布：新增默认模型环境变量与跨会话闲置通知",
-          "summary": "Claude Code v2.1.236 新增 ANTHROPIC_DEFAULT_MODEL 环境变量。",
+          "title": "Anthropic 如何开展 AI 教学",
+          "summary": "Anthropic发布Claude Academy，提供AI教学资源与持续学习项目。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmt1tonwa07i9roovrze0ll65"
+        },
+        {
+          "n": 7,
+          "title": "Mooncake 如何为 Miles 强化学习系统实现高效批量 Rollout 数据传输",
+          "summary": "Mooncake优化Miles系统中异构rollout数据传输，提升效率与扩展性。",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "url": "https://aihot.virxact.com/items/cmt1tnrvi07h4roov529jj7fn"
+        },
+        {
+          "n": 8,
+          "title": "Claude Code v2.1.238 发布：新增 readline 键位、插件市场 headersHelper 与多项 Remote Control 修复",
+          "summary": "Claude Code v2.1.238新增keybindingFlavor设置与headersHelper插件。",
           "source": "Claude Code：GitHub Releases（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt0kq2xq0791ro2oq60xuz9q"
+          "url": "https://aihot.virxact.com/items/cmt206dhq0d95roovjuqm08xj"
+        },
+        {
+          "n": 9,
+          "title": "Claude Code v2.1.237 发布：修复 LLM 网关提示词缓存，新增“简洁”输出风格",
+          "summary": "Claude Code v2.1.237修复提示词缓存问题，新增简洁输出风格。",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt0taqbd0eqero2o25htdjwk"
+        },
+        {
+          "n": 10,
+          "title": "LangSmith 预览构建：如何在合并前测试智能体变更",
+          "summary": "LangSmith预览构建支持团队在临时环境中测试智能体变更。",
+          "source": "LangChain：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt1syh3c06wkroovu6hir326"
         }
       ]
     },
@@ -67,18 +95,11 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 7,
-          "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-          "summary": "Anthropic 因安全事件放缓模型扩展，暂停部分训练和评估工作。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmt0mqceo08lzro2o6xi3rlk4"
-        },
-        {
-          "n": 8,
-          "title": "OpenRouter 宣布加入 Stripe",
-          "summary": "OpenRouter 与 Stripe 合并，每日处理 10+ 万亿 token，服务 1000 万开发者。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc"
+          "n": 11,
+          "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
+          "summary": "OpenAI CFO称公司最迟2027年上市，企业业务年化增长50%。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt0s2ems0dkxro2oylebzxob"
         }
       ]
     },
@@ -86,25 +107,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 9,
-          "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
-          "summary": "LMSYS 团队在 H20 GPU 上优化 DeepSeek-V4-Pro，性能逼近 B300。",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "url": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh"
+          "n": 12,
+          "title": "数据受限下的多语言知识迁移：Apple 提出基于词汇干预的新方法",
+          "summary": "Apple提出词汇干预方法，解决低资源语言知识迁移问题。",
+          "source": "Apple Machine Learning Research（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt1nax0o02deroovp316md4c"
         },
         {
-          "n": 10,
-          "title": "苹果研究：LLM 类人行为的多维度分析——模型行为、用户因素与系统提示词的影响",
-          "summary": "苹果研究 LLM 类人行为，样本超 21000 条，提供决策依据。",
+          "n": 13,
+          "title": "数据约束下的混合预训练缩放定律",
+          "summary": "苹果研究团队量化混合预训练中目标数据占比的权衡问题。",
           "source": "Apple Machine Learning Research（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt05pnil12t8rodpf71tnq00"
-        },
-        {
-          "n": 11,
-          "title": "倒排索引遍历的 P-完全性：布尔查询 DAG 的复杂度评估",
-          "summary": "现代 AI 智能体搜索基础设施面临 O(2^|Q|) 查询复杂度爆炸问题。",
-          "source": "Apple Machine Learning Research（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt0eab5901fzro2oaa87wvg6"
+          "url": "https://aihot.virxact.com/items/cmt1nax0o02dfroovlqhc3duf"
         }
       ]
     },
@@ -112,25 +126,32 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 12,
-          "title": "GitHub Copilot app 初学者教程：用 My work 面板管理你的工作",
-          "summary": "GitHub Copilot app 的 My work 面板集中管理拉取请求和问题。",
-          "source": "GitHub Blog",
-          "url": "https://aihot.virxact.com/items/cmt0eewgp02noro2otibj5hge"
-        },
-        {
-          "n": 13,
-          "title": "Slack 如何构建人机智能体团队：对话即知识",
-          "summary": "Slack 首席产品官分享人机智能体团队协作最佳实践。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmt0iiky105nwro2oxbgu6r2v"
-        },
-        {
           "n": 14,
-          "title": "Databricks 如何从单一提示词设计高效的 Genie Agents",
-          "summary": "Databricks 发布指南，优化 Genie Agents 提示词设计提升查询准确性。",
-          "source": "Databricks：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt0bd90e17xyrodpl457pxr2"
+          "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
+          "summary": "Anthropic发布初创公司Claude Code使用指南，总结五大规则。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmt1k19bn06qgrokx1p75h1gv"
+        },
+        {
+          "n": 15,
+          "title": "OpenAI 推出 AI Futures 博客，探讨自由社会如何应对变革性 AI",
+          "summary": "OpenAI设Strategic Futures团队，探讨AI变革下的权力平衡。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmt1xl5qy0bcqroovbg8l2x5q"
+        },
+        {
+          "n": 16,
+          "title": "Leopold 的愚蠢：一个年轻人如何象征一个时代",
+          "summary": "文章指出生成式AI行业存在类似空头支票的投机成分。",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt1tqvhd07kfroovdo84515n"
+        },
+        {
+          "n": 17,
+          "title": "共和党因与大型科技公司关系陷入恐慌",
+          "summary": "共和党因AI议程不受欢迎陷入恐慌，特朗普转向鼓励AI预检。",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt11vfrx0m3pro2oh3rnt89a"
         }
       ]
     }
