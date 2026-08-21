@@ -24,7 +24,7 @@
         {
           "n": 2,
           "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
-          "summary": "Hugging Face发布LFM2.5系列DSpark草稿模型，提升GPU吞吐最高3.18倍。",
+          "summary": "Hugging Face发布LFM2.5系列DSpark草稿模型，GPU吞吐提升3.18倍。",
           "source": "Hugging Face：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt1rv5n8066iroovaxgoej1b"
         }
@@ -43,14 +43,14 @@
         {
           "n": 4,
           "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
-          "summary": "AlloyDB的ScaNN索引支持超100亿向量，查询复杂度降至O(N^1/4)。",
+          "summary": "AlloyDB的ScaNN索引支持百亿向量，查询复杂度降至O(N^1/4)。",
           "source": "Google Cloud：Databases（RSS）",
           "url": "https://aihot.virxact.com/items/cmt1r7jjh05lgroovc4zwypj6"
         },
         {
           "n": 5,
           "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
-          "summary": "Anthropic宣布Computer Use等API全面可用，新增浏览器操作工具。",
+          "summary": "Anthropic推出Computer Use、Skills API与Files API，新增浏览器操作工具。",
           "source": "Claude：Blog（网页）",
           "url": "https://aihot.virxact.com/items/cmt1z1q5n0c93roovlvh40tew"
         },
@@ -71,7 +71,7 @@
         {
           "n": 8,
           "title": "Claude Code v2.1.238 发布：新增 readline 键位、插件市场 headersHelper 与多项 Remote Control 修复",
-          "summary": "Claude Code v2.1.238新增keybindingFlavor设置与headersHelper插件。",
+          "summary": "Claude Code v2.1.238新增keybindingFlavor设置与headersHelper。",
           "source": "Claude Code：GitHub Releases（RSS）",
           "url": "https://aihot.virxact.com/items/cmt206dhq0d95roovjuqm08xj"
         },
@@ -97,7 +97,7 @@
         {
           "n": 11,
           "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
-          "summary": "OpenAI CFO称公司最迟2027年上市，企业业务年化增长50%。",
+          "summary": "OpenAI CFO称公司最迟2027年上市，企业业务增长50%。",
           "source": "IT之家（RSS）",
           "url": "https://aihot.virxact.com/items/cmt0s2ems0dkxro2oylebzxob"
         }
@@ -109,7 +109,7 @@
         {
           "n": 12,
           "title": "数据受限下的多语言知识迁移：Apple 提出基于词汇干预的新方法",
-          "summary": "Apple提出词汇干预方法，解决低资源语言知识迁移问题。",
+          "summary": "Apple提出基于词汇干预的多语言知识迁移方法，无需平行语料。",
           "source": "Apple Machine Learning Research（RSS）",
           "url": "https://aihot.virxact.com/items/cmt1nax0o02deroovp316md4c"
         },
@@ -135,7 +135,7 @@
         {
           "n": 15,
           "title": "OpenAI 推出 AI Futures 博客，探讨自由社会如何应对变革性 AI",
-          "summary": "OpenAI设Strategic Futures团队，探讨AI变革下的权力平衡。",
+          "summary": "OpenAI设Strategic Futures团队，探讨AI时代权力制衡问题。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "url": "https://aihot.virxact.com/items/cmt1xl5qy0bcqroovbg8l2x5q"
         },
@@ -149,7 +149,7 @@
         {
           "n": 17,
           "title": "共和党因与大型科技公司关系陷入恐慌",
-          "summary": "共和党因AI议程不受欢迎陷入恐慌，特朗普转向鼓励AI预检。",
+          "summary": "共和党因AI议程不受欢迎陷入恐慌，特朗普转向鼓励AI预检测试。",
           "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
           "url": "https://aihot.virxact.com/items/cmt11vfrx0m3pro2oh3rnt89a"
         }
