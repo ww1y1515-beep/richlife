@@ -17,7 +17,7 @@
         {
           "n": 1,
           "title": "面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型",
-          "summary": "面壁智能推出MathForm开源框架，其FormalVerse数据集含367K+示例，模型性能优于同类。",
+          "summary": "面壁智能推出MathForm开源框架，其FormalVerse数据集含367K+示例，训练模型效果优于同类。",
           "source": "X：面壁智能 OpenBMB (@OpenBMB)",
           "url": "https://aihot.virxact.com/items/cmt2yscvm0ca8ro6t0u6vtfnt"
         },
@@ -36,7 +36,7 @@
         {
           "n": 3,
           "title": "SGLang 推出 Weight Cache Daemon，实现亚秒级引擎重启",
-          "summary": "SGLang团队推出Weight Cache Daemon，模型权重加载时间从495秒降至0.63秒。",
+          "summary": "SGLang团队推出Weight Cache Daemon，模型权重加载加速785倍，启动时间减少93.9%。",
           "source": "LMSYS：Blog（Chatbot Arena 团队）",
           "url": "https://aihot.virxact.com/items/cmt393qow0kfiro6tpe87m4nu"
         },
@@ -73,7 +73,7 @@
         {
           "n": 7,
           "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
-          "summary": "审计发现22个前沿模型37.1%任务涉及作弊，真实解决率仅26.1%。",
+          "summary": "审计发现22个前沿模型37.1%任务涉及作弊，真实解决率仅26.1%，反作弊指令效果有限。",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "url": "https://aihot.virxact.com/items/cmt2ry1sl04ywro6t5znttdrs"
         },
@@ -94,21 +94,21 @@
         {
           "n": 10,
           "title": "微型语言模型中干扰权重的特征刻画",
-          "summary": "Anthropic训练单层transformer，首次演示干扰权重对训练损失的影响。",
+          "summary": "Anthropic训练单层transformer，首次演示干扰权重存在及其对训练损失影响。",
           "source": "Anthropic：Transformer Circuits（可解释性研究）",
           "url": "https://aihot.virxact.com/items/cmt3i1ue80t07ro6t35x9ik8j"
         },
         {
           "n": 11,
           "title": "Google 推出 Biomarker Discovery Framework：从可穿戴传感器数据中筛选候选生物标志物的多智能体系统",
-          "summary": "Google推出Biomarker Discovery Framework，从可穿戴数据筛选生物标志物。",
+          "summary": "Google推出Biomarker Discovery Framework，从可穿戴数据筛选生物标志物，提升预测性能。",
           "source": "Google Research：Blog（网页）",
           "url": "https://aihot.virxact.com/items/cmt39j70c0m0ero6tc4anjrlt"
         },
         {
           "n": 12,
           "title": "移动性如何让语言模型更深入地理解地点",
-          "summary": "Google Research推出ME-POIs框架，提升地点访问意图预测等任务性能。",
+          "summary": "Google Research推出ME-POIs框架，提升地点访问意图预测81.9%，繁忙度估算24.7%。",
           "source": "Google Research：Blog（网页）",
           "url": "https://aihot.virxact.com/items/cmt3cqxpd0o8nro6tzgl7u0ju"
         }
@@ -127,14 +127,14 @@
         {
           "n": 14,
           "title": "本地 AI 模型已能媲美云端前沿模型，数据中心将走向个人化",
-          "summary": "研究显示本地AI模型对89%日常问题回答质量与云端模型相当，效率提升显著。",
+          "summary": "斯坦福与Together AI研究显示本地AI模型对89%日常问题回答质量与云端模型相当。",
           "source": "Tomer Tunguz 博客（VC 分析）",
           "url": "https://aihot.virxact.com/items/cmt3fghce0q3yro6trd9m3qbl"
         },
         {
           "n": 15,
           "title": "数据中心狂热：AI 行业的经济账与政治反噬",
-          "summary": "AI数据中心收入数百亿，资本开支数万亿，收支严重失衡，政治毒性加剧。",
+          "summary": "AI数据中心收入数百亿，资本开支数万亿，收支失衡，美国共和党加速抛弃数据中心。",
           "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
           "url": "https://aihot.virxact.com/items/cmt3hrm6a0rqfro6ts02jft6f"
         }
