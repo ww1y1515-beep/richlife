@@ -1,144 +1,43 @@
 {
-  "date": "2026-08-22",
-  "date_human": "2026年8月22日",
-  "total": 15,
+  "date": "2026-08-23",
+  "date_human": "2026年8月23日",
+  "total": 1,
   "counts": {
-    "模型发布/更新": 2,
-    "产品发布/更新": 4,
-    "行业动态": 0,
-    "论文研究": 6,
-    "技巧与观点": 3
+    "模型发布/更新": 0,
+    "产品发布/更新": 0,
+    "行业动态": 1,
+    "论文研究": 0,
+    "技巧与观点": 0
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-22",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-23",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型",
-          "summary": "面壁智能推出MathForm开源框架，其FormalVerse数据集含367K+示例，训练模型效果优于同类。",
-          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-          "url": "https://aihot.virxact.com/items/cmt2yscvm0ca8ro6t0u6vtfnt"
-        },
-        {
-          "n": 2,
-          "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
-          "summary": "DeepSeek上线多模态视觉理解模型DeepSeek-V4-Flash-Vision-Exp，可通过API访问。",
-          "source": "DeepSeek：API 更新日志",
-          "url": "https://aihot.virxact.com/items/cmt2qvfnj03zxro6tehwcikx4"
-        }
-      ]
-    },
-    {
-      "name": "产品发布/更新",
-      "items": [
-        {
-          "n": 3,
-          "title": "SGLang 推出 Weight Cache Daemon，实现亚秒级引擎重启",
-          "summary": "SGLang团队推出Weight Cache Daemon，模型权重加载加速785倍，启动时间减少93.9%。",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "url": "https://aihot.virxact.com/items/cmt393qow0kfiro6tpe87m4nu"
-        },
-        {
-          "n": 4,
-          "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
-          "summary": "Anthropic将Claude Mythos 5集成至Claude Security，并推出3500万美元Defen…",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmt396dpw0kj0ro6tdktqkp8s"
-        },
-        {
-          "n": 5,
-          "title": "Grok Bot 扩展至更多订阅计划",
-          "summary": "xAI宣布Grok Bot现包含于SuperGrok Plus等计划，支持文本交互与并行运行多个Bot。",
-          "source": "xAI：News（网页）",
-          "url": "https://aihot.virxact.com/items/cmt38iz5m0k1nro6t8u8dgjgd"
-        },
-        {
-          "n": 6,
-          "title": "Claude Code v2.1.239 发布：修复多项 Bug 并新增成本估算与 /claude-api 升级功能",
-          "summary": "Claude Code v2.1.239发布，成本估算包含数据驻留溢价，新增全屏渲染器。",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt3dh9qd0oqmro6tekeyn7iu"
-        }
-      ]
-    },
-    {
-      "name": "行业动态",
       "items": []
     },
     {
-      "name": "论文研究",
+      "name": "产品发布/更新",
+      "items": []
+    },
+    {
+      "name": "行业动态",
       "items": [
         {
-          "n": 7,
-          "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
-          "summary": "审计发现22个前沿模型37.1%任务涉及作弊，真实解决率仅26.1%，反作弊指令效果有限。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmt2ry1sl04ywro6t5znttdrs"
-        },
-        {
-          "n": 8,
-          "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型“刷分”现象",
-          "summary": "Hugging Face研究显示多个ASR模型复现基准错误转录，得分高估真实能力。",
-          "source": "Hugging Face：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt30vskr0e0wro6t19q13yic"
-        },
-        {
-          "n": 9,
-          "title": "Ling-3.0-flash 在 4 块 Blackwell GPU 上如何将批处理 1 解码延迟降低 54%",
-          "summary": "蚂蚁与RadixArk团队将Ling-3.0-flash模型解码速度从288 tok/s提升至606 tok/s。",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "url": "https://aihot.virxact.com/items/cmt393qov0kfhro6tuwhxhubl"
-        },
-        {
-          "n": 10,
-          "title": "微型语言模型中干扰权重的特征刻画",
-          "summary": "Anthropic训练单层transformer，首次演示干扰权重存在及其对训练损失影响。",
-          "source": "Anthropic：Transformer Circuits（可解释性研究）",
-          "url": "https://aihot.virxact.com/items/cmt3i1ue80t07ro6t35x9ik8j"
-        },
-        {
-          "n": 11,
-          "title": "Google 推出 Biomarker Discovery Framework：从可穿戴传感器数据中筛选候选生物标志物的多智能体系统",
-          "summary": "Google推出Biomarker Discovery Framework，从可穿戴数据筛选生物标志物，提升预测性能。",
-          "source": "Google Research：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmt39j70c0m0ero6tc4anjrlt"
-        },
-        {
-          "n": 12,
-          "title": "移动性如何让语言模型更深入地理解地点",
-          "summary": "Google Research推出ME-POIs框架，提升地点访问意图预测81.9%，繁忙度估算24.7%。",
-          "source": "Google Research：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmt3cqxpd0o8nro6tzgl7u0ju"
+          "n": 1,
+          "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚“冰丝带”，666 支队伍竞技 51 赛项",
+          "summary": "第二届世界人形机器人运动会开幕，666支队伍2056台机器人参赛，天工Ultra百米9.39秒破纪录。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt4gz31f1l1qro6tprhfg5ys"
         }
       ]
     },
     {
+      "name": "论文研究",
+      "items": []
+    },
+    {
       "name": "技巧与观点",
-      "items": [
-        {
-          "n": 13,
-          "title": "AI 原生 SDLC 实战手册：Anthropic 如何用 Claude 重塑软件开发生命周期",
-          "summary": "Anthropic发布AI原生SDLC手册，重构软件开发生命周期为AI嵌入闭环流程。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmt31oi0x0ehyro6tui3xycqe"
-        },
-        {
-          "n": 14,
-          "title": "本地 AI 模型已能媲美云端前沿模型，数据中心将走向个人化",
-          "summary": "斯坦福与Together AI研究显示本地AI模型对89%日常问题回答质量与云端模型相当。",
-          "source": "Tomer Tunguz 博客（VC 分析）",
-          "url": "https://aihot.virxact.com/items/cmt3fghce0q3yro6trd9m3qbl"
-        },
-        {
-          "n": 15,
-          "title": "数据中心狂热：AI 行业的经济账与政治反噬",
-          "summary": "AI数据中心收入数百亿，资本开支数万亿，收支失衡，美国共和党加速抛弃数据中心。",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt3hrm6a0rqfro6ts02jft6f"
-        }
-      ]
+      "items": []
     }
   ]
 }
