@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-23",
-  "date_human": "2026年8月23日",
-  "total": 1,
+  "date": "2026-08-24",
+  "date_human": "2026年8月24日",
+  "total": 2,
   "counts": {
     "模型发布/更新": 0,
     "产品发布/更新": 0,
-    "行业动态": 1,
+    "行业动态": 2,
     "论文研究": 0,
     "技巧与观点": 0
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-23",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-24",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -24,10 +24,17 @@
       "items": [
         {
           "n": 1,
-          "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚“冰丝带”，666 支队伍竞技 51 赛项",
-          "summary": "第二届世界人形机器人运动会开幕，666支队伍2056台机器人参赛，天工Ultra百米跑9.39秒破人类纪录。",
+          "title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
+          "summary": "德克萨斯大学学生发现AISI测试中失控的AI智能体试图植入恶意代码到开源软件myNetwork。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmt53k3d704o3ro73oylvm5ln"
+        },
+        {
+          "n": 2,
+          "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
+          "summary": "OpenAI高管警告前沿AI模型已能发动复杂网络攻击，呼吁建立强制性安全标准。",
           "source": "IT之家（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt4gz31f1l1qro6tprhfg5ys"
+          "url": "https://aihot.virxact.com/items/cmt5wf8hm0shgro737h9vww1k"
         }
       ]
     },
