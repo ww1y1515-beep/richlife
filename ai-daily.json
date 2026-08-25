@@ -17,7 +17,7 @@
         {
           "n": 1,
           "title": "GPT-5.6 登陆 Kiro，为开发者提升性价比",
-          "summary": "GPT-5.6 模型家族登陆 Kiro，Terra 模型任务成本降低 82%。",
+          "summary": "GPT-5.6 模型家族登陆 Kiro，Terra 模型任务成本降低 82%",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "url": "https://aihot.virxact.com/items/cmt7nzq6i2c27ro73tqxagz44"
         }
@@ -29,35 +29,35 @@
         {
           "n": 2,
           "title": "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍",
-          "summary": "NVIDIA Vera Rubin NVL72 吞吐量提升 30 倍，成本降至 35 倍。",
+          "summary": "NVIDIA Vera Rubin NVL72 每兆瓦吞吐量提升 30 倍",
           "source": "NVIDIA Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7e0g7y232wro738qg82x67"
         },
         {
           "n": 3,
           "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
-          "summary": "Meta 开源 MetaRoCE，专为 AI 优化的 RDMA 协议。",
+          "summary": "Meta 开源 MetaRoCE，为 AI 工作负载优化以太网 RDMA 协议",
           "source": "Meta Engineering Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7nq1d02bs1ro7373u88po4"
         },
         {
           "n": 4,
           "title": "NVIDIA 如何用 NVLink Fusion 让定制 XPU 融入世界级 AI 工厂",
-          "summary": "NVIDIA 推出 NVLink Fusion，XPU 间延迟降低 3 倍。",
+          "summary": "NVIDIA 推出 NVLink Fusion，XPU 间延迟降低 3 倍",
           "source": "NVIDIA Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7e0g7y232uro73in6qfyu8"
         },
         {
           "n": 5,
           "title": "MTIA 300：Meta 首款内置 NIC 与通信卸载引擎的训练芯片",
-          "summary": "Meta 发布 MTIA 300，推荐模型训练优化芯片。",
+          "summary": "Meta 发布 MTIA 300 自研芯片，优化推荐模型训练",
           "source": "Meta Engineering Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7jfq8b27ifro73rq5ao3ro"
         },
         {
           "n": 6,
           "title": "NVIDIA 扩展 Vera Rubin 推理能力，Groq 3 LPX 全面投产支持智能体系统",
-          "summary": "NVIDIA Vera Rubin NVL72 扩展 token 生成能力。",
+          "summary": "NVIDIA Vera Rubin NVL72 扩展 token 生成能力支持智能体",
           "source": "NVIDIA Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7e0g7y232vro73h5qdphen"
         }
@@ -69,14 +69,14 @@
         {
           "n": 7,
           "title": "Mistral 与 HUMAIN 达成战略合作，推进沙特及中东主权 AI",
-          "summary": "Mistral 与 HUMAIN 合作开发阿拉伯语 AI 模型。",
+          "summary": "Mistral 与 HUMAIN 合作开发阿拉伯语 AI 模型",
           "source": "Mistral AI：News（网页）",
           "url": "https://aihot.virxact.com/items/cmt7o0j0d2c2fro73v4d7k8nz"
         },
         {
           "n": 8,
           "title": "丰田北美如何用 Deep Agents 和 LangSmith 规模化企业 AI",
-          "summary": "丰田北美用 AI 智能体将交付周期从 6 月缩至 4 天。",
+          "summary": "丰田北美用 AI 智能体将交付周期从 6 个月缩至 4 天",
           "source": "LangChain：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7kxoay29laro73gn4kt0gy"
         }
@@ -88,7 +88,7 @@
         {
           "n": 9,
           "title": "Beyond Visual CoT：Internalized Visual Thinking 实现主动视频推理",
-          "summary": "新框架 IVT 内化视觉思考，降低推理成本。",
+          "summary": "新框架 IVT 内化视觉思考降低多模态模型推理成本",
           "source": "Apple Machine Learning Research（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7f8jmb249hro73by2hu7ti"
         }
@@ -100,35 +100,35 @@
         {
           "n": 10,
           "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-          "summary": "OpenAI 推出 ChatGPT Work，月费 20 美元。",
+          "summary": "OpenAI 推出 ChatGPT Work，月费 20 美元面向非工程师",
           "source": "TechCrunch：AI（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7e3m7h234gro73wwwhymb0"
         },
         {
           "n": 11,
           "title": "ADK 如何评估实时语音智能体",
-          "summary": "Google ADK 支持实时评估语音智能体。",
+          "summary": "Google ADK 支持音频驱动实时语音智能体评估",
           "source": "Google Developers Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7kh1fc294fro734i8ab8hh"
         },
         {
           "n": 12,
           "title": "Databricks 如何从本地 IDE 运行、调试和扩展工作负载",
-          "summary": "Databricks 支持本地 IDE 直接运行云端工作负载。",
+          "summary": "Databricks 支持本地 IDE 直接运行云端工作负载",
           "source": "Databricks：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmt7isiid2710ro73lai3274f"
         },
         {
           "n": 13,
           "title": "你的alt文本能通过自动化检查，不代表它真的合格",
-          "summary": "GitHub 推出 alt 文本检测插件，提升网页可访问性。",
+          "summary": "GitHub 推出 alt 文本检测插件优化网页可访问性",
           "source": "GitHub Blog",
           "url": "https://aihot.virxact.com/items/cmt7q32662diiro73mypfdhil"
         },
         {
           "n": 14,
           "title": "Anthropic 市场人员如何用 Claude Code 每周为每位销售代表发送个性化更新",
-          "summary": "Anthropic 用 Claude Code 自动生成销售简报。",
+          "summary": "Anthropic 用 Claude Code 自动化生成销售简报",
           "source": "Claude：Blog（网页）",
           "url": "https://aihot.virxact.com/items/cmt7e978k238lro73cr8tyjhv"
         }
