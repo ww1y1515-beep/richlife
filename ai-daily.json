@@ -1,25 +1,25 @@
 {
-  "date": "2026-08-25",
-  "date_human": "2026年8月25日",
-  "total": 14,
+  "date": "2026-08-26",
+  "date_human": "2026年8月26日",
+  "total": 19,
   "counts": {
     "模型发布/更新": 1,
-    "产品发布/更新": 5,
+    "产品发布/更新": 8,
     "行业动态": 2,
-    "论文研究": 1,
-    "技巧与观点": 5
+    "论文研究": 2,
+    "技巧与观点": 6
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-25",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-26",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "GPT-5.6 登陆 Kiro，为开发者提升性价比",
-          "summary": "GPT-5.6 模型家族登陆 Kiro，Terra 模型任务成本降低 82%",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmt7nzq6i2c27ro73tqxagz44"
+          "title": "WeatherNext 预测气旋：提前五天预警五级飓风",
+          "summary": "Google AI 发布 WeatherNext 气旋预测模型，比现有系统多提供一天预警时间。",
+          "source": "X：Google AI (@GoogleAI)",
+          "url": "https://aihot.virxact.com/items/cmt8uphwp3qmhro73czv8pbpv"
         }
       ]
     },
@@ -28,38 +28,59 @@
       "items": [
         {
           "n": 2,
-          "title": "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍",
-          "summary": "NVIDIA Vera Rubin NVL72 每兆瓦吞吐量提升 30 倍",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7e0g7y232wro738qg82x67"
+          "title": "OpenWorker 新版发布，内置网络安全智能体",
+          "summary": "Andrew Ng 开源智能体 OpenWorker 新版强化安全工作流，支持本地运行开源权重模型。",
+          "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+          "url": "https://aihot.virxact.com/items/cmt90wf1p06j9roly5e34fmu3"
         },
         {
           "n": 3,
-          "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
-          "summary": "Meta 开源 MetaRoCE，为 AI 工作负载优化以太网 RDMA 协议",
-          "source": "Meta Engineering Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7nq1d02bs1ro7373u88po4"
+          "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑",
+          "summary": "Claude 统一聊天与 Claude Cowork 记忆，用户可调用上下文减少重复解释。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmt8z2eko055crolytaitdxv8"
         },
         {
           "n": 4,
-          "title": "NVIDIA 如何用 NVLink Fusion 让定制 XPU 融入世界级 AI 工厂",
-          "summary": "NVIDIA 推出 NVLink Fusion，XPU 间延迟降低 3 倍",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7e0g7y232uro73in6qfyu8"
+          "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
+          "summary": "Apple 发布搭载 M5 Max 与 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt8qee503kvnro73qp7543yv"
         },
         {
           "n": 5,
-          "title": "MTIA 300：Meta 首款内置 NIC 与通信卸载引擎的训练芯片",
-          "summary": "Meta 发布 MTIA 300 自研芯片，优化推荐模型训练",
-          "source": "Meta Engineering Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7jfq8b27ifro73rq5ao3ro"
+          "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
+          "summary": "LangChain 与 Airbyte 集成方案实现数据摄取自动化，扩展检索应用至生产环境。",
+          "source": "LangChain：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt96t9tm0augrolyx2c3vi84"
         },
         {
           "n": 6,
-          "title": "NVIDIA 扩展 Vera Rubin 推理能力，Groq 3 LPX 全面投产支持智能体系统",
-          "summary": "NVIDIA Vera Rubin NVL72 扩展 token 生成能力支持智能体",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7e0g7y232vro73h5qdphen"
+          "title": "Apple 发布搭载全新 M6 与 M5 Pro 芯片的 Mac mini",
+          "summary": "Apple 推出新款 Mac mini，搭载 M6 与 M5 Pro 芯片，AI 性能最高提升 4 倍。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt8qee503kvoro73v13wlyhx"
+        },
+        {
+          "n": 7,
+          "title": "Apple 发布 M6 与 M5 Ultra，性能与 AI 算力大幅跃升",
+          "summary": "Apple 推出首款 2nm 芯片 M6，多线程性能较 M5 提升 1.2 倍。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt8qee503kvpro73kzthenuu"
+        },
+        {
+          "n": 8,
+          "title": "OpenAI 推出 ChatGPT Work 和 Codex 的 Admin 插件",
+          "summary": "OpenAI 为 ChatGPT Work 和 Codex 推出 Admin 插件，简化管理工作流。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmt8ynukg03qwrolyv8angshf"
+        },
+        {
+          "n": 9,
+          "title": "OpenAI 自研推理芯片 Jalapeño 首秀：行业领先的速度与能效",
+          "summary": "OpenAI 发布自研推理芯片 Jalapeño，提供更快、更节能的 AI 推理。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmt8s7b9n3nehro7373spjgr9"
         }
       ]
     },
@@ -67,18 +88,18 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 7,
-          "title": "Mistral 与 HUMAIN 达成战略合作，推进沙特及中东主权 AI",
-          "summary": "Mistral 与 HUMAIN 合作开发阿拉伯语 AI 模型",
-          "source": "Mistral AI：News（网页）",
-          "url": "https://aihot.virxact.com/items/cmt7o0j0d2c2fro73v4d7k8nz"
+          "n": 10,
+          "title": "Anthropic 推出 500 万美元资助计划，支持 AI 对用户幸福感影响的独立评估",
+          "summary": "Anthropic 启动 500 万美元资助计划，研究 AI 对用户幸福感的影响。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.virxact.com/items/cmt8vum1y01btrolykwzvp4qj"
         },
         {
-          "n": 8,
-          "title": "丰田北美如何用 Deep Agents 和 LangSmith 规模化企业 AI",
-          "summary": "丰田北美用 AI 智能体将交付周期从 6 个月缩至 4 天",
-          "source": "LangChain：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7kxoay29laro73gn4kt0gy"
+          "n": 11,
+          "title": "OpenAI 封禁俄罗斯虚假影响力行动账号",
+          "summary": "OpenAI 封禁俄罗斯账号，其利用 AI 推广虚构以色列智库及“主权”指数。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmt8fvd73364hro739xk5ztjd"
         }
       ]
     },
@@ -86,11 +107,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 9,
-          "title": "Beyond Visual CoT：Internalized Visual Thinking 实现主动视频推理",
-          "summary": "新框架 IVT 内化视觉思考降低多模态模型推理成本",
+          "n": 12,
+          "title": "AgentHands：为XR空间对话智能体生成交互式手部手势",
+          "summary": "Google 发布 AgentHands，利用 LLM 为 XR 智能体生成语音同步手势。",
+          "source": "Google Research：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmt93murb08lwroly1kznlf9q"
+        },
+        {
+          "n": 13,
+          "title": "STARFlow2：用归一化流桥接语言模型，实现统一多模态生成",
+          "summary": "STARFlow2 统一自回归归一化流与语言模型，用于多模态生成。",
           "source": "Apple Machine Learning Research（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7f8jmb249hro73by2hu7ti"
+          "url": "https://aihot.virxact.com/items/cmt8qe8m43krcro733w0g56m6"
         }
       ]
     },
@@ -98,39 +126,46 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 10,
-          "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-          "summary": "OpenAI 推出 ChatGPT Work，月费 20 美元面向非工程师",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7e3m7h234gro73wwwhymb0"
-        },
-        {
-          "n": 11,
-          "title": "ADK 如何评估实时语音智能体",
-          "summary": "Google ADK 支持音频驱动实时语音智能体评估",
-          "source": "Google Developers Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7kh1fc294fro734i8ab8hh"
-        },
-        {
-          "n": 12,
-          "title": "Databricks 如何从本地 IDE 运行、调试和扩展工作负载",
-          "summary": "Databricks 支持本地 IDE 直接运行云端工作负载",
-          "source": "Databricks：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt7isiid2710ro73lai3274f"
-        },
-        {
-          "n": 13,
-          "title": "你的alt文本能通过自动化检查，不代表它真的合格",
-          "summary": "GitHub 推出 alt 文本检测插件优化网页可访问性",
-          "source": "GitHub Blog",
-          "url": "https://aihot.virxact.com/items/cmt7q32662diiro73mypfdhil"
-        },
-        {
           "n": 14,
-          "title": "Anthropic 市场人员如何用 Claude Code 每周为每位销售代表发送个性化更新",
-          "summary": "Anthropic 用 Claude Code 自动化生成销售简报",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmt7e978k238lro73cr8tyjhv"
+          "title": "如何在编辑器里实时挑选最佳 AI 模型",
+          "summary": "OpenRouter 提出模型选型框架，以“每完成任务的成本”为标准。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt924nw007a4rolyhmqbswmh"
+        },
+        {
+          "n": 15,
+          "title": "OpenRouter 视频生成 API：一份代码优先的接入指南",
+          "summary": "OpenRouter 推出统一异步视频生成 API，支持多种模型切换。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt8zzh0w05nirolyozmvq7i0"
+        },
+        {
+          "n": 16,
+          "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
+          "summary": "Anthropic 和 OpenAI 预计 2028 年将控制全球大部分可用 FLOPs。",
+          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt8vaqtw3r29ro73d67v03bc"
+        },
+        {
+          "n": 17,
+          "title": "LangChain 评测 CSV 数据问答系统：智能体、检索与 LLM 评估",
+          "summary": "LangChain 发布 CSV 数据问答系统基准评测，提供开源代码。",
+          "source": "LangChain：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt96t9tm0audrolyiu4rtbez"
+        },
+        {
+          "n": 18,
+          "title": "LLMs 与 SQL：用 LangChain 构建可靠的 text-to-SQL 方案",
+          "summary": "探讨用大语言模型以自然语言查询 SQL 数据库的技术方法。",
+          "source": "LangChain：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt92ixp507r0roly5izppuco"
+        },
+        {
+          "n": 19,
+          "title": "Google Search 升级家居装饰的 5 种方法",
+          "summary": "Google Search 推出五种家居装饰实用功能，包括 AI 生成效果图。",
+          "source": "Google Blog：AI（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt8vs3zv01a8rolymtd6hpfy"
         }
       ]
     }
