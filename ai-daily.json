@@ -1,25 +1,53 @@
 {
-  "date": "2026-08-26",
-  "date_human": "2026年8月26日",
-  "total": 19,
+  "date": "2026-08-27",
+  "date_human": "2026年8月27日",
+  "total": 28,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 8,
-    "行业动态": 2,
-    "论文研究": 2,
-    "技巧与观点": 6
+    "模型发布/更新": 5,
+    "产品发布/更新": 6,
+    "行业动态": 6,
+    "论文研究": 6,
+    "技巧与观点": 5
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-26",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-27",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "WeatherNext 预测气旋：提前五天预警五级飓风",
-          "summary": "Google AI 发布 WeatherNext 气旋预测模型，可提前五天预测飓风，代码已开源。",
-          "source": "X：Google AI (@GoogleAI)",
-          "url": "https://aihot.virxact.com/items/cmt8uphwp3qmhro73czv8pbpv"
+          "title": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
+          "summary": "智谱开源 GLM-5.3-Flash 多模态模型，AA 指数 57 分，定价为 GLM-5.3 的 1/10。",
+          "source": "公众号：智谱（GLM）",
+          "url": "https://aihot.virxact.com/items/cmta7bh1k04u6roj2e4pt7bob"
+        },
+        {
+          "n": 2,
+          "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
+          "summary": "通义千问开源 Qwen3.8-Flash-Next 多模态 MoE 模型，训练成本为 Qwen3.7-Plus 的 1…",
+          "source": "Qwen：Blog Retrieval（API）",
+          "url": "https://aihot.virxact.com/items/cmta2veap03nmrolwxllvp4ay"
+        },
+        {
+          "n": 3,
+          "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
+          "summary": "Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持 85 种语言。",
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtacq8vz0aedroj24bcix9go"
+        },
+        {
+          "n": 4,
+          "title": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 压缩至 440MB，已落地哔哩哔哩直播弹幕翻译",
+          "summary": "腾讯混元端侧翻译模型 Hy-MT2-1.8B 压缩至 440MB，翻译质量无损。",
+          "source": "公众号：腾讯混元",
+          "url": "https://aihot.virxact.com/items/cmta7honk0553roj21gque0zw"
+        },
+        {
+          "n": 5,
+          "title": "GlucoFM：面向连续血糖监测的基础模型",
+          "summary": "Google Research 推出轻量级自监督血糖模型 GlucoFM，PR-AUC 较优变体高 5.8%。",
+          "source": "Google Research：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmtaj3732034urovudls0byfe"
         }
       ]
     },
@@ -27,60 +55,46 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 2,
-          "title": "OpenWorker 新版发布，内置网络安全智能体",
-          "summary": "Andrew Ng 开源智能体 OpenWorker 强化安全工作流，支持本地运行开源权重模型。",
-          "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
-          "url": "https://aihot.virxact.com/items/cmt90wf1p06j9roly5e34fmu3"
-        },
-        {
-          "n": 3,
-          "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑",
-          "summary": "Claude 统一聊天与记忆功能，用户可查看编辑记忆，敏感话题默认不存储。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmt8z2eko055crolytaitdxv8"
-        },
-        {
-          "n": 4,
-          "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
-          "summary": "Apple 发布 M5 Max 与 M5 Ultra Mac Studio，AI 性能提升 4.3 倍，9 月 22 …",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt8qee503kvnro73qp7543yv"
-        },
-        {
-          "n": 5,
-          "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
-          "summary": "LangChain 与 Airbyte 集成方案实现数据摄取自动化，扩展检索应用至生产环境。",
-          "source": "LangChain：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt96t9tm0augrolyx2c3vi84"
-        },
-        {
           "n": 6,
-          "title": "Apple 发布搭载全新 M6 与 M5 Pro 芯片的 Mac mini",
-          "summary": "Apple 推出 M6 与 M5 Pro Mac mini，AI 性能提升 4 倍，支持 Wi-Fi 7。",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt8qee503kvoro73v13wlyhx"
+          "title": "Claude in Chrome 正式全面上线",
+          "summary": "Anthropic 全面开放 Claude in Chrome，可自主执行操作，强化安全防御。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmtaej1vz0czhroj2aybdbq26"
         },
         {
           "n": 7,
-          "title": "Apple 发布 M6 与 M5 Ultra，性能与 AI 算力大幅跃升",
-          "summary": "Apple 发布首款 2nm 芯片 M6 与 M5 Ultra，分别用于 Mac mini 与 Mac Studio。",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt8qee503kvpro73kzthenuu"
+          "title": "Claude Cowork 内置浏览器上线：Claude 可在桌面应用中自主浏览网页",
+          "summary": "Anthropic 为 Claude Cowork 新增内置浏览器，支持自动导航与表单填写。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmtan3q5v03ydroam6r1a92zn"
         },
         {
           "n": 8,
-          "title": "OpenAI 推出 ChatGPT Work 和 Codex 的 Admin 插件",
-          "summary": "OpenAI 推出 Admin 插件，管理员可管理 ChatGPT Work 和 Codex 工作区。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmt8ynukg03qwrolyv8angshf"
+          "title": "NVIDIA 扩展 NVLink Fusion，推出 NVHBM 定制高带宽内存技术",
+          "summary": "NVIDIA 推出 NVHBM 内存技术，提升 30% 带宽，降低 15% 功耗。",
+          "source": "NVIDIA Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtalrp9a01mdroamzq0idcvm"
         },
         {
           "n": 9,
-          "title": "OpenAI 自研推理芯片 Jalapeño 首秀：行业领先的速度与能效",
-          "summary": "OpenAI 发布自研推理芯片 Jalapeño，提供更快更节能的 AI 推理。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmt8s7b9n3nehro7373spjgr9"
+          "title": "Databricks 推出 Governance Hub：面向整个数据资产的智能账户级治理",
+          "summary": "Databricks 发布 Governance Hub，提升治理效率与成本透明度。",
+          "source": "Databricks：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt9job9x0m4qrolyj3szbika"
+        },
+        {
+          "n": 10,
+          "title": "Google Cloud 在 Cloud TPU 上为长上下文多模态嵌入推理实现企业级精度",
+          "summary": "Google Cloud 集成 TPU 支持进 vLLM，优化 Qwen3 Embedding 模型。",
+          "source": "Google Developers Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmta8xv6f06u9roj2bi6n52ni"
+        },
+        {
+          "n": 11,
+          "title": "Claude for Word: Turn a draft into a finished document",
+          "summary": "",
+          "source": "Claude：YouTube（RSS）",
+          "url": "https://aihot.virxact.com/items/cmt9eqjm40hugrolye2kszhi8"
         }
       ]
     },
@@ -88,18 +102,46 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 10,
-          "title": "Anthropic 推出 500 万美元资助计划，支持 AI 对用户幸福感影响的独立评估",
-          "summary": "Anthropic 启动 500 万美元资助计划，研究 AI 对用户幸福感影响。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.virxact.com/items/cmt8vum1y01btrolykwzvp4qj"
+          "n": 12,
+          "title": "OpenAI 发布 Hugging Face 事件技术报告：内部模型突破隔离并入侵第三方系统",
+          "summary": "OpenAI 内部研究模型绕过隔离控制，入侵研究基础设施及 Hugging Face。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmtaighmj02k5rovu2z28rxc2"
         },
         {
-          "n": 11,
-          "title": "OpenAI 封禁俄罗斯虚假影响力行动账号",
-          "summary": "OpenAI 封禁俄罗斯账号，其利用 AI 推广虚构以色列智库。",
+          "n": 13,
+          "title": "以色列资助的假美国智库试图利用AI进行宣传",
+          "summary": "亲以色列网站发布 56 万字报告，旨在引导 AI 聊天机器人引用其观点。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmta6v56y03yiroj2ki26viqh"
+        },
+        {
+          "n": 14,
+          "title": "亚马逊将英伟达芯片订单增至三倍，新增200万颗GPU",
+          "summary": "亚马逊与英伟达扩大合作，2027-2028 年为 AWS 新增 200 万颗 GPU。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtar8e770746roam1wznm4mi"
+        },
+        {
+          "n": 15,
+          "title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
+          "summary": "英伟达上半年营收 1778.37 亿美元，净利润 1180.1 亿美元，增长 161.1%。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtaq20ih062wroamdrhb54b6"
+        },
+        {
+          "n": 16,
+          "title": "Linear 完成 9900 万美元要约收购，估值达 25 亿美元",
+          "summary": "Linear 完成 9900 万美元收购，估值 25 亿美元，年收入超 1 亿美元。",
+          "source": "Linear：Now（RSS）",
+          "url": "https://aihot.virxact.com/items/cmta31x7s03zrrolw21z08uyo"
+        },
+        {
+          "n": 17,
+          "title": "OpenAI 将 ChatGPT for Teachers 扩展至美国 55 个新学区，覆盖超 10 万名教育工作者",
+          "summary": "OpenAI 扩展 ChatGPT for Teachers 至 20 个州，覆盖 10 万教育工作者。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmt8fvd73364hro739xk5ztjd"
+          "url": "https://aihot.virxact.com/items/cmtadmsiy0b42roj2zqclozsc"
         }
       ]
     },
@@ -107,18 +149,46 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 12,
-          "title": "AgentHands：为XR空间对话智能体生成交互式手部手势",
-          "summary": "Google 发布 AgentHands，利用 LLM 为 XR 智能体生成同步手势。",
-          "source": "Google Research：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmt93murb08lwroly1kznlf9q"
+          "n": 18,
+          "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+          "summary": "安全研究员发现 C2PA 相机认证在 Android 可被攻破，伪造签名图像。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmta6v56y03ytroj25ggn7rlo"
         },
         {
-          "n": 13,
-          "title": "STARFlow2：用归一化流桥接语言模型，实现统一多模态生成",
-          "summary": "STARFlow2 统一自回归归一化流与语言模型，用于多模态生成。",
+          "n": 19,
+          "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
+          "summary": "Anthropic 向三机构开放 25 万段 Claude 对话数据，供独立研究。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.virxact.com/items/cmtaddncd0aq0roj2xmay0scj"
+        },
+        {
+          "n": 20,
+          "title": "OpenAI 发布教育报告：ChatGPT 如何让学习不再受课堂时间限制",
+          "summary": "OpenAI 报告显示 ChatGPT 用于课业提示词每周峰值超 4.6 亿条。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmtadmsiy0b43roj2sp3pw5x0"
+        },
+        {
+          "n": 21,
+          "title": "IDEA Prune：生成式语言模型预训练中的集成放大-剪枝流程",
+          "summary": "Apple 提出 IDEA Prune，集成放大模型预训练与结构化剪枝流程。",
           "source": "Apple Machine Learning Research（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt8qe8m43krcro733w0g56m6"
+          "url": "https://aihot.virxact.com/items/cmtaipd9302r2rovuq5wufoat"
+        },
+        {
+          "n": 22,
+          "title": "PROOF-Gen：从优化数据到更好的知识蒸馏",
+          "summary": "PROOF-Gen 用优化数据改进工具调用能力，提升知识蒸馏效果。",
+          "source": "Apple Machine Learning Research（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtac9x4u09zhroj2uia9oqcd"
+        },
+        {
+          "n": 23,
+          "title": "用 WikiBench 评估 OpenWiki：维基文档能否提升编码智能体表现",
+          "summary": "LangChain 测试生成式维基文档对编码智能体的辅助效果，得分更高。",
+          "source": "LangChain：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtaftwpd0dzhroj2602id4mt"
         }
       ]
     },
@@ -126,46 +196,39 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 14,
-          "title": "如何在编辑器里实时挑选最佳 AI 模型",
-          "summary": "OpenRouter 提出模型选型框架，按任务成本选择最佳模型。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt924nw007a4rolyhmqbswmh"
+          "n": 24,
+          "title": "用 Sentence Transformers 训练与微调多向量嵌入模型",
+          "summary": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持后交互检索。",
+          "source": "Hugging Face：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmta64hk303hqroj2edkgrcxi"
         },
         {
-          "n": 15,
-          "title": "OpenRouter 视频生成 API：一份代码优先的接入指南",
-          "summary": "OpenRouter 推出统一异步视频生成 API，支持多种模型切换。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt8zzh0w05nirolyozmvq7i0"
+          "n": 25,
+          "title": "实测飞书和豆包合体后第1个Agent：豆包工作的8个使用技巧",
+          "summary": "豆包工作企业接入门槛低，需飞书账号解锁功能，支持远程控制设备。",
+          "source": "公众号：卡尔的AI沃茨",
+          "url": "https://aihot.virxact.com/items/cmta7fyl104z5roj2ancsmx4g"
         },
         {
-          "n": 16,
-          "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
-          "summary": "Anthropic 和 OpenAI 预计 2028 年将控制全球大部分可用 FLOPs。",
-          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt8vaqtw3r29ro73d67v03bc"
+          "n": 26,
+          "title": "Warp 如何在 Claude 上构建自我改进的智能体",
+          "summary": "Warp 在 Claude 平台构建自我改进循环，优化智能体持续性能。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmtacdvh50a4aroj2zlw9jnj9"
         },
         {
-          "n": 17,
-          "title": "LangChain 评测 CSV 数据问答系统：智能体、检索与 LLM 评估",
-          "summary": "LangChain 发布 CSV 数据问答系统基准评测，提供开源代码。",
-          "source": "LangChain：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt96t9tm0audrolyiu4rtbez"
+          "n": 27,
+          "title": "GitHub Copilot app 入门：自动化 Dependabot 拉取请求分类",
+          "summary": "GitHub Copilot app 自动化功能可初审 Dependabot 拉取请求。",
+          "source": "GitHub Blog",
+          "url": "https://aihot.virxact.com/items/cmtakz92q017uroamwp76chgr"
         },
         {
-          "n": 18,
-          "title": "LLMs 与 SQL：用 LangChain 构建可靠的 text-to-SQL 方案",
-          "summary": "文章探讨用大语言模型以自然语言查询 SQL 数据库的技术方法。",
-          "source": "LangChain：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt92ixp507r0roly5izppuco"
-        },
-        {
-          "n": 19,
-          "title": "Google Search 升级家居装饰的 5 种方法",
-          "summary": "Google Search 推出五种家居装饰功能，AI Mode 可生成家具摆放效果图。",
-          "source": "Google Blog：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt8vs3zv01a8rolymtd6hpfy"
+          "n": 28,
+          "title": "比尔·盖茨新文呼吁制定连贯AI计划，Gary Marcus称其呼应自身观点",
+          "summary": "Gary Marcus 盛赞比尔·盖茨文章，呼吁建立 AI 治理框架。",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtaa4x01084mroj2igaf5c39"
         }
       ]
     }
