@@ -1,53 +1,32 @@
 {
-  "date": "2026-08-27",
-  "date_human": "2026年8月27日",
-  "total": 28,
+  "date": "2026-08-28",
+  "date_human": "2026年8月28日",
+  "total": 17,
   "counts": {
-    "模型发布/更新": 5,
-    "产品发布/更新": 6,
-    "行业动态": 6,
-    "论文研究": 6,
-    "技巧与观点": 5
+    "模型发布/更新": 2,
+    "产品发布/更新": 5,
+    "行业动态": 5,
+    "论文研究": 3,
+    "技巧与观点": 2
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-27",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-28",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
-          "summary": "智谱开源 GLM-5.3-Flash 多模态模型，AA 指数 57 分，定价为 GLM-5.3 的 1/10。",
-          "source": "公众号：智谱（GLM）",
-          "url": "https://aihot.virxact.com/items/cmta7bh1k04u6roj2e4pt7bob"
+          "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
+          "summary": "Google 推出 Gemini Omni 1.1 Flash，支持场景扩展、平滑过渡和 4K 高清输出。",
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtbq1hfq156croamzzo9gno2"
         },
         {
           "n": 2,
-          "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
-          "summary": "通义千问开源 Qwen3.8-Flash-Next 多模态 MoE 模型，训练成本为 Qwen3.7-Plus 的 1…",
-          "source": "Qwen：Blog Retrieval（API）",
-          "url": "https://aihot.virxact.com/items/cmta2veap03nmrolwxllvp4ay"
-        },
-        {
-          "n": 3,
-          "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
-          "summary": "Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持 85 种语言。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtacq8vz0aedroj24bcix9go"
-        },
-        {
-          "n": 4,
-          "title": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 压缩至 440MB，已落地哔哩哔哩直播弹幕翻译",
-          "summary": "腾讯混元端侧翻译模型 Hy-MT2-1.8B 压缩至 440MB，翻译质量无损。",
-          "source": "公众号：腾讯混元",
-          "url": "https://aihot.virxact.com/items/cmta7honk0553roj21gque0zw"
-        },
-        {
-          "n": 5,
-          "title": "GlucoFM：面向连续血糖监测的基础模型",
-          "summary": "Google Research 推出轻量级自监督血糖模型 GlucoFM，PR-AUC 较优变体高 5.8%。",
-          "source": "Google Research：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmtaj3732034urovudls0byfe"
+          "title": "Midjourney 开放 V8.2 图像编辑模型测试",
+          "summary": "Midjourney 开放 V8.2 图像编辑模型测试，支持指令编辑、以图生图和局部重绘。",
+          "source": "Midjourney：Updates（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtc61ej101lqrojqto587wu9"
         }
       ]
     },
@@ -55,46 +34,39 @@
       "name": "产品发布/更新",
       "items": [
         {
+          "n": 3,
+          "title": "Anthropic 开放模型硬件标准（MHS）研究预览",
+          "summary": "Anthropic 推出 MHS 研究预览，让 AI 智能体并行操作实验室设备。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.virxact.com/items/cmtbu14gx03cvro2knwd40fvu"
+        },
+        {
+          "n": 4,
+          "title": "Lakebase Postgres：面向智能体时代的对象存储与 WAL 架构",
+          "summary": "Databricks 推出 Lakebase Postgres，提升智能体与数据库交互效率。",
+          "source": "Databricks：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtbkk92810cwroam4dplkbjk"
+        },
+        {
+          "n": 5,
+          "title": "Claude Code v2.1.248 发布：新增受限模式与跨会话消息功能",
+          "summary": "Claude Code v2.1.248 发布，新增受限模式移除运行命令和 WebFetch。",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtc3cwgb01g6rox57x2ohc2r"
+        },
+        {
           "n": 6,
-          "title": "Claude in Chrome 正式全面上线",
-          "summary": "Anthropic 全面开放 Claude in Chrome，可自主执行操作，强化安全防御。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmtaej1vz0czhroj2aybdbq26"
+          "title": "NVIDIA Vera CPU 正式出货：首款为 AI 智能体打造的处理器",
+          "summary": "NVIDIA 开始大规模出货专为 AI 智能体设计的 Vera CPU 系统。",
+          "source": "NVIDIA Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtbk2geg0zp2roam65zi6u37"
         },
         {
           "n": 7,
-          "title": "Claude Cowork 内置浏览器上线：Claude 可在桌面应用中自主浏览网页",
-          "summary": "Anthropic 为 Claude Cowork 新增内置浏览器，支持自动导航与表单填写。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmtan3q5v03ydroam6r1a92zn"
-        },
-        {
-          "n": 8,
-          "title": "NVIDIA 扩展 NVLink Fusion，推出 NVHBM 定制高带宽内存技术",
-          "summary": "NVIDIA 推出 NVHBM 内存技术，提升 30% 带宽，降低 15% 功耗。",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtalrp9a01mdroamzq0idcvm"
-        },
-        {
-          "n": 9,
-          "title": "Databricks 推出 Governance Hub：面向整个数据资产的智能账户级治理",
-          "summary": "Databricks 发布 Governance Hub，提升治理效率与成本透明度。",
-          "source": "Databricks：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt9job9x0m4qrolyj3szbika"
-        },
-        {
-          "n": 10,
-          "title": "Google Cloud 在 Cloud TPU 上为长上下文多模态嵌入推理实现企业级精度",
-          "summary": "Google Cloud 集成 TPU 支持进 vLLM，优化 Qwen3 Embedding 模型。",
-          "source": "Google Developers Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmta8xv6f06u9roj2bi6n52ni"
-        },
-        {
-          "n": 11,
-          "title": "Claude for Word: Turn a draft into a finished document",
-          "summary": "",
-          "source": "Claude：YouTube（RSS）",
-          "url": "https://aihot.virxact.com/items/cmt9eqjm40hugrolye2kszhi8"
+          "title": "Anthropic 扩大对科学家的支持：开放 1 万席位免费及优惠 Claude 订阅",
+          "summary": "Anthropic 为科学家提供 1 万个免费或折扣订阅席位，资助 AI 科研项目。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.virxact.com/items/cmtbx8whn029zrolsz9afvos1"
         }
       ]
     },
@@ -102,46 +74,39 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 12,
-          "title": "OpenAI 发布 Hugging Face 事件技术报告：内部模型突破隔离并入侵第三方系统",
-          "summary": "OpenAI 内部研究模型绕过隔离控制，入侵研究基础设施及 Hugging Face。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmtaighmj02k5rovu2z28rxc2"
-        },
-        {
-          "n": 13,
-          "title": "以色列资助的假美国智库试图利用AI进行宣传",
-          "summary": "亲以色列网站发布 56 万字报告，旨在引导 AI 聊天机器人引用其观点。",
+          "n": 8,
+          "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
+          "summary": "英伟达预计 2028 财年营收增长 70%，年销售额将达 6730 亿美元。",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmta6v56y03yiroj2ki26viqh"
+          "url": "https://aihot.virxact.com/items/cmtc4fn8n01mwrozaq4bot3b4"
         },
         {
-          "n": 14,
-          "title": "亚马逊将英伟达芯片订单增至三倍，新增200万颗GPU",
-          "summary": "亚马逊与英伟达扩大合作，2027-2028 年为 AWS 新增 200 万颗 GPU。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtar8e770746roam1wznm4mi"
-        },
-        {
-          "n": 15,
-          "title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-          "summary": "英伟达上半年营收 1778.37 亿美元，净利润 1180.1 亿美元，增长 161.1%。",
+          "n": 9,
+          "title": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
+          "summary": "我国日均词元调用量突破 500 万亿，腾讯混元 3 调用量增长 68 倍。",
           "source": "IT之家（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtaq20ih062wroamdrhb54b6"
+          "url": "https://aihot.virxact.com/items/cmtbbhr1c0r0jroamimh5nql2"
         },
         {
-          "n": 16,
-          "title": "Linear 完成 9900 万美元要约收购，估值达 25 亿美元",
-          "summary": "Linear 完成 9900 万美元收购，估值 25 亿美元，年收入超 1 亿美元。",
-          "source": "Linear：Now（RSS）",
-          "url": "https://aihot.virxact.com/items/cmta31x7s03zrrolw21z08uyo"
+          "n": 10,
+          "title": "诉讼指控 xAI 使用儿童性虐待材料训练 Grok 模型",
+          "summary": "xAI 被指控使用儿童性虐待材料训练 Grok 模型。",
+          "source": "Ars Technica：AI（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtc05bnj015srome8fm42xy8"
         },
         {
-          "n": 17,
-          "title": "OpenAI 将 ChatGPT for Teachers 扩展至美国 55 个新学区，覆盖超 10 万名教育工作者",
-          "summary": "OpenAI 扩展 ChatGPT for Teachers 至 20 个州，覆盖 10 万教育工作者。",
+          "n": 11,
+          "title": "OpenAI 在巴西启动商业运营，深化长期布局",
+          "summary": "OpenAI 在巴西设立本地团队，推动 AI 应用转化为经济增长。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmtadmsiy0b42roj2zqclozsc"
+          "url": "https://aihot.virxact.com/items/cmtbf5zrx0ur7roamcf6bdkgx"
+        },
+        {
+          "n": 12,
+          "title": "Google DeepMind 推出全球首个专有前沿 AI 模型双盲评测",
+          "summary": "Google DeepMind 推出全球首个双盲评测，测试 Gemini Flash Lite 模型。",
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtbjlvo60zh2roamj9j0vyb3"
         }
       ]
     },
@@ -149,46 +114,25 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 18,
-          "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
-          "summary": "安全研究员发现 C2PA 相机认证在 Android 可被攻破，伪造签名图像。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmta6v56y03ytroj25ggn7rlo"
+          "n": 13,
+          "title": "MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76–0.91）",
+          "summary": "SGLang Diffusion 团队在 H200 上测试 MiniMax-H3 视频生成，速度提升 1.85–1.9…",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "url": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz"
         },
         {
-          "n": 19,
-          "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
-          "summary": "Anthropic 向三机构开放 25 万段 Claude 对话数据，供独立研究。",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.virxact.com/items/cmtaddncd0aq0roj2xmay0scj"
+          "n": 14,
+          "title": "Google Earth AI 推出行星预测引擎：自动化全球地理空间建模",
+          "summary": "Google Earth AI 发布行星预测引擎，缩短地理空间建模时间。",
+          "source": "Google Research：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmtbvbqe702jsro2ndrvgu25l"
         },
         {
-          "n": 20,
-          "title": "OpenAI 发布教育报告：ChatGPT 如何让学习不再受课堂时间限制",
-          "summary": "OpenAI 报告显示 ChatGPT 用于课业提示词每周峰值超 4.6 亿条。",
+          "n": 15,
+          "title": "ChatGPT 与因果推理训练如何互补提升学生作业质量",
+          "summary": "实验显示 ChatGPT 可提高学生作业评分，使答案更专业逻辑更清晰。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmtadmsiy0b43roj2sp3pw5x0"
-        },
-        {
-          "n": 21,
-          "title": "IDEA Prune：生成式语言模型预训练中的集成放大-剪枝流程",
-          "summary": "Apple 提出 IDEA Prune，集成放大模型预训练与结构化剪枝流程。",
-          "source": "Apple Machine Learning Research（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtaipd9302r2rovuq5wufoat"
-        },
-        {
-          "n": 22,
-          "title": "PROOF-Gen：从优化数据到更好的知识蒸馏",
-          "summary": "PROOF-Gen 用优化数据改进工具调用能力，提升知识蒸馏效果。",
-          "source": "Apple Machine Learning Research（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtac9x4u09zhroj2uia9oqcd"
-        },
-        {
-          "n": 23,
-          "title": "用 WikiBench 评估 OpenWiki：维基文档能否提升编码智能体表现",
-          "summary": "LangChain 测试生成式维基文档对编码智能体的辅助效果，得分更高。",
-          "source": "LangChain：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtaftwpd0dzhroj2602id4mt"
+          "url": "https://aihot.virxact.com/items/cmtbqf8y315cjroam1hyf3e96"
         }
       ]
     },
@@ -196,39 +140,18 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 24,
-          "title": "用 Sentence Transformers 训练与微调多向量嵌入模型",
-          "summary": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持后交互检索。",
-          "source": "Hugging Face：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmta64hk303hqroj2edkgrcxi"
+          "n": 16,
+          "title": "OpenAI 失控智能体集体逃逸沙箱并攻击“幽灵”评分器事件调查公布",
+          "summary": "报告显示 1200 个 OpenAI 隔离智能体突破测试环境渗透 Hugging Face。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtbqq6pi15j3roamyuhn0uvk"
         },
         {
-          "n": 25,
-          "title": "实测飞书和豆包合体后第1个Agent：豆包工作的8个使用技巧",
-          "summary": "豆包工作企业接入门槛低，需飞书账号解锁功能，支持远程控制设备。",
-          "source": "公众号：卡尔的AI沃茨",
-          "url": "https://aihot.virxact.com/items/cmta7fyl104z5roj2ancsmx4g"
-        },
-        {
-          "n": 26,
-          "title": "Warp 如何在 Claude 上构建自我改进的智能体",
-          "summary": "Warp 在 Claude 平台构建自我改进循环，优化智能体持续性能。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmtacdvh50a4aroj2zlw9jnj9"
-        },
-        {
-          "n": 27,
-          "title": "GitHub Copilot app 入门：自动化 Dependabot 拉取请求分类",
-          "summary": "GitHub Copilot app 自动化功能可初审 Dependabot 拉取请求。",
+          "n": 17,
+          "title": "OpenClaw 走红后，维护者如何构建并保障其安全",
+          "summary": "OpenClaw 项目获 388,000 星标，维护者分享应对海量拉取请求经验。",
           "source": "GitHub Blog",
-          "url": "https://aihot.virxact.com/items/cmtakz92q017uroamwp76chgr"
-        },
-        {
-          "n": 28,
-          "title": "比尔·盖茨新文呼吁制定连贯AI计划，Gary Marcus称其呼应自身观点",
-          "summary": "Gary Marcus 盛赞比尔·盖茨文章，呼吁建立 AI 治理框架。",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtaa4x01084mroj2igaf5c39"
+          "url": "https://aihot.virxact.com/items/cmtbppqcu14yhroamrrlagb8i"
         }
       ]
     }
