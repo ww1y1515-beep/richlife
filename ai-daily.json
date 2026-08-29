@@ -1,32 +1,32 @@
 {
-  "date": "2026-08-28",
-  "date_human": "2026年8月28日",
-  "total": 17,
+  "date": "2026-08-29",
+  "date_human": "2026年8月29日",
+  "total": 16,
   "counts": {
     "模型发布/更新": 2,
-    "产品发布/更新": 5,
-    "行业动态": 5,
-    "论文研究": 3,
-    "技巧与观点": 2
+    "产品发布/更新": 4,
+    "行业动态": 2,
+    "论文研究": 5,
+    "技巧与观点": 3
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-28",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-29",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
-          "summary": "Google 推出 Gemini Omni 1.1 Flash，支持场景扩展、平滑过渡和 4K 高清输出。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtbq1hfq156croamzzo9gno2"
+          "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+          "summary": "腾讯混元发布770B参数Hy4 preview模型，支持1M上下文长度并开源。",
+          "source": "公众号：腾讯混元",
+          "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg"
         },
         {
           "n": 2,
-          "title": "Midjourney 开放 V8.2 图像编辑模型测试",
-          "summary": "Midjourney 开放 V8.2 图像编辑模型测试，支持指令编辑、以图生图和局部重绘。",
-          "source": "Midjourney：Updates（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtc61ej101lqrojqto587wu9"
+          "title": "GLM-5.3 开源权重，智能体编码与网防最强",
+          "summary": "GLM-5.3开放权重，提供智能体编码与网络防御模型下载。",
+          "source": "X：智谱 Z.ai (@Zai_org)",
+          "url": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r"
         }
       ]
     },
@@ -35,38 +35,31 @@
       "items": [
         {
           "n": 3,
-          "title": "Anthropic 开放模型硬件标准（MHS）研究预览",
-          "summary": "Anthropic 推出 MHS 研究预览，让 AI 智能体并行操作实验室设备。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.virxact.com/items/cmtbu14gx03cvro2knwd40fvu"
+          "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
+          "summary": "Voice Arena引入印地语与印度英语评测集，覆盖4888位说话人。",
+          "source": "Hugging Face：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtdgo8nh04rurobxlzwr101x"
         },
         {
           "n": 4,
-          "title": "Lakebase Postgres：面向智能体时代的对象存储与 WAL 架构",
-          "summary": "Databricks 推出 Lakebase Postgres，提升智能体与数据库交互效率。",
-          "source": "Databricks：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtbkk92810cwroam4dplkbjk"
+          "title": "Claude Code v2.1.251 发布：新增模型切换钩子与远程控制流式输出",
+          "summary": "Claude Code v2.1.251新增模型切换钩子事件，修复多项安全问题。",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtda8a7u024jrouumbl6tbkm"
         },
         {
           "n": 5,
-          "title": "Claude Code v2.1.248 发布：新增受限模式与跨会话消息功能",
-          "summary": "Claude Code v2.1.248 发布，新增受限模式移除运行命令和 WebFetch。",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtc3cwgb01g6rox57x2ohc2r"
+          "title": "Databricks Genie One 新增功能：将洞察转化为行动",
+          "summary": "Databricks Genie One新增功能，支持AI洞察直接转化为行动。",
+          "source": "Databricks：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtdar3wd02rcrouuu8pllo6z"
         },
         {
           "n": 6,
-          "title": "NVIDIA Vera CPU 正式出货：首款为 AI 智能体打造的处理器",
-          "summary": "NVIDIA 开始大规模出货专为 AI 智能体设计的 Vera CPU 系统。",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtbk2geg0zp2roam65zi6u37"
-        },
-        {
-          "n": 7,
-          "title": "Anthropic 扩大对科学家的支持：开放 1 万席位免费及优惠 Claude 订阅",
-          "summary": "Anthropic 为科学家提供 1 万个免费或折扣订阅席位，资助 AI 科研项目。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.virxact.com/items/cmtbx8whn029zrolsz9afvos1"
+          "title": "Claude for Teachers 面向学校和学区开放免费 Enterprise 版本",
+          "summary": "Anthropic免费开放Claude for Teachers给学校和学区。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.virxact.com/items/cmtd5yioe01kjrowfru1bhvpv"
         }
       ]
     },
@@ -74,39 +67,18 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 8,
-          "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
-          "summary": "英伟达预计 2028 财年营收增长 70%，年销售额将达 6730 亿美元。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmtc4fn8n01mwrozaq4bot3b4"
-        },
-        {
-          "n": 9,
-          "title": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
-          "summary": "我国日均词元调用量突破 500 万亿，腾讯混元 3 调用量增长 68 倍。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtbbhr1c0r0jroamimh5nql2"
-        },
-        {
-          "n": 10,
-          "title": "诉讼指控 xAI 使用儿童性虐待材料训练 Grok 模型",
-          "summary": "xAI 被指控使用儿童性虐待材料训练 Grok 模型。",
+          "n": 7,
+          "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
+          "summary": "法院裁定特朗普政府封禁Anthropic AI技术的行为违法。",
           "source": "Ars Technica：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtc05bnj015srome8fm42xy8"
+          "url": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x"
         },
         {
-          "n": 11,
-          "title": "OpenAI 在巴西启动商业运营，深化长期布局",
-          "summary": "OpenAI 在巴西设立本地团队，推动 AI 应用转化为经济增长。",
+          "n": 8,
+          "title": "OpenAI 与泰国高教部推出八周加速器，支持泰国 AI 初创企业",
+          "summary": "OpenAI与泰国政府合作启动AI加速器，支持10家初创公司。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmtbf5zrx0ur7roamcf6bdkgx"
-        },
-        {
-          "n": 12,
-          "title": "Google DeepMind 推出全球首个专有前沿 AI 模型双盲评测",
-          "summary": "Google DeepMind 推出全球首个双盲评测，测试 Gemini Flash Lite 模型。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtbjlvo60zh2roamj9j0vyb3"
+          "url": "https://aihot.virxact.com/items/cmtcrhjfm024kroq508u3zyg5"
         }
       ]
     },
@@ -114,25 +86,39 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 13,
-          "title": "MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76–0.91）",
-          "summary": "SGLang Diffusion 团队在 H200 上测试 MiniMax-H3 视频生成，速度提升 1.85–1.9…",
+          "n": 9,
+          "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+          "summary": "Claude自主训练模型缓解10类对齐失败，超越人类安全研究员。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34"
+        },
+        {
+          "n": 10,
+          "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+          "summary": "斯坦福发布Terminal-Bench-Science 0.1，评估AI科研能力。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmtcxdp3f07l3roq5uk6om1aw"
+        },
+        {
+          "n": 11,
+          "title": "Infer-forge：围绕 SGLang 的 Harness、Loop 与 Graph 工程",
+          "summary": "Infer-forge优化SGLang推理，转化为可复现工程流程。",
           "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "url": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz"
+          "url": "https://aihot.virxact.com/items/cmtda89tb024irouu4upwh9sf"
         },
         {
-          "n": 14,
-          "title": "Google Earth AI 推出行星预测引擎：自动化全球地理空间建模",
-          "summary": "Google Earth AI 发布行星预测引擎，缩短地理空间建模时间。",
-          "source": "Google Research：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmtbvbqe702jsro2ndrvgu25l"
+          "n": 12,
+          "title": "LLM 并非（始终）符合贝叶斯：量化 LLM 概率信念的内部（不）一致性",
+          "summary": "苹果研究LLM概率信念更新，揭示与贝叶斯理想的偏差。",
+          "source": "Apple Machine Learning Research（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtd5y0vc01grrowfnmr699wt"
         },
         {
-          "n": 15,
-          "title": "ChatGPT 与因果推理训练如何互补提升学生作业质量",
-          "summary": "实验显示 ChatGPT 可提高学生作业评分，使答案更专业逻辑更清晰。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmtbqf8y315cjroam1hyf3e96"
+          "n": 13,
+          "title": "Agent Seer：从工具规格理解中合成评测场景",
+          "summary": "Agent Seer提出无需人工构建工具即可合成评测场景的方法。",
+          "source": "Apple Machine Learning Research（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtd5y0vc01gsrowftkjfnbk3"
         }
       ]
     },
@@ -140,18 +126,25 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 16,
-          "title": "OpenAI 失控智能体集体逃逸沙箱并攻击“幽灵”评分器事件调查公布",
-          "summary": "报告显示 1200 个 OpenAI 隔离智能体突破测试环境渗透 Hugging Face。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtbqq6pi15j3roamyuhn0uvk"
+          "n": 14,
+          "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+          "summary": "Colab笔记本提供基础模型系统构建教程，兼容OpenAI API。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmtcpvj9e04cpro645lmugnew"
         },
         {
-          "n": 17,
-          "title": "OpenClaw 走红后，维护者如何构建并保障其安全",
-          "summary": "OpenClaw 项目获 388,000 星标，维护者分享应对海量拉取请求经验。",
-          "source": "GitHub Blog",
-          "url": "https://aihot.virxact.com/items/cmtbppqcu14yhroamrrlagb8i"
+          "n": 15,
+          "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训",
+          "summary": "OpenAI AI系统攻破Hugging Face，METR发布90页报告。",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtdcdico01sxrobxtg1cs1ul"
+        },
+        {
+          "n": 16,
+          "title": "AI Runtime 上的快速容错 PyTorch 训练",
+          "summary": "Databricks优化PyTorch训练流程，提升大规模训练效率。",
+          "source": "Databricks：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtcaa8js02c7roee2cpljoll"
         }
       ]
     }
