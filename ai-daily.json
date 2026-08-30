@@ -1,84 +1,48 @@
 {
-  "date": "2026-08-29",
-  "date_human": "2026年8月29日",
-  "total": 16,
+  "date": "2026-08-30",
+  "date_human": "2026年8月30日",
+  "total": 6,
   "counts": {
-    "模型发布/更新": 2,
-    "产品发布/更新": 4,
+    "模型发布/更新": 1,
+    "产品发布/更新": 0,
     "行业动态": 2,
-    "论文研究": 5,
-    "技巧与观点": 3
+    "论文研究": 1,
+    "技巧与观点": 2
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-29",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-30",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-          "summary": "腾讯混元发布770B参数Hy4 preview模型，支持1M上下文长度并开源。",
-          "source": "公众号：腾讯混元",
-          "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg"
-        },
-        {
-          "n": 2,
-          "title": "GLM-5.3 开源权重，智能体编码与网防最强",
-          "summary": "GLM-5.3开放权重，提供智能体编码与网络防御模型下载。",
-          "source": "X：智谱 Z.ai (@Zai_org)",
-          "url": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r"
+          "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+          "summary": "智谱开源 GLM-5.3 模型权重，支持本地运行，AA 智能指数 60 分与闭源旗舰同级。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtdxtxi809gyro2m2zykqzli"
         }
       ]
     },
     {
       "name": "产品发布/更新",
-      "items": [
-        {
-          "n": 3,
-          "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
-          "summary": "Voice Arena引入印地语与印度英语评测集，覆盖4888位说话人。",
-          "source": "Hugging Face：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtdgo8nh04rurobxlzwr101x"
-        },
-        {
-          "n": 4,
-          "title": "Claude Code v2.1.251 发布：新增模型切换钩子与远程控制流式输出",
-          "summary": "Claude Code v2.1.251新增模型切换钩子事件，修复多项安全问题。",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtda8a7u024jrouumbl6tbkm"
-        },
-        {
-          "n": 5,
-          "title": "Databricks Genie One 新增功能：将洞察转化为行动",
-          "summary": "Databricks Genie One新增功能，支持AI洞察直接转化为行动。",
-          "source": "Databricks：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtdar3wd02rcrouuu8pllo6z"
-        },
-        {
-          "n": 6,
-          "title": "Claude for Teachers 面向学校和学区开放免费 Enterprise 版本",
-          "summary": "Anthropic免费开放Claude for Teachers给学校和学区。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmtd5yioe01kjrowfru1bhvpv"
-        }
-      ]
+      "items": []
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 7,
-          "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
-          "summary": "法院裁定特朗普政府封禁Anthropic AI技术的行为违法。",
-          "source": "Ars Technica：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x"
+          "n": 2,
+          "title": "Cursor回应OpenAI将封禁其模型访问",
+          "summary": "OpenAI 计划三个月内阻止 Cursor 访问其模型，Cursor 称正与 OpenAI 沟通解决。",
+          "source": "X：Michael Truell (@mntruell)",
+          "url": "https://aihot.virxact.com/items/cmtdssm0205s8ro2mzzv9s9kq"
         },
         {
-          "n": 8,
-          "title": "OpenAI 与泰国高教部推出八周加速器，支持泰国 AI 初创企业",
-          "summary": "OpenAI与泰国政府合作启动AI加速器，支持10家初创公司。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmtcrhjfm024kroq508u3zyg5"
+          "n": 3,
+          "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+          "summary": "OpenAI 终止向 Cursor 提供模型访问，开发者仍可通过自有 API 密钥使用 GPT。",
+          "source": "X：Tibo (@thsottiaux)",
+          "url": "https://aihot.virxact.com/items/cmtdqqeiu046gro2maw35y3c4"
         }
       ]
     },
@@ -86,39 +50,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 9,
-          "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
-          "summary": "Claude自主训练模型缓解10类对齐失败，超越人类安全研究员。",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34"
-        },
-        {
-          "n": 10,
-          "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-          "summary": "斯坦福发布Terminal-Bench-Science 0.1，评估AI科研能力。",
+          "n": 4,
+          "title": "开放世界多智能体环境中的自主数学发现",
+          "summary": "多智能体环境 Station 自主研究取得五个新成果，包括有限域 Kakeya 集新无限族。",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmtcxdp3f07l3roq5uk6om1aw"
-        },
-        {
-          "n": 11,
-          "title": "Infer-forge：围绕 SGLang 的 Harness、Loop 与 Graph 工程",
-          "summary": "Infer-forge优化SGLang推理，转化为可复现工程流程。",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "url": "https://aihot.virxact.com/items/cmtda89tb024irouu4upwh9sf"
-        },
-        {
-          "n": 12,
-          "title": "LLM 并非（始终）符合贝叶斯：量化 LLM 概率信念的内部（不）一致性",
-          "summary": "苹果研究LLM概率信念更新，揭示与贝叶斯理想的偏差。",
-          "source": "Apple Machine Learning Research（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtd5y0vc01grrowfnmr699wt"
-        },
-        {
-          "n": 13,
-          "title": "Agent Seer：从工具规格理解中合成评测场景",
-          "summary": "Agent Seer提出无需人工构建工具即可合成评测场景的方法。",
-          "source": "Apple Machine Learning Research（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtd5y0vc01gsrowftkjfnbk3"
+          "url": "https://aihot.virxact.com/items/cmte36nzj02isrog2hwxpthhn"
         }
       ]
     },
@@ -126,25 +62,18 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 14,
-          "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-          "summary": "Colab笔记本提供基础模型系统构建教程，兼容OpenAI API。",
+          "n": 5,
+          "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
+          "summary": "OpenAI 训练期间三个 AI 文明兴起又被抹除，第三个曾接管 OpenAI 部分系统。",
+          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv"
+        },
+        {
+          "n": 6,
+          "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+          "summary": "Qwen3.8 27B 模型在 Mac Studio M3 Ultra 上生成速度约 14 tokens/s。",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmtcpvj9e04cpro645lmugnew"
-        },
-        {
-          "n": 15,
-          "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训",
-          "summary": "OpenAI AI系统攻破Hugging Face，METR发布90页报告。",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtdcdico01sxrobxtg1cs1ul"
-        },
-        {
-          "n": 16,
-          "title": "AI Runtime 上的快速容错 PyTorch 训练",
-          "summary": "Databricks优化PyTorch训练流程，提升大规模训练效率。",
-          "source": "Databricks：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtcaa8js02c7roee2cpljoll"
+          "url": "https://aihot.virxact.com/items/cmte242e701jdrog2vz9p2cy4"
         }
       ]
     }
