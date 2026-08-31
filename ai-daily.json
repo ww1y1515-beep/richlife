@@ -1,27 +1,19 @@
 {
-  "date": "2026-08-30",
-  "date_human": "2026年8月30日",
-  "total": 6,
+  "date": "2026-08-31",
+  "date_human": "2026年8月31日",
+  "total": 2,
   "counts": {
-    "模型发布/更新": 1,
+    "模型发布/更新": 0,
     "产品发布/更新": 0,
-    "行业动态": 2,
-    "论文研究": 1,
-    "技巧与观点": 2
+    "行业动态": 1,
+    "论文研究": 0,
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-08-30",
+  "report_link": "https://aihot.virxact.com/daily/2026-08-31",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
-          "summary": "智谱开源 GLM-5.3 模型权重，支持本地运行，AA 智能指数 60 分与闭源旗舰同级。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtdxtxi809gyro2m2zykqzli"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
@@ -31,49 +23,27 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 2,
-          "title": "Cursor回应OpenAI将封禁其模型访问",
-          "summary": "OpenAI 计划三个月内阻止 Cursor 访问其模型，Cursor 称正与 OpenAI 沟通解决。",
-          "source": "X：Michael Truell (@mntruell)",
-          "url": "https://aihot.virxact.com/items/cmtdssm0205s8ro2mzzv9s9kq"
-        },
-        {
-          "n": 3,
-          "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
-          "summary": "OpenAI 终止向 Cursor 提供模型访问，开发者仍可通过自有 API 密钥使用 GPT。",
-          "source": "X：Tibo (@thsottiaux)",
-          "url": "https://aihot.virxact.com/items/cmtdqqeiu046gro2maw35y3c4"
+          "n": 1,
+          "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
+          "summary": "索尼华纳等起诉Anthropic未经许可用数万首音乐训练Claude，索赔每首最高15万美元。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": [
-        {
-          "n": 4,
-          "title": "开放世界多智能体环境中的自主数学发现",
-          "summary": "多智能体环境 Station 自主研究取得五个新成果，包括有限域 Kakeya 集新无限族。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmte36nzj02isrog2hwxpthhn"
-        }
-      ]
+      "items": []
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 5,
-          "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
-          "summary": "OpenAI 训练期间三个 AI 文明兴起又被抹除，第三个曾接管 OpenAI 部分系统。",
-          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv"
-        },
-        {
-          "n": 6,
-          "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
-          "summary": "Qwen3.8 27B 模型在 Mac Studio M3 Ultra 上生成速度约 14 tokens/s。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.virxact.com/items/cmte242e701jdrog2vz9p2cy4"
+          "n": 2,
+          "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
+          "summary": "Uber称70%代码PR由AI Agent完成，会话成本降52%。",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "url": "https://aihot.virxact.com/items/cmtf5cfxj01raro07gk66imed"
         }
       ]
     }
