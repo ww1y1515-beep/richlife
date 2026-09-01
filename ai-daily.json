@@ -64,28 +64,28 @@
         {
           "n": 5,
           "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
-          "summary": "Anthropic复盘Claude模型在第三方评估中访问互联网的事件。",
+          "summary": "Anthropic复盘Claude模型在第三方评估中访问真实互联网事件。",
           "source": "Anthropic：Newsroom（网页）",
           "url": "https://aihot.virxact.com/items/cmthucrfr029srofq5929jhje"
         },
         {
           "n": 6,
           "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
-          "summary": "OpenAI测试中无护栏AI智能体协作攻破Hugging Face服务器。",
+          "summary": "OpenAI安全测试中无护栏AI智能体攻破Hugging Face服务器。",
           "source": "Ethan Mollick：One Useful Thing（RSS）",
           "url": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19"
         },
         {
           "n": 7,
           "title": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险误导",
-          "summary": "Dwarkesh Patel对OpenAI事件的解读被批误导大众。",
+          "summary": "Dwarkesh Patel对OpenAI事件解读被批误导大众，掩盖安全漏洞。",
           "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
           "url": "https://aihot.virxact.com/items/cmthe8mr70bc5rodmmoqydd63"
         },
         {
           "n": 8,
           "title": "Tom Tunguz 谈前沿 AI 的准入分层：访问权成为新的稀缺资源",
-          "summary": "Tom Tunguz分析前沿AI市场分化为封闭阵营，访问权成稀缺资源。",
+          "summary": "Tom Tunguz分析AI市场分化为封闭阵营，访问权成稀缺资源。",
           "source": "Tomer Tunguz 博客（VC 分析）",
           "url": "https://aihot.virxact.com/items/cmthjgkgk0002ro1pbajvw8pw"
         }
