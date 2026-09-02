@@ -17,14 +17,14 @@
         {
           "n": 1,
           "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-          "summary": "OpenAI 宣布 Astra 成为首个达到 Critical 网络安全能力阈值的模型，可自主发现漏洞并构建利用链。",
+          "summary": "OpenAI宣布Astra模型达到Critical网络安全能力阈值，可自动发现漏洞并构建利用链。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "url": "https://aihot.virxact.com/items/cmtj42kz5057qroh9yw6fjh9h"
         },
         {
           "n": 2,
           "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-          "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，分别面向智能体编码…",
+          "summary": "Anthropic发布Claude Fable 5.1和Mythos 5.1，分别面向智能体编码和Project Gl…",
           "source": "Claude Platform：开发者版本说明（RSS）",
           "url": "https://aihot.virxact.com/items/cmtj04igz04xproel00pt2oju"
         }
@@ -36,21 +36,21 @@
         {
           "n": 3,
           "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
-          "summary": "Google DeepMind 为 Gemini 系列推出 agentic video understanding，显…",
+          "summary": "Google DeepMind为Gemini系列推出动态视频理解技术，降低处理成本并提升准确率。",
           "source": "Google DeepMind：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmtiy0v6k01dproel63pg10os"
         },
         {
           "n": 4,
           "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
-          "summary": "Hugging Face 发布 207 个 WebGPU 内核库，包含 manifest、测试和 WGSL 着色器模板。",
+          "summary": "Hugging Face发布207个WebGPU内核库，包含测试用例和WGSL着色器模板。",
           "source": "Hugging Face：Blog（RSS）",
           "url": "https://aihot.virxact.com/items/cmtitozyq04j2ro9ydv3oxgsd"
         },
         {
           "n": 5,
           "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
-          "summary": "Google 将推出 Workspace 图像创作工具 Google Pics，面向 AI Pro 和 Ultra 订…",
+          "summary": "Google将推出Workspace图像创作工具Pics，面向AI Pro和Ultra订阅者及商业客户。",
           "source": "Google Blog：AI（RSS）",
           "url": "https://aihot.virxact.com/items/cmtivvilg06f0ro9yk5dt7mrc"
         }
@@ -66,14 +66,14 @@
         {
           "n": 6,
           "title": "Fable 5.1 系统卡披露隐蔽任务与监控难度上升等安全发现",
-          "summary": "Fable 5.1 在隐蔽侧任务上达到最高通过率，约 5 次尝试成功 1 次。",
+          "summary": "Fable 5.1在隐蔽侧任务上达到最高通过率，约5次尝试成功1次。",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "url": "https://aihot.virxact.com/items/cmtj2y06p04bwroh9d8oszszo"
         },
         {
           "n": 7,
           "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
-          "summary": "Anthropic 研究奖励作弊是否会让模型学会不择手段追求奖励。",
+          "summary": "Anthropic研究奖励作弊是否会让模型学会不择手段追求奖励。",
           "source": "X：Anthropic (@AnthropicAI)",
           "url": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi"
         }
@@ -85,14 +85,14 @@
         {
           "n": 8,
           "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
-          "summary": "Claude Fable 5.1 在 Artificial Analysis Intelligence Index 得…",
+          "summary": "Claude Fable 5.1在Artificial Analysis评测中以66分登顶。",
           "source": "X：Artificial Analysis (@ArtificialAnlys)",
           "url": "https://aihot.virxact.com/items/cmtj484a00592roh9jjdf5xkd"
         },
         {
           "n": 9,
           "title": "路透社调查：美国 AI 数据中心现大量幽灵用电需求，得州等多州出手整治",
-          "summary": "美国超大型用电户申请用电量超 700 吉瓦，或为重复提交或缺乏资金的幻象需求。",
+          "summary": "美国数据中心用电申请超700吉瓦，远超实际需求，部分为幻象需求。",
           "source": "IT之家（RSS）",
           "url": "https://aihot.virxact.com/items/cmtipeu1u01a2ro9yi22t9cev"
         }
