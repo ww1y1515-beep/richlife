@@ -1,39 +1,74 @@
 {
-  "date": "2026-09-03",
-  "date_human": "2026年9月3日",
-  "total": 15,
+  "date": "2026-09-04",
+  "date_human": "2026年9月4日",
+  "total": 21,
   "counts": {
-    "模型发布/更新": 3,
+    "模型发布/更新": 8,
     "产品发布/更新": 4,
-    "行业动态": 2,
+    "行业动态": 1,
     "论文研究": 0,
-    "技巧与观点": 6
+    "技巧与观点": 8
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-09-03",
+  "report_link": "https://aihot.virxact.com/daily/2026-09-04",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
-          "summary": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtkbdbti01n8roz5k5kt1g98"
+          "title": "OpenAI 发布 GPT-6 Astra：1.05M 上下文的计算机操作模型，因触及 Critical 网络安全阈值而限制访问",
+          "summary": "OpenAI发布GPT-6 Astra，上下文窗口105万token，任务时间从75分钟降至40分钟。",
+          "source": "MarkTechPost（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtm1j0qe0uchrow5ozapge42"
         },
         {
           "n": 2,
-          "title": "Meta 发布 Muse Spark 1.3，智能体与科学推理能力提升",
-          "summary": "Meta发布Muse Spark 1.3，xhigh版AI指数得分61。",
-          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-          "url": "https://aihot.virxact.com/items/cmtkkcguj04aurollf1lq9a9s"
+          "title": "OpenAI 发布新模型 Astra，主打计算机与浏览器操作但因 opaque recurrence 引发争议",
+          "summary": "OpenAI发布最强模型Astra，主打计算机操作，先向网络安全客户开放。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtlu0vyd0nelrow5qppvereu"
         },
         {
           "n": 3,
-          "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
-          "summary": "通义千问Qwen3.8-Max-0902在Code Arena夺冠，现可试用。",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-          "url": "https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje"
+          "title": "OpenAI 开始发布 GPT-6 Astra，面向全部 Plus 用户开放",
+          "summary": "OpenAI开始发布GPT-6 Astra，重点让全部Plus用户可用，发布需几天完成。",
+          "source": "X：Tibo (@thsottiaux)",
+          "url": "https://aihot.virxact.com/items/cmtlyijvl0rlsrow5dwqv22k7"
+        },
+        {
+          "n": 4,
+          "title": "OpenAI 发布 GPT-6 Astra，多项基准达到 SOTA",
+          "summary": "GPT-6 Astra在多个基准测试中达到SOTA水平。",
+          "source": "X：Sherwin Wu（@sherwinwu）",
+          "url": "https://aihot.virxact.com/items/cmtlzumiu0sojrow5820i30sg"
+        },
+        {
+          "n": 5,
+          "title": "IFM 发布 K2 Horizon 六款开源模型，覆盖 0.9B 到 375B-A23B 并开放完整训练生命周期",
+          "summary": "IFM发布K2 Horizon模型系列，共六个模型，部分达到SOTA。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.virxact.com/items/cmtlu0yka0neurow5as9e6jtu"
+        },
+        {
+          "n": 6,
+          "title": "OpenAI 发布 GPT-6 Astra，首个达到关键级网络安全能力门槛的模型",
+          "summary": "GPT-6 Astra是首个达到关键级网络安全能力的OpenAI模型。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtm3lnrg022wrooelnc62oo9"
+        },
+        {
+          "n": 7,
+          "title": "OpenAI 发布 GPT-6 Astra，官方基准显示 ARC-AGI-3 得分 99.9%",
+          "summary": "",
+          "source": "X：Kim (@kimmonismus)",
+          "url": "https://aihot.virxact.com/items/cmtlwgygo0pnorow5q12m2p9j"
+        },
+        {
+          "n": 8,
+          "title": "OpenAI 发布 GPT-6 Astra，基准全面超越 Claude Fable 5.1",
+          "summary": "GPT-6 Astra在ARC-AGI-3上得99.9%，全面超越Claude Fable 5.1。",
+          "source": "X：Kim (@kimmonismus)",
+          "url": "https://aihot.virxact.com/items/cmtlwgygo0pnnrow5tbc0sok8"
         }
       ]
     },
@@ -41,32 +76,32 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 4,
-          "title": "Claude 在 Cowork 和 Claude Code 中支持后台操作电脑",
-          "summary": "Claude新增后台操作电脑功能，可自动执行任务。",
-          "source": "X：Claude (@claudeai)",
-          "url": "https://aihot.virxact.com/items/cmtkh71ky017vrolly7trswyx"
+          "n": 9,
+          "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+          "summary": "Hugging Face发布开源工具funes，为编码智能体提供本地记忆层。",
+          "source": "Hugging Face：Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtlg0ht406hlrow5clznd0ld"
         },
         {
-          "n": 5,
-          "title": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行",
-          "summary": "Cursor推出Self-Hosted Machines，工具执行迁移至企业内网。",
-          "source": "Cursor Blog",
-          "url": "https://aihot.virxact.com/items/cmtkffuf503cbrobqkwhimxmp"
+          "n": 10,
+          "title": "xAI 设计 Grok Bot：为持久化智能体重构交互界面",
+          "summary": "xAI介绍Grok Bot设计，Bot拥有身份、记忆和工具，界面呈现多种状态。",
+          "source": "xAI：News（网页）",
+          "url": "https://aihot.virxact.com/items/cmtlu23pp0ng4row5uxwtpazb"
         },
         {
-          "n": 6,
-          "title": "美团 LongCat-2.0 上线 Cline 免费试用",
-          "summary": "",
-          "source": "X：美团 LongCat (@Meituan_LongCat)",
-          "url": "https://aihot.virxact.com/items/cmtjkp6dc02j5rori29u5h7kl"
+          "n": 11,
+          "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
+          "summary": "OpenAI推出Daybreak计划，提供10亿美元支持一线防御者。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.virxact.com/items/cmtm02uu60t29row5y74k0eai"
         },
         {
-          "n": 7,
-          "title": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
-          "summary": "UU远程优化终端功能，支持跨端同步管理多会话。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.virxact.com/items/cmtjjt7360180roe43ggo0t09"
+          "n": 12,
+          "title": "xAI 发布 Grok Bot 企业版，Grok 与 Cursor Enterprise 客户两周免费",
+          "summary": "xAI宣布Grok Bot面向企业开放，未来两周免费使用。",
+          "source": "xAI：News（网页）",
+          "url": "https://aihot.virxact.com/items/cmtm1k75y0ue9row58wfax9nf"
         }
       ]
     },
@@ -74,18 +109,11 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 8,
-          "title": "Nvidia 接近以 129 亿美元收购 Hugging Face",
-          "summary": "Nvidia拟129亿美元收购Hugging Face，估值达2.9倍。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.virxact.com/items/cmtjhy5ze07gorobv62fpf0wi"
-        },
-        {
-          "n": 9,
-          "title": "OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆",
-          "summary": "OpenAI及Altman被诉协助加拿大校园枪击案。",
-          "source": "The Verge：AI（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtkaa7gs01v5romp7lhz3mwj"
+          "n": 13,
+          "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
+          "summary": "NVIDIA以129.3亿美元收购Hugging Face。",
+          "source": "NVIDIA Blog（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtli5yd109u4row52i1xg9j4"
         }
       ]
     },
@@ -97,46 +125,60 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 10,
-          "title": "美国司法部就 OpenAI 版权诉讼提交意见书支持训练属于合理使用",
-          "summary": "美司法部称LLM训练属合理使用，关系国家安全。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.virxact.com/items/cmtkdrsid000erobq8vn0zy1s"
-        },
-        {
-          "n": 11,
-          "title": "什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环",
-          "summary": "Google员工介绍用确定性组件包裹LLM的harness工程。",
-          "source": "Google AI：DEV 作者专属（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtk9u4ga01hwrompqmqchjqj"
-        },
-        {
-          "n": 12,
-          "title": "Google AI 团队分享如何为 LLM-as-a-Judge 评测编写可靠的评分标准",
-          "summary": "Google发布LLM评测指南，强调原子化问题和客观评分。",
-          "source": "Google AI：DEV 作者专属（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtkbz92801nmrowy61g2fsob"
-        },
-        {
-          "n": 13,
-          "title": "Anthropic 发布电商 Agent 架构与生产实践指南，并开源 commerce-agents 参考实现",
-          "summary": "Anthropic发布电商Agent指南，开源参考实现。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.virxact.com/items/cmtkcffah018zrog0zokk6s30"
-        },
-        {
           "n": 14,
-          "title": "GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本",
-          "summary": "GitHub分享Copilot降本四项改动，节省token和成本。",
-          "source": "GitHub Blog",
-          "url": "https://aihot.virxact.com/items/cmtkfkfvl03garobqyr0vwpth"
+          "title": "Artificial Analysis 评测 GPT-6 Astra：编码智能体追平 Fable 5 但价格涨至 2.5 倍",
+          "summary": "GPT-6 Astra评测显示其成本不到Fable 5的一半，效率提升70%。",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "url": "https://aihot.virxact.com/items/cmtly53c50r9srow5ux7p8arw"
         },
         {
           "n": 15,
-          "title": "Google 总结 AI Agents Challenge 中最强提交背后的 4 个工程模式",
-          "summary": "Google总结AI Agents Challenge四大工程模式。",
-          "source": "Google Developers Blog（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtkbbn6q01j6roz54e8g5zec"
+          "title": "François Chollet 评 GPT-6 Astra 在 ARC-AGI-3 上的表现",
+          "summary": "GPT-6 Astra在ARC-AGI-3上得分66%，配合持续对话接近100%。",
+          "source": "X：Francois Chollet (@fchollet)",
+          "url": "https://aihot.virxact.com/items/cmtlyeuas0rigrow5d2jq4xb7"
+        },
+        {
+          "n": 16,
+          "title": "Rohan Paul 解读 OpenAI GPT-6 Astra 117 页系统卡中的安全发现",
+          "summary": "GPT-6 Astra控制链式思维的能力从16.1%跃升至60.9%。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.virxact.com/items/cmtm0r9z00tmkrow5gtxa5j36"
+        },
+        {
+          "n": 17,
+          "title": "Gary Marcus 评 GPT-6 Astra：进步明显但鲁棒性与可监控性存疑",
+          "summary": "Gary Marcus称GPT-6 Astra是真正的进步，印证其主张。",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtm5q99n018rrow0z6je2l9y"
+        },
+        {
+          "n": 18,
+          "title": "Tom Tunguz 解析 Meta Muse Spark 双轨定价背后的数据换算力逻辑",
+          "summary": "Meta发布Muse Spark模型，Standard Tier输入$1.25/m。",
+          "source": "Tomer Tunguz 博客（VC 分析）",
+          "url": "https://aihot.virxact.com/items/cmtltscl80m18row5tw9bb0qw"
+        },
+        {
+          "n": 19,
+          "title": "Google Cloud 教你用 Cloud Run instances 以每月 $5.70 搭建常驻 Agent",
+          "summary": "Google AI介绍如何以每月$5.70在云端运行常驻Agent。",
+          "source": "Google AI：DEV 作者专属（RSS）",
+          "url": "https://aihot.virxact.com/items/cmtlrfcid0jqzrow5cg1jvuny"
+        },
+        {
+          "n": 20,
+          "title": "Meta Muse Spark 1.3 在 Artificial Analysis 编码智能体指数中与 Claude 组合对比评测结果公布",
+          "summary": "Meta Muse Spark 1.3在编码智能体指数中得68分。",
+          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+          "url": "https://aihot.virxact.com/items/cmtktzp3605o8roals1ci2tza"
+        },
+        {
+          "n": 21,
+          "title": "ARC-AGI-3 发布仅半年即被 Astra 饱和，进展快于 François Chollet 预期一倍",
+          "summary": "GPT-6 Astra饱和ARC-AGI-3，能力提升速度是预期的2倍。",
+          "source": "X：Sherwin Wu（@sherwinwu）",
+          "url": "https://aihot.virxact.com/items/cmtlzumiu0soirow5cfujh2xf"
         }
       ]
     }
