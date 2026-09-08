@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-07",
-  "date_human": "2026年9月7日",
-  "total": 3,
+  "date": "2026-09-08",
+  "date_human": "2026年9月8日",
+  "total": 2,
   "counts": {
     "模型发布/更新": 0,
     "产品发布/更新": 0,
-    "行业动态": 0,
+    "行业动态": 1,
     "论文研究": 0,
-    "技巧与观点": 3
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.virxact.com/daily/2026-09-07",
+  "report_link": "https://aihot.news/daily/2026-09-08",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -21,7 +21,15 @@
     },
     {
       "name": "行业动态",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+          "summary": "Anthropic 十一个月内签署 5170 亿美元算力合同，锁定 14.8 GW 算力并计划自建数据中心。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/cmtrkorpo07jdrotnozlrlyx2"
+        }
+      ]
     },
     {
       "name": "论文研究",
@@ -31,25 +39,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 1,
-          "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
-          "summary": "OpenAI宣布达成自动化研究实习生目标，计划2028年3月前造出AI研究员。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v"
-        },
-        {
           "n": 2,
-          "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
-          "summary": "OpenAI多次修改GPT-6 Astra评测数据，幻觉率从4.2%降至2%后又改回。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.virxact.com/items/cmtphtttc01pkroxxh8pinzq2"
-        },
-        {
-          "n": 3,
-          "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
-          "summary": "OpenAI发文回溯RLSlow项目，指出GPT-6 Astra对齐优于GPT-5.6 Sol。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.virxact.com/items/cmtq23v6k01aorotwh8xip8r1"
+          "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
+          "summary": "GPT-6 Astra 被用户用于操控专业软件制作游戏 Demo、3D 复刻旧金山艺术宫等作品。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/cmtqhifvf04pwrohqvdfqmfxp"
         }
       ]
     }
