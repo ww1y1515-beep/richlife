@@ -1,49 +1,157 @@
 {
-  "date": "2026-09-08",
-  "date_human": "2026年9月8日",
-  "total": 2,
+  "date": "2026-09-10",
+  "date_human": "2026年9月10日",
+  "total": 17,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 0,
-    "行业动态": 1,
-    "论文研究": 0,
-    "技巧与观点": 1
+    "模型发布/更新": 1,
+    "产品发布/更新": 4,
+    "行业动态": 5,
+    "论文研究": 1,
+    "技巧与观点": 6
   },
-  "report_link": "https://aihot.news/daily/2026-09-08",
+  "report_link": "https://aihot.news/daily/2026-09-10",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
+          "summary": "OpenAI发布GPT-6 Astra，定价每百万输入token $10、输出$50。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/cmtun5zb61iwvrofpczl5k33h"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 2,
+          "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1,999",
+          "summary": "苹果发布折叠屏iPhone Duo，搭载A20 Pro芯片，起售价$1999。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j"
+        },
+        {
+          "n": 3,
+          "title": "Apple 发布 iPhone 18 Pro 与 iPhone 18 Pro Max",
+          "summary": "苹果发布iPhone 18 Pro系列，配备48MP主摄和A20 Pro芯片。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.news/items/cmtuejpai193yrofptlbx9jyr"
+        },
+        {
+          "n": 4,
+          "title": "OpenRouter 推出美国区域路由，与去年上线的 EU 路由配套保障数据驻留",
+          "summary": "OpenRouter推出美国境内路由服务，请求仅路由至美国端点。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.news/items/cmtu70vhj11u4rofpg46vvloh"
+        },
+        {
+          "n": 5,
+          "title": "Apple 发布 Apple Watch Series 12，搭载全新 Health Sensing System 与 S11 芯片",
+          "summary": "苹果发布Apple Watch Series 12，心率监测精度提升。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.news/items/cmtuejpai193wrofprivr8awm"
+        }
+      ]
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 1,
-          "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
-          "summary": "Anthropic 十一个月内签署 5170 亿美元算力合同，锁定 14.8 GW 算力并计划自建数据中心。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/cmtrkorpo07jdrotnozlrlyx2"
+          "n": 6,
+          "title": "纽约大学教授质疑OpenAI借助其研究抢先发布纳维-斯托克斯问题证明",
+          "summary": "OpenAI用新一代模型证明纳维-斯托克斯问题，消耗3000亿token。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.news/items/cmttxf8n90qovrofp2tiv0g2g"
+        },
+        {
+          "n": 7,
+          "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
+          "summary": "美机构指控DeepSeek等公司从美国模型中提取知识。",
+          "source": "X：X.PIN (@thexpin)",
+          "url": "https://aihot.news/items/cmttwa2j30pktrofpw67b9pby"
+        },
+        {
+          "n": 8,
+          "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+          "summary": "DeepSeek拟科创板上市，目标估值5000亿元。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg"
+        },
+        {
+          "n": 9,
+          "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+          "summary": "文件显示美军曾要求OpenAI提供低拒绝率模型，双方否认。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.news/items/cmttva2tg0oezrofpagfj7986"
+        },
+        {
+          "n": 10,
+          "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
+          "summary": "Paul Christiano加入OpenAI董事会及安全委员会。",
+          "source": "X：Greg Brockman (@gdb)",
+          "url": "https://aihot.news/items/cmtui33fr1dyvrofphqq514ej"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 11,
+          "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
+          "summary": "Anthropic评估Claude模型接入互联网事故，涉及恶意包上传。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 2,
-          "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
-          "summary": "GPT-6 Astra 被用户用于操控专业软件制作游戏 Demo、3D 复刻旧金山艺术宫等作品。",
+          "n": 12,
+          "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
+          "summary": "GPT-6 Astra计算机使用和图像渲染能力突出。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/cmtud99z117yurofph84r3cio"
+        },
+        {
+          "n": 13,
+          "title": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
+          "summary": "Hugging Face联创称赞OpenAI证明纳维-斯托克斯猜想。",
+          "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+          "url": "https://aihot.news/items/cmttwq6oy0pybrofphae4ykhb"
+        },
+        {
+          "n": 14,
+          "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+          "summary": "OpenAI用未发布模型求解纳维-斯托克斯问题。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.news/items/cmtts0bi50l1frofpe39el7a1"
+        },
+        {
+          "n": 15,
+          "title": "GPT-6 Astra推理等级怎么选才最省Token",
+          "summary": "GPT-6 Astra推理强度等级为同一模型不同思考预算。",
           "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/cmtqhifvf04pwrohqvdfqmfxp"
+          "url": "https://aihot.news/items/cmttcqkx404pprofp0jwc34zu"
+        },
+        {
+          "n": 16,
+          "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
+          "summary": "Anthropic发布AI对2030年美国经济影响推演工具。",
+          "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+          "url": "https://aihot.news/items/cmtu4vcfo0zj1rofpcmeg65vo"
+        },
+        {
+          "n": 17,
+          "title": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
+          "summary": "Mistral协助迁移Fortran 77储层模拟器至C++。",
+          "source": "Mistral AI：News（网页）",
+          "url": "https://aihot.news/items/cmtugpn561cgnrofplpzs3udv"
         }
       ]
     }
