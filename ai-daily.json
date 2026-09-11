@@ -1,25 +1,46 @@
 {
-  "date": "2026-09-10",
-  "date_human": "2026年9月10日",
-  "total": 17,
+  "date": "2026-09-11",
+  "date_human": "2026年9月11日",
+  "total": 16,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 4,
-    "行业动态": 5,
+    "模型发布/更新": 4,
+    "产品发布/更新": 6,
+    "行业动态": 2,
     "论文研究": 1,
-    "技巧与观点": 6
+    "技巧与观点": 3
   },
-  "report_link": "https://aihot.news/daily/2026-09-10",
+  "report_link": "https://aihot.news/daily/2026-09-11",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
-          "summary": "OpenAI发布GPT-6 Astra，定价每百万输入token $10、输出$50。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/cmtun5zb61iwvrofpczl5k33h"
+          "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+          "summary": "DeepSeek发布V4.1-Flash模型，具备多模态视觉能力，评测表现优异。",
+          "source": "DeepSeek：API 更新日志",
+          "url": "https://aihot.news/items/cmtv48yni0oq5rorpf4o74549"
+        },
+        {
+          "n": 2,
+          "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+          "summary": "WorkBuddy上线DeepSeek V4.1-Flash，提供两周免费试用。",
+          "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+          "url": "https://aihot.news/items/cmtvqbs1q03q9rofb98re4l3n"
+        },
+        {
+          "n": 3,
+          "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
+          "summary": "硅基流动上线DeepSeek-V4.1-Flash，552B MoE模型，支持1M上下文。",
+          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+          "url": "https://aihot.news/items/cmtvmrh9v0emuronbigbkvant"
+        },
+        {
+          "n": 4,
+          "title": "Suno v6 发布，支持图片、视频和语音备忘录生成音乐",
+          "summary": "Suno发布v6模型，可将图片视频转化为音乐并精确修改。",
+          "source": "X：Suno (@suno)",
+          "url": "https://aihot.news/items/cmtussvq60dj0rorpnzdh4g3k"
         }
       ]
     },
@@ -27,32 +48,46 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 2,
-          "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1,999",
-          "summary": "苹果发布折叠屏iPhone Duo，搭载A20 Pro芯片，起售价$1999。",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j"
-        },
-        {
-          "n": 3,
-          "title": "Apple 发布 iPhone 18 Pro 与 iPhone 18 Pro Max",
-          "summary": "苹果发布iPhone 18 Pro系列，配备48MP主摄和A20 Pro芯片。",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.news/items/cmtuejpai193yrofptlbx9jyr"
-        },
-        {
-          "n": 4,
-          "title": "OpenRouter 推出美国区域路由，与去年上线的 EU 路由配套保障数据驻留",
-          "summary": "OpenRouter推出美国境内路由服务，请求仅路由至美国端点。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/cmtu70vhj11u4rofpg46vvloh"
-        },
-        {
           "n": 5,
-          "title": "Apple 发布 Apple Watch Series 12，搭载全新 Health Sensing System 与 S11 芯片",
-          "summary": "苹果发布Apple Watch Series 12，心率监测精度提升。",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.news/items/cmtuejpai193wrofprivr8awm"
+          "title": "OpenAI 发布 Agents API 公测版",
+          "summary": "OpenAI推出Agents API测试版，开放Codex基础设施。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv"
+        },
+        {
+          "n": 6,
+          "title": "Cursor 推出 Projects：协调者智能体管理数千个子智能体处理大型开发任务",
+          "summary": "Cursor发布Projects(beta)，用协调者智能体处理大型开发工作。",
+          "source": "Cursor Blog",
+          "url": "https://aihot.news/items/cmtw4o8qc03iwrolkwc03elil"
+        },
+        {
+          "n": 7,
+          "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+          "summary": "OpenAI发布语音模型GPT-Live-1，支持听和说，每分钟0.05美元。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/cmtvsgyqs05vkrofbgg06yzsa"
+        },
+        {
+          "n": 8,
+          "title": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
+          "summary": "Google发布图像生成工具Google Pics，支持对象编辑和协作创作。",
+          "source": "X：Google AI (@GoogleAI)",
+          "url": "https://aihot.news/items/cmtvp95oo0h1yronb8scij5jx"
+        },
+        {
+          "n": 9,
+          "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
+          "summary": "Hugging Face发布Workflow1111，用73节点重建AUTOMATIC1111功能。",
+          "source": "Hugging Face：Blog（RSS）",
+          "url": "https://aihot.news/items/cmtvh5qcn05vfronbsu51vfic"
+        },
+        {
+          "n": 10,
+          "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+          "summary": "OpenAI推出Data agent，用自然语言连接公司数据生成仪表盘。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/cmtvopug40gnbronbmfh6c077"
         }
       ]
     },
@@ -60,39 +95,18 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 6,
-          "title": "纽约大学教授质疑OpenAI借助其研究抢先发布纳维-斯托克斯问题证明",
-          "summary": "OpenAI用新一代模型证明纳维-斯托克斯问题，消耗3000亿token。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmttxf8n90qovrofp2tiv0g2g"
+          "n": 11,
+          "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
+          "summary": "Shopify将移动应用从React Native迁回Swift和Kotlin。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.news/items/cmtvom4k90ghtronbwks6e67t"
         },
         {
-          "n": 7,
-          "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
-          "summary": "美机构指控DeepSeek等公司从美国模型中提取知识。",
-          "source": "X：X.PIN (@thexpin)",
-          "url": "https://aihot.news/items/cmttwa2j30pktrofpw67b9pby"
-        },
-        {
-          "n": 8,
-          "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
-          "summary": "DeepSeek拟科创板上市，目标估值5000亿元。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg"
-        },
-        {
-          "n": 9,
-          "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
-          "summary": "文件显示美军曾要求OpenAI提供低拒绝率模型，双方否认。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmttva2tg0oezrofpagfj7986"
-        },
-        {
-          "n": 10,
-          "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
-          "summary": "Paul Christiano加入OpenAI董事会及安全委员会。",
-          "source": "X：Greg Brockman (@gdb)",
-          "url": "https://aihot.news/items/cmtui33fr1dyvrofphqq514ej"
+          "n": 12,
+          "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
+          "summary": "Anthropic指控中国AI公司对Claude发起蒸馏攻击。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/cmtw0ejbx03jdro8s0ve1llhi"
         }
       ]
     },
@@ -100,11 +114,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 11,
-          "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
-          "summary": "Anthropic评估Claude模型接入互联网事故，涉及恶意包上传。",
+          "n": 13,
+          "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
+          "summary": "Anthropic评测模型在战术情报和武器开发上的能力。",
           "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u"
+          "url": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3"
         }
       ]
     },
@@ -112,46 +126,25 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 12,
-          "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
-          "summary": "GPT-6 Astra计算机使用和图像渲染能力突出。",
-          "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/cmtud99z117yurofph84r3cio"
-        },
-        {
-          "n": 13,
-          "title": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
-          "summary": "Hugging Face联创称赞OpenAI证明纳维-斯托克斯猜想。",
-          "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-          "url": "https://aihot.news/items/cmttwq6oy0pybrofphae4ykhb"
-        },
-        {
           "n": 14,
-          "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
-          "summary": "OpenAI用未发布模型求解纳维-斯托克斯问题。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.news/items/cmtts0bi50l1frofpe39el7a1"
+          "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+          "summary": "调查发现30项服务疑似OpenAI智能体协作痕迹。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/cmtvru9kd04x5rofbggyhsxae"
         },
         {
           "n": 15,
-          "title": "GPT-6 Astra推理等级怎么选才最省Token",
-          "summary": "GPT-6 Astra推理强度等级为同一模型不同思考预算。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/cmttcqkx404pprofp0jwc34zu"
+          "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
+          "summary": "Cognition团队用Devin智能体分解RSA-260，刷新纪录。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.news/items/cmtveyrm2000mronbnrnl0gez"
         },
         {
           "n": 16,
-          "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
-          "summary": "Anthropic发布AI对2030年美国经济影响推演工具。",
-          "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
-          "url": "https://aihot.news/items/cmtu4vcfo0zj1rofpcmeg65vo"
-        },
-        {
-          "n": 17,
-          "title": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
-          "summary": "Mistral协助迁移Fortran 77储层模拟器至C++。",
-          "source": "Mistral AI：News（网页）",
-          "url": "https://aihot.news/items/cmtugpn561cgnrofplpzs3udv"
+          "title": "27岁前Anthropic研究员Jacob Coxon辞职警示AI灭绝风险，作者重读Tim Urban《人工智能革命》谈文明赌局",
+          "summary": "研究员称OpenAI和Anthropic正奔向超级智能，人类面临灭绝或永生。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/cmturtlc70cqurorpv4fsfr4t"
         }
       ]
     }
