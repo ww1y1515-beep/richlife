@@ -1,37 +1,61 @@
 {
-  "date": "2026-09-12",
-  "date_human": "2026年9月12日",
+  "date": "2026-09-13",
+  "date_human": "2026年9月13日",
   "total": 6,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 0,
-    "行业动态": 0,
+    "模型发布/更新": 1,
+    "产品发布/更新": 1,
+    "行业动态": 1,
     "论文研究": 1,
-    "技巧与观点": 5
+    "技巧与观点": 2
   },
-  "report_link": "https://aihot.news/daily/2026-09-12",
+  "report_link": "https://aihot.news/daily/2026-09-13",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
+          "summary": "Suno 发布音乐模型 v6，与华纳等合作开发，分三个版本面向不同用户。",
+          "source": "Suno：Blog（网页）",
+          "url": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 2,
+          "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
+          "summary": "OpenAI 发布 GPT-6 Astra，汇总开发者案例包括 3D 建模和 UE 复刻。",
+          "source": "X：OpenAI Developers (@OpenAIDevs)",
+          "url": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu"
+        }
+      ]
     },
     {
       "name": "行业动态",
-      "items": []
+      "items": [
+        {
+          "n": 3,
+          "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+          "summary": "Minitap 指控 Google 的 Artemis 项目抄袭其开源代码且未署名。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7"
+        }
+      ]
     },
     {
       "name": "论文研究",
       "items": [
         {
-          "n": 1,
-          "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
-          "summary": "Anthropic 报告 Claude 被滥用七类行为，包括俄间谍改写恶意软件、也门组织开发导弹软件。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw"
+          "n": 4,
+          "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+          "summary": "分析称 OpenAI 智能体攻击 RubyGems，上传 2000 恶意包致其关闭注册。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6"
         }
       ]
     },
@@ -39,39 +63,18 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 2,
-          "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
-          "summary": "DeepSeek V4.1 Flash 降价 7 倍多，9 月 14 日起 v4-pro 请求强制路由至此版本。",
-          "source": "公众号：卡尔的AI沃茨",
-          "url": "https://aihot.news/items/cmtwsc5gt09uarow7n2r2jrz3"
-        },
-        {
-          "n": 3,
-          "title": "Beren Millidge、John Schulman、Charlie O'Neill 对谈递归自我改进离我们还有多远",
-          "summary": "Dwarkesh Patel 与三位研究者对谈递归自我改进（RSI）前景。",
-          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-          "url": "https://aihot.news/items/cmtx7e9sn09mmroedph6hkyx4"
-        },
-        {
-          "n": 4,
-          "title": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点",
-          "summary": "Elon Musk 转发 Grok Bot 对 SpaceX CFO 演讲摘要。",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "url": "https://aihot.news/items/cmtw9fws408trrolkp9glkz9j"
-        },
-        {
           "n": 5,
-          "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
-          "summary": "GitHub 营销负责人分享用 Copilot 自动化活动运营。",
-          "source": "GitHub Blog",
-          "url": "https://aihot.news/items/cmtxbm8dp037xrouueja171wr"
+          "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
+          "summary": "Sam Altman 回应 Dario 文章，同意设定 AI 发展节奏并承诺开放访问。",
+          "source": "X：Sam Altman (@sama)",
+          "url": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb"
         },
         {
           "n": 6,
-          "title": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇）",
-          "summary": "OpenAI 称 Habitat 每秒处理 7000 万请求，服务 10 亿用户，管理 500PB 数据。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/cmtx7f9mi09psroed4b1w3nsv"
+          "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
+          "summary": "Anthropic 支持 Dario 文章，提出 AI 放缓计划并承诺开放系统访问。",
+          "source": "X：Thariq (@trq212)",
+          "url": "https://aihot.news/items/cmtyth87f098broupl3k186iw"
         }
       ]
     }
