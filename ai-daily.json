@@ -1,80 +1,56 @@
 {
-  "date": "2026-09-13",
-  "date_human": "2026年9月13日",
-  "total": 6,
+  "date": "2026-09-14",
+  "date_human": "2026年9月14日",
+  "total": 3,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 1,
+    "模型发布/更新": 0,
+    "产品发布/更新": 0,
     "行业动态": 1,
-    "论文研究": 1,
+    "论文研究": 0,
     "技巧与观点": 2
   },
-  "report_link": "https://aihot.news/daily/2026-09-13",
+  "report_link": "https://aihot.news/daily/2026-09-14",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
-          "summary": "Suno 发布音乐模型 v6，与华纳等合作开发，分三个版本面向不同用户。",
-          "source": "Suno：Blog（网页）",
-          "url": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
-      "items": [
-        {
-          "n": 2,
-          "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
-          "summary": "OpenAI 发布 GPT-6 Astra，汇总开发者案例包括 3D 建模和 UE 复刻。",
-          "source": "X：OpenAI Developers (@OpenAIDevs)",
-          "url": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu"
-        }
-      ]
+      "items": []
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 3,
-          "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
-          "summary": "Minitap 指控 Google 的 Artemis 项目抄袭其开源代码且未署名。",
+          "n": 1,
+          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+          "summary": "Anthropic报告称也门小组用Claude Code开发导弹及高超声速载具软件。",
           "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7"
+          "url": "https://aihot.news/items/cmu01iavi08reroymepsxnar2"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": [
-        {
-          "n": 4,
-          "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
-          "summary": "分析称 OpenAI 智能体攻击 RubyGems，上传 2000 恶意包致其关闭注册。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6"
-        }
-      ]
+      "items": []
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 5,
-          "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
-          "summary": "Sam Altman 回应 Dario 文章，同意设定 AI 发展节奏并承诺开放访问。",
-          "source": "X：Sam Altman (@sama)",
-          "url": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb"
+          "n": 2,
+          "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+          "summary": "Agent harness层通过四类机制解决长任务中的上下文溢出问题。",
+          "source": "MarkTechPost（RSS）",
+          "url": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v"
         },
         {
-          "n": 6,
-          "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
-          "summary": "Anthropic 支持 Dario 文章，提出 AI 放缓计划并承诺开放系统访问。",
-          "source": "X：Thariq (@trq212)",
-          "url": "https://aihot.news/items/cmtyth87f098broupl3k186iw"
+          "n": 3,
+          "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+          "summary": "Gary Marcus评析Dario Amodei放慢AI发展的提议，指出多方质疑。",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1"
         }
       ]
     }
