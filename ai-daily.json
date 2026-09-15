@@ -1,56 +1,101 @@
 {
-  "date": "2026-09-14",
-  "date_human": "2026年9月14日",
-  "total": 3,
+  "date": "2026-09-15",
+  "date_human": "2026年9月15日",
+  "total": 9,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 0,
+    "模型发布/更新": 2,
+    "产品发布/更新": 1,
     "行业动态": 1,
-    "论文研究": 0,
-    "技巧与观点": 2
+    "论文研究": 1,
+    "技巧与观点": 4
   },
-  "report_link": "https://aihot.news/daily/2026-09-14",
+  "report_link": "https://aihot.news/daily/2026-09-15",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+          "summary": "小红书开源 Search Agent 模型 Iris，权重和评测代码已公开。",
+          "source": "公众号：小红书技术（dots.llm）",
+          "url": "https://aihot.news/items/cmu12ocst0b6nro2nypi25zyq"
+        },
+        {
+          "n": 2,
+          "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
+          "summary": "硅基流动开源 770B 参数模型 Hy4 preview，支持 1M 上下文。",
+          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+          "url": "https://aihot.news/items/cmu1gt8gn097trocnxxvdhxli"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 3,
+          "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
+          "summary": "苹果发布新一代 Siri AI，支持个人语境理解和跨设备操作。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e"
+        }
+      ]
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 1,
-          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-          "summary": "Anthropic报告称也门小组用Claude Code开发导弹软件，包括射程2000公里弹道导弹和高超声速滑翔载具概…",
-          "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/cmu01iavi08reroymepsxnar2"
+          "n": 4,
+          "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+          "summary": "Anthropic 连续两季度盈利，毛利率超 80%。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 5,
+          "title": "DeepSeek-V4.1-Flash (Max) 进入 Agent Arena 开源模型第 3 名",
+          "summary": "DeepSeek-V4.1-Flash 进入 Agent Arena 开源模型第 3 名。",
+          "source": "X：Arena (@arena)",
+          "url": "https://aihot.news/items/cmu1jhejj0njbrocn5llfnktp"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 2,
-          "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
-          "summary": "文章分析Agent harness层应对长任务问题的四类机制：上下文预算、压缩、复述和跨会话记忆。",
-          "source": "MarkTechPost（RSS）",
-          "url": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v"
+          "n": 6,
+          "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
+          "summary": "AI 领袖同意放慢开发，引入第三方审计和监管。",
+          "source": "The Verge：AI（RSS）",
+          "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn"
         },
         {
-          "n": 3,
-          "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
-          "summary": "Gary Marcus评Dario Amodei放慢AI发展提议，Sam Altman和Elon Musk支持，但质疑…",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1"
+          "n": 7,
+          "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
+          "summary": "GPT-5.6 Luna 和 GPT-6 Astra 代码评审能力对比，Luna 成本更低。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/cmu1rrthc04ffrovwf4kpknmm"
+        },
+        {
+          "n": 8,
+          "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
+          "summary": "Tomer Tunguz 分析 AI 发展放缓的五派立场。",
+          "source": "Tomer Tunguz 博客（VC 分析）",
+          "url": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c"
+        },
+        {
+          "n": 9,
+          "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
+          "summary": "Anthropic 工程师代码量是均值的 8 倍，80% 由 Claude 编写。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.news/items/cmu1miqz1154mrocnhtw6icqw"
         }
       ]
     }
