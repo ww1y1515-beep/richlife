@@ -36,7 +36,7 @@
         {
           "n": 3,
           "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
-          "summary": "苹果发布新一代 Siri AI，支持个人语境理解和跨设备操作。",
+          "summary": "Apple 发布新一代 Siri AI，支持个人语境理解和跨设备操作。",
           "source": "Apple：Newsroom（RSS）",
           "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e"
         }
@@ -72,28 +72,28 @@
         {
           "n": 6,
           "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
-          "summary": "AI 领袖同意放慢开发，引入第三方审计和监管。",
+          "summary": "AI 领袖周末同意放慢开发，引入第三方审计和监管。",
           "source": "The Verge：AI（RSS）",
           "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn"
         },
         {
           "n": 7,
           "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
-          "summary": "GPT-5.6 Luna 和 GPT-6 Astra 代码评审能力对比，Luna 成本更低。",
+          "summary": "GPT-5.6 Luna 和 GPT-6 Astra 代码评审能力对比，成本 $0.20 对 $5.66。",
           "source": "Hacker News：AI 热帖",
           "url": "https://aihot.news/items/cmu1rrthc04ffrovwf4kpknmm"
         },
         {
           "n": 8,
           "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
-          "summary": "Tomer Tunguz 分析 AI 发展放缓的五派立场。",
+          "summary": "Tomer Tunguz 分析 AI 发展放缓五派立场，无具体速度建议。",
           "source": "Tomer Tunguz 博客（VC 分析）",
           "url": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c"
         },
         {
           "n": 9,
           "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
-          "summary": "Anthropic 工程师代码量是均值的 8 倍，80% 由 Claude 编写。",
+          "summary": "Anthropic 工程师代码交付量是均值的 8 倍，80% 由 Claude 编写。",
           "source": "Claude：Blog（网页）",
           "url": "https://aihot.news/items/cmu1miqz1154mrocnhtw6icqw"
         }
