@@ -17,21 +17,21 @@
         {
           "n": 1,
           "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
-          "summary": "Google DeepMind 发布 Gemini 3.8 Live 系列语音对话模型，支持实时交互与复杂任务。",
+          "summary": "Google DeepMind 发布 Gemini 3.8 Live 和 Live Extended Thinking…",
           "source": "Google DeepMind：Blog（RSS）",
           "url": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm"
         },
         {
           "n": 2,
           "title": "生数科技发布 Vidu S2：含 Avatar 与 Editing 双模型，探索空间视频",
-          "summary": "生数科技发布 Vidu S2，含数字角色交互与视频流编辑功能，探索 VR 视频生成。",
+          "summary": "生数科技发布 Vidu S2，含数字角色交互和视频流编辑功能。",
           "source": "公众号：生数科技（Vidu·视频）",
           "url": "https://aihot.news/items/cmu2t7e9005xhro3xi5oq27e7"
         },
         {
           "n": 3,
           "title": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一",
-          "summary": "阶跃星辰发布 StepAudio 3 系列五款模型，已上线开放平台。",
+          "summary": "阶跃星辰发布 StepAudio 3 系列五款模型。",
           "source": "公众号：阶跃星辰（Step）",
           "url": "https://aihot.news/items/cmu2d4jj405xcro25xm50v262"
         }
@@ -43,14 +43,14 @@
         {
           "n": 4,
           "title": "Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言",
-          "summary": "Google 语言技术支持 300 种语言，发布轻量开源翻译模型 TranslateGemma。",
+          "summary": "Google 语言技术支持 300 种语言，发布 TranslateGemma 翻译模型。",
           "source": "Google Blog：AI（RSS）",
           "url": "https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s"
         },
         {
           "n": 5,
           "title": "Claude for Small Business 新增 43 个工作流和 27 个集成，并推出免费培训计划",
-          "summary": "Anthropic 为 Claude 新增 70 个工作流与集成，安装量超 90 万次。",
+          "summary": "Anthropic 为 Claude for Small Business 新增 43 个工作流和 27 个集成。",
           "source": "Claude：Blog（网页）",
           "url": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y"
         }
@@ -62,7 +62,7 @@
         {
           "n": 6,
           "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元",
-          "summary": "Perplexity 自研 CobbleDB 替代 DynamoDB，热存储读取延迟降 5 倍。",
+          "summary": "Perplexity 自研 CobbleDB 替代 DynamoDB，年省一亿美元。",
           "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
           "url": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c"
         }
@@ -78,49 +78,49 @@
         {
           "n": 7,
           "title": "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
-          "summary": "OpenAI 内部 Codex 和 ChatGPT Work 已成工作基础。",
+          "summary": "OpenAI 内部 Codex 和 ChatGPT Work 成为工作基础。",
           "source": "Pragmatic Engineer（RSS）",
           "url": "https://aihot.news/items/cmu2utske02sjrowk2zs2agim"
         },
         {
           "n": 8,
           "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
-          "summary": "Anthropic CEO 呼吁放缓 AI 开发并寻求反垄断豁免，获 Sam Altman 支持。",
+          "summary": "Anthropic CEO 呼吁放缓 AI 开发并寻求反垄断豁免。",
           "source": "The Decoder：AI News（RSS）",
           "url": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9"
         },
         {
           "n": 9,
           "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
-          "summary": "OpenAI 莉莉计划雇佣提示词审核员匿名评估用户聊天记录。",
+          "summary": "OpenAI 内部项目莉莉计划审核用户聊天记录。",
           "source": "IT之家（RSS）",
           "url": "https://aihot.news/items/cmu2n8sq10chlrovqbe47wj5t"
         },
         {
           "n": 10,
           "title": "Arena 更新 Image-to-WebDev 榜单：GPT-6 Astra 以 1733 分登顶",
-          "summary": "Arena 更新 Image-to-WebDev 榜，GPT-6 Astra 以 1733 分居首。",
+          "summary": "Arena 更新 Image-to-WebDev 排行榜，GPT-6 Astra 居首。",
           "source": "X：Arena (@arena)",
           "url": "https://aihot.news/items/cmu36fa060aaqrosaqk9opwh9"
         },
         {
           "n": 11,
           "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
-          "summary": "OpenAI 的 GPT-Live-1 以 81.5 分领跑 Speech to Speech 榜。",
+          "summary": "Artificial Analysis 发布 Speech to Speech Index，GPT-Live-1 第一。",
           "source": "X：Artificial Analysis (@ArtificialAnlys)",
           "url": "https://aihot.news/items/cmu23uewb08bfrow2t7lv6cxc"
         },
         {
           "n": 12,
           "title": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
-          "summary": "Trail of Bits 批评 1Password 报告 AI 修复率因实验设计失真。",
+          "summary": "Trail of Bits 批评 1Password 的 FLAWED 报告数据失真。",
           "source": "Trail of Bits：AI安全研究",
           "url": "https://aihot.news/items/cmu2lqodj08k0rovqocv9r3z3"
         },
         {
           "n": 13,
           "title": "Vercel 将 inbound 销售团队从 10 人压缩至 1.25 人，AI 销售开发智能体年成本仅数千美元",
-          "summary": "Vercel 销售开发自动化率达 90%，团队从 10 人减至 1.25 人。",
+          "summary": "Vercel 销售开发 90% 自动化，团队从 10 人减至 1.25 人。",
           "source": "Tomer Tunguz 博客（VC 分析）",
           "url": "https://aihot.news/items/cmu3a2rht0goyrosayo2gs0nh"
         }
