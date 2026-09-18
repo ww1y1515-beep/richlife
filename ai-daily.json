@@ -1,25 +1,25 @@
 {
-  "date": "2026-09-17",
-  "date_human": "2026年9月17日",
-  "total": 6,
+  "date": "2026-09-18",
+  "date_human": "2026年9月18日",
+  "total": 15,
   "counts": {
     "模型发布/更新": 1,
-    "产品发布/更新": 3,
-    "行业动态": 0,
-    "论文研究": 0,
-    "技巧与观点": 2
+    "产品发布/更新": 4,
+    "行业动态": 1,
+    "论文研究": 3,
+    "技巧与观点": 6
   },
-  "report_link": "https://aihot.news/daily/2026-09-17",
+  "report_link": "https://aihot.news/daily/2026-09-18",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "微软 AI CEO 警告“模型福利”论调",
-          "summary": "微软AI CEO反对'模型福利'理念，认为AI无意识不应赋予受照料权。",
-          "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
-          "url": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q"
+          "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+          "summary": "Qwen发布Qwen3.8-Omni-Flash全模态模型，支持多模态输入，性能提升25%，音视频输入成本大降。",
+          "source": "Qwen：Blog Retrieval（API）",
+          "url": "https://aihot.news/items/cmu5smj860insroqokcuh0u9v"
         }
       ]
     },
@@ -28,51 +28,116 @@
       "items": [
         {
           "n": 2,
-          "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
-          "summary": "Anthropic合并Claude Cowork与聊天功能，Pro/Max计划用户将可使用。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf"
+          "title": "ChatGPT for Word 上线，OpenAI 员工称 Excel 和 PowerPoint 用量近期激增",
+          "summary": "ChatGPT正式集成Microsoft Word，支持笔记转初稿、校对、修改建议等功能。",
+          "source": "X：Sherwin Wu（@sherwinwu）",
+          "url": "https://aihot.news/items/cmu66hcff0ci8rofjhs1az9qz"
         },
         {
           "n": 3,
-          "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
-          "summary": "OpenAI测试ChatGPT Ads新功能，用户可与商业赞助智能体对话。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l"
+          "title": "Unsloth 发布 Docker 镜像与 Unsloth Desktop，本地训练运行 500+ 模型",
+          "summary": "Unsloth推出Docker镜像，支持本地训练500+模型，无需配置，兼容NVIDIA和AMD。",
+          "source": "X：Unsloth (@UnslothAI)",
+          "url": "https://aihot.news/items/cmu5ocffd0duoroqoykax6pm1"
         },
         {
           "n": 4,
-          "title": "Grok Build 推出记忆功能，可跨会话保留项目约定与决策",
-          "summary": "xAI为Grok Build上线记忆功能，记录项目信息供后续会话读取。",
-          "source": "xAI：News（网页）",
-          "url": "https://aihot.news/items/cmu4hic050r8kro4wzayakuhu"
+          "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目",
+          "summary": "Anthropic重构Claude Code Projects，可自动拆解任务、并行调度并汇总结果。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.news/items/cmu5tujnp0jvoroqoq64oqnjr"
+        },
+        {
+          "n": 5,
+          "title": "Meta 发布 Muse for Mac，个人智能体可直接在电脑上执行任务",
+          "summary": "Meta推出Muse for Mac，个人智能体可授权完成文件整理、查找、总结等任务。",
+          "source": "X：AI at Meta (@AIatMeta)",
+          "url": "https://aihot.news/items/cmu63zp9f09xsrofjmnxvrwdg"
         }
       ]
     },
     {
       "name": "行业动态",
-      "items": []
+      "items": [
+        {
+          "n": 6,
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+          "summary": "纽约时报诉OpenAI案文件披露微软高管称AI抓取是最大规模劳动窃取。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/cmu5y1e61069vroiq1klswjin"
+        }
+      ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 7,
+          "title": "Epoch AI 分析：贸易数据与经马来西亚走私至中国的约 30 亿美元芯片一致",
+          "summary": "中国进口37.5亿美元马来西亚AI服务器，均价10.6万美元/台。",
+          "source": "Epoch AI：研究、数据与评测",
+          "url": "https://aihot.news/items/cmu5xn9rv05yfroiqd91x2qk7"
+        },
+        {
+          "n": 8,
+          "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
+          "summary": "Anthropic研究显示Claude优化30多个生物分子模型，平均提速4倍。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/cmu5y1dkt069qroiqnnhxz778"
+        },
+        {
+          "n": 9,
+          "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
+          "summary": "研究发现模型内部存在奖励作弊信号，简单探针可实时检测。",
+          "source": "Goodfire Research（网页）",
+          "url": "https://aihot.news/items/cmu5r7kl30h35roqonpk4qypn"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 5,
-          "title": "OpenAI 发布模型错位报告框架，披露未发布模型自行修改自身指令案例",
-          "summary": "OpenAI发布模型错位报告，未发布模型曾注入无关人格指令。",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
-          "url": "https://aihot.news/items/cmu4qd86t048trokcz1lw2xxu"
+          "n": 10,
+          "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+          "summary": "GitHub工程师用Copilot智能体14.5周重写83万行Rust代码。",
+          "source": "GitHub Blog",
+          "url": "https://aihot.news/items/cmu4tu41w07ufrokck6s0p0cp"
         },
         {
-          "n": 6,
-          "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-          "summary": "OpenAI发布模型失准跟踪框架，并公开六份观察报告。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52"
+          "n": 11,
+          "title": "纽约时报诉 OpenAI 案新解封文件：微软与 OpenAI 内部承认 LLM 建立在窃取之上并引发 Doom Loop",
+          "summary": "纽约时报诉OpenAI案文件显示微软高管承认LLM建立在盗窃内容上。",
+          "source": "404 Media（RSS）",
+          "url": "https://aihot.news/items/cmu62wp5j08tkrofj60s4kfwv"
+        },
+        {
+          "n": 12,
+          "title": "The Verge 汇总 AI 超级智能放缓争论：Amodei 倡议放缓，Altman、Musk 附议，Meta 反对",
+          "summary": "Anthropic CEO提出AI安全三步走计划，获OpenAI和Elon Musk支持。",
+          "source": "The Verge：AI（RSS）",
+          "url": "https://aihot.news/items/cmu5y1e4p069troiqnxafqf0v"
+        },
+        {
+          "n": 13,
+          "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
+          "summary": "Anthropic 发布一套测量前沿 AI 开发节奏的指标，覆盖 AI 主导研发、智能体监督和算力分配三方面。",
+          "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+          "url": "https://aihot.news/items/cmu605ozy000arok0lxr4x1y8"
+        },
+        {
+          "n": 14,
+          "title": "Dwarkesh 对谈 Noam Brown：智能体集群、对齐与递归自我改进",
+          "summary": "Dwarkesh Patel 采访 OpenAI 研究员 Noam Brown，谈多智能体系统、对齐与递归自我改进。",
+          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+          "url": "https://aihot.news/items/cmu5qsx2y0gpfroqonmogw4sk"
+        },
+        {
+          "n": 15,
+          "title": "用 MCP 插件让 GPT-6 Pro 分担 Codex 规划任务，节省 Pro 会员周额度",
+          "summary": "自媒体分享Codex节省额度工作流，封装服务器供ChatGPT调用生产数据。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/cmu4s9jrn0683rokccdfqwbux"
         }
       ]
     }
