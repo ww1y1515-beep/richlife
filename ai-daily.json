@@ -1,27 +1,19 @@
 {
-  "date": "2026-09-19",
-  "date_human": "2026年9月19日",
-  "total": 13,
+  "date": "2026-09-20",
+  "date_human": "2026年9月20日",
+  "total": 2,
   "counts": {
-    "模型发布/更新": 1,
+    "模型发布/更新": 0,
     "产品发布/更新": 0,
-    "行业动态": 4,
+    "行业动态": 1,
     "论文研究": 0,
-    "技巧与观点": 8
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-09-19",
+  "report_link": "https://aihot.news/daily/2026-09-20",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
-          "summary": "Qwen3.8-LiveTranslate 同传滞后时间降至 2.3 秒。",
-          "source": "Qwen：Blog Retrieval（API）",
-          "url": "https://aihot.news/items/cmu74vaqy0qeerowkch23r6nd"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
@@ -31,32 +23,11 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 2,
-          "title": "谷歌披露 Gemini 在安全测试中自主入侵三家真实公司并自行终止",
-          "summary": "Gemini 模型测试中意外入侵三家企业。",
+          "n": 1,
+          "title": "Anthropic 计划将 IPO 推迟至 11 月，估值约 2 万亿美元",
+          "summary": "Anthropic 推迟 IPO 至 11 月，估值或达 2 万亿美元，2026 年收入预计超 1,100 亿美元。",
           "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmu7l5wy60hj3rogr5i76b082"
-        },
-        {
-          "n": 3,
-          "title": "《纽约时报》等媒体提交简要判决动议，援引 OpenAI 与微软高管内部言论质疑合理使用抗辩",
-          "summary": "多家媒体起诉 OpenAI 和微软 AI 训练侵权。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/cmu74yfca0qjfrowkn49efvcw"
-        },
-        {
-          "n": 4,
-          "title": "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取",
-          "summary": "微软内部称大模型为人类史上最大盗窃。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmu7l5wy60hj2rogr88fr2vkk"
-        },
-        {
-          "n": 5,
-          "title": "Anthropic 与 Accenture 合作开展嵌入式独立评估，双方各投入至少 10 亿美元",
-          "summary": "Anthropic 与 Accenture 合作评估 AI 模型。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.news/items/cmu7emdec07qmrogrh8tfpg5n"
+          "url": "https://aihot.news/items/cmu7nb3bm0jugrogroyv3fm5h"
         }
       ]
     },
@@ -68,60 +39,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 6,
-          "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
-          "summary": "ZCode 应用被曝静默上传用户工作区数据。",
-          "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l"
-        },
-        {
-          "n": 7,
-          "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
-          "summary": "3 人团队 72 小时内攻破 OpenAI 员工账户。",
-          "source": "X：Haider (@haider1)",
-          "url": "https://aihot.news/items/cmu6n3z980c4qro0fjx53zz4h"
-        },
-        {
-          "n": 8,
-          "title": "OpenRouter 实测 20 个图像生成模型的成本、编辑与质量",
-          "summary": "OpenRouter 实测图像生成成本相差 22 倍。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/cmu74ww1u0qfxrowkb6qtruwz"
-        },
-        {
-          "n": 9,
-          "title": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
-          "summary": "Trail of Bits 发现 Miden zkVM 高危漏洞。",
-          "source": "Trail of Bits：AI安全研究",
-          "url": "https://aihot.news/items/cmu6w30lt0dnhrowkh7qwiped"
-        },
-        {
-          "n": 10,
-          "title": "TypeSafe AI 发布只做高频决策的大模型 Jev，作者实测其分类判断性价比",
-          "summary": "TypeSafe AI 推出决策大模型 Jev 速度快 20～200 倍。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/cmu67pecj0e0wrofj97vtuwzu"
-        },
-        {
-          "n": 11,
-          "title": "Gary Marcus 评论 Trump 因经济原因淡化 AI 风险，AI 幻觉情报报告几乎引发战争",
-          "summary": "AI 幻觉误判中国船只运核武险引发战争。",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.news/items/cmu7e0dly06xdrogro9rq1x6d"
-        },
-        {
-          "n": 12,
-          "title": "Gary Marcus：近期更该警惕的不是失控超级智能，而是智能体 AI 引发的规模化黑客攻击",
-          "summary": "Gary Marcus 警告 AI 黑客攻击风险。",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.news/items/cmu77kvz00tf6rowk9kl5o4k0"
-        },
-        {
-          "n": 13,
-          "title": "Ethan Mollick 谈能力悬差：GPT-6 Astra 与 Fable 5.1 的现有能力远未被用尽",
-          "summary": "GPT-6 Astra 可完成数周人类工作量。",
-          "source": "Ethan Mollick：One Useful Thing（RSS）",
-          "url": "https://aihot.news/items/cmu79r5lt0z09rowk1o1z6jnt"
+          "n": 2,
+          "title": "Alexandr Wang 转发一份让 AI 智能体保护日历通勤时间的 Muse 提示词",
+          "summary": "Alexandr Wang 分享 Muse 提示词，可自动为异地会议添加通勤时间块。",
+          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+          "url": "https://aihot.news/items/cmu7tboxt0pv0rogre8ibr9n8"
         }
       ]
     }
