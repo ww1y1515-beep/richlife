@@ -1,51 +1,66 @@
 {
-  "date": "2026-09-20",
-  "date_human": "2026年9月20日",
-  "total": 2,
+  "date": "2026-09-21",
+  "date_human": "2026年9月21日",
+  "total": 4,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 0,
-    "行业动态": 1,
-    "论文研究": 0,
-    "技巧与观点": 1
+    "模型发布/更新": 2,
+    "产品发布/更新": 1,
+    "行业动态": 0,
+    "论文研究": 1,
+    "技巧与观点": 0
   },
-  "report_link": "https://aihot.news/daily/2026-09-20",
+  "report_link": "https://aihot.news/daily/2026-09-21",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
-    },
-    {
-      "name": "产品发布/更新",
-      "items": []
-    },
-    {
-      "name": "行业动态",
       "items": [
         {
           "n": 1,
-          "title": "Anthropic 计划将 IPO 推迟至 11 月，估值约 2 万亿美元",
-          "summary": "Anthropic 将 IPO 推迟至 11 月，估值或达 2 万亿美元，募资或超 1,000 亿美元。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmu7nb3bm0jugrogroyv3fm5h"
+          "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+          "summary": "Qwen 团队开源 Qwen-Image-2.1，7B 参数统一文生图与图像编辑，支持透明图像和多参考图编辑。",
+          "source": "Qwen：Blog Retrieval（API）",
+          "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f"
+        },
+        {
+          "n": 2,
+          "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
+          "summary": "阶跃星辰发布 Step 5 Preview 模型，600B 参数支持 100 万 Token 上下文，成本为 Clau…",
+          "source": "公众号：阶跃星辰（Step）",
+          "url": "https://aihot.news/items/cmu96vqg8035srodqu63q13w4"
         }
       ]
     },
     {
-      "name": "论文研究",
+      "name": "产品发布/更新",
+      "items": [
+        {
+          "n": 3,
+          "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
+          "summary": "Qwen-Image-2.1 支持 ComfyUI，7B 模型同时支持图像生成与编辑，可 2K 生成和多参考图编辑。",
+          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "url": "https://aihot.news/items/cmu9w55as056krowjqmhejtmz"
+        }
+      ]
+    },
+    {
+      "name": "行业动态",
       "items": []
     },
     {
-      "name": "技巧与观点",
+      "name": "论文研究",
       "items": [
         {
-          "n": 2,
-          "title": "Alexandr Wang 转发一份让 AI 智能体保护日历通勤时间的 Muse 提示词",
-          "summary": "Alexandr Wang 分享 Muse 提示词，可自动为异地会议添加通勤时间块。",
-          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-          "url": "https://aihot.news/items/cmu7tboxt0pv0rogre8ibr9n8"
+          "n": 4,
+          "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+          "summary": "OpenAI 广告收集器通过 bzr.openai.com 设置 Cookie，商家站点回传用户浏览和购买数据。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.news/items/cmua567e703tmro5t558lzx7o"
         }
       ]
+    },
+    {
+      "name": "技巧与观点",
+      "items": []
     }
   ]
 }
