@@ -1,32 +1,60 @@
 {
-  "date": "2026-09-21",
-  "date_human": "2026年9月21日",
-  "total": 4,
+  "date": "2026-09-22",
+  "date_human": "2026年9月22日",
+  "total": 15,
   "counts": {
-    "模型发布/更新": 2,
+    "模型发布/更新": 6,
     "产品发布/更新": 1,
-    "行业动态": 0,
-    "论文研究": 1,
-    "技巧与观点": 0
+    "行业动态": 2,
+    "论文研究": 0,
+    "技巧与观点": 6
   },
-  "report_link": "https://aihot.news/daily/2026-09-21",
+  "report_link": "https://aihot.news/daily/2026-09-22",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
-          "summary": "Qwen开源Qwen-Image-2.1模型，7B参数统一文生图与编辑，支持10张参考图和透明图像生成。",
-          "source": "Qwen：Blog Retrieval（API）",
-          "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f"
+          "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
+          "summary": "小米开源 MiMo-V2.6 系列全模态模型，含 Pro 与 Flash 两个版本。",
+          "source": "公众号：小米 MiMo",
+          "url": "https://aihot.news/items/cmubpn8sw05u5ro4vlvacy22d"
         },
         {
           "n": 2,
-          "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
-          "summary": "阶跃星辰发布Step 5 Preview模型，600B参数支持100万Token，成本为Claude Opus 5的1…",
-          "source": "公众号：阶跃星辰（Step）",
-          "url": "https://aihot.news/items/cmu96vqg8035srodqu63q13w4"
+          "title": "xAI 发布 Grok 4.7，主打编码与知识工作",
+          "summary": "xAI 发布 Grok 4.7，定价 $2/百万输入 token、$6/百万输出 token。",
+          "source": "xAI：News（网页）",
+          "url": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1"
+        },
+        {
+          "n": 3,
+          "title": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
+          "summary": "小米 MiMo-V2.6 Pro 在 Agent 基准上与 Claude Opus 5 和 GPT-5.6 Sol 表…",
+          "source": "X：小米 MiMo (@XiaomiMiMo)",
+          "url": "https://aihot.news/items/cmubqsb9l03vbrociqf22sr07"
+        },
+        {
+          "n": 4,
+          "title": "小米发布开放权重模型 MiMo-V2.6-Pro，登顶 Artificial Analysis 开放权重模型智能指数",
+          "summary": "小米 MiMo-V2.6-Pro 在 Artificial Analysis Intelligence Index 得…",
+          "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+          "url": "https://aihot.news/items/cmubqsb9b03v9rocigei56crg"
+        },
+        {
+          "n": 5,
+          "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+          "summary": "通义千问发布 7B 参数原生图像生成与编辑模型 Qwen-Image-2.1。",
+          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "url": "https://aihot.news/items/cmuao05at0q8uro5tpc85e2kj"
+        },
+        {
+          "n": 6,
+          "title": "小米 MiMo-V2.6-Pro 登上 Code Arena: WebDev 榜约第10名，开源权重中约第3",
+          "summary": "小米 MiMo-V2.6-Pro 在 Code Arena: WebDev 榜以 1628 分位列开源权重约第3。",
+          "source": "X：Arena (@arena)",
+          "url": "https://aihot.news/items/cmubr2enk04a1rociadivcsjt"
         }
       ]
     },
@@ -34,33 +62,83 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 3,
-          "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
-          "summary": "Qwen-Image-2.1支持ComfyUI，7B模型可2K生成和编辑，最多10张参考图，支持RGBA输出。",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-          "url": "https://aihot.news/items/cmu9w55as056krowjqmhejtmz"
+          "n": 7,
+          "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+          "summary": "Kimi 发布 Kimi Code Desktop 1.0，支持 macOS 和 Windows。",
+          "source": "公众号：月之暗面（Kimi）",
+          "url": "https://aihot.news/items/cmuaytowf0c4oroln02tacq0c"
         }
       ]
     },
     {
       "name": "行业动态",
-      "items": []
-    },
-    {
-      "name": "论文研究",
       "items": [
         {
-          "n": 4,
-          "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
-          "summary": "OpenAI广告收集器通过bzr.openai.com设置Cookie，商家站点回传用户浏览和购买数据。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.news/items/cmua567e703tmro5t558lzx7o"
+          "n": 8,
+          "title": "不列颠哥伦比亚省起诉 OpenAI，指其未在枪击案前将 flagged ChatGPT 活动转介警方",
+          "summary": "不列颠哥伦比亚省起诉 OpenAI，指 ChatGPT 未预警 Tumbler Ridge 枪击案。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/cmubom7qi04k8ro4v1zoas2o7"
+        },
+        {
+          "n": 9,
+          "title": "亚马逊封禁 Meta Muse 智能体代用户购物，双方争端升级",
+          "summary": "亚马逊阻断 Meta AI 智能体 Muse 在其网站购物，称其带来隐私隐患。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.news/items/cmub7xf1o0pu2roln165i6mhu"
         }
       ]
     },
     {
-      "name": "技巧与观点",
+      "name": "论文研究",
       "items": []
+    },
+    {
+      "name": "技巧与观点",
+      "items": [
+        {
+          "n": 10,
+          "title": "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三",
+          "summary": "Elon Musk 称 Grok 4.7 使 xAI 在智能体编码排名第三。",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "url": "https://aihot.news/items/cmubi4zxl110orolnqaltv0qp"
+        },
+        {
+          "n": 11,
+          "title": "Nathan Lambert 撰文分析开源模型的中美实力格局",
+          "summary": "Nathan Lambert 指出中国开源模型在下载量和基准成绩上领先。",
+          "source": "Nathan Lambert：Interconnects（RSS）",
+          "url": "https://aihot.news/items/cmub7xfbe0putrolnfkkepe2c"
+        },
+        {
+          "n": 12,
+          "title": "Artificial Analysis 评测 Grok 4.7：智能体知识工作跻身前沿，编码代理得分升至 56",
+          "summary": "Grok 4.7 在 Intelligence Index 得 46 分，较前代高 2 分。",
+          "source": "Artificial Analysis 完整文章（网页）",
+          "url": "https://aihot.news/items/cmubni6yr03ihro4v6pea4amm"
+        },
+        {
+          "n": 13,
+          "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "summary": "字幕组使用 AI 后打轴时间从 3-5 小时缩短至 20 分钟到 1 小时。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/cmualyqxc0nztro5tbldva2bh"
+        },
+        {
+          "n": 14,
+          "title": "Tomer Tunguz 谈 AI 优化 if-then 判断：专用决策器把分类成本降近百倍",
+          "summary": "Tomer Tunguz 称 AI 正接管软件中的 if-then 判断，成本降低 76x 到 209x。",
+          "source": "Tomer Tunguz 博客（VC 分析）",
+          "url": "https://aihot.news/items/cmubhvftd10qjrolnr7q9k3lt"
+        },
+        {
+          "n": 15,
+          "title": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
+          "summary": "Linear 工程师解决 AI Agent 加速写代码后 CI 瓶颈问题，PR 等待时间减少。",
+          "source": "Linear：Now（RSS）",
+          "url": "https://aihot.news/items/cmublfs5a03bcro0lebbtf8fb"
+        }
+      ]
     }
   ]
 }
