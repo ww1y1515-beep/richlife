@@ -17,14 +17,14 @@
         {
           "n": 1,
           "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
-          "summary": "Qwen 团队开源 Qwen-Image-2.1，7B 参数统一文生图与图像编辑，支持透明图像和多参考图编辑。",
+          "summary": "Qwen开源Qwen-Image-2.1模型，7B参数统一文生图与编辑，支持10张参考图和透明图像生成。",
           "source": "Qwen：Blog Retrieval（API）",
           "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f"
         },
         {
           "n": 2,
           "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
-          "summary": "阶跃星辰发布 Step 5 Preview 模型，600B 参数支持 100 万 Token 上下文，成本为 Clau…",
+          "summary": "阶跃星辰发布Step 5 Preview模型，600B参数支持100万Token，成本为Claude Opus 5的1…",
           "source": "公众号：阶跃星辰（Step）",
           "url": "https://aihot.news/items/cmu96vqg8035srodqu63q13w4"
         }
@@ -36,7 +36,7 @@
         {
           "n": 3,
           "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
-          "summary": "Qwen-Image-2.1 支持 ComfyUI，7B 模型同时支持图像生成与编辑，可 2K 生成和多参考图编辑。",
+          "summary": "Qwen-Image-2.1支持ComfyUI，7B模型可2K生成和编辑，最多10张参考图，支持RGBA输出。",
           "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
           "url": "https://aihot.news/items/cmu9w55as056krowjqmhejtmz"
         }
@@ -52,7 +52,7 @@
         {
           "n": 4,
           "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
-          "summary": "OpenAI 广告收集器通过 bzr.openai.com 设置 Cookie，商家站点回传用户浏览和购买数据。",
+          "summary": "OpenAI广告收集器通过bzr.openai.com设置Cookie，商家站点回传用户浏览和购买数据。",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "url": "https://aihot.news/items/cmua567e703tmro5t558lzx7o"
         }
