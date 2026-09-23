@@ -1,60 +1,74 @@
 {
-  "date": "2026-09-22",
-  "date_human": "2026年9月22日",
-  "total": 15,
+  "date": "2026-09-23",
+  "date_human": "2026年9月23日",
+  "total": 25,
   "counts": {
-    "模型发布/更新": 6,
-    "产品发布/更新": 1,
-    "行业动态": 2,
-    "论文研究": 0,
+    "模型发布/更新": 8,
+    "产品发布/更新": 7,
+    "行业动态": 3,
+    "论文研究": 1,
     "技巧与观点": 6
   },
-  "report_link": "https://aihot.news/daily/2026-09-22",
+  "report_link": "https://aihot.news/daily/2026-09-23",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
-          "summary": "小米开源 MiMo-V2.6 系列全模态模型，含 Pro 与 Flash 两个版本。",
-          "source": "公众号：小米 MiMo",
-          "url": "https://aihot.news/items/cmubpn8sw05u5ro4vlvacy22d"
+          "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
+          "summary": "Anthropic发布Claude Opus 5.5，性能达Fable 5.1水平，成本较Opus 5低40%。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji"
         },
         {
           "n": 2,
-          "title": "xAI 发布 Grok 4.7，主打编码与知识工作",
-          "summary": "xAI 发布 Grok 4.7，定价 $2/百万输入 token、$6/百万输出 token。",
-          "source": "xAI：News（网页）",
-          "url": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1"
+          "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
+          "summary": "OpenAI发布GPT-6 Sol和Luna，API价格较GPT-5.6降50%。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/cmud1y2ku039iro5ysl7pq6d3"
         },
         {
           "n": 3,
-          "title": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
-          "summary": "小米 MiMo-V2.6 Pro 在 Agent 基准上与 Claude Opus 5 和 GPT-5.6 Sol 表…",
-          "source": "X：小米 MiMo (@XiaomiMiMo)",
-          "url": "https://aihot.news/items/cmubqsb9l03vbrociqf22sr07"
+          "title": "Claude Opus 5.5 发布：较 Opus 5 降价提速，系统卡披露安全演习中约半数运行或有危害行为",
+          "summary": "Claude Opus 5.5价格降至$4/$20每百万token，缓存读取降60%，输出提速30%。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/cmud52j4i003droralpe8a53b"
         },
         {
           "n": 4,
-          "title": "小米发布开放权重模型 MiMo-V2.6-Pro，登顶 Artificial Analysis 开放权重模型智能指数",
-          "summary": "小米 MiMo-V2.6-Pro 在 Artificial Analysis Intelligence Index 得…",
-          "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-          "url": "https://aihot.news/items/cmubqsb9b03v9rocigei56crg"
+          "title": "GPT-6 Sol 与 GPT-6 Luna 在 ChatGPT Work 和 Codex 中推送",
+          "summary": "OpenAI推送GPT-6 Sol和Luna，面向Plus及以上用户。",
+          "source": "X：ChatGPT (@ChatGPT)",
+          "url": "https://aihot.news/items/cmud0ng5n001gro1fb8xe3oji"
         },
         {
           "n": 5,
-          "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
-          "summary": "通义千问发布 7B 参数原生图像生成与编辑模型 Qwen-Image-2.1。",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-          "url": "https://aihot.news/items/cmuao05at0q8uro5tpc85e2kj"
+          "title": "Claude Opus 5.5 上线 OpenRouter，智能体编码等能力领先 Opus 5",
+          "summary": "Claude Opus 5.5上线OpenRouter，定价$4/$20每百万token。",
+          "source": "X：OpenRouter (@OpenRouter)",
+          "url": "https://aihot.news/items/cmucxgaki0sfkroed0n804wg5"
         },
         {
           "n": 6,
-          "title": "小米 MiMo-V2.6-Pro 登上 Code Arena: WebDev 榜约第10名，开源权重中约第3",
-          "summary": "小米 MiMo-V2.6-Pro 在 Code Arena: WebDev 榜以 1628 分位列开源权重约第3。",
+          "title": "Qwen-Image-2.1 开源发布，登顶 Arena 图像编辑榜开源第一",
+          "summary": "通义千问发布Qwen-Image-2.1，开源权重登Arena开源第一。",
           "source": "X：Arena (@arena)",
-          "url": "https://aihot.news/items/cmubr2enk04a1rociadivcsjt"
+          "url": "https://aihot.news/items/cmuctnbbf0nziroedajbl6g3r"
+        },
+        {
+          "n": 7,
+          "title": "Boris Cherny 实测 Claude Opus 5.5：比 Fable 5.1 快且便宜 51%",
+          "summary": "Claude Opus 5.5移植HAProxy到Rust快于Fable 5.1，成本低51%。",
+          "source": "X：Boris Cherny (@bcherny)",
+          "url": "https://aihot.news/items/cmucxgajz0sfiroedxx6y9qyw"
+        },
+        {
+          "n": 8,
+          "title": "Anthropic 发布 Claude Opus 5.5，Claude 5.5 系列首个模型",
+          "summary": "Claude Opus 5.5发布，性能达Fable 5.1水平，成本降40%。",
+          "source": "X：Claude (@claudeai)",
+          "url": "https://aihot.news/items/cmucwpqty0rj8roedzxz1496u"
         }
       ]
     },
@@ -62,11 +76,53 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 7,
-          "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
-          "summary": "Kimi 发布 Kimi Code Desktop 1.0，支持 macOS 和 Windows。",
-          "source": "公众号：月之暗面（Kimi）",
-          "url": "https://aihot.news/items/cmuaytowf0c4oroln02tacq0c"
+          "n": 9,
+          "title": "transformers 支持直接加载 GGUF 量化模型，本地推理性能接近 llama.cpp",
+          "summary": "Hugging Face支持直接运行GGUF量化模型。",
+          "source": "Hugging Face：Blog（RSS）",
+          "url": "https://aihot.news/items/cmuckj3gv09kiroed6m91iyre"
+        },
+        {
+          "n": 10,
+          "title": "OpenRouter 推出 Batch API，批量推理可享半价",
+          "summary": "OpenRouter发布Batch API，支持70多个模型，价格降50%。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.news/items/cmucobbcz0hj4roedra9qgdbh"
+        },
+        {
+          "n": 11,
+          "title": "Kimi 发布浏览器扩展，由 Kimi WebBridge 更名而来",
+          "summary": "Kimi发布浏览器扩展，支持录制操作步骤自动执行。",
+          "source": "X：Kimi.ai (@Kimi_Moonshot)",
+          "url": "https://aihot.news/items/cmuckjawr09ljroedz4yf3xqf"
+        },
+        {
+          "n": 12,
+          "title": "Claude Code v2.1.280 发布，新增 Claude Opus 5.5 为默认 Opus 模型",
+          "summary": "Claude Code v2.1.280默认使用Opus 5.5，支持1M上下文。",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "url": "https://aihot.news/items/cmucxceh40salroedruwhn0ee"
+        },
+        {
+          "n": 13,
+          "title": "LiteParse 9 月更新：PDFium 提速 20-25%，新增视觉定位与 is-complex 路由 API",
+          "summary": "LlamaIndex LiteParse 2.14.6优化PDF提取，耗时降20-25%。",
+          "source": "LlamaIndex：产品、工程与评测",
+          "url": "https://aihot.news/items/cmucs4qas0m1vroedh2vdhjb6"
+        },
+        {
+          "n": 14,
+          "title": "Apple 新款 Mac mini（M6/M5 Pro）与 Mac Studio（M5 Max/M5 Ultra）今日开售",
+          "summary": "Apple新款Mac mini和Mac Studio 9月22日开售，AI性能提升4倍。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.news/items/cmucoqh360i0jroedps8dr2es"
+        },
+        {
+          "n": 15,
+          "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
+          "summary": "OpenAI改进GPT-6提示词缓存，复用前缀享90%折扣。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/cmud4mu5303n5roa915w7f1ja"
         }
       ]
     },
@@ -74,69 +130,84 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 8,
-          "title": "不列颠哥伦比亚省起诉 OpenAI，指其未在枪击案前将 flagged ChatGPT 活动转介警方",
-          "summary": "不列颠哥伦比亚省起诉 OpenAI，指 ChatGPT 未预警 Tumbler Ridge 枪击案。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/cmubom7qi04k8ro4v1zoas2o7"
+          "n": 16,
+          "title": "五角大楼内部审查：过度依赖 Palantir Maven AI 系统导致误击伊朗学校、123 名儿童死亡",
+          "summary": "美军误击伊朗小学致150死，过度依赖Palantir系统所致。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/cmud32gov0427rov6rcxw9xlf"
         },
         {
-          "n": 9,
-          "title": "亚马逊封禁 Meta Muse 智能体代用户购物，双方争端升级",
-          "summary": "亚马逊阻断 Meta AI 智能体 Muse 在其网站购物，称其带来隐私隐患。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmub7xf1o0pu2roln165i6mhu"
+          "n": 17,
+          "title": "Meta Muse 助手曝出严重 0-day 漏洞，Amazon 已开始封禁 Muse",
+          "summary": "Meta AI助手Muse漏洞致账户被控，12小时后修复。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.news/items/cmud3b5q504b9rov6qig73auy"
+        },
+        {
+          "n": 18,
+          "title": "Claude Opus 5.5 上架 Arena 的 Agent Arena 与 Battle Mode",
+          "summary": "Claude Opus 5.5进入Agent Arena，用户可投票评测。",
+          "source": "X：Arena (@arena)",
+          "url": "https://aihot.news/items/cmucz06v905eironivy08mtvk"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 19,
+          "title": "Epoch AI 研究报告：达到同等 AI 性能的成本每季度下降约 47%",
+          "summary": "Epoch AI报告：AI性能成本每季度降47%，每年降13倍。",
+          "source": "Epoch AI：研究、数据与评测",
+          "url": "https://aihot.news/items/cmud77i8r04yerorajpj343j2"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 10,
-          "title": "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三",
-          "summary": "Elon Musk 称 Grok 4.7 使 xAI 在智能体编码排名第三。",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "url": "https://aihot.news/items/cmubi4zxl110orolnqaltv0qp"
-        },
-        {
-          "n": 11,
-          "title": "Nathan Lambert 撰文分析开源模型的中美实力格局",
-          "summary": "Nathan Lambert 指出中国开源模型在下载量和基准成绩上领先。",
-          "source": "Nathan Lambert：Interconnects（RSS）",
-          "url": "https://aihot.news/items/cmub7xfbe0putrolnfkkepe2c"
-        },
-        {
-          "n": 12,
-          "title": "Artificial Analysis 评测 Grok 4.7：智能体知识工作跻身前沿，编码代理得分升至 56",
-          "summary": "Grok 4.7 在 Intelligence Index 得 46 分，较前代高 2 分。",
+          "n": 20,
+          "title": "Claude Opus 5.5 登顶 Artificial Analysis 智能指数，得分 58",
+          "summary": "Claude Opus 5.5以58分登顶Artificial Analysis评测。",
           "source": "Artificial Analysis 完整文章（网页）",
-          "url": "https://aihot.news/items/cmubni6yr03ihro4v6pea4amm"
+          "url": "https://aihot.news/items/cmucyny580521roni2aiyh9xj"
         },
         {
-          "n": 13,
-          "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
-          "summary": "字幕组使用 AI 后打轴时间从 3-5 小时缩短至 20 分钟到 1 小时。",
+          "n": 21,
+          "title": "Artificial Analysis 评测 GPT-6 Sol 和 Luna：成本减半但各评测有升有降",
+          "summary": "GPT-6 Sol和Luna价格约为GPT-5.6一半。",
+          "source": "Artificial Analysis 完整文章（网页）",
+          "url": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv"
+        },
+        {
+          "n": 22,
+          "title": "卡兹克实测对比 Grok 4.7 与小米 MiMo V2.6：后者成不可能三角版本答案",
+          "summary": "实测Grok 4.7低于预期，小米MiMo V2.6表现更佳。",
           "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/cmualyqxc0nztro5tbldva2bh"
+          "url": "https://aihot.news/items/cmuc1rfgb05sdrotszk0w9ivq"
         },
         {
-          "n": 14,
-          "title": "Tomer Tunguz 谈 AI 优化 if-then 判断：专用决策器把分类成本降近百倍",
-          "summary": "Tomer Tunguz 称 AI 正接管软件中的 if-then 判断，成本降低 76x 到 209x。",
-          "source": "Tomer Tunguz 博客（VC 分析）",
-          "url": "https://aihot.news/items/cmubhvftd10qjrolnr7q9k3lt"
+          "n": 23,
+          "title": "Artificial Analysis 评测 Step 5 Preview： Intelligence Index 得 44 分，成本约为同级模型 1/2.8",
+          "summary": "阶跃星辰Step 5 Preview评测得分44，成本为同级1/2.8。",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "url": "https://aihot.news/items/cmuc0pmnx04g0rotscsnqd50c"
         },
         {
-          "n": 15,
-          "title": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
-          "summary": "Linear 工程师解决 AI Agent 加速写代码后 CI 瓶颈问题，PR 等待时间减少。",
-          "source": "Linear：Now（RSS）",
-          "url": "https://aihot.news/items/cmublfs5a03bcro0lebbtf8fb"
+          "n": 24,
+          "title": "OpenRouter 实测 Jev 1.13 与 Claude Opus 5 在 Banking77 分类任务上的准确率、延迟与成本",
+          "summary": "Jev 1.13意图分类准确率81%，延迟为Opus 5的1/13。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.news/items/cmucxyky704ftronibjzp4dos"
+        },
+        {
+          "n": 25,
+          "title": "OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning 如何承担 Agent 高频执行调用",
+          "summary": "NVIDIA发布Nemotron 3.5 Lightning，30B参数开源模型。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.news/items/cmubyl2o004y7ro9i986nyhfy"
         }
       ]
     }
