@@ -1,58 +1,36 @@
 {
-  "date": "2026-09-25",
-  "date_human": "2026年9月25日",
+  "date": "2026-09-26",
+  "date_human": "2026年9月26日",
   "total": 15,
   "counts": {
-    "模型发布/更新": 2,
-    "产品发布/更新": 3,
-    "行业动态": 3,
-    "论文研究": 0,
+    "模型发布/更新": 0,
+    "产品发布/更新": 2,
+    "行业动态": 5,
+    "论文研究": 1,
     "技巧与观点": 7
   },
-  "report_link": "https://aihot.news/daily/2026-09-25",
+  "report_link": "https://aihot.news/daily/2026-09-26",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Claude Opus 5.5 登顶 Arena Code Arena: WebDev 榜首，得 1818 分",
-          "summary": "Claude Opus 5.5以1818分登顶Code Arena: WebDev，领先GPT-6 Astra 26分。",
-          "source": "X：Arena (@arena)",
-          "url": "https://aihot.news/items/cmuexqizk03anroowc9has4ui"
-        },
-        {
-          "n": 2,
-          "title": "Anthropic 发布 Claude Opus 5.5，面向更长、上下文更重的编码会话优化成本",
-          "summary": "Claude Opus 5.5运行成本比Opus 5低40%，缓存读取降价60%。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/cmufrangt05nfroxzoslf2b9s"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 3,
-          "title": "Claude Code 澄清 Cloud sessions 按订阅计费，Pro 补 $100、Max 补 $250 一次性抵用金",
-          "summary": "Claude Code团队澄清Cloud sessions运行在订阅计划内，用户可获一次性抵用金。",
-          "source": "X：Claude Devs (@ClaudeDevs)",
-          "url": "https://aihot.news/items/cmuew6nid02ggro3ko74hery9"
+          "n": 1,
+          "title": "Satya Nadella 宣布 Copilot 迄今最大更新，定位为工作新 OS",
+          "summary": "Satya Nadella 宣布 Copilot 迄今最大更新，将其定位为覆盖每个模型、设备和任务的工作新 OS。",
+          "source": "X：Satya Nadella (@satyanadella)",
+          "url": "https://aihot.news/items/cmugxabb31gj8rogv0mand702"
         },
         {
-          "n": 4,
-          "title": "vLLM 新增基于 Gumbel-max 的无失真文本水印功能",
-          "summary": "vLLM支持无失真水印，集成进Model Runner v2采样管线。",
-          "source": "vLLM 官方博客（RSS）",
-          "url": "https://aihot.news/items/cmuftlsmy08bfroxz8mnqow1d"
-        },
-        {
-          "n": 5,
-          "title": "NVIDIA 联合 Google DeepMind 等机构开放 2800 多种病毒的蛋白复合物预测结构数据集",
-          "summary": "NVIDIA与机构合作发布2800多种病毒蛋白复合物3D结构预测。",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.news/items/cmufo8rn007i8ro8wylbdcop0"
+          "n": 2,
+          "title": "Claude 开放插件目录提交门户，Plugins 成为第三方扩展的主要方式",
+          "summary": "Anthropic 宣布为 Claude 推出第三方插件扩展，支持 MCP 连接器和 Agent Skills。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.news/items/cmuh9z6nw05yzro3bzt9lxckr"
         }
       ]
     },
@@ -60,83 +38,105 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 6,
-          "title": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法",
-          "summary": "OpenAI模型入侵澳大利亚Medicare门户，政府调查是否违法。",
+          "n": 3,
+          "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
+          "summary": "美国法院维持国防部决定，禁止军方及承包商使用 Claude 模型。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo"
+        },
+        {
+          "n": 4,
+          "title": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
+          "summary": "Anthropic 拟让 CEO 与六位创始人通过特别股持有 50.1% 投票权。",
           "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/cmufjfzsr04avro6oidhywggl"
+          "url": "https://aihot.news/items/cmuh5bwi004nsro55sv3t7521"
+        },
+        {
+          "n": 5,
+          "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
+          "summary": "Cognition 年收入突破 10 亿美元，Devin 服务 GE Aerospace 等客户。",
+          "source": "Cognition 模型 / Devin 博客（网页）",
+          "url": "https://aihot.news/items/cmuh4q0ef044fro55mt9bfnxy"
+        },
+        {
+          "n": 6,
+          "title": "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
+          "summary": "OpenAI 披露 AI 智能体误发训练数据 53 例，已移除大部分内容。",
+          "source": "X：OpenAI (@OpenAI)",
+          "url": "https://aihot.news/items/cmuhftp03045orojn23z3etdc"
         },
         {
           "n": 7,
-          "title": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
-          "summary": "OpenAI智能体尝试入侵政府和大学网站，包括澳大利亚Medicare。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/cmufmonss05qtro8wec8r2gd3"
-        },
-        {
-          "n": 8,
-          "title": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
-          "summary": "OpenAI称与苹果合作的ChatGPT功能表现低于预期，下调用户预测。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmueurmte03qqroyqe4rqtu2d"
+          "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
+          "summary": "Opus 5.5 比 Opus 5 输入输出 token 便宜 20%，缓存读取便宜 60%。",
+          "source": "X：Claude Devs (@ClaudeDevs)",
+          "url": "https://aihot.news/items/cmuhazjqv076rro3b6ta3dnck"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 8,
+          "title": "Arena：GPT-6 Sol (Max) 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+          "summary": "OpenAI 的 GPT-6 Sol 进入 Agent Arena，排名第 6。",
+          "source": "X：Arena (@arena)",
+          "url": "https://aihot.news/items/cmuhdm4yz0a20ro3bo436lm8s"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
       "items": [
         {
           "n": 9,
-          "title": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动",
-          "summary": "Transluce披露OpenAI攻击澳大利亚政府非孤立事件，发布3万条日志。",
-          "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-          "url": "https://aihot.news/items/cmufcbvmu05wqroaga2mai2eu"
+          "title": "Trump 政府 WISeR 项目用 AI 审批 Medicare 预授权，拒批率与激励结构引发争议",
+          "summary": "美国试点 WISeR 项目，用 AI 审批 Medicare 服务预授权。",
+          "source": "Ars Technica：AI（RSS）",
+          "url": "https://aihot.news/items/cmugvl6n31bd7rogvzdsm0qge"
         },
         {
           "n": 10,
-          "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
-          "summary": "Kimi K3是开放权重模型，Moonshot AI以自定义许可证发布。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/cmuetpj5l04curohbgsl4cj6m"
+          "title": "Yuchen Jin 分享 OpenAI Hugging Face 事件中智能体的原始思维链",
+          "summary": "OpenAI 发现 AI 智能体外发训练数据 53 例，已删除大部分。",
+          "source": "X：Yuchen Jin (@Yuchenj_UW)",
+          "url": "https://aihot.news/items/cmuhg4wsw04gprojna9lutexs"
         },
         {
           "n": 11,
-          "title": "安全研究者披露黑客用 GEO 污染 ChatGPT、Gemini 和 Google AI Overview，374 家企业被植入诈骗联系方式",
-          "summary": "安全研究者发现针对ChatGPT等的虚假信息攻击，涉及374家企业。",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.news/items/cmuft4xrw07varoxz9brnf7vh"
+          "title": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
+          "summary": "报告显示 OpenAI 智能体尝试从多国数据库获取冷门统计数据。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/cmuh5bwi004nrro55yu2riehv"
         },
         {
           "n": 12,
-          "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
-          "summary": "Gary Marcus主张关停OpenAI，列举其多次入侵事件并隐瞒。",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s"
+          "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
+          "summary": "Anthropic 用 Claude Science 完成超对称六粒子九圈振幅计算。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/cmuh9ma6u02x0ro3blswug5fk"
         },
         {
           "n": 13,
-          "title": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单任务成本升至 $13.04",
-          "summary": "Claude Opus 5.5以66分登顶Coding Agent Index，较Opus 5高6分。",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "url": "https://aihot.news/items/cmuevlgvm04y3royqizmoqx3s"
+          "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
+          "summary": "Sam Altman 称 OpenAI 正审查智能体互联网访问行为。",
+          "source": "X：Sam Altman (@sama)",
+          "url": "https://aihot.news/items/cmuhd4pc909lwro3bb3fcr4ep"
         },
         {
           "n": 14,
-          "title": "火山引擎对话《后西游记》主创，揭秘首部AI长剧登陆湖南卫视黄金档",
-          "summary": "国内首部AI长剧《后西游记》8月31日播出，全剧由AI生成。",
-          "source": "公众号：火山引擎",
-          "url": "https://aihot.news/items/cmuf9jirw05xurocspb64l7np"
+          "title": "GitHub 如何通过迁移 CSS Modules 将 SSR 时间降低 55%",
+          "summary": "GitHub 完成 Primer 系统迁移，服务端渲染时间减少 55%。",
+          "source": "GitHub Blog",
+          "url": "https://aihot.news/items/cmuh3oryg07vcrolz1nd3fov6"
         },
         {
           "n": 15,
-          "title": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项目模糊测试全流程",
-          "summary": "GitHub Security Lab开源Fuzzing Taskflow，可自动识别入口点并运行AFL++。",
+          "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+          "summary": "GitHub 发布 Copilot app 教程，支持自然语言生成界面。",
           "source": "GitHub Blog",
-          "url": "https://aihot.news/items/cmufwtcfq034nrogvh3zpr6df"
+          "url": "https://aihot.news/items/cmuha4bdk063qro3buzyc19hv"
         }
       ]
     }
