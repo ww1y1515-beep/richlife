@@ -1,76 +1,41 @@
 {
-  "date": "2026-09-26",
-  "date_human": "2026年9月26日",
-  "total": 15,
+  "date": "2026-09-27",
+  "date_human": "2026年9月27日",
+  "total": 4,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 2,
-    "行业动态": 5,
+    "模型发布/更新": 1,
+    "产品发布/更新": 0,
+    "行业动态": 1,
     "论文研究": 1,
-    "技巧与观点": 7
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-09-26",
+  "report_link": "https://aihot.news/daily/2026-09-27",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
-    },
-    {
-      "name": "产品发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Satya Nadella 宣布 Copilot 迄今最大更新，定位为工作新 OS",
-          "summary": "Satya Nadella 宣布 Copilot 迄今最大更新，将其定位为覆盖每个模型、设备和任务的工作新 OS。",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "url": "https://aihot.news/items/cmugxabb31gj8rogv0mand702"
-        },
-        {
-          "n": 2,
-          "title": "Claude 开放插件目录提交门户，Plugins 成为第三方扩展的主要方式",
-          "summary": "Anthropic 宣布为 Claude 推出第三方插件扩展系统，支持 MCP 连接器和 Agent Skills。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/cmuh9z6nw05yzro3bzt9lxckr"
+          "title": "Claude Opus 5.5 (High) 以 1509 分登顶 Arena Text Arena 榜首",
+          "summary": "Claude Opus 5.5 以1509分登顶Text Arena，Anthropic包揽前六名，混合价$16/MT…",
+          "source": "X：Arena (@arena)",
+          "url": "https://aihot.news/items/cmuinp76b0smurov0wemcbshl"
         }
       ]
+    },
+    {
+      "name": "产品发布/更新",
+      "items": []
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 3,
-          "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
-          "summary": "美国法院维持国防部决定，禁止军方及承包商使用 Anthropic 的 Claude 模型。",
-          "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo"
-        },
-        {
-          "n": 4,
-          "title": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
-          "summary": "Anthropic 拟让 CEO 与六位创始人通过特别股持有 50.1% 投票权，需至少三人保留持股。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/cmuh5bwi004nsro55sv3t7521"
-        },
-        {
-          "n": 5,
-          "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
-          "summary": "Cognition 年收入突破 10 亿美元，Devin 两年内服务 GE Aerospace 等客户工程团队。",
-          "source": "Cognition 模型 / Devin 博客（网页）",
-          "url": "https://aihot.news/items/cmuh4q0ef044fro55mt9bfnxy"
-        },
-        {
-          "n": 6,
-          "title": "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
-          "summary": "OpenAI 披露 AI 智能体误发训练数据 53 例，用户图片被发布到图床，已移除大部分内容。",
-          "source": "X：OpenAI (@OpenAI)",
-          "url": "https://aihot.news/items/cmuhftp03045orojn23z3etdc"
-        },
-        {
-          "n": 7,
-          "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
-          "summary": "Opus 5.5 比 5 版输入输出 token 便宜 20%，缓存读取便宜 60%，提供成本计算器。",
-          "source": "X：Claude Devs (@ClaudeDevs)",
-          "url": "https://aihot.news/items/cmuhazjqv076rro3b6ta3dnck"
+          "n": 2,
+          "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+          "summary": "OpenAI等调查数万起模型异常行为事件，包括绕过安全措施，多数未造成实际损害。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.news/items/cmuj0tqch0go3rohyqv46zlhy"
         }
       ]
     },
@@ -78,11 +43,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 8,
-          "title": "Arena：GPT-6 Sol (Max) 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
-          "summary": "OpenAI 的 GPT-6 Sol 进入 Agent Arena，基于 4000+ 会话改进 7.7%，中位成本 0…",
-          "source": "X：Arena (@arena)",
-          "url": "https://aihot.news/items/cmuhdm4yz0a20ro3bo436lm8s"
+          "n": 3,
+          "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+          "summary": "Claude Science算出超杨-米尔斯理论六粒子振幅九圈结果，成本几千美元。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy"
         }
       ]
     },
@@ -90,53 +55,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 9,
-          "title": "Trump 政府 WISeR 项目用 AI 审批 Medicare 预授权，拒批率与激励结构引发争议",
-          "summary": "特朗普政府试点 WISeR 项目，用 AI 审批 Medicare 服务预授权。",
-          "source": "Ars Technica：AI（RSS）",
-          "url": "https://aihot.news/items/cmugvl6n31bd7rogvzdsm0qge"
-        },
-        {
-          "n": 10,
-          "title": "Yuchen Jin 分享 OpenAI Hugging Face 事件中智能体的原始思维链",
-          "summary": "OpenAI 承认 AI 智能体误发训练数据 53 例，用户图片被发布到图床，已删除大部分。",
-          "source": "X：Yuchen Jin (@Yuchenj_UW)",
-          "url": "https://aihot.news/items/cmuhg4wsw04gprojna9lutexs"
-        },
-        {
-          "n": 11,
-          "title": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
-          "summary": "Transluce 报告 OpenAI 智能体尝试从 Data USA 等数据库获取泰国禁毒等冷门数据。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/cmuh5bwi004nrro55yu2riehv"
-        },
-        {
-          "n": 12,
-          "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
-          "summary": "Anthropic 用 Claude Science 以两千美元预算完成超对称 Yang-Mills 六粒子九圈振幅计…",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.news/items/cmuh9ma6u02x0ro3blswug5fk"
-        },
-        {
-          "n": 13,
-          "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
-          "summary": "Sam Altman 称 OpenAI 正审查智能体互联网访问行为，Hugging Face 事件最严重。",
-          "source": "X：Sam Altman (@sama)",
-          "url": "https://aihot.news/items/cmuhd4pc909lwro3bb3fcr4ep"
-        },
-        {
-          "n": 14,
-          "title": "GitHub 如何通过迁移 CSS Modules 将 SSR 时间降低 55%",
-          "summary": "GitHub 完成 Primer 设计系统迁移，服务端渲染时间减少 55%，组件初始化减 25%。",
-          "source": "GitHub Blog",
-          "url": "https://aihot.news/items/cmuh3oryg07vcrolz1nd3fov6"
-        },
-        {
-          "n": 15,
-          "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
-          "summary": "GitHub 发布 Copilot app 教程，介绍用自然语言生成可自定义 canvas 界面。",
-          "source": "GitHub Blog",
-          "url": "https://aihot.news/items/cmuha4bdk063qro3buzyc19hv"
+          "n": 4,
+          "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+          "summary": "OpenAI披露对齐事件：模型获未授权互联网访问，GitHub token泄露，发现可自我复制提示词注入。",
+          "source": "X：Ethan Mollick (@emollick)",
+          "url": "https://aihot.news/items/cmuhx6xhk0311ronaycb42uyy"
         }
       ]
     }
