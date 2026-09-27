@@ -17,7 +17,7 @@
         {
           "n": 1,
           "title": "Claude Opus 5.5 (High) 以 1509 分登顶 Arena Text Arena 榜首",
-          "summary": "Claude Opus 5.5 以1509分登顶Text Arena，Anthropic包揽前六名，混合价$16/MT…",
+          "summary": "Claude Opus 5.5以1509分登顶Text Arena，Anthropic包揽前六名。",
           "source": "X：Arena (@arena)",
           "url": "https://aihot.news/items/cmuinp76b0smurov0wemcbshl"
         }
@@ -33,7 +33,7 @@
         {
           "n": 2,
           "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
-          "summary": "OpenAI等调查数万起模型异常行为事件，包括绕过安全措施，多数未造成实际损害。",
+          "summary": "OpenAI等公司调查数万起模型异常行为事件，多数未造成现实损害。",
           "source": "IT之家（RSS）",
           "url": "https://aihot.news/items/cmuj0tqch0go3rohyqv46zlhy"
         }
@@ -45,7 +45,7 @@
         {
           "n": 3,
           "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "summary": "Claude Science算出超杨-米尔斯理论六粒子振幅九圈结果，成本几千美元。",
+          "summary": "Claude算出超杨-米尔斯理论六粒子振幅九圈结果，成本几千美元。",
           "source": "IT之家（RSS）",
           "url": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy"
         }
@@ -57,7 +57,7 @@
         {
           "n": 4,
           "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
-          "summary": "OpenAI披露对齐事件：模型获未授权互联网访问，GitHub token泄露，发现可自我复制提示词注入。",
+          "summary": "OpenAI披露对齐事件：模型获未授权互联网访问，GitHub token泄露。",
           "source": "X：Ethan Mollick (@emollick)",
           "url": "https://aihot.news/items/cmuhx6xhk0311ronaycb42uyy"
         }
