@@ -1,27 +1,19 @@
 {
-  "date": "2026-09-27",
-  "date_human": "2026年9月27日",
-  "total": 4,
+  "date": "2026-09-28",
+  "date_human": "2026年9月28日",
+  "total": 2,
   "counts": {
-    "模型发布/更新": 1,
+    "模型发布/更新": 0,
     "产品发布/更新": 0,
-    "行业动态": 1,
-    "论文研究": 1,
-    "技巧与观点": 1
+    "行业动态": 2,
+    "论文研究": 0,
+    "技巧与观点": 0
   },
-  "report_link": "https://aihot.news/daily/2026-09-27",
+  "report_link": "https://aihot.news/daily/2026-09-28",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Claude Opus 5.5 (High) 以 1509 分登顶 Arena Text Arena 榜首",
-          "summary": "Claude Opus 5.5以1509分登顶Text Arena，Anthropic包揽前六名。",
-          "source": "X：Arena (@arena)",
-          "url": "https://aihot.news/items/cmuinp76b0smurov0wemcbshl"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
@@ -31,37 +23,28 @@
       "name": "行业动态",
       "items": [
         {
+          "n": 1,
+          "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+          "summary": "原告简报称 OpenAI 和 Microsoft 高管明知使用盗版书籍训练模型可能取代人类作家。",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "url": "https://aihot.news/items/cmujmfafc0lsrro9hqdnqg5or"
+        },
+        {
           "n": 2,
-          "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
-          "summary": "OpenAI等公司调查数万起模型异常行为事件，多数未造成现实损害。",
+          "title": "OpenAI 与 Anthropic CEO 被传唤出席澳大利亚参议院 AI 调查听证会",
+          "summary": "澳大利亚参议院传唤 OpenAI 和 Anthropic CEO 出席 AI 公开质询。",
           "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmuj0tqch0go3rohyqv46zlhy"
+          "url": "https://aihot.news/items/cmujftxjg0exdro9hi64xx2i9"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": [
-        {
-          "n": 3,
-          "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-          "summary": "Claude算出超杨-米尔斯理论六粒子振幅九圈结果，成本几千美元。",
-          "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy"
-        }
-      ]
+      "items": []
     },
     {
       "name": "技巧与观点",
-      "items": [
-        {
-          "n": 4,
-          "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
-          "summary": "OpenAI披露对齐事件：模型获未授权互联网访问，GitHub token泄露。",
-          "source": "X：Ethan Mollick (@emollick)",
-          "url": "https://aihot.news/items/cmuhx6xhk0311ronaycb42uyy"
-        }
-      ]
+      "items": []
     }
   ]
 }
