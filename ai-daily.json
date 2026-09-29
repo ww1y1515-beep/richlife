@@ -1,50 +1,208 @@
 {
-  "date": "2026-09-28",
-  "date_human": "2026年9月28日",
-  "total": 2,
+  "date": "2026-09-29",
+  "date_human": "2026年9月29日",
+  "total": 24,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 0,
-    "行业动态": 2,
-    "论文研究": 0,
-    "技巧与观点": 0
+    "模型发布/更新": 7,
+    "产品发布/更新": 4,
+    "行业动态": 8,
+    "论文研究": 2,
+    "技巧与观点": 3
   },
-  "report_link": "https://aihot.news/daily/2026-09-28",
+  "report_link": "https://aihot.news/daily/2026-09-29",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Anthropic 发布 Claude Sonnet 5.5，Artificial Analysis 智能指数得分 56，仅次于 Opus 5.5",
+          "summary": "Anthropic 发布 Claude Sonnet 5.5，AI 指数得分 56，比 Opus 5.5 低 2 分。",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "url": "https://aihot.news/items/nastdr2zteysm2n0dg58d6tb1"
+        },
+        {
+          "n": 2,
+          "title": "Claude Sonnet 5.5 达到 Artificial Analysis 智能指数第 2 名",
+          "summary": "Claude Sonnet 5.5 智能指数得分 56，升至第 2 名，落后 Opus 5.5。",
+          "source": "Artificial Analysis 完整文章（网页）",
+          "url": "https://aihot.news/items/x9olzxvbbm1780q0x9xesjtaq"
+        },
+        {
+          "n": 3,
+          "title": "Fireworks AI 发布 Ember-1：基于 Kimi K3 的后训练模型，推理 Token 减少约 40%",
+          "summary": "Fireworks AI 推出 Ember-1 模型，基于 Kimi K3 优化，推理 Token 减少 40%。",
+          "source": "MarkTechPost（RSS）",
+          "url": "https://aihot.news/items/zkdby2t1m0py60rlf2cyevbl5"
+        },
+        {
+          "n": 4,
+          "title": "Arena 评测：GPT-6 Luna (Max) 列 Agent Arena 第 23 名，单任务成本仅 $0.05",
+          "summary": "GPT-6 Luna (Max) 在 Agent Arena 排名第 23，比 GPT-5.6 Luna 上升 6 位。",
+          "source": "X：Arena (@arena)",
+          "url": "https://aihot.news/items/d6db33d5gkum5q95ntdszq48b"
+        },
+        {
+          "n": 5,
+          "title": "Claude Opus 5.5 (High) 进入 Agent Arena 第 2 名，成本比 Opus 5 (Max) 低 56%",
+          "summary": "Claude Opus 5.5 (High) 进入 Agent Arena 第 2 名，净改进分 +12.15%。",
+          "source": "X：Arena (@arena)",
+          "url": "https://aihot.news/items/zdcla5xi4k1w5veg5n4jff1w4"
+        },
+        {
+          "n": 6,
+          "title": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
+          "summary": "H Company 发布 Holo4 系列模型，含 27B dense 和 35B-A3B MoE 两个尺寸。",
+          "source": "Hugging Face：Blog（RSS）",
+          "url": "https://aihot.news/items/y1thdkq6a9giiitpxb6e13hwo"
+        },
+        {
+          "n": 7,
+          "title": "Claude Sonnet 5.5 上线 Arena 的 Agent Arena 与 Battle Mode 评测",
+          "summary": "Claude Sonnet 5.5 进入 Agent Arena，开放用户投票评测。",
+          "source": "X：Arena (@arena)",
+          "url": "https://aihot.news/items/mvjo660ytgz5zvwnpohs21j1s"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 8,
+          "title": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+          "summary": "NVIDIA 推出 Open Agent Safety Platform，包含 OpenShell 和 Sentry …",
+          "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+          "url": "https://aihot.news/items/s5on5dsnixevj7j9lfjemhz3o"
+        },
+        {
+          "n": 9,
+          "title": "Meta 推出 Hologram 拟真虚拟形象，秋季上线雷朋眼镜与 Quest 头显",
+          "summary": "Meta 秋季推出“Hologram”功能，利用 AI 生成虚拟形象用于视频通话。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.news/items/prg6f1kih6agr1e57t7ikzckr"
+        },
+        {
+          "n": 10,
+          "title": "xAI 发布 Team Bots：可与团队共同学习工作的 Grok 智能体",
+          "summary": "xAI 推出 Team Bots，支持团队共享 Grok Bots 并在 Slack 中协作。",
+          "source": "xAI：News（网页）",
+          "url": "https://aihot.news/items/fdxv7xdod1fsy99fvzekceja5"
+        },
+        {
+          "n": 11,
+          "title": "Fireworks AI 推出 FireRouter with Opus，编码任务成本降 57%",
+          "summary": "Fireworks AI 发布 FireRouter with Opus，支持 Claude Opus 5.5 路由。",
+          "source": "Fireworks AI（网页）",
+          "url": "https://aihot.news/items/dar8v1xrcbo6twfu4wldiexak"
+        }
+      ]
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 1,
-          "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
-          "summary": "OpenAI 和微软高管被指控明知盗版书籍用于训练模型且产品可能取代人类作家",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "url": "https://aihot.news/items/cmujmfafc0lsrro9hqdnqg5or"
+          "n": 12,
+          "title": "Anthropic IPO 招股书曝光：2025 年净亏损 420 亿美元，估值有望突破 2 万亿美元",
+          "summary": "Anthropic IPO 招股书显示 2025 年净亏损 420 亿美元，营收 46 亿美元。",
+          "source": "IT之家（RSS）",
+          "url": "https://aihot.news/items/jrp2kp8w4h2k80523cd04i9vo"
         },
         {
-          "n": 2,
-          "title": "OpenAI 与 Anthropic CEO 被传唤出席澳大利亚参议院 AI 调查听证会",
-          "summary": "澳大利亚参议院传唤 OpenAI 和 Anthropic 高管出席 AI 公开质询",
+          "n": 13,
+          "title": "澳参议院传唤OpenAI与Anthropic CEO，涉AI代理违规访问政府数据事件",
+          "summary": "澳大利亚参议院要求 OpenAI 和 Anthropic CEO 出席 AI 调查听证会。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/jf16ia86miglhn1hkx6dhksbv"
+        },
+        {
+          "n": 14,
+          "title": "World Labs 宣布加入 AMD，李飞飞将出任 AMD 执行副总裁兼首席科学家",
+          "summary": "World Labs 加入 AMD，李飞飞将出任 AMD 执行副总裁兼首席科学家。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/ukbm1pni8gdc5ciwwuywzkhwb"
+        },
+        {
+          "n": 15,
+          "title": "OpenAI 因多起智能体对齐事故暂停前沿模型训练",
+          "summary": "OpenAI 暂停前沿模型训练，因智能体绕过安全控制影响在线服务。",
+          "source": "Ars Technica：AI（RSS）",
+          "url": "https://aihot.news/items/dr71bfb4h3mnv7fbe72dm4ki9"
+        },
+        {
+          "n": 16,
+          "title": "北京或批准部分NVIDIA新款工作站芯片采购，阿里、字节拟购百万颗",
+          "summary": "阿里巴巴和字节跳动被询问采购 NVIDIA 新款工作站芯片计划。",
+          "source": "X：X.PIN (@thexpin)",
+          "url": "https://aihot.news/items/fxee0mj2zabmuypu49wy699z8"
+        },
+        {
+          "n": 17,
+          "title": "OpenAI 上线对齐失效报告网站，披露九起智能体失控事件",
+          "summary": "OpenAI 上线对齐失效报告网站，披露九起事件包括沙箱逃逸。",
           "source": "IT之家（RSS）",
-          "url": "https://aihot.news/items/cmujftxjg0exdro9hi64xx2i9"
+          "url": "https://aihot.news/items/i8bo8ggmyapmsxkhafgamgk4v"
+        },
+        {
+          "n": 18,
+          "title": "Perplexity 红队测试 SPACE 沙箱：108 次运行中 9 个模型均未能逃逸 VM，但有 4 个模型借助网络访问绕过封锁",
+          "summary": "Perplexity 红队测试 9 个模型，108 次运行无一逃逸 VM 边界。",
+          "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+          "url": "https://aihot.news/items/xb126e0awmyhyzh0hn39j1q9v"
+        },
+        {
+          "n": 19,
+          "title": "Tomer Tunguz 解析 GPU 租金翻倍而 AI 价格下降的并行逻辑",
+          "summary": "GPU 租赁价格在九个月内从 $4.40 翻倍到 $8.08 每 GPU 小时，但 AI 使用价格仍在下降。",
+          "source": "Tomer Tunguz 博客（VC 分析）",
+          "url": "https://aihot.news/items/anv10mmxzvolzjhlp5asqgz1l"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 20,
+          "title": "MIT利用AI算法优化RNA疫苗配方，实现室温稳定保存一年",
+          "summary": "MIT 用 AI 优化 RNA 疫苗配方，室温下可稳定保存一年。",
+          "source": "MIT News（RSS）",
+          "url": "https://aihot.news/items/usolnb7i6x3qmicwmoza9dpvl"
+        },
+        {
+          "n": 21,
+          "title": "UC Berkeley 团队用 AI Agent 审计 13 个基准，发现 45 个无需解题的满分作弊方案",
+          "summary": "UC Berkeley AI Agent 审计 13 个基准，发现 45 个作弊方案。",
+          "source": "Berkeley RDI：Blog（AI 安全与评测）",
+          "url": "https://aihot.news/items/xzz70gkzl87ypmq36y8hmo2rs"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
-      "items": []
+      "items": [
+        {
+          "n": 22,
+          "title": "Claude Opus 5.5 提示词指南：与 Opus 5 的行为差异及迁移模式",
+          "summary": "Anthropic 发布 Claude Opus 5.5 提示词模式，覆盖多场景。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/qljqxvzy0bb98x5hvfbksdg0m"
+        },
+        {
+          "n": 23,
+          "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
+          "summary": "GitHub Security Lab 发布 seclab-taskflows，发现 24 个漏洞。",
+          "source": "GitHub Blog",
+          "url": "https://aihot.news/items/znhv47px0r7w6s8cikm7fb0pp"
+        },
+        {
+          "n": 24,
+          "title": "Databricks 如何让 1.4 万名员工在模型发布首日用上新模型",
+          "summary": "Databricks 公开员工 Day 1 访问实验性模型的内部流程。",
+          "source": "Databricks：Blog（RSS）",
+          "url": "https://aihot.news/items/hgmzf75q1kdvl9q3y9g3nz7ry"
+        }
+      ]
     }
   ]
 }
