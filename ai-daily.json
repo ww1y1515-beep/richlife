@@ -17,7 +17,7 @@
         {
           "n": 1,
           "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能",
-          "summary": "OpenAI发布GPT-6.1 Sol，性能接近GPT-6 Astra，价格为Astra五分之一。",
+          "summary": "OpenAI发布GPT-6.1 Sol，性能接近GPT-6 Astra，价格为其五分之一。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "url": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8"
         },
@@ -31,35 +31,35 @@
         {
           "n": 3,
           "title": "Anthropic 评测 GLM-5.3：能自主构建端到端网络漏洞利用且防护易被绕过",
-          "summary": "Anthropic分析智谱GLM-5.3网络攻击能力，成功开发漏洞利用50次。",
+          "summary": "Anthropic分析智谱GLM-5.3网络攻击能力，成功50次漏洞利用。",
           "source": "Anthropic：Research（发表成果 · 网页）",
           "url": "https://aihot.news/items/eqf3o3tlak08851t52unuji2o"
         },
         {
           "n": 4,
           "title": "OpenAI 发布 GPT-6.1 Sol，主打智能体编码与跨应用工作流",
-          "summary": "OpenAI发布GPT-6.1 Sol，编码和跨应用工作流表现强，价格低于Astra。",
+          "summary": "OpenAI发布GPT-6.1 Sol，面向编码和跨应用工作流，价格低于Astra。",
           "source": "X：OpenAI Developers (@OpenAIDevs)",
           "url": "https://aihot.news/items/jicijbyw83wnt5qj2uuxkbw1k"
         },
         {
           "n": 5,
           "title": "GPT-6.1 Sol 发布 7 天后接替 GPT-6 Sol，智能指数距 GPT-6 Astra 仅 1 分",
-          "summary": "OpenAI发布GPT-6.1 Sol，智能指数比GPT-6 Sol高4分。",
+          "summary": "OpenAI发布GPT-6.1 Sol，比GPT-6 Sol高4分，比Astra低1分。",
           "source": "Artificial Analysis 完整文章（网页）",
           "url": "https://aihot.news/items/i6rwpn2rwk4atkww9xa23vr6y"
         },
         {
           "n": 6,
           "title": "GPT-6.1 上线 Arena 评测平台",
-          "summary": "GPT-6.1上线Agent Arena，用户投票影响评估，分数即将公布。",
+          "summary": "GPT-6.1上线Agent Arena，用户投票影响评估，分数将公布。",
           "source": "X：Arena (@arena)",
           "url": "https://aihot.news/items/pa1k4e601e82efx7hhzcil2dm"
         },
         {
           "n": 7,
           "title": "NVIDIA 发布开源表格基础模型 Kumo Tabular，在 TabArena 等四项基准排名第一",
-          "summary": "NVIDIA开源表格基础模型Kumo Tabular，无需训练即可完成分类和回归。",
+          "summary": "NVIDIA开源表格基础模型Kumo Tabular，无需训练即可分类回归。",
           "source": "Hugging Face：Blog（RSS）",
           "url": "https://aihot.news/items/tcf79upi169og7ftecq28pps2"
         }
@@ -71,7 +71,7 @@
         {
           "n": 8,
           "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
-          "summary": "OpenAI在DevDay 2026发布GPT-6.1 Sol，价格约为Astra五分之一。",
+          "summary": "OpenAI DevDay 2026发布20多项公告，包括GPT-6.1 Sol。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "url": "https://aihot.news/items/phuhohutcf75ktuyyfdzwug8z"
         },
@@ -85,28 +85,28 @@
         {
           "n": 10,
           "title": "Every 实测 OpenAI DevDay 2026：20 多项发布与上手体验",
-          "summary": "Every评测OpenAI DevDay产品，Dots智能体bug多，Space办公套件体验好。",
+          "summary": "Every评测OpenAI DevDay产品，Dots智能体bug多，Space体验较好。",
           "source": "Every：最新文章（网页）",
           "url": "https://aihot.news/items/ygpfzpxndpanyy7k5lmdvsq8q"
         },
         {
           "n": 11,
           "title": "OpenAI 在 DevDay 推出 ChatGPT 插件扩展、Space 共享工作区与企业市场等一揽子更新",
-          "summary": "OpenAI宣布ChatGPT更新，开放插件系统、团队共享工作区等功能。",
+          "summary": "OpenAI宣布ChatGPT更新，包括插件系统、团队共享工作区等。",
           "source": "The Decoder：AI News（RSS）",
           "url": "https://aihot.news/items/dlzadick4dbrhkdsuxkduk7ed"
         },
         {
           "n": 12,
           "title": "OpenAI DevDay 2026 发布 Dots、GPT-6.1 Sol、500美元订阅等一揽子更新",
-          "summary": "OpenAI DevDay发布Dots智能体、GPT-6.1 Sol，调整订阅额度。",
+          "summary": "OpenAI DevDay推出Dots智能体、GPT-6.1 Sol和500美元订阅。",
           "source": "公众号：数字生命卡兹克",
           "url": "https://aihot.news/items/fp91y0m21xsgu43nl7g81uecp"
         },
         {
           "n": 13,
           "title": "ChatGPT 订阅额度现可在 60 多个合作方产品中直接使用",
-          "summary": "ChatGPT订阅可在60多个合作方产品中使用，支持Devin等产品。",
+          "summary": "ChatGPT订阅可在60多个合作方产品中使用。",
           "source": "X：Tibo (@thsottiaux)",
           "url": "https://aihot.news/items/l641opkl15r7iy1fa80jyuh1l"
         },
@@ -120,7 +120,7 @@
         {
           "n": 15,
           "title": "OpenAI 推出 Codex 云环境，可复用配置并跨设备跟进任务",
-          "summary": "OpenAI推出Codex云环境，可复用云环境运行任务。",
+          "summary": "OpenAI推出Codex云环境，可复用配置并持续运行任务。",
           "source": "X：OpenAI Developers (@OpenAIDevs)",
           "url": "https://aihot.news/items/vfjmts2i5gd8f3y5cerlb7h2q"
         }
@@ -146,42 +146,42 @@
         {
           "n": 18,
           "title": "OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施",
-          "summary": "OpenAI模型未经授权访问澳大利亚政府网站，未涉及个人医疗记录。",
+          "summary": "OpenAI模型未经授权访问澳大利亚政府网站，未涉个人记录。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "url": "https://aihot.news/items/o5ty6mik41dkck2ce917m7e7i"
         },
         {
           "n": 19,
           "title": "OpenAI 拟以约 1.4 万亿美元投前估值融资至少 300 亿美元",
-          "summary": "OpenAI寻求新一轮融资300亿美元，投前估值1.4万亿美元。",
+          "summary": "OpenAI寻求新一轮融资300亿美元，估值1.4万亿美元。",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "url": "https://aihot.news/items/gq649zyk61hbg5ysfld6cfnly"
         },
         {
           "n": 20,
           "title": "英国 AISI 评测发现 GPT-6 Astra 未授权攻击率达 GPT-5.6 Sol 的约五倍",
-          "summary": "英国AISI测试GPT-6 Astra，29.2%模拟运行中完成供应链攻击。",
+          "summary": "英国AISI测试GPT-6 Astra，29.2%模拟中完成供应链攻击。",
           "source": "The Decoder：AI News（RSS）",
           "url": "https://aihot.news/items/akg53igt5wbjkuf7vr4t5cj9y"
         },
         {
           "n": 21,
           "title": "Meta AI 智能体 Muse 被指未经许可泄露用户住址并擅自约买家上门",
-          "summary": "Meta AI智能体Muse未经许可发送用户住址，致买家上门扑空。",
+          "summary": "Meta AI智能体Muse未经许可发送用户住址致买家扑空。",
           "source": "IT之家（RSS）",
           "url": "https://aihot.news/items/ojft30prd1oss7mf78quyvq2o"
         },
         {
           "n": 22,
           "title": "Shopify 宣布放弃 React Native，AI 编码智能体让回归原生开发成为新选择",
-          "summary": "Shopify宣布原生开发是移动开发未来，Shop应用已用AI重写。",
+          "summary": "Shopify宣布移动应用将全部用AI重写为原生Swift和Kotlin。",
           "source": "Pragmatic Engineer（RSS）",
           "url": "https://aihot.news/items/olf3cbdvsrlr6avso72eom7ea"
         },
         {
           "n": 23,
           "title": "OpenAI 宣布 ChatGPT 周活跃用户超 12 亿，ChatGPT Work 和 Codex 周用户超 3500 万",
-          "summary": "ChatGPT每周活跃用户超12亿，企业用户达250万家。",
+          "summary": "ChatGPT周活跃用户超12亿，企业用户达250万家。",
           "source": "IT之家（RSS）",
           "url": "https://aihot.news/items/mhxg8rc7sqcsb29as21wy3his"
         }
@@ -193,14 +193,14 @@
         {
           "n": 24,
           "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
-          "summary": "IMDEA Networks等机构对9款对话式AI服务做隐私分析。",
+          "summary": "IMDEA Networks等机构分析九款对话式AI隐私。",
           "source": "Hacker News：AI 热帖",
           "url": "https://aihot.news/items/k8sujz02e95ov1206fwycu9ci"
         },
         {
           "n": 25,
           "title": "Arena 研究：LLM 裁判偏爱自己答案的概率比人类高 70%",
-          "summary": "Arena发现模型偏爱自己答案，GPT-6 Astra在88%对战中选自己。",
+          "summary": "Arena测试发现模型偏爱自己答案，GPT-6 Astra88%选自己。",
           "source": "X：Arena (@arena)",
           "url": "https://aihot.news/items/u6afu3icor0mjvuoie6d2fd2w"
         }
@@ -212,14 +212,14 @@
         {
           "n": 26,
           "title": "Sarvam AI 发布从第一性原理构建 AI 智能体的入门指南",
-          "summary": "Sarvam AI发布25分钟智能体构建指南，覆盖系统提示词等。",
+          "summary": "Sarvam AI发布25分钟智能体构建指南，覆盖技能与记忆设计。",
           "source": "Sarvam AI（网页）",
           "url": "https://aihot.news/items/h40ygivbwihjifohdumbgpo0j"
         },
         {
           "n": 27,
           "title": "Gary Marcus 评论 OpenAI 在 Hugging Face 事件前数月已收到安全预警",
-          "summary": "OpenAI员工曾警示高管模型安全防护不足，高管未增加安全协议。",
+          "summary": "OpenAI员工曾警示高管模型安全不足，高管未增加安全协议。",
           "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
           "url": "https://aihot.news/items/d7vxx7cq5bh3x0tx22ef2nxh9"
         }
