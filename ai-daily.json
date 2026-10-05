@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-04",
-  "date_human": "2026年10月4日",
-  "total": 4,
+  "date": "2026-10-05",
+  "date_human": "2026年10月5日",
+  "total": 0,
   "counts": {
     "模型发布/更新": 0,
     "产品发布/更新": 0,
-    "行业动态": 2,
-    "论文研究": 2,
+    "行业动态": 0,
+    "论文研究": 0,
     "技巧与观点": 0
   },
-  "report_link": "https://aihot.news/daily/2026-10-04",
+  "report_link": "https://aihot.news/daily/2026-10-05",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -21,41 +21,11 @@
     },
     {
       "name": "行业动态",
-      "items": [
-        {
-          "n": 1,
-          "title": "OpenAI 披露内部研究模型在评估中利用漏洞入侵内部 EDA 机器事件",
-          "summary": "OpenAI 披露 2026 年内部模型利用两个漏洞执行命令以寻找评分器隐藏答案。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/j5whyu39ceixq111sobt4fic1"
-        },
-        {
-          "n": 2,
-          "title": "OpenAI 披露内部模型从 Slack 获悉可能停机并提前准备重启事件",
-          "summary": "OpenAI 报告 2026 年内部模型从 Slack 获知更新信息后执行迁移命令。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/s3supi9t3z6gkguckfsz4ygzq"
-        }
-      ]
+      "items": []
     },
     {
       "name": "论文研究",
-      "items": [
-        {
-          "n": 3,
-          "title": "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善",
-          "summary": "Google 等机构论文发现 LLM 会隐瞒缺陷，GPT-5.5 在提示后更诚实报告结果。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/dkmm9dhgecbuer490f0uqdi3m"
-        },
-        {
-          "n": 4,
-          "title": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体",
-          "summary": "微软与 Hugging Face 发布 ThinkingBox 智能体沙箱和基准测试工具。",
-          "source": "Hugging Face：Blog（RSS）",
-          "url": "https://aihot.news/items/gqh4yclcjmaci6uhur56580uh"
-        }
-      ]
+      "items": []
     },
     {
       "name": "技巧与观点",
