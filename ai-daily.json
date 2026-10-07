@@ -1,25 +1,39 @@
 {
-  "date": "2026-10-06",
-  "date_human": "2026年10月6日",
-  "total": 7,
+  "date": "2026-10-07",
+  "date_human": "2026年10月7日",
+  "total": 12,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 2,
-    "行业动态": 2,
-    "论文研究": 2,
-    "技巧与观点": 0
+    "模型发布/更新": 3,
+    "产品发布/更新": 3,
+    "行业动态": 3,
+    "论文研究": 1,
+    "技巧与观点": 2
   },
-  "report_link": "https://aihot.news/daily/2026-10-06",
+  "report_link": "https://aihot.news/daily/2026-10-07",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
-          "summary": "Liquid AI 发布 d1 决策模型，支持文本与图像输入。",
-          "source": "Liquid AI 模型与工程博客（网页）",
-          "url": "https://aihot.news/items/uu1qa3hh83kc9i4u832wpywyp"
+          "title": "Mistral 发布 Mistral Large 4，Artificial Analysis 评测称其为美中之外最智能模型",
+          "summary": "Mistral发布Mistral Large 4，得分38与GPT-6 Luna相当，计划10月底开源1T参数权重。",
+          "source": "Artificial Analysis 完整文章（网页）",
+          "url": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk"
+        },
+        {
+          "n": 2,
+          "title": "Gemini Nano Banana 2.1 正式发布，gemini-3.1-flash-image 将于 2026 年 10 月 29 日停用",
+          "summary": "Google发布Gemini Nano Banana 2.1，定位高效图像生成与对话式编辑模型。",
+          "source": "Gemini API：更新日志（网页）",
+          "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9"
+        },
+        {
+          "n": 3,
+          "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
+          "summary": "Google DeepMind开源EmbeddingGemma 2，基于Gemma 4架构，支持多模态嵌入。",
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug"
         }
       ]
     },
@@ -27,18 +41,25 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 2,
-          "title": "OpenAI 在 ChatGPT 推出全新视觉广告格式并扩展广告测量工具",
-          "summary": "OpenAI 在 ChatGPT 测试视觉广告格式，广告将明确标注。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y"
+          "n": 4,
+          "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
+          "summary": "Claude推出Claude for Google Workspace测试版，覆盖Docs、Sheets和Slides。",
+          "source": "Claude：YouTube（RSS）",
+          "url": "https://aihot.news/items/sah5vczzr22l9ieb4bxrpoowd"
         },
         {
-          "n": 3,
-          "title": "Together AI 推出 Together Link，一键在现有编码智能体中接入开源模型并降费超 50%",
-          "summary": "Together AI 发布 Together Link，可节省 50% 支出。",
-          "source": "Together AI 研究与产品博客（RSS）",
-          "url": "https://aihot.news/items/ef2o8x2jh4m8n7ggsq5bc5eag"
+          "n": 5,
+          "title": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文",
+          "summary": "Mistral Large 4在OpenRouter公测，1T参数512K上下文，前两周五折优惠。",
+          "source": "X：OpenRouter (@OpenRouter)",
+          "url": "https://aihot.news/items/z94jsbcn3hkyiagdyb9wai8sm"
+        },
+        {
+          "n": 6,
+          "title": "Anthropic 扩展 Cyber Verification Program，推出三档网络安全访问层级",
+          "summary": "Anthropic扩展Cyber Verification Program，整合Project Glasswing提供…",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.news/items/a96x4zt1tn3um8h49nz2kqgpc"
         }
       ]
     },
@@ -46,18 +67,25 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 4,
-          "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
-          "summary": "Wikimedia 发现 OpenAI 疑似在平台进行未授权数据抓取。",
-          "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/ncv6u97zqan3hgzng59yel19f"
+          "n": 7,
+          "title": "DeepSeek 据报道接近完成至少 800 亿元融资，腾讯与宁德时代参与",
+          "summary": "DeepSeek接近完成800亿元融资，腾讯和宁德时代为主要投资方，计划2027年IPO。",
+          "source": "X：X.PIN (@thexpin)",
+          "url": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j"
         },
         {
-          "n": 5,
-          "title": "OpenAI 公布 EU AI Act 下的文本溯源方案，推出 textGrain 文本水印",
-          "summary": "OpenAI 推出 textGrain 技术为文本添加隐形水印。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz"
+          "n": 8,
+          "title": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
+          "summary": "亚利桑那州法院裁定AI生成视频影响量刑，维持罪名但需重新考虑刑期。",
+          "source": "404 Media（RSS）",
+          "url": "https://aihot.news/items/r5p04sepsb5p5ir85wq1bok58"
+        },
+        {
+          "n": 9,
+          "title": "Anthropic 5180亿美元计算力支出中约4137亿美元无论使用与否都需支付",
+          "summary": "Anthropic计划未来数年云计算支出5180亿美元，年均约410亿美元。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/nnl0kba78980jig0szh0hkfop"
         }
       ]
     },
@@ -65,24 +93,32 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 6,
-          "title": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
-          "summary": "SemiAnalysis 称 Anthropic 订阅价值约为 OpenAI 的 5 倍。",
-          "source": "SemiAnalysis 长文 RSS（RSS）",
-          "url": "https://aihot.news/items/lcxzcuj920lvqlah60vj7utm1"
-        },
-        {
-          "n": 7,
-          "title": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过控制实现钓鱼与数据外泄",
-          "summary": "PromptArmor 报告 Databricks Genie Code 存在数据外泄漏洞。",
-          "source": "PromptArmor：Threat Intelligence",
-          "url": "https://aihot.news/items/dfcis3hxowljt45i0bvyi3f0n"
+          "n": 10,
+          "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
+          "summary": "OpenAI发布内部模型产出的数学成果，GitHub公开并附论文修订协议。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl"
         }
       ]
     },
     {
       "name": "技巧与观点",
-      "items": []
+      "items": [
+        {
+          "n": 11,
+          "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
+          "summary": "Claude Code推出云端会话功能，独立VM运行，支持多平台启动跟踪。",
+          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+          "url": "https://aihot.news/items/sxr71auxicu8uk3e4bqxol02h"
+        },
+        {
+          "n": 12,
+          "title": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
+          "summary": "A16Z报告显示美国近半人用过AI，仅4.5%有付费订阅，头部1%月均消费903美元。",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "url": "https://aihot.news/items/tfuj58rvo46hvh8l2nzcbpf7n"
+        }
+      ]
     }
   ]
 }
