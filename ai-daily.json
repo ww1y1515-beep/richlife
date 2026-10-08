@@ -1,39 +1,25 @@
 {
-  "date": "2026-10-07",
-  "date_human": "2026年10月7日",
+  "date": "2026-10-08",
+  "date_human": "2026年10月8日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 3,
-    "产品发布/更新": 3,
-    "行业动态": 3,
-    "论文研究": 1,
+    "模型发布/更新": 1,
+    "产品发布/更新": 6,
+    "行业动态": 1,
+    "论文研究": 2,
     "技巧与观点": 2
   },
-  "report_link": "https://aihot.news/daily/2026-10-07",
+  "report_link": "https://aihot.news/daily/2026-10-08",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Mistral 发布 Mistral Large 4，Artificial Analysis 评测称其为美中之外最智能模型",
-          "summary": "Mistral发布Mistral Large 4，得分38与GPT-6 Luna相当，计划10月底开源1T参数权重。",
-          "source": "Artificial Analysis 完整文章（网页）",
-          "url": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk"
-        },
-        {
-          "n": 2,
-          "title": "Gemini Nano Banana 2.1 正式发布，gemini-3.1-flash-image 将于 2026 年 10 月 29 日停用",
-          "summary": "Google发布Gemini Nano Banana 2.1，定位高效图像生成与对话式编辑模型。",
-          "source": "Gemini API：更新日志（网页）",
-          "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9"
-        },
-        {
-          "n": 3,
-          "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
-          "summary": "Google DeepMind开源EmbeddingGemma 2，基于Gemma 4架构，支持多模态嵌入。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug"
+          "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
+          "summary": "Anthropic发布Claude Haiku 5.5，定位为最便宜快速的小模型，适合高吞吐任务。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.news/items/lqyhqdf0u7iksn5ydnpyhk81x"
         }
       ]
     },
@@ -41,25 +27,46 @@
       "name": "产品发布/更新",
       "items": [
         {
+          "n": 2,
+          "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+          "summary": "OpenAI发布GPT-6，引入Intelligent UI可生成交互组件回答问题。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/uir31g728myjry383z17txvrw"
+        },
+        {
+          "n": 3,
+          "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
+          "summary": "Anthropic为Claude Max和Team套餐推出月度API额度，最高$500。",
+          "source": "X：Claude Devs (@ClaudeDevs)",
+          "url": "https://aihot.news/items/ponkn6n046yorr5pg1yv3yjm5"
+        },
+        {
           "n": 4,
-          "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
-          "summary": "Claude推出Claude for Google Workspace测试版，覆盖Docs、Sheets和Slides。",
-          "source": "Claude：YouTube（RSS）",
-          "url": "https://aihot.news/items/sah5vczzr22l9ieb4bxrpoowd"
+          "title": "OpenAI Decisions API 公测上线",
+          "summary": "OpenAI推出Decisions API测试版，决策速度比GPT-6 Luna快10倍。",
+          "source": "X：Tibo (@thsottiaux)",
+          "url": "https://aihot.news/items/u3xqs4u7tqjvaph4sfdnxfafw"
         },
         {
           "n": 5,
-          "title": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文",
-          "summary": "Mistral Large 4在OpenRouter公测，1T参数512K上下文，前两周五折优惠。",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "url": "https://aihot.news/items/z94jsbcn3hkyiagdyb9wai8sm"
+          "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+          "summary": "Claude Code v2.1.293新增Haiku 5.5，支持1M上下文，价格$0.10/$0.50每百万tok…",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "url": "https://aihot.news/items/vd2lvzvjz4tujiqupl30ifq3k"
         },
         {
           "n": 6,
-          "title": "Anthropic 扩展 Cyber Verification Program，推出三档网络安全访问层级",
-          "summary": "Anthropic扩展Cyber Verification Program，整合Project Glasswing提供…",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.news/items/a96x4zt1tn3um8h49nz2kqgpc"
+          "title": "NVIDIA 与 Microsoft 发布 RTX Spark 及 DGX Station for Windows，推动 AI Agent 落地 Windows PC",
+          "summary": "NVIDIA与Microsoft宣布为Windows PC引入AI Agent硬件与软件。",
+          "source": "NVIDIA Blog（RSS）",
+          "url": "https://aihot.news/items/t02toac3ii8mp1lxzl4blewdd"
+        },
+        {
+          "n": 7,
+          "title": "Google 推出实验性游戏平台 Playground，用提示词即可创建游戏",
+          "summary": "Google 推出实验性游戏平台 Playground，用户通过文本提示词即可创建、游玩和分享自定义游戏，无需编程经验。",
+          "source": "Google Blog：AI（RSS）",
+          "url": "https://aihot.news/items/f6gwhhu7370v7h37gkrncldvf"
         }
       ]
     },
@@ -67,25 +74,11 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 7,
-          "title": "DeepSeek 据报道接近完成至少 800 亿元融资，腾讯与宁德时代参与",
-          "summary": "DeepSeek接近完成800亿元融资，腾讯和宁德时代为主要投资方，计划2027年IPO。",
-          "source": "X：X.PIN (@thexpin)",
-          "url": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j"
-        },
-        {
           "n": 8,
-          "title": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
-          "summary": "亚利桑那州法院裁定AI生成视频影响量刑，维持罪名但需重新考虑刑期。",
+          "title": "亚利桑那州法院裁定 AI 生成受害者视频带有不当情感分量 将重新量刑",
+          "summary": "亚利桑那州上诉法院维持路怒枪杀案定罪，因AI视频影响量刑需重审。",
           "source": "404 Media（RSS）",
-          "url": "https://aihot.news/items/r5p04sepsb5p5ir85wq1bok58"
-        },
-        {
-          "n": 9,
-          "title": "Anthropic 5180亿美元计算力支出中约4137亿美元无论使用与否都需支付",
-          "summary": "Anthropic计划未来数年云计算支出5180亿美元，年均约410亿美元。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/nnl0kba78980jig0szh0hkfop"
+          "url": "https://aihot.news/items/iz93flwr7h9m7po4wnu8sm4hy"
         }
       ]
     },
@@ -93,11 +86,18 @@
       "name": "论文研究",
       "items": [
         {
+          "n": 9,
+          "title": "Google Research 三个月专利起草实验发现AI辅助未必能培养初级律师的专业判断",
+          "summary": "Google Research实验向133名律师开放AI专利写作助手。",
+          "source": "Google Research：Blog（网页）",
+          "url": "https://aihot.news/items/tyhn4y95ez3mvj0p7xovpaq61"
+        },
+        {
           "n": 10,
-          "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
-          "summary": "OpenAI发布内部模型产出的数学成果，GitHub公开并附论文修订协议。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl"
+          "title": "Microsoft Research Asia 开源 Agent Lightning v1.0：3,500 行代码的真实 harness 智能体 RL 训练框架",
+          "summary": "Microsoft Research Asia开源Agent Lightning v1.0，优化强化学习训练。",
+          "source": "Microsoft Research 博客（RSS）",
+          "url": "https://aihot.news/items/t9wypjd9cbb42ttuq7vrpp07l"
         }
       ]
     },
@@ -106,17 +106,17 @@
       "items": [
         {
           "n": 11,
-          "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
-          "summary": "Claude Code推出云端会话功能，独立VM运行，支持多平台启动跟踪。",
-          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-          "url": "https://aihot.news/items/sxr71auxicu8uk3e4bqxol02h"
+          "title": "Google 开放 SynthID Detector 门户，可检测图片、视频和音频是否由 AI 生成",
+          "summary": "Google推出检测AI生成媒体方法，通过SynthID水印识别。",
+          "source": "X：Google (@Google)",
+          "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo"
         },
         {
           "n": 12,
-          "title": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
-          "summary": "A16Z报告显示美国近半人用过AI，仅4.5%有付费订阅，头部1%月均消费903美元。",
-          "source": "X：卡兹克 (@Khazix0918)",
-          "url": "https://aihot.news/items/tfuj58rvo46hvh8l2nzcbpf7n"
+          "title": "a16z 解析德州为何让数据中心排队等电",
+          "summary": "a16z分析德州电网暂停审批数据中心因并网队列激增90%为数据中心。",
+          "source": "a16z：News（RSS）",
+          "url": "https://aihot.news/items/yk3grmalszldrwd1p8bxk0cki"
         }
       ]
     }
