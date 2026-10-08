@@ -17,7 +17,7 @@
         {
           "n": 1,
           "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
-          "summary": "Anthropic发布Claude Haiku 5.5，定位为最便宜快速的小模型，适合高吞吐任务。",
+          "summary": "Anthropic发布Claude Haiku 5.5，定位最便宜最快小模型，适合高吞吐任务。",
           "source": "Anthropic：Newsroom（网页）",
           "url": "https://aihot.news/items/lqyhqdf0u7iksn5ydnpyhk81x"
         }
@@ -50,14 +50,14 @@
         {
           "n": 5,
           "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
-          "summary": "Claude Code v2.1.293新增Haiku 5.5，支持1M上下文，价格$0.10/$0.50每百万tok…",
+          "summary": "Claude Code v2.1.293新增Haiku 5.5，支持1M上下文，价格$0.10/$0.50。",
           "source": "Claude Code：GitHub Releases（RSS）",
           "url": "https://aihot.news/items/vd2lvzvjz4tujiqupl30ifq3k"
         },
         {
           "n": 6,
           "title": "NVIDIA 与 Microsoft 发布 RTX Spark 及 DGX Station for Windows，推动 AI Agent 落地 Windows PC",
-          "summary": "NVIDIA与Microsoft宣布为Windows PC引入AI Agent硬件与软件。",
+          "summary": "NVIDIA与微软宣布为Windows PC引入AI Agent硬件与软件。",
           "source": "NVIDIA Blog（RSS）",
           "url": "https://aihot.news/items/t02toac3ii8mp1lxzl4blewdd"
         },
@@ -88,14 +88,14 @@
         {
           "n": 9,
           "title": "Google Research 三个月专利起草实验发现AI辅助未必能培养初级律师的专业判断",
-          "summary": "Google Research实验向133名律师开放AI专利写作助手。",
+          "summary": "Google Research实验向133名律师开放AI专利写作助手Gemini Notebook。",
           "source": "Google Research：Blog（网页）",
           "url": "https://aihot.news/items/tyhn4y95ez3mvj0p7xovpaq61"
         },
         {
           "n": 10,
           "title": "Microsoft Research Asia 开源 Agent Lightning v1.0：3,500 行代码的真实 harness 智能体 RL 训练框架",
-          "summary": "Microsoft Research Asia开源Agent Lightning v1.0，优化强化学习训练。",
+          "summary": "微软亚洲研究院开源Agent Lightning v1.0，优化强化学习训练范式。",
           "source": "Microsoft Research 博客（RSS）",
           "url": "https://aihot.news/items/t9wypjd9cbb42ttuq7vrpp07l"
         }
@@ -107,14 +107,14 @@
         {
           "n": 11,
           "title": "Google 开放 SynthID Detector 门户，可检测图片、视频和音频是否由 AI 生成",
-          "summary": "Google推出检测AI生成媒体方法，通过SynthID水印识别。",
+          "summary": "Google推出SynthID检测AI生成媒体，可扫描图片视频音频水印。",
           "source": "X：Google (@Google)",
           "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo"
         },
         {
           "n": 12,
           "title": "a16z 解析德州为何让数据中心排队等电",
-          "summary": "a16z分析德州电网暂停审批数据中心因并网队列激增90%为数据中心。",
+          "summary": "德州电网暂停审批数据中心因并网队列激增90%为投机性申请。",
           "source": "a16z：News（RSS）",
           "url": "https://aihot.news/items/yk3grmalszldrwd1p8bxk0cki"
         }
