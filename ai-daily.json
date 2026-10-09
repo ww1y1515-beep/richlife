@@ -1,72 +1,43 @@
 {
-  "date": "2026-10-08",
-  "date_human": "2026年10月8日",
+  "date": "2026-10-09",
+  "date_human": "2026年10月9日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 6,
-    "行业动态": 1,
-    "论文研究": 2,
-    "技巧与观点": 2
+    "模型发布/更新": 0,
+    "产品发布/更新": 3,
+    "行业动态": 7,
+    "论文研究": 1,
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-10-08",
+  "report_link": "https://aihot.news/daily/2026-10-09",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
-          "summary": "Anthropic发布Claude Haiku 5.5，定位最便宜最快小模型，适合高吞吐任务。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.news/items/lqyhqdf0u7iksn5ydnpyhk81x"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
       "items": [
         {
+          "n": 1,
+          "title": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解功能",
+          "summary": "Anthropic 发布 Claude Dashboards 和 Claude Motion 两项 beta 功能。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.news/items/winsvtlfubhjfi0wnone83j5c"
+        },
+        {
           "n": 2,
-          "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
-          "summary": "OpenAI发布GPT-6，引入Intelligent UI可生成交互组件回答问题。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/uir31g728myjry383z17txvrw"
+          "title": "Anthropic 推出开源漏洞扫描服务 OSS Scanner，免费面向开源项目",
+          "summary": "Anthropic 发布开源漏洞扫描服务 OSS Scanner，用 Claude Mythos 免费扫描开源项目。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/xfch7s2npl8a4651n2ymips4k"
         },
         {
           "n": 3,
-          "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
-          "summary": "Anthropic为Claude Max和Team套餐推出月度API额度，最高$500。",
-          "source": "X：Claude Devs (@ClaudeDevs)",
-          "url": "https://aihot.news/items/ponkn6n046yorr5pg1yv3yjm5"
-        },
-        {
-          "n": 4,
-          "title": "OpenAI Decisions API 公测上线",
-          "summary": "OpenAI推出Decisions API测试版，决策速度比GPT-6 Luna快10倍。",
-          "source": "X：Tibo (@thsottiaux)",
-          "url": "https://aihot.news/items/u3xqs4u7tqjvaph4sfdnxfafw"
-        },
-        {
-          "n": 5,
-          "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
-          "summary": "Claude Code v2.1.293新增Haiku 5.5，支持1M上下文，价格$0.10/$0.50。",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "url": "https://aihot.news/items/vd2lvzvjz4tujiqupl30ifq3k"
-        },
-        {
-          "n": 6,
-          "title": "NVIDIA 与 Microsoft 发布 RTX Spark 及 DGX Station for Windows，推动 AI Agent 落地 Windows PC",
-          "summary": "NVIDIA与微软宣布为Windows PC引入AI Agent硬件与软件。",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.news/items/t02toac3ii8mp1lxzl4blewdd"
-        },
-        {
-          "n": 7,
-          "title": "Google 推出实验性游戏平台 Playground，用提示词即可创建游戏",
-          "summary": "Google 推出实验性游戏平台 Playground，用户通过文本提示词即可创建、游玩和分享自定义游戏，无需编程经验。",
-          "source": "Google Blog：AI（RSS）",
-          "url": "https://aihot.news/items/f6gwhhu7370v7h37gkrncldvf"
+          "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+          "summary": "ts-rust 将 TypeScript 编译器移植为 Rust，作者称全部代码由 LLM 编写。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/yyba9bpxdtqdpqmv739d26ftg"
         }
       ]
     },
@@ -74,11 +45,53 @@
       "name": "行业动态",
       "items": [
         {
+          "n": 4,
+          "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
+          "summary": "Crowdstrike 报告称中文使用者用 AI 工具攻击韩国金融机构，Shinhan Bank 泄露 2.5 万条记…",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/br6vb46mhi9mkv2pxiq59k8z7"
+        },
+        {
+          "n": 5,
+          "title": "OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元",
+          "summary": "OpenAI 年化营收 500 亿美元，低于外界估算，统计口径不同导致差异。",
+          "source": "IT之家·人工智能",
+          "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti"
+        },
+        {
+          "n": 6,
+          "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+          "summary": "AHM 组织呼吁抵制 OpenAI，称其发布 700 个 AI 生成证明文件是展示力量。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/wf099r75jv1tzyhxa2j2o8n1p"
+        },
+        {
+          "n": 7,
+          "title": "Anthropic 发布 2026 年使用政策更新，11 月 12 日生效",
+          "summary": "Anthropic 更新使用政策，新增禁止欺骗性活动、武器软件等条款。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj"
+        },
+        {
           "n": 8,
-          "title": "亚利桑那州法院裁定 AI 生成受害者视频带有不当情感分量 将重新量刑",
-          "summary": "亚利桑那州上诉法院维持路怒枪杀案定罪，因AI视频影响量刑需重审。",
-          "source": "404 Media（RSS）",
-          "url": "https://aihot.news/items/iz93flwr7h9m7po4wnu8sm4hy"
+          "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
+          "summary": "Codex 与 ChatGPT Work 活跃用户达 4000 万，GPT-6 已在 Chat 上线。",
+          "source": "X：Tibo (@thsottiaux)",
+          "url": "https://aihot.news/items/zdgw2hhfjitur1qmeuminh3lm"
+        },
+        {
+          "n": 9,
+          "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+          "summary": "OpenAI 封禁俄罗斯 Dark Clark 和伊朗 Bogus Bylines 两个隐蔽影响行动。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/b33i6chgxghls2v7bng0wr0nr"
+        },
+        {
+          "n": 10,
+          "title": "Waymo 完成 50 亿美元债务融资，加速业务扩张",
+          "summary": "Waymo 完成 50 亿美元债务融资，用于加速自动驾驶打车服务扩张。",
+          "source": "Waymo：Blog（网页）",
+          "url": "https://aihot.news/items/pl2oa5clmf0gp3t7x3qsn71kc"
         }
       ]
     },
@@ -86,18 +99,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 9,
-          "title": "Google Research 三个月专利起草实验发现AI辅助未必能培养初级律师的专业判断",
-          "summary": "Google Research实验向133名律师开放AI专利写作助手Gemini Notebook。",
-          "source": "Google Research：Blog（网页）",
-          "url": "https://aihot.news/items/tyhn4y95ez3mvj0p7xovpaq61"
-        },
-        {
-          "n": 10,
-          "title": "Microsoft Research Asia 开源 Agent Lightning v1.0：3,500 行代码的真实 harness 智能体 RL 训练框架",
-          "summary": "微软亚洲研究院开源Agent Lightning v1.0，优化强化学习训练范式。",
-          "source": "Microsoft Research 博客（RSS）",
-          "url": "https://aihot.news/items/t9wypjd9cbb42ttuq7vrpp07l"
+          "n": 11,
+          "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
+          "summary": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建监控级联并部署。",
+          "source": "Goodfire Research（网页）",
+          "url": "https://aihot.news/items/ja19mtm89yojd9w2u67qp1gqv"
         }
       ]
     },
@@ -105,18 +111,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 11,
-          "title": "Google 开放 SynthID Detector 门户，可检测图片、视频和音频是否由 AI 生成",
-          "summary": "Google推出SynthID检测AI生成媒体，可扫描图片视频音频水印。",
-          "source": "X：Google (@Google)",
-          "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo"
-        },
-        {
           "n": 12,
-          "title": "a16z 解析德州为何让数据中心排队等电",
-          "summary": "德州电网暂停审批数据中心因并网队列激增90%为投机性申请。",
-          "source": "a16z：News（RSS）",
-          "url": "https://aihot.news/items/yk3grmalszldrwd1p8bxk0cki"
+          "title": "Hugging Face 工程师用 ML Intern 以约 103 美元自制 7 个小模型",
+          "summary": "Hugging Face 工程师用 HuggingChat 几天内做出 7 个模型，成本 103 美元。",
+          "source": "Hugging Face 官方团队博客",
+          "url": "https://aihot.news/items/ylkp4aqm4r5fn7aul2l9kfmxw"
         }
       ]
     }
