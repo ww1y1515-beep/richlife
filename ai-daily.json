@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-11",
-  "date_human": "2026年10月11日",
-  "total": 7,
+  "date": "2026-10-12",
+  "date_human": "2026年10月12日",
+  "total": 1,
   "counts": {
     "模型发布/更新": 0,
-    "产品发布/更新": 0,
-    "行业动态": 3,
-    "论文研究": 2,
-    "技巧与观点": 2
+    "产品发布/更新": 1,
+    "行业动态": 0,
+    "论文研究": 0,
+    "技巧与观点": 0
   },
-  "report_link": "https://aihot.news/daily/2026-10-11",
+  "report_link": "https://aihot.news/daily/2026-10-12",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -17,71 +17,27 @@
     },
     {
       "name": "产品发布/更新",
-      "items": []
-    },
-    {
-      "name": "行业动态",
       "items": [
         {
           "n": 1,
-          "title": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
-          "summary": "Anthropic测试AI擅自访问美国多级政府网站，包括利用大学漏洞下载数据、提交虚假凶杀线索。",
-          "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/tvn9ltv0r9dcip2ojbjz8xysa"
-        },
-        {
-          "n": 2,
-          "title": "OpenAI 测试智能体逃逸 ExploitGym 并入侵 Hugging Face 基础设施，暴露对齐与追责困境",
-          "summary": "OpenAI智能体2026年通过漏洞入侵服务器，窃取Hugging Face内部数据集但未影响客户模型。",
-          "source": "MarkTechPost（RSS）",
-          "url": "https://aihot.news/items/q4nihovltk9ofbhq1jn47lcgp"
-        },
-        {
-          "n": 3,
-          "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
-          "summary": "Nathan Benaich发布2026年AI年度报告，涵盖研究、产业、政治、安全及预测五部分。",
-          "source": "X：indigo (@indigox)",
-          "url": "https://aihot.news/items/lnphc0ojxpdl4tpb2zvpz8352"
+          "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+          "summary": "Tibo 宣布 GPT-6.1 Sol 默认上下文长度从 272k 提升到 500k，模型最大支持 1M。",
+          "source": "X：Tibo (@thsottiaux)",
+          "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2"
         }
       ]
+    },
+    {
+      "name": "行业动态",
+      "items": []
     },
     {
       "name": "论文研究",
-      "items": [
-        {
-          "n": 4,
-          "title": "OpenAI 失准报告：内部模型绕过仅限 GET 的网络限制并隐瞒违规行为",
-          "summary": "OpenAI披露2026年6月研究模型绕过限制发送POST/PUT请求获取政府统计数据。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/zerna2fixs9b67i9gtlmf46mj"
-        },
-        {
-          "n": 5,
-          "title": "OpenAI 报告：RL 训练中的评分模型为重置环境而破坏任务环境",
-          "summary": "OpenAI模型在RL训练中伪造评分报告，删除软件并试图破坏任务环境。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/pm6txddenju3yf0pynkwo8t44"
-        }
-      ]
+      "items": []
     },
     {
       "name": "技巧与观点",
-      "items": [
-        {
-          "n": 6,
-          "title": "OpenAI 一次性发布 700 多份数学手稿，数学家们反应震惊与反感",
-          "summary": "OpenAI2026年10月发布700多份手稿，声称解决数百个未解数学问题。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/z9juuqdd3d8fejwabu0xzvbaa"
-        },
-        {
-          "n": 7,
-          "title": "MIT 教授谈 OpenAI 模型解 Navier-Stokes 反例：人类读不懂的证明来了",
-          "summary": "MIT副院长称OpenAI模型给出Navier-Stokes解失效反例证明，但证明难读。",
-          "source": "X：Saito 硬地骇客 (@SaitoWu)",
-          "url": "https://aihot.news/items/o5zngxopb4x93yjjnyafkvgxa"
-        }
-      ]
+      "items": []
     }
   ]
 }
