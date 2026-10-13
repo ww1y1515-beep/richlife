@@ -1,43 +1,117 @@
 {
-  "date": "2026-10-12",
-  "date_human": "2026年10月12日",
-  "total": 1,
+  "date": "2026-10-13",
+  "date_human": "2026年10月13日",
+  "total": 11,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 1,
-    "行业动态": 0,
-    "论文研究": 0,
-    "技巧与观点": 0
+    "模型发布/更新": 1,
+    "产品发布/更新": 2,
+    "行业动态": 2,
+    "论文研究": 2,
+    "技巧与观点": 4
   },
-  "report_link": "https://aihot.news/daily/2026-10-12",
+  "report_link": "https://aihot.news/daily/2026-10-13",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Meta 发布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 实测智能水平较前代显著提升",
+          "summary": "Meta发布Muse Wonder和Muse Wonder Full模型，AI Index得分52和56。",
+          "source": "Artificial Analysis 完整文章（网页）",
+          "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 1,
-          "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
-          "summary": "Tibo 宣布 GPT-6.1 Sol 默认上下文长度从 272k 提升到 500k，模型最大支持 1M。",
-          "source": "X：Tibo (@thsottiaux)",
-          "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2"
+          "n": 2,
+          "title": "xAI 推出 The X Subscription 整合 Grok、Grok Bot、Cursor 与 X Premium",
+          "summary": "xAI推出The X Subscription订阅，整合Grok等多项服务。",
+          "source": "xAI：News（网页）",
+          "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn"
+        },
+        {
+          "n": 3,
+          "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
+          "summary": "微软扩展Maia芯片家族，Maia 300每瓦token产出比GPU高40%。",
+          "source": "X：Satya Nadella (@satyanadella)",
+          "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q"
         }
       ]
     },
     {
       "name": "行业动态",
-      "items": []
+      "items": [
+        {
+          "n": 4,
+          "title": "Epic Games 转向 AI 先行开发模式，与迪士尼合作射击游戏无限期延期",
+          "summary": "Epic Games与迪士尼合作项目转向AI开发，由Claude编写代码和美术。",
+          "source": "Ars Technica：AI（RSS）",
+          "url": "https://aihot.news/items/kcwro19vl7dr5jgcjgec7mive"
+        },
+        {
+          "n": 5,
+          "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
+          "summary": "Codex CLI 0.157.0默认启动持久后台守护进程。",
+          "source": "Codex：GitHub Releases（RSS）",
+          "url": "https://aihot.news/items/amjmxvrvj57q7752kgihp9p9q"
+        }
+      ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 6,
+          "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
+          "summary": "Anthropic评估小型模型自主复制可行性，9B模型可在多数硬件上运行。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l"
+        },
+        {
+          "n": 7,
+          "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
+          "summary": "AlphaProof Nexus解决9个开放Erdős问题，其中2个悬置56年。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/wzxf68r0rchangmvwm48qqhfk"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
-      "items": []
+      "items": [
+        {
+          "n": 8,
+          "title": "Vapi 自研代码审查机器人如何将 PR 合并时间缩短一半",
+          "summary": "Vapi工程师自研PR机器人，PR合并时间从130多小时降到65小时。",
+          "source": "Vapi 产品与 Agent 方法",
+          "url": "https://aihot.news/items/byijxcheeait7w4okuw9ebnh2"
+        },
+        {
+          "n": 9,
+          "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+          "summary": "教程介绍用Claude Opus 5.5配合Blender等工具构建游戏。",
+          "source": "X：Meshy (@MeshyAI)",
+          "url": "https://aihot.news/items/svvvhr5j2nnywgdw29pso7o49"
+        },
+        {
+          "n": 10,
+          "title": "如何只用自己拥有的文件约束编码智能体",
+          "summary": "Tessl博客介绍用四个文件杠杆约束编码智能体。",
+          "source": "Tessl：产品与工程博客",
+          "url": "https://aihot.news/items/twhuaks920iaqd2y7frq8bgbw"
+        },
+        {
+          "n": 11,
+          "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
+          "summary": "开发者用Claude Opus 5.5逆向重写Adobe软件，PhotoCraft获4.6万Star。",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz"
+        }
+      ]
     }
   ]
 }
