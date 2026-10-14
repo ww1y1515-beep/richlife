@@ -1,25 +1,39 @@
 {
-  "date": "2026-10-13",
-  "date_human": "2026年10月13日",
-  "total": 11,
+  "date": "2026-10-14",
+  "date_human": "2026年10月14日",
+  "total": 12,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 2,
-    "行业动态": 2,
-    "论文研究": 2,
-    "技巧与观点": 4
+    "模型发布/更新": 3,
+    "产品发布/更新": 4,
+    "行业动态": 3,
+    "论文研究": 1,
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-10-13",
+  "report_link": "https://aihot.news/daily/2026-10-14",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Meta 发布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 实测智能水平较前代显著提升",
-          "summary": "Meta发布Muse Wonder和Muse Wonder Full模型，AI Index得分52和56。",
-          "source": "Artificial Analysis 完整文章（网页）",
-          "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8"
+          "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
+          "summary": "Google 发布 Gemini 4 Argon，面向全球开发者、企业和消费者开放。",
+          "source": "Google Blog：AI（RSS）",
+          "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf"
+        },
+        {
+          "n": 2,
+          "title": "面壁智能开源 MiniCPM-V 4.7，35B-A3B MoE 模型 3GB 内存端侧流畅运行",
+          "summary": "面壁智能开源 MiniCPM-V 4.7，称其为全球首个端侧无损运行的 MoE 多模态大模型。",
+          "source": "公众号：面壁智能（MiniCPM）",
+          "url": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b"
+        },
+        {
+          "n": 3,
+          "title": "Liquid AI 发布 LFM2.5-24B-A2B 端侧推理模型",
+          "summary": "Liquid AI 发布开源权重模型 LFM2.5-24B-A2B，定位端侧快速智能体。",
+          "source": "Liquid AI 模型与工程博客（网页）",
+          "url": "https://aihot.news/items/j0hjfg7ioz2gs0s8msqnafpjj"
         }
       ]
     },
@@ -27,18 +41,32 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 2,
-          "title": "xAI 推出 The X Subscription 整合 Grok、Grok Bot、Cursor 与 X Premium",
-          "summary": "xAI推出The X Subscription订阅，整合Grok等多项服务。",
-          "source": "xAI：News（网页）",
-          "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn"
+          "n": 4,
+          "title": "Google DeepMind 的 Gemini 4 Argon 上线 OpenRouter",
+          "summary": "Gemini 4 Argon 上线 OpenRouter，定价输入 $2/M、输出 $10/M。",
+          "source": "X：OpenRouter (@OpenRouter)",
+          "url": "https://aihot.news/items/d4oyzg3qte4pt0ywsonolctwf"
         },
         {
-          "n": 3,
-          "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
-          "summary": "微软扩展Maia芯片家族，Maia 300每瓦token产出比GPU高40%。",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q"
+          "n": 5,
+          "title": "Apple 发布 7 英寸智能音箱 HomeView，售价 299 美元并搭载 Siri AI",
+          "summary": "Apple 发布 7 英寸 HomeView，定价 299 美元，11 月 13 日起发售。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.news/items/kjcq4dywmvs5xijl4emac5o40"
+        },
+        {
+          "n": 6,
+          "title": "NVIDIA 官宣 RTX Spark 软件生态就绪，10 月 16 日笔记本上市",
+          "summary": "NVIDIA RTX Spark 笔记本 10 月 16 日上市，最高 128GB 内存和 1 petaflop AI…",
+          "source": "NVIDIA Blog（RSS）",
+          "url": "https://aihot.news/items/ug7g6psicfobnnft0ebgpyl10"
+        },
+        {
+          "n": 7,
+          "title": "千问发布AI眼镜N1/N1 Pro及首款AI耳夹式耳机并现货开售",
+          "summary": "千问发布 AI 眼镜和耳机，眼镜 2218 元起，耳机 1099 元起。",
+          "source": "公众号：千问APP（阿里）",
+          "url": "https://aihot.news/items/bnwd1psqg66c268n4i1mal2pi"
         }
       ]
     },
@@ -46,18 +74,25 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 4,
-          "title": "Epic Games 转向 AI 先行开发模式，与迪士尼合作射击游戏无限期延期",
-          "summary": "Epic Games与迪士尼合作项目转向AI开发，由Claude编写代码和美术。",
-          "source": "Ars Technica：AI（RSS）",
-          "url": "https://aihot.news/items/kcwro19vl7dr5jgcjgec7mive"
+          "n": 8,
+          "title": "Character.AI 成立五年后申请 Chapter 11 破产，部分资产以 2000 万美元出售给 Disney",
+          "summary": "Character.AI 申请破产，拟以 2000 万美元向 Disney 出售部分资产。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc"
         },
         {
-          "n": 5,
-          "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
-          "summary": "Codex CLI 0.157.0默认启动持久后台守护进程。",
-          "source": "Codex：GitHub Releases（RSS）",
-          "url": "https://aihot.news/items/amjmxvrvj57q7752kgihp9p9q"
+          "n": 9,
+          "title": "OpenAI 办公室发现窃密录音装置，涉事员工被捕",
+          "summary": "OpenAI 发现员工安装录音设备，已移交 FBI 并解雇该员工。",
+          "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+          "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov"
+        },
+        {
+          "n": 10,
+          "title": "XBOW 团队借助 OpenAI GPT-5.6 Sol 获 Google Chrome 25 万美元全链漏洞赏金",
+          "summary": "XBOW 团队用 GPT-5.6 Sol 6 天构建 Chrome 漏洞，获 Google 25 万美元赏金。",
+          "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
+          "url": "https://aihot.news/items/ekphiltd4fdsskdlueleul8qa"
         }
       ]
     },
@@ -65,18 +100,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 6,
-          "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
-          "summary": "Anthropic评估小型模型自主复制可行性，9B模型可在多数硬件上运行。",
+          "n": 11,
+          "title": "Anthropic 强化针对蒸馏攻击的防御， reasoning token 提取量下降 10 到 100 倍",
+          "summary": "Anthropic 发布 Claude 蒸馏攻击防御方法，数据获取减少 90%-99%。",
           "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l"
-        },
-        {
-          "n": 7,
-          "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
-          "summary": "AlphaProof Nexus解决9个开放Erdős问题，其中2个悬置56年。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/wzxf68r0rchangmvwm48qqhfk"
+          "url": "https://aihot.news/items/lwchujhujmc1tdor61dn39irl"
         }
       ]
     },
@@ -84,32 +112,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 8,
-          "title": "Vapi 自研代码审查机器人如何将 PR 合并时间缩短一半",
-          "summary": "Vapi工程师自研PR机器人，PR合并时间从130多小时降到65小时。",
-          "source": "Vapi 产品与 Agent 方法",
-          "url": "https://aihot.news/items/byijxcheeait7w4okuw9ebnh2"
-        },
-        {
-          "n": 9,
-          "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
-          "summary": "教程介绍用Claude Opus 5.5配合Blender等工具构建游戏。",
-          "source": "X：Meshy (@MeshyAI)",
-          "url": "https://aihot.news/items/svvvhr5j2nnywgdw29pso7o49"
-        },
-        {
-          "n": 10,
-          "title": "如何只用自己拥有的文件约束编码智能体",
-          "summary": "Tessl博客介绍用四个文件杠杆约束编码智能体。",
-          "source": "Tessl：产品与工程博客",
-          "url": "https://aihot.news/items/twhuaks920iaqd2y7frq8bgbw"
-        },
-        {
-          "n": 11,
-          "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
-          "summary": "开发者用Claude Opus 5.5逆向重写Adobe软件，PhotoCraft获4.6万Star。",
-          "source": "X：卡兹克 (@Khazix0918)",
-          "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz"
+          "n": 12,
+          "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
+          "summary": "Anthropic 自研版本控制系统 Scion 替代 git，日均合并代码量增至 30,000。",
+          "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+          "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i"
         }
       ]
     }
