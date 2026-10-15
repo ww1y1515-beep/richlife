@@ -1,39 +1,25 @@
 {
-  "date": "2026-10-14",
-  "date_human": "2026年10月14日",
+  "date": "2026-10-15",
+  "date_human": "2026年10月15日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 3,
-    "产品发布/更新": 4,
-    "行业动态": 3,
-    "论文研究": 1,
-    "技巧与观点": 1
+    "模型发布/更新": 1,
+    "产品发布/更新": 3,
+    "行业动态": 2,
+    "论文研究": 2,
+    "技巧与观点": 4
   },
-  "report_link": "https://aihot.news/daily/2026-10-14",
+  "report_link": "https://aihot.news/daily/2026-10-15",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
-          "summary": "Google 发布 Gemini 4 Argon，面向全球开发者、企业和消费者开放。",
-          "source": "Google Blog：AI（RSS）",
-          "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf"
-        },
-        {
-          "n": 2,
-          "title": "面壁智能开源 MiniCPM-V 4.7，35B-A3B MoE 模型 3GB 内存端侧流畅运行",
-          "summary": "面壁智能开源 MiniCPM-V 4.7，称其为全球首个端侧无损运行的 MoE 多模态大模型。",
-          "source": "公众号：面壁智能（MiniCPM）",
-          "url": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b"
-        },
-        {
-          "n": 3,
-          "title": "Liquid AI 发布 LFM2.5-24B-A2B 端侧推理模型",
-          "summary": "Liquid AI 发布开源权重模型 LFM2.5-24B-A2B，定位端侧快速智能体。",
-          "source": "Liquid AI 模型与工程博客（网页）",
-          "url": "https://aihot.news/items/j0hjfg7ioz2gs0s8msqnafpjj"
+          "title": "Gemini 4 Argon 向全球 Google AI Pro 和 Ultra 订阅者开放",
+          "summary": "Gemini 4 Argon 向全球 Google AI Pro 和 Ultra 订阅者开放。",
+          "source": "X：Gemini (@GeminiApp)",
+          "url": "https://aihot.news/items/rraljkr6dlbt4wabpcogmdlfv"
         }
       ]
     },
@@ -41,32 +27,25 @@
       "name": "产品发布/更新",
       "items": [
         {
+          "n": 2,
+          "title": "xAI 发布 Grok Voice 3.0 语音模型",
+          "summary": "xAI 发布 Grok Voice 3.0，在 Speech-to-Speech Index 排名第一。",
+          "source": "xAI：News（网页）",
+          "url": "https://aihot.news/items/qld0z3p2gztpolbmviizsm66u"
+        },
+        {
+          "n": 3,
+          "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查",
+          "summary": "Google 发布 Deep Review，可对复杂技术文档提供反馈与验证。",
+          "source": "Google Research：Blog（网页）",
+          "url": "https://aihot.news/items/enqtz3wtz6khvf0m44z5a5jaz"
+        },
+        {
           "n": 4,
-          "title": "Google DeepMind 的 Gemini 4 Argon 上线 OpenRouter",
-          "summary": "Gemini 4 Argon 上线 OpenRouter，定价输入 $2/M、输出 $10/M。",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "url": "https://aihot.news/items/d4oyzg3qte4pt0ywsonolctwf"
-        },
-        {
-          "n": 5,
-          "title": "Apple 发布 7 英寸智能音箱 HomeView，售价 299 美元并搭载 Siri AI",
-          "summary": "Apple 发布 7 英寸 HomeView，定价 299 美元，11 月 13 日起发售。",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.news/items/kjcq4dywmvs5xijl4emac5o40"
-        },
-        {
-          "n": 6,
-          "title": "NVIDIA 官宣 RTX Spark 软件生态就绪，10 月 16 日笔记本上市",
-          "summary": "NVIDIA RTX Spark 笔记本 10 月 16 日上市，最高 128GB 内存和 1 petaflop AI…",
-          "source": "NVIDIA Blog（RSS）",
-          "url": "https://aihot.news/items/ug7g6psicfobnnft0ebgpyl10"
-        },
-        {
-          "n": 7,
-          "title": "千问发布AI眼镜N1/N1 Pro及首款AI耳夹式耳机并现货开售",
-          "summary": "千问发布 AI 眼镜和耳机，眼镜 2218 元起，耳机 1099 元起。",
-          "source": "公众号：千问APP（阿里）",
-          "url": "https://aihot.news/items/bnwd1psqg66c268n4i1mal2pi"
+          "title": "Lovable 推出增长工具，从同一聊天窗口帮你获客投广告和做 SEO",
+          "summary": "Lovable 推出增长工具，提供增长计划、广告投放和 SEO 能力。",
+          "source": "Lovable Blog",
+          "url": "https://aihot.news/items/ooiqiluy56g21ir2u4phxjqu7"
         }
       ]
     },
@@ -74,25 +53,18 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 8,
-          "title": "Character.AI 成立五年后申请 Chapter 11 破产，部分资产以 2000 万美元出售给 Disney",
-          "summary": "Character.AI 申请破产，拟以 2000 万美元向 Disney 出售部分资产。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc"
+          "n": 5,
+          "title": "Modal 年化收入突破 10 亿美元并完成 7.5 亿美元 D 轮融资",
+          "summary": "Modal 年化收入突破 10 亿美元，完成 7.5 亿美元 D 轮融资。",
+          "source": "Modal 官方工程博客（RSS）",
+          "url": "https://aihot.news/items/x5umoaa0xhd8n76uysjppz2fa"
         },
         {
-          "n": 9,
-          "title": "OpenAI 办公室发现窃密录音装置，涉事员工被捕",
-          "summary": "OpenAI 发现员工安装录音设备，已移交 FBI 并解雇该员工。",
-          "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
-          "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov"
-        },
-        {
-          "n": 10,
-          "title": "XBOW 团队借助 OpenAI GPT-5.6 Sol 获 Google Chrome 25 万美元全链漏洞赏金",
-          "summary": "XBOW 团队用 GPT-5.6 Sol 6 天构建 Chrome 漏洞，获 Google 25 万美元赏金。",
-          "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
-          "url": "https://aihot.news/items/ekphiltd4fdsskdlueleul8qa"
+          "n": 6,
+          "title": "欧盟就模型越狱事件调查 OpenAI 和 Anthropic，最高可罚全球营业额 3%",
+          "summary": "欧盟委员会向 OpenAI 和 Anthropic 发出信息调取请求。",
+          "source": "IT之家·人工智能",
+          "url": "https://aihot.news/items/yq46ddqwq7ns4ilpaqh6k0kql"
         }
       ]
     },
@@ -100,11 +72,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 11,
-          "title": "Anthropic 强化针对蒸馏攻击的防御， reasoning token 提取量下降 10 到 100 倍",
-          "summary": "Anthropic 发布 Claude 蒸馏攻击防御方法，数据获取减少 90%-99%。",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.news/items/lwchujhujmc1tdor61dn39irl"
+          "n": 7,
+          "title": "Visual Studio Copilot 与 SSMS 远程代码执行漏洞（CVE-2026-103572）技术分析",
+          "summary": "Visual Studio Copilot 与 SQL Server 存在远程代码执行漏洞。",
+          "source": "Johann Rehberger / Embrace The Red（RSS）",
+          "url": "https://aihot.news/items/o8h7g7pscq0qrlenoadabbb96"
+        },
+        {
+          "n": 8,
+          "title": "MIT团队用机器学习修正误差，将两到六周天气预报准确率翻倍",
+          "summary": "MIT 团队提出机器学习后处理层，将天气预报准确率翻倍。",
+          "source": "MIT News（RSS）",
+          "url": "https://aihot.news/items/pqpqgxyiu4qyu86fbljd726v9"
         }
       ]
     },
@@ -112,11 +91,32 @@
       "name": "技巧与观点",
       "items": [
         {
+          "n": 9,
+          "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
+          "summary": "Claude Code 的空闲压缩可关闭，支持自定义阈值。",
+          "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
+          "url": "https://aihot.news/items/whbmvotra7659u98jmj00oegi"
+        },
+        {
+          "n": 10,
+          "title": "Claude Code 云端会话介绍，支持手机发起和并行运行",
+          "summary": "Claude Code 推出云端会话功能，支持多设备并行。",
+          "source": "Claude：YouTube（RSS）",
+          "url": "https://aihot.news/items/a6ag9dzkvssd6zrcib7bhhsx0"
+        },
+        {
+          "n": 11,
+          "title": "OpenAI 团队分享如何用 GPT-6 系列模型维护大型代码库",
+          "summary": "OpenAI 团队用 GPT-6 和 Codex 做代码维护。",
+          "source": "OpenAI Developers：Blog（网页）",
+          "url": "https://aihot.news/items/wn2lwzshkg8gt2sbjuj1qxd8y"
+        },
+        {
           "n": 12,
-          "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
-          "summary": "Anthropic 自研版本控制系统 Scion 替代 git，日均合并代码量增至 30,000。",
-          "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-          "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i"
+          "title": "LangChain 详解 Deep Agents 的上下文工程：如何记住信息而不塞满上下文窗口",
+          "summary": "LangChain 发布 Deep Agents 框架应对长任务 context rot。",
+          "source": "LangChain：Blog（RSS）",
+          "url": "https://aihot.news/items/za03v9avbq4fpb2y5b1ql1t27"
         }
       ]
     }
