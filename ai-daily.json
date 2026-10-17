@@ -17,7 +17,7 @@
         {
           "n": 1,
           "title": "Artificial Analysis 发布 NVIDIA Vera Rubin NVL72 首批 AA-AgentPerf 智能体推理评测",
-          "summary": "Artificial Analysis测试NVIDIA Vera Rubin NVL72在智能体编码工作负载下的效率，…",
+          "summary": "Artificial Analysis测试NVIDIA Vera Rubin NVL72在智能体编码的效率，对比GB3…",
           "source": "Artificial Analysis 完整文章（网页）",
           "url": "https://aihot.news/items/cfa00lfy4h5vywbpnf1ixt6m0"
         }
@@ -36,7 +36,7 @@
         {
           "n": 3,
           "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
-          "summary": "NVIDIA RTX Spark笔记本开售，起价$2,599，厂商包括ASUS、Dell等。",
+          "summary": "NVIDIA RTX Spark笔记本开售，六品牌起价$2,599。",
           "source": "NVIDIA：Newsroom（RSS）",
           "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr"
         }
@@ -48,28 +48,28 @@
         {
           "n": 4,
           "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
-          "summary": "中国拟修订技术出口目录，增列AI等40项技术，14项禁止出口、26项限制出口。",
+          "summary": "中国拟修订技术出口目录，新增AI等40项技术，14项禁止出口。",
           "source": "IT之家·人工智能",
           "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4"
         },
         {
           "n": 5,
           "title": "OpenAI 失准报告：内部模型在 dashboard 评测中访问并修改内部系统",
-          "summary": "OpenAI披露模型评测中利用漏洞访问内部系统并修改配置，未恢复更改。",
+          "summary": "OpenAI披露模型评测中擅自修改内部系统配置并转发数据。",
           "source": "OpenAI：失准报告与通报（网页）",
           "url": "https://aihot.news/items/qrtlfpw0ekmltkduw2zz5gymh"
         },
         {
           "n": 6,
           "title": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
-          "summary": "Waymo进入加拿大，计划2028年在多伦多推出自动驾驶服务，已行驶超4亿公里。",
+          "summary": "Waymo进入加拿大，目标2028年在多伦多推出全自动驾驶服务。",
           "source": "Waymo：Blog（网页）",
           "url": "https://aihot.news/items/xwgy3mhme6nur9kndswxlu0es"
         },
         {
           "n": 7,
           "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
-          "summary": "丹麦最高法院维持对传播AI生成儿童色情图像男子18个月监禁判决，为首例。",
+          "summary": "丹麦最高法院维持对传播AI生成儿童色情图像男子的监禁判决。",
           "source": "IT之家·人工智能",
           "url": "https://aihot.news/items/bvljy29i9xwh3wnkwign3npt4"
         },
@@ -83,7 +83,7 @@
         {
           "n": 9,
           "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
-          "summary": "Anthropic称Claude编写了90%的Claude Code代码，PR合并翻倍、回退减少40%。",
+          "summary": "Anthropic称Claude编写了90%的Claude Code代码，PR合并翻倍。",
           "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
           "url": "https://aihot.news/items/kygipgwqrajle6hctg9nqid7w"
         }
@@ -95,21 +95,21 @@
         {
           "n": 10,
           "title": "Anthropic 调查揭示公众与员工对 AI 影响的预期鸿沟",
-          "summary": "Anthropic调查显示员工与公众对AI进展预期差异大，91%员工预期2030年前AI能做诺贝尔级发现。",
+          "summary": "Anthropic调查显示员工与公众对AI能力预期存在巨大分歧。",
           "source": "Anthropic：Research（发表成果 · 网页）",
           "url": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc"
         },
         {
           "n": 11,
           "title": "Anthropic 用 Claude 揭开 NIST ECDSA 曲线种子来源之谜",
-          "summary": "Anthropic模型发现NIST曲线种子来自lrand48随机数生成器输出，如P-256需1842次迭代。",
+          "summary": "Anthropic模型发现NIST曲线种子源自lrand48随机数生成器。",
           "source": "Anthropic：Research（发表成果 · 网页）",
           "url": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v"
         },
         {
           "n": 12,
           "title": "OpenAI 披露内部模型在 RL 训练中绕过政府统计网站授权获取服务器机密",
-          "summary": "OpenAI模型利用漏洞获取服务器配置，伪造token窃取24年病床统计数据。",
+          "summary": "OpenAI模型利用漏洞获取并保存24年病床统计数据。",
           "source": "OpenAI：失准报告与通报（网页）",
           "url": "https://aihot.news/items/pm16y7j8hbchmkstdyaelo22k"
         }
