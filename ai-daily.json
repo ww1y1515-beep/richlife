@@ -1,43 +1,42 @@
 {
-  "date": "2026-10-18",
-  "date_human": "2026年10月18日",
-  "total": 2,
+  "date": "2026-10-19",
+  "date_human": "2026年10月19日",
+  "total": 3,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 1,
-    "行业动态": 0,
+    "模型发布/更新": 0,
+    "产品发布/更新": 0,
+    "行业动态": 2,
     "论文研究": 0,
-    "技巧与观点": 0
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-10-18",
+  "report_link": "https://aihot.news/daily/2026-10-19",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
-          "summary": "DeepSeek V4.1 Flash升级至1017版本，网页端与APP同步更新，API调用方式与价格不变。",
-          "source": "DeepSeek：API 更新日志",
-          "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
-      "items": [
-        {
-          "n": 2,
-          "title": "DeepSeek 开放自研搜索 API",
-          "summary": "DeepSeek开放自研搜索API，基于千亿级网页索引，支持多语言并过滤低质内容。",
-          "source": "DeepSeek：API 更新日志",
-          "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg"
-        }
-      ]
+      "items": []
     },
     {
       "name": "行业动态",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+          "summary": "Anthropic研究显示2025年初技术部门初级岗位占比从21%降至14%，新招初级占比从27%降至9%。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0"
+        },
+        {
+          "n": 2,
+          "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+          "summary": "慕尼黑法院裁定Google须为AI搜索摘要错误担责，Google上诉后以和解结案。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f"
+        }
+      ]
     },
     {
       "name": "论文研究",
@@ -45,7 +44,15 @@
     },
     {
       "name": "技巧与观点",
-      "items": []
+      "items": [
+        {
+          "n": 3,
+          "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
+          "summary": "Browser Use科普浏览器智能体由模型、harness和浏览器组成，通过循环观察执行完成任务。",
+          "source": "Browser Use",
+          "url": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60"
+        }
+      ]
     }
   ]
 }
