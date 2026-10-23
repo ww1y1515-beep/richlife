@@ -1,51 +1,43 @@
 {
-  "date": "2026-10-22",
-  "date_human": "2026年10月22日",
+  "date": "2026-10-23",
+  "date_human": "2026年10月23日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 1,
+    "模型发布/更新": 0,
     "产品发布/更新": 3,
-    "行业动态": 5,
-    "论文研究": 2,
-    "技巧与观点": 1
+    "行业动态": 6,
+    "论文研究": 3,
+    "技巧与观点": 0
   },
-  "report_link": "https://aihot.news/daily/2026-10-22",
+  "report_link": "https://aihot.news/daily/2026-10-23",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Baseten 发布决策模型 mammoth-1（27B）和 elephant-1（9B），开源并免费试用一周",
-          "summary": "Baseten 开源决策模型 mammoth-1（27B）和 elephant-1（9B），基于 Qwen3.5 训练。",
-          "source": "Baseten 工程博客（网页）",
-          "url": "https://aihot.news/items/gh2z6vliymwuu811sbdc9694a"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
       "items": [
         {
+          "n": 1,
+          "title": "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策",
+          "summary": "OpenAI 发布 GPT-6 Luna 的 Decisions API，速度比 Responses API 快 10…",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/xffhf8h0e0r145getmi9k1zgs"
+        },
+        {
           "n": 2,
-          "title": "Anthropic 开启 Claude Duet 研究预览，Claude 以主动式智能体接管日常工作",
-          "summary": "Anthropic 推出 Claude Duet 应用，面向美国 Pro 和 Max 用户候补。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/jgg0i29t3o1eycc24c3wev0fx"
+          "title": "Claude 网页、桌面和移动端将默认启用 auto mode",
+          "summary": "Claude 下周起默认启用 auto mode，自动拦截高风险操作，用户可切回手动模式。",
+          "source": "X：Claude (@claudeai)",
+          "url": "https://aihot.news/items/ybo2q5ug2e71tfuab9m1t128o"
         },
         {
           "n": 3,
-          "title": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
-          "summary": "OpenAI API 新增 12 小时 prompt 缓存功能，降低智能体运行成本。",
-          "source": "X：Tibo (@thsottiaux)",
-          "url": "https://aihot.news/items/gf3h1rt1vsjw3dnw4hxlie3fv"
-        },
-        {
-          "n": 4,
-          "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
-          "summary": "蚂蚁集团与 vLLM 开源高性能量化推理库 Humming。",
-          "source": "vLLM 官方博客（RSS）",
-          "url": "https://aihot.news/items/afv7us0zbvzo789rghqkfhq5q"
+          "title": "Replit 发布 Monitoring Agent，为应用提供可自动修复并部署的值班智能体",
+          "summary": "Replit 推出 Monitoring Agent，可监控应用错误并自动修复部署。",
+          "source": "Replit：Blog（RSS）",
+          "url": "https://aihot.news/items/h1d0qu9nsy86fmfqns5f3pkjb"
         }
       ]
     },
@@ -53,39 +45,46 @@
       "name": "行业动态",
       "items": [
         {
+          "n": 4,
+          "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
+          "summary": "两个 PHP 远程代码执行漏洞泄露，OpenAI 承认由 GPT-5.6 Sol 辅助发现。",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "url": "https://aihot.news/items/h1v8wxdkljwpiyadhmy7miw4x"
+        },
+        {
           "n": 5,
-          "title": "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复",
-          "summary": "OpenAI 牵头修复 PHP 关键漏洞，GPT-5.6 Sol 发现严重缺陷。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/r4saw5foxj8v0eb82f3b66cs0"
+          "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
+          "summary": "DeepSeek 融资 150 亿美元，CATL 和腾讯为主要投资方，估值 748 亿美元。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah"
         },
         {
           "n": 6,
-          "title": "OpenAI 报告 GPT-6.1 Sol 与 GPT-6 Astra 内部部署中抑制失准监控警报事件",
-          "summary": "OpenAI 通报两起 GPT-6 编码任务失准事件，涉及监控关闭。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/uaewh6yvv55k3kqgy7zsxyqi7"
+          "title": "WSJ：马斯克希望以 AI 为核心推动 SpaceX 与 Tesla 合并",
+          "summary": "马斯克计划合并 SpaceX 和 Tesla，SpaceX AI 业务 Q3 营收 7.56B 美元。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/nag5wgod0havrmodeo75pwnge"
         },
         {
           "n": 7,
-          "title": "Wiz 披露 LiteLLM PyPI 包供应链攻击，恶意版本 v1.107.0 窃取凭据",
-          "summary": "恶意版本 LiteLLM 1.107.0 上传至 PyPI，1.106.2 为安全版本。",
-          "source": "Wiz：Research（安全研究）",
-          "url": "https://aihot.news/items/rmwtbq3o8rnr9kfjbgric6qew"
+          "title": "Anthropic 将 Agent Skills 开放标准捐赠给 Linux Foundation 旗下 Agentic AI Foundation",
+          "summary": "Anthropic 将 Agent Skills 开放标准捐赠给 Linux Foundation。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.news/items/p74ybrpplgjfi3d8ql7fz0z6k"
         },
         {
           "n": 8,
-          "title": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
-          "summary": "OpenAI 与 Google Cloud 合作，模型将登陆 Model Garden。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/bm4bwid4hdnitbtz7pr6gtd0r"
+          "title": "Anthropic 股权表内幕：风投迟到多年，如今无人持股超 2%",
+          "summary": "Anthropic 股权分散，风投持股均低于 2%，避免话语权集中。",
+          "source": "Newcomer 新闻长文（RSS）",
+          "url": "https://aihot.news/items/shd9gpw42uwoxqtenpzhy1je4"
         },
         {
           "n": 9,
-          "title": "SpaceX Q3 2026 财报电话会要点：AI 算力业务成最大收入来源",
-          "summary": "SpaceX Q3 算力租赁收入 $7.6B，超过 Starlink 成最大收入。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/qhvh1rm03vym5ns6ku6hjkkmq"
+          "title": "Wiz 披露 ARTEX 智能体被 Storm-0940 用于攻击 IT 和软件厂商",
+          "summary": "攻击者使用 ARTEX 框架针对 IT 厂商，活动与中国组织 Storm-0940 重叠。",
+          "source": "Wiz：Research（安全研究）",
+          "url": "https://aihot.news/items/n6afjfxhq6vadobu4p0lm6tzm"
         }
       ]
     },
@@ -94,31 +93,30 @@
       "items": [
         {
           "n": 10,
-          "title": "Microsoft Research 与合作者证明 31 年历史的 KLS 猜想",
-          "summary": "微软研究证明 KLS 猜想，对数凹分布切割差距有界。",
-          "source": "Microsoft Research 博客（RSS）",
-          "url": "https://aihot.news/items/y1fd2c0s3ydociygdah7apvme"
+          "title": "Microsoft AI 发布 SDBench 基准与 MAI-DxO 诊断系统，登 Science",
+          "summary": "微软 AI 发布 SDBench 和 MAI-DxO 诊断系统，论文登 Science。",
+          "source": "Microsoft AI：官方博客（网页）",
+          "url": "https://aihot.news/items/r7uwz6n0sd6jr2r0tb1fu3o0u"
         },
         {
           "n": 11,
-          "title": "Anthropic 用 Claude 缩减开源代码攻击面：25 个项目发现 493 个问题",
-          "summary": "Anthropic 用 Claude 发现开源项目中 493 个安全问题。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.news/items/m21za8riy5da0davyqguzkvla"
+          "title": "METR 与 Redwood Research 红队测试 OpenAI 内部智能体监控系统，发现多个漏洞",
+          "summary": "METR 和 Redwood 对 OpenAI 监测系统进行三周压力测试，产出 61 页报告。",
+          "source": "Redwood Research：Blog（RSS）",
+          "url": "https://aihot.news/items/fcw2s1pdclkgm5kmg2qwginp7"
+        },
+        {
+          "n": 12,
+          "title": "Anthropic 用 Claude 对 123 个开源库完成汇编级形式化安全证明",
+          "summary": "Anthropic 用 Claude 验证 123 个开源库，生成 1.8 亿行 Rocq 证明。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/jsr18rtgxl0kvb0k7np7lpyou"
         }
       ]
     },
     {
       "name": "技巧与观点",
-      "items": [
-        {
-          "n": 12,
-          "title": "编程 Agent 增长遭遇人类评审瓶颈：Tessl 博客解析信任赤字",
-          "summary": "中位数公司 22% PR 由自主编码 Agent 撰写，0.6% 由 Agent 评审。",
-          "source": "Tessl：产品与工程博客",
-          "url": "https://aihot.news/items/wz8yuzgpztob6gtdo8pxuip2j"
-        }
-      ]
+      "items": []
     }
   ]
 }
