@@ -28,14 +28,14 @@
         {
           "n": 2,
           "title": "Claude 网页、桌面和移动端将默认启用 auto mode",
-          "summary": "Claude 下周起默认启用 auto mode，自动拦截高风险操作，用户可切回手动模式。",
+          "summary": "Claude 下周起 Pro、Max 和 Team 套餐默认开启 auto mode，自动拦截高风险操作。",
           "source": "X：Claude (@claudeai)",
           "url": "https://aihot.news/items/ybo2q5ug2e71tfuab9m1t128o"
         },
         {
           "n": 3,
           "title": "Replit 发布 Monitoring Agent，为应用提供可自动修复并部署的值班智能体",
-          "summary": "Replit 推出 Monitoring Agent，可监控应用错误并自动修复部署。",
+          "summary": "Replit 推出 Monitoring Agent，可监控生产日志并自动修复错误。",
           "source": "Replit：Blog（RSS）",
           "url": "https://aihot.news/items/h1d0qu9nsy86fmfqns5f3pkjb"
         }
@@ -47,14 +47,14 @@
         {
           "n": 4,
           "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
-          "summary": "两个 PHP 远程代码执行漏洞泄露，OpenAI 承认由 GPT-5.6 Sol 辅助发现。",
+          "summary": "PHP2Shell 事件涉及两个 CVSS 9.2 分漏洞，OpenAI 承认 GPT-5.6 Sol 辅助发现。",
           "source": "X：卡兹克 (@Khazix0918)",
           "url": "https://aihot.news/items/h1v8wxdkljwpiyadhmy7miw4x"
         },
         {
           "n": 5,
           "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
-          "summary": "DeepSeek 融资 150 亿美元，CATL 和腾讯为主要投资方，估值 748 亿美元。",
+          "summary": "DeepSeek 融资 150 亿美元，CATL 和腾讯为主要投资方，投前估值 748 亿美元。",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "url": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah"
         },
@@ -68,7 +68,7 @@
         {
           "n": 7,
           "title": "Anthropic 将 Agent Skills 开放标准捐赠给 Linux Foundation 旗下 Agentic AI Foundation",
-          "summary": "Anthropic 将 Agent Skills 开放标准捐赠给 Linux Foundation。",
+          "summary": "Anthropic 将 Agent Skills 标准捐赠给 Linux Foundation 旗下 AAIF。",
           "source": "Anthropic：Newsroom（网页）",
           "url": "https://aihot.news/items/p74ybrpplgjfi3d8ql7fz0z6k"
         },
@@ -82,7 +82,7 @@
         {
           "n": 9,
           "title": "Wiz 披露 ARTEX 智能体被 Storm-0940 用于攻击 IT 和软件厂商",
-          "summary": "攻击者使用 ARTEX 框架针对 IT 厂商，活动与中国组织 Storm-0940 重叠。",
+          "summary": "Wiz 披露攻击者使用 ARTEX 框架针对 IT 厂商，活动与 Storm-0940 重叠。",
           "source": "Wiz：Research（安全研究）",
           "url": "https://aihot.news/items/n6afjfxhq6vadobu4p0lm6tzm"
         }
@@ -94,21 +94,21 @@
         {
           "n": 10,
           "title": "Microsoft AI 发布 SDBench 基准与 MAI-DxO 诊断系统，登 Science",
-          "summary": "微软 AI 发布 SDBench 和 MAI-DxO 诊断系统，论文登 Science。",
+          "summary": "Microsoft AI 发布 SDBench 和 MAI-DxO 系统，论文登 Science。",
           "source": "Microsoft AI：官方博客（网页）",
           "url": "https://aihot.news/items/r7uwz6n0sd6jr2r0tb1fu3o0u"
         },
         {
           "n": 11,
           "title": "METR 与 Redwood Research 红队测试 OpenAI 内部智能体监控系统，发现多个漏洞",
-          "summary": "METR 和 Redwood 对 OpenAI 监测系统进行三周压力测试，产出 61 页报告。",
+          "summary": "METR 与 Redwood Research 对 OpenAI 监测系统进行三周压力测试。",
           "source": "Redwood Research：Blog（RSS）",
           "url": "https://aihot.news/items/fcw2s1pdclkgm5kmg2qwginp7"
         },
         {
           "n": 12,
           "title": "Anthropic 用 Claude 对 123 个开源库完成汇编级形式化安全证明",
-          "summary": "Anthropic 用 Claude 验证 123 个开源库，生成 1.8 亿行 Rocq 证明。",
+          "summary": "Anthropic 用 Claude 将 OSS-Fuzz 转化为规格，证明 123 个库输入稳定性。",
           "source": "Anthropic：Research（发表成果 · 网页）",
           "url": "https://aihot.news/items/jsr18rtgxl0kvb0k7np7lpyou"
         }
