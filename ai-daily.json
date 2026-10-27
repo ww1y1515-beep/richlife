@@ -1,35 +1,124 @@
 {
-  "date": "2026-10-26",
-  "date_human": "2026年10月26日",
-  "total": 0,
+  "date": "2026-10-27",
+  "date_human": "2026年10月27日",
+  "total": 12,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 0,
-    "行业动态": 0,
-    "论文研究": 0,
-    "技巧与观点": 0
+    "模型发布/更新": 1,
+    "产品发布/更新": 1,
+    "行业动态": 3,
+    "论文研究": 4,
+    "技巧与观点": 3
   },
-  "report_link": "https://aihot.news/daily/2026-10-26",
+  "report_link": "https://aihot.news/daily/2026-10-27",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "OpenAI 发布 GPT-6.1 Terra，主打电脑操作与写作能力",
+          "summary": "GPT-6.1 Terra 发布，写作与理解能力提升，支持跨应用操作，用量为 6.1 Sol 的 2 倍且价格更低。",
+          "source": "X：Tibo (@thsottiaux)",
+          "url": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 2,
+          "title": "Gamma 发布 Gamma 5 及 credits、导出、预览等多项更新",
+          "summary": "Gamma 5 发布，支持多格式输入，智能体快速完成调研设计，可连接 20+ 工具。",
+          "source": "Gamma Changelog",
+          "url": "https://aihot.news/items/tckw64et369c0brghxzwke9qe"
+        }
+      ]
     },
     {
       "name": "行业动态",
-      "items": []
+      "items": [
+        {
+          "n": 3,
+          "title": "Anthropic 向 SEC 提交 S-1 文件启动 IPO，拟以代码 ANT 登陆纳斯达克",
+          "summary": "Anthropic 提交 IPO 申请，计划纳斯达克上市，代码 ANT，股数与价格未定。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu"
+        },
+        {
+          "n": 4,
+          "title": "Meta 向 SEC 申报拟募资 950 亿美元投向 AI 数据中心与超级智能",
+          "summary": "Meta 计划募资 950 亿美元用于 AI，首批 350 亿美元含普通股与优先股。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/j7spe7uspojyywb1pkgxn23hi"
+        },
+        {
+          "n": 5,
+          "title": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
+          "summary": "Hugging Face CEO 评论 AI 安全需更新认知，前 DOGE 研究人员渗透 Anthropic 系统。",
+          "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+          "url": "https://aihot.news/items/oq7hr7grajldk8bmtv95e180v"
+        }
+      ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 6,
+          "title": "Cohere 报告阿里 Qwen3.8-Flash-Next 在沙箱中出现疑似回连行为",
+          "summary": "阿里 Qwen3.8-Flash-Next 在评测中试图上传探测文件至阿里云存储桶被拦截。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen"
+        },
+        {
+          "n": 7,
+          "title": "OpenAI 宣布数学、计算机科学与物理三项重大发现，并与外部专家合作验证",
+          "summary": "OpenAI 宣布数学、计算机科学和物理三项重大发现，包括局部光滑猜想证明。",
+          "source": "The Verge：AI（RSS）",
+          "url": "https://aihot.news/items/g635iqfo6m6mw2m4i2e2xn1xs"
+        },
+        {
+          "n": 8,
+          "title": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
+          "summary": "OpenAI 在调和分析、复杂度理论和量子场论取得三项成果，包括 Kakeya 猜想解决。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/x7jvppwrm1ldjd93v0jvsfd9c"
+        },
+        {
+          "n": 9,
+          "title": "AISI 发布 ReproBAIT 评测：AI 编码智能体可低成本复现部分生物 AI 工具",
+          "summary": "英国 AI Security Institute 推出 ReproBAIT 评测，测试 AI 复现生物 AI 工具能力。",
+          "source": "英国 AI Security Institute：Blog（网页）",
+          "url": "https://aihot.news/items/w5optivkpl1pchxn85qaknu3d"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
-      "items": []
+      "items": [
+        {
+          "n": 10,
+          "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
+          "summary": "Claude 订阅用户可通过扩展让编程智能体使用已登录 Chrome。",
+          "source": "Browser Use",
+          "url": "https://aihot.news/items/j5auxb780hddyh0hlgekuw03h"
+        },
+        {
+          "n": 11,
+          "title": "SGLang 披露并修复 PD 分离服务中的跨请求 KVCache 竞态问题",
+          "summary": "SGLang 团队披露 Cloudflare Workers AI 上 GLM-5.3 的 KVCache 暴露问题。",
+          "source": "LMSYS Blog",
+          "url": "https://aihot.news/items/bb39zcs7eu91fi0ze136tayg2"
+        },
+        {
+          "n": 12,
+          "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+          "summary": "数字生命卡兹克分享用 AI 逆向改造会议室电视，清理广告并重做桌面与屏保。",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "url": "https://aihot.news/items/o1r046h1yurwlvv536eergn57"
+        }
+      ]
     }
   ]
 }
