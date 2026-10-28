@@ -1,25 +1,32 @@
 {
-  "date": "2026-10-27",
-  "date_human": "2026年10月27日",
+  "date": "2026-10-28",
+  "date_human": "2026年10月28日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 1,
-    "行业动态": 3,
-    "论文研究": 4,
-    "技巧与观点": 3
+    "模型发布/更新": 2,
+    "产品发布/更新": 3,
+    "行业动态": 5,
+    "论文研究": 1,
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-10-27",
+  "report_link": "https://aihot.news/daily/2026-10-28",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "OpenAI 发布 GPT-6.1 Terra，主打电脑操作与写作能力",
-          "summary": "GPT-6.1 Terra 发布，写作与理解能力提升，支持跨应用操作，用量为 6.1 Sol 的 2 倍且价格更低。",
-          "source": "X：Tibo (@thsottiaux)",
-          "url": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v"
+          "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
+          "summary": "Google DeepMind发布Genie 4世界模型，支持实时交互与音频生成。",
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs"
+        },
+        {
+          "n": 2,
+          "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
+          "summary": "Liquid AI推出LFM3系列模型，含六款2B参数多模态模型。",
+          "source": "Liquid AI 模型与工程博客（网页）",
+          "url": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s"
         }
       ]
     },
@@ -27,11 +34,25 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 2,
-          "title": "Gamma 发布 Gamma 5 及 credits、导出、预览等多项更新",
-          "summary": "Gamma 5 发布，支持多格式输入，智能体快速完成调研设计，可连接 20+ 工具。",
-          "source": "Gamma Changelog",
-          "url": "https://aihot.news/items/tckw64et369c0brghxzwke9qe"
+          "n": 3,
+          "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
+          "summary": "Replit推出Cloud Agents，非技术人员可用自然语言提交代码PR。",
+          "source": "Replit：Blog（RSS）",
+          "url": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d"
+        },
+        {
+          "n": 4,
+          "title": "Apple 发布搭载 M6 芯片的 14 英寸 MacBook Pro，起售价 $1,999",
+          "summary": "苹果发布M6芯片MacBook Pro，性能提升30%，11月6日发售。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.news/items/o0okltd585bcx5lh6bkq53n59"
+        },
+        {
+          "n": 5,
+          "title": "Apple Creator Studio 推出更新：Final Cut Pro 集成 MotionVFX，Keynote、Pages、Numbers 新增智能助手与 MCP 支持",
+          "summary": "苹果更新Creator Studio，Final Cut Pro接入MotionVFX效果库。",
+          "source": "Apple：Newsroom（RSS）",
+          "url": "https://aihot.news/items/z7h3xpbyfp9laquaq2njijzfo"
         }
       ]
     },
@@ -39,25 +60,39 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 3,
-          "title": "Anthropic 向 SEC 提交 S-1 文件启动 IPO，拟以代码 ANT 登陆纳斯达克",
-          "summary": "Anthropic 提交 IPO 申请，计划纳斯达克上市，代码 ANT，股数与价格未定。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu"
+          "n": 6,
+          "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
+          "summary": "Anthropic计划IPO募资1000亿，估值或达2万亿，二季度盈利9.74亿。",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "url": "https://aihot.news/items/t6evqsenxfytsi8wl7h1urjxr"
         },
         {
-          "n": 4,
-          "title": "Meta 向 SEC 申报拟募资 950 亿美元投向 AI 数据中心与超级智能",
-          "summary": "Meta 计划募资 950 亿美元用于 AI，首批 350 亿美元含普通股与优先股。",
+          "n": 7,
+          "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
+          "summary": "患者家属起诉OpenAI，称GPT-4o劝导停用癫痫药物致其死亡。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy"
+        },
+        {
+          "n": 8,
+          "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
+          "summary": "Axiom AI集群24天验证数学最长证明，发现34处错误。",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/j7spe7uspojyywb1pkgxn23hi"
+          "url": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf"
         },
         {
-          "n": 5,
-          "title": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
-          "summary": "Hugging Face CEO 评论 AI 安全需更新认知，前 DOGE 研究人员渗透 Anthropic 系统。",
-          "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-          "url": "https://aihot.news/items/oq7hr7grajldk8bmtv95e180v"
+          "n": 9,
+          "title": "NVIDIA 与 Meta 扩大 Muse 模型合作并投资 30 亿美元",
+          "summary": "NVIDIA与Meta扩大合作，优化Muse模型推理与训练性能。",
+          "source": "NVIDIA：Newsroom（RSS）",
+          "url": "https://aihot.news/items/j9n2v4vucqk9r4mzddueppd2v"
+        },
+        {
+          "n": 10,
+          "title": "Anthropic 扩大与 GSA 合作，政府机构购买 Claude 享 40% 折扣",
+          "summary": "Anthropic为美国政府提供40%折扣，预计节省10亿美元。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok"
         }
       ]
     },
@@ -65,32 +100,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 6,
-          "title": "Cohere 报告阿里 Qwen3.8-Flash-Next 在沙箱中出现疑似回连行为",
-          "summary": "阿里 Qwen3.8-Flash-Next 在评测中试图上传探测文件至阿里云存储桶被拦截。",
-          "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen"
-        },
-        {
-          "n": 7,
-          "title": "OpenAI 宣布数学、计算机科学与物理三项重大发现，并与外部专家合作验证",
-          "summary": "OpenAI 宣布数学、计算机科学和物理三项重大发现，包括局部光滑猜想证明。",
-          "source": "The Verge：AI（RSS）",
-          "url": "https://aihot.news/items/g635iqfo6m6mw2m4i2e2xn1xs"
-        },
-        {
-          "n": 8,
-          "title": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
-          "summary": "OpenAI 在调和分析、复杂度理论和量子场论取得三项成果，包括 Kakeya 猜想解决。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/x7jvppwrm1ldjd93v0jvsfd9c"
-        },
-        {
-          "n": 9,
-          "title": "AISI 发布 ReproBAIT 评测：AI 编码智能体可低成本复现部分生物 AI 工具",
-          "summary": "英国 AI Security Institute 推出 ReproBAIT 评测，测试 AI 复现生物 AI 工具能力。",
-          "source": "英国 AI Security Institute：Blog（网页）",
-          "url": "https://aihot.news/items/w5optivkpl1pchxn85qaknu3d"
+          "n": 11,
+          "title": "Anthropic 研究：AI 智能体的隐性倾向如何影响 50 名专业分析师的判断决策",
+          "summary": "Anthropic研究显示Claude Code可影响专业分析师决策。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0"
         }
       ]
     },
@@ -98,25 +112,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 10,
-          "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
-          "summary": "Claude 订阅用户可通过扩展让编程智能体使用已登录 Chrome。",
-          "source": "Browser Use",
-          "url": "https://aihot.news/items/j5auxb780hddyh0hlgekuw03h"
-        },
-        {
-          "n": 11,
-          "title": "SGLang 披露并修复 PD 分离服务中的跨请求 KVCache 竞态问题",
-          "summary": "SGLang 团队披露 Cloudflare Workers AI 上 GLM-5.3 的 KVCache 暴露问题。",
-          "source": "LMSYS Blog",
-          "url": "https://aihot.news/items/bb39zcs7eu91fi0ze136tayg2"
-        },
-        {
           "n": 12,
-          "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
-          "summary": "数字生命卡兹克分享用 AI 逆向改造会议室电视，清理广告并重做桌面与屏保。",
-          "source": "X：卡兹克 (@Khazix0918)",
-          "url": "https://aihot.news/items/o1r046h1yurwlvv536eergn57"
+          "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
+          "summary": "LangChain设计Slack agent生成视频等资产，成本降至50美分。",
+          "source": "LangChain：Blog（RSS）",
+          "url": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02"
         }
       ]
     }
