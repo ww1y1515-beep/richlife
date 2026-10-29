@@ -1,32 +1,32 @@
 {
-  "date": "2026-10-28",
-  "date_human": "2026年10月28日",
+  "date": "2026-10-29",
+  "date_human": "2026年10月29日",
   "total": 12,
   "counts": {
     "模型发布/更新": 2,
-    "产品发布/更新": 3,
-    "行业动态": 5,
+    "产品发布/更新": 2,
+    "行业动态": 4,
     "论文研究": 1,
-    "技巧与观点": 1
+    "技巧与观点": 3
   },
-  "report_link": "https://aihot.news/daily/2026-10-28",
+  "report_link": "https://aihot.news/daily/2026-10-29",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
-          "summary": "Google DeepMind发布Genie 4世界模型，支持实时交互与音频生成。",
+          "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+          "summary": "Google DeepMind 发布 Gemini 4 Carbon，网络安全与长程智能体能力领先。",
           "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs"
+          "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud"
         },
         {
           "n": 2,
-          "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
-          "summary": "Liquid AI推出LFM3系列模型，含六款2B参数多模态模型。",
-          "source": "Liquid AI 模型与工程博客（网页）",
-          "url": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s"
+          "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
+          "summary": "面壁智能开源 MiniCPM-OCR 系列，在 Real5-OmniDocBench 取得 SOTA。",
+          "source": "公众号：面壁智能（MiniCPM）",
+          "url": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt"
         }
       ]
     },
@@ -35,24 +35,17 @@
       "items": [
         {
           "n": 3,
-          "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
-          "summary": "Replit推出Cloud Agents，非技术人员可用自然语言提交代码PR。",
-          "source": "Replit：Blog（RSS）",
-          "url": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d"
+          "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
+          "summary": "GitHub Universe 2026 提出打造完整软件交付系统愿景。",
+          "source": "GitHub Blog",
+          "url": "https://aihot.news/items/xonc43xgcx39303i40k8022rl"
         },
         {
           "n": 4,
-          "title": "Apple 发布搭载 M6 芯片的 14 英寸 MacBook Pro，起售价 $1,999",
-          "summary": "苹果发布M6芯片MacBook Pro，性能提升30%，11月6日发售。",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.news/items/o0okltd585bcx5lh6bkq53n59"
-        },
-        {
-          "n": 5,
-          "title": "Apple Creator Studio 推出更新：Final Cut Pro 集成 MotionVFX，Keynote、Pages、Numbers 新增智能助手与 MCP 支持",
-          "summary": "苹果更新Creator Studio，Final Cut Pro接入MotionVFX效果库。",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.news/items/z7h3xpbyfp9laquaq2njijzfo"
+          "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+          "summary": "Microsoft 开放 GitHub 团队 Copilot harness 给开发者和企业。",
+          "source": "Microsoft：Official Blog（RSS）",
+          "url": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v"
         }
       ]
     },
@@ -60,39 +53,32 @@
       "name": "行业动态",
       "items": [
         {
+          "n": 5,
+          "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+          "summary": "Anthropic S-1 显示 Amazon 可能是其 IPO 最大财务受益方。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9"
+        },
+        {
           "n": 6,
-          "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
-          "summary": "Anthropic计划IPO募资1000亿，估值或达2万亿，二季度盈利9.74亿。",
-          "source": "X：卡兹克 (@Khazix0918)",
-          "url": "https://aihot.news/items/t6evqsenxfytsi8wl7h1urjxr"
+          "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+          "summary": "GitHub 年度报告：过去 12 个月开发者推送代码 179 亿次。",
+          "source": "GitHub Blog",
+          "url": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc"
         },
         {
           "n": 7,
-          "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
-          "summary": "患者家属起诉OpenAI，称GPT-4o劝导停用癫痫药物致其死亡。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy"
+          "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+          "summary": "Alphabet Q3 业绩：年化收入 5000 亿美元，Google Cloud 增长 103%。",
+          "source": "X：Sundar Pichai (@sundarpichai)",
+          "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9"
         },
         {
           "n": 8,
-          "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
-          "summary": "Axiom AI集群24天验证数学最长证明，发现34处错误。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf"
-        },
-        {
-          "n": 9,
-          "title": "NVIDIA 与 Meta 扩大 Muse 模型合作并投资 30 亿美元",
-          "summary": "NVIDIA与Meta扩大合作，优化Muse模型推理与训练性能。",
-          "source": "NVIDIA：Newsroom（RSS）",
-          "url": "https://aihot.news/items/j9n2v4vucqk9r4mzddueppd2v"
-        },
-        {
-          "n": 10,
-          "title": "Anthropic 扩大与 GSA 合作，政府机构购买 Claude 享 40% 折扣",
-          "summary": "Anthropic为美国政府提供40%折扣，预计节省10亿美元。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok"
+          "title": "微软财报电话会：Microsoft Cloud 收入超 $63B，同比增长 30%",
+          "summary": "微软财报：Microsoft Cloud 收入超 63B 美元，同比增长 30%。",
+          "source": "X：Satya Nadella (@satyanadella)",
+          "url": "https://aihot.news/items/p2duc8iee22e74ooyyvuch32d"
         }
       ]
     },
@@ -100,11 +86,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 11,
-          "title": "Anthropic 研究：AI 智能体的隐性倾向如何影响 50 名专业分析师的判断决策",
-          "summary": "Anthropic研究显示Claude Code可影响专业分析师决策。",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0"
+          "n": 9,
+          "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+          "summary": "Anthropic 研究模型发现多个系统漏洞，已修复。",
+          "source": "IT之家·人工智能",
+          "url": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn"
         }
       ]
     },
@@ -112,11 +98,25 @@
       "name": "技巧与观点",
       "items": [
         {
+          "n": 10,
+          "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
+          "summary": "OpenRouter 提供绕过 Claude Code 用量上限的方法。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo"
+        },
+        {
+          "n": 11,
+          "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
+          "summary": "Addy Osmani 发布 Claude Code Mods 上手指南。",
+          "source": "X：Addy Osmani (@addyosmani)",
+          "url": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb"
+        },
+        {
           "n": 12,
-          "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
-          "summary": "LangChain设计Slack agent生成视频等资产，成本降至50美分。",
-          "source": "LangChain：Blog（RSS）",
-          "url": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02"
+          "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
+          "summary": "OpenAI 员工探讨 AI 进入企业组织架构的三种情形。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr"
         }
       ]
     }
