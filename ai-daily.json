@@ -1,32 +1,32 @@
 {
-  "date": "2026-10-29",
-  "date_human": "2026年10月29日",
+  "date": "2026-10-30",
+  "date_human": "2026年10月30日",
   "total": 12,
   "counts": {
     "模型发布/更新": 2,
-    "产品发布/更新": 2,
+    "产品发布/更新": 3,
     "行业动态": 4,
-    "论文研究": 1,
-    "技巧与观点": 3
+    "论文研究": 2,
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-10-29",
+  "report_link": "https://aihot.news/daily/2026-10-30",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
-          "summary": "Google DeepMind 发布 Gemini 4 Carbon，网络安全与长程智能体能力领先。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud"
+          "title": "Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型",
+          "summary": "Hugging Face 发布 Mistral Large 4，1T 参数 MoE 架构支持 1M token 上下文。",
+          "source": "Hugging Face 官方团队博客",
+          "url": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi"
         },
         {
           "n": 2,
-          "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
-          "summary": "面壁智能开源 MiniCPM-OCR 系列，在 Real5-OmniDocBench 取得 SOTA。",
-          "source": "公众号：面壁智能（MiniCPM）",
-          "url": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt"
+          "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
+          "summary": "Pika Labs 开源 Pika H3 Flex，采样步数从 50 步压缩到 6 步。",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "url": "https://aihot.news/items/eq47lph0rzobf8cr950saiu8r"
         }
       ]
     },
@@ -35,17 +35,24 @@
       "items": [
         {
           "n": 3,
-          "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
-          "summary": "GitHub Universe 2026 提出打造完整软件交付系统愿景。",
-          "source": "GitHub Blog",
-          "url": "https://aihot.news/items/xonc43xgcx39303i40k8022rl"
+          "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍",
+          "summary": "Tibo 宣布 Pro 和 Business Premium 档位用量上限翻倍。",
+          "source": "X：Tibo (@thsottiaux)",
+          "url": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu"
         },
         {
           "n": 4,
-          "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
-          "summary": "Microsoft 开放 GitHub 团队 Copilot harness 给开发者和企业。",
-          "source": "Microsoft：Official Blog（RSS）",
-          "url": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v"
+          "title": "Factory 发布 Droid 1.0，以程序化工具调用构建企业级 Agent harness",
+          "summary": "Factory 发布 Droid 1.0，支持 JavaScript 程序化工具调用。",
+          "source": "Factory 研究 / 产品（RSS）",
+          "url": "https://aihot.news/items/gjz7lj8j6ojjyj80vkkhy786v"
+        },
+        {
+          "n": 5,
+          "title": "OpenRouter 重建默认路由算法：TTFT 降 16.9%、429 错误减少 67%",
+          "summary": "OpenRouter 重建 provider 路由算法，按综合指标选路。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.news/items/l4znfnzfs6rz6vorl1wyj90gb"
         }
       ]
     },
@@ -53,32 +60,32 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 5,
-          "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
-          "summary": "Anthropic S-1 显示 Amazon 可能是其 IPO 最大财务受益方。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9"
-        },
-        {
           "n": 6,
-          "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
-          "summary": "GitHub 年度报告：过去 12 个月开发者推送代码 179 亿次。",
-          "source": "GitHub Blog",
-          "url": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc"
+          "title": "纽约时报称中国情报人员瞄准英伟达 CEO 黄仁勋",
+          "summary": "美情报机构称英伟达高管 Alice Huang 为中国提供情报。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/lq97h52ctxw2nkri4qqxj5lbx"
         },
         {
           "n": 7,
-          "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
-          "summary": "Alphabet Q3 业绩：年化收入 5000 亿美元，Google Cloud 增长 103%。",
-          "source": "X：Sundar Pichai (@sundarpichai)",
-          "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9"
+          "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
+          "summary": "Reddit Q3 财报宣布转向登录体验，美国日活同比降 2%。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/op2kjf327vilvhbxkjicxg5ec"
         },
         {
           "n": 8,
-          "title": "微软财报电话会：Microsoft Cloud 收入超 $63B，同比增长 30%",
-          "summary": "微软财报：Microsoft Cloud 收入超 63B 美元，同比增长 30%。",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "url": "https://aihot.news/items/p2duc8iee22e74ooyyvuch32d"
+          "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
+          "summary": "Google 三季度搜索收入增长 12%，AI mode 变现率较低。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/wry19y87ktlbmfwu581jjffj7"
+        },
+        {
+          "n": 9,
+          "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
+          "summary": "Proton CEO 强推 AI 转型，90% 代码由 AI 编写。",
+          "source": "404 Media（RSS）",
+          "url": "https://aihot.news/items/x7qd347blfo2409za7srbypzw"
         }
       ]
     },
@@ -86,11 +93,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 9,
-          "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
-          "summary": "Anthropic 研究模型发现多个系统漏洞，已修复。",
-          "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn"
+          "n": 10,
+          "title": "OpenAI 详解如何检测前沿模型失准行为",
+          "summary": "OpenAI 详解前沿模型监测系统，含四层架构。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/ck2bk0ns12i2hkg4ae0eoeabv"
+        },
+        {
+          "n": 11,
+          "title": "Trakkr 研究：追踪 1285 条 AI 引用统计的溯源路径",
+          "summary": "研究显示 AI 回答仅 40% 统计引用可验证。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/dmi67weoeety92021tvuyf1hs"
         }
       ]
     },
@@ -98,25 +112,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 10,
-          "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
-          "summary": "OpenRouter 提供绕过 Claude Code 用量上限的方法。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo"
-        },
-        {
-          "n": 11,
-          "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
-          "summary": "Addy Osmani 发布 Claude Code Mods 上手指南。",
-          "source": "X：Addy Osmani (@addyosmani)",
-          "url": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb"
-        },
-        {
           "n": 12,
-          "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
-          "summary": "OpenAI 员工探讨 AI 进入企业组织架构的三种情形。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr"
+          "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+          "summary": "OpenRouter 发布教程讲解 PDF 表格 JSON 返回方法。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z"
         }
       ]
     }
