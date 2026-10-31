@@ -1,58 +1,36 @@
 {
-  "date": "2026-10-30",
-  "date_human": "2026年10月30日",
+  "date": "2026-10-31",
+  "date_human": "2026年10月31日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 2,
-    "产品发布/更新": 3,
-    "行业动态": 4,
-    "论文研究": 2,
+    "模型发布/更新": 0,
+    "产品发布/更新": 2,
+    "行业动态": 8,
+    "论文研究": 1,
     "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-10-30",
+  "report_link": "https://aihot.news/daily/2026-10-31",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型",
-          "summary": "Hugging Face 发布 Mistral Large 4，1T 参数 MoE 架构支持 1M token 上下文。",
-          "source": "Hugging Face 官方团队博客",
-          "url": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi"
-        },
-        {
-          "n": 2,
-          "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
-          "summary": "Pika Labs 开源 Pika H3 Flex，采样步数从 50 步压缩到 6 步。",
-          "source": "X：卡兹克 (@Khazix0918)",
-          "url": "https://aihot.news/items/eq47lph0rzobf8cr950saiu8r"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 3,
-          "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍",
-          "summary": "Tibo 宣布 Pro 和 Business Premium 档位用量上限翻倍。",
-          "source": "X：Tibo (@thsottiaux)",
-          "url": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu"
+          "n": 1,
+          "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
+          "summary": "Anthropic 将 Claude 订阅套餐更名：Max 5x 改为 Max，Max 20x 改为 Ultra，价格…",
+          "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+          "url": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj"
         },
         {
-          "n": 4,
-          "title": "Factory 发布 Droid 1.0，以程序化工具调用构建企业级 Agent harness",
-          "summary": "Factory 发布 Droid 1.0，支持 JavaScript 程序化工具调用。",
-          "source": "Factory 研究 / 产品（RSS）",
-          "url": "https://aihot.news/items/gjz7lj8j6ojjyj80vkkhy786v"
-        },
-        {
-          "n": 5,
-          "title": "OpenRouter 重建默认路由算法：TTFT 降 16.9%、429 错误减少 67%",
-          "summary": "OpenRouter 重建 provider 路由算法，按综合指标选路。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/l4znfnzfs6rz6vorl1wyj90gb"
+          "n": 2,
+          "title": "Gemini API 的 Computer Use 工具正式开放（GA）",
+          "summary": "Google 宣布 Gemini API 的 Computer Use 工具正式可用，覆盖两套 API。",
+          "source": "Gemini API：更新日志（网页）",
+          "url": "https://aihot.news/items/qit1hgequ8pknedqqvuei5wfh"
         }
       ]
     },
@@ -60,32 +38,60 @@
       "name": "行业动态",
       "items": [
         {
+          "n": 3,
+          "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
+          "summary": "Cursor 发现 Claude Code VS Code 扩展被植入恶意软件，影响最多 5000 用户。",
+          "source": "X：Cursor (@cursor_ai)",
+          "url": "https://aihot.news/items/iu7xvjx1c2c5wqrpn0rwfxcb5"
+        },
+        {
+          "n": 4,
+          "title": "阿里巴巴：Apple 智能国行用户可自主选择是否开通千问集成功能",
+          "summary": "阿里巴巴千问集成 Apple 智能功能将于 12 月面向中国用户推出。",
+          "source": "IT之家·人工智能",
+          "url": "https://aihot.news/items/yrdu4gxaoljhhbkvw1xlvzc3p"
+        },
+        {
+          "n": 5,
+          "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
+          "summary": "Google Project Suncatcher 成功在太空运行大语言模型 Gemma 4。",
+          "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+          "url": "https://aihot.news/items/cms82puwtmpssdpbjmajoopr9"
+        },
+        {
           "n": 6,
-          "title": "纽约时报称中国情报人员瞄准英伟达 CEO 黄仁勋",
-          "summary": "美情报机构称英伟达高管 Alice Huang 为中国提供情报。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/lq97h52ctxw2nkri4qqxj5lbx"
+          "title": "Jassy 称 AWS 五到十年内将成为万亿美元营收业务，2026 年 capex 约 2200 亿美元",
+          "summary": "Amazon CEO 称 AWS 未来五到十年内可成为年营收万亿美元业务。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/fxmexzrmo7pw52vc5j6ej17kl"
         },
         {
           "n": 7,
-          "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
-          "summary": "Reddit Q3 财报宣布转向登录体验，美国日活同比降 2%。",
+          "title": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌",
+          "summary": "Alphabet 等四家公司今年计划资本开支合计超 7400 亿美元。",
           "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/op2kjf327vilvhbxkjicxg5ec"
+          "url": "https://aihot.news/items/fxxkgtzpf2pb8xjnhu4jtis0b"
         },
         {
           "n": 8,
-          "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
-          "summary": "Google 三季度搜索收入增长 12%，AI mode 变现率较低。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/wry19y87ktlbmfwu581jjffj7"
+          "title": "Toyota 与 Waymo 深化自动驾驶合作，2027 年在日本测试自动驾驶 bZ4X 车队",
+          "summary": "Toyota 与 Waymo 将于 2027 年起在日本测试自动驾驶 bZ4X 车队。",
+          "source": "Waymo：Blog（网页）",
+          "url": "https://aihot.news/items/jdx4wtubcty1d08sl87jqekp9"
         },
         {
           "n": 9,
-          "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
-          "summary": "Proton CEO 强推 AI 转型，90% 代码由 AI 编写。",
-          "source": "404 Media（RSS）",
-          "url": "https://aihot.news/items/x7qd347blfo2409za7srbypzw"
+          "title": "OpenAI 汇编各方法庭之友意见，主张 AI 训练应适用合理使用原则",
+          "summary": "OpenAI 整理支持合理使用的法庭之友意见摘要，反对限缩合理使用。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/oas684tt9kpeds9cq7vgjvo1x"
+        },
+        {
+          "n": 10,
+          "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
+          "summary": "Sierra 宣布 ARR 突破 4 亿美元，五个月内翻倍。",
+          "source": "Sierra：Blog（RSS）",
+          "url": "https://aihot.news/items/hfhskyex3cjrs3huvpmi1z7bg"
         }
       ]
     },
@@ -93,18 +99,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 10,
-          "title": "OpenAI 详解如何检测前沿模型失准行为",
-          "summary": "OpenAI 详解前沿模型监测系统，含四层架构。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/ck2bk0ns12i2hkg4ae0eoeabv"
-        },
-        {
           "n": 11,
-          "title": "Trakkr 研究：追踪 1285 条 AI 引用统计的溯源路径",
-          "summary": "研究显示 AI 回答仅 40% 统计引用可验证。",
-          "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/dmi67weoeety92021tvuyf1hs"
+          "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+          "summary": "Epoch AI 发现 GLM 5.3 能利用 Firefox 安全补丁漏洞读取电脑文件。",
+          "source": "Epoch AI：Gradient Updates（RSS）",
+          "url": "https://aihot.news/items/nxkr9ex5tfbhfhw1gvj9wsjuz"
         }
       ]
     },
@@ -113,10 +112,10 @@
       "items": [
         {
           "n": 12,
-          "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
-          "summary": "OpenRouter 发布教程讲解 PDF 表格 JSON 返回方法。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z"
+          "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+          "summary": "月之暗面发布 Kimi K3.1 Pro 的 3D 创作工作流程教程，含 4 案例 5 技巧。",
+          "source": "公众号：月之暗面（Kimi）",
+          "url": "https://aihot.news/items/ykvaq4vx3ydt23josezzan62r"
         }
       ]
     }
