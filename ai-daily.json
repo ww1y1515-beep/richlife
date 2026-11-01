@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-31",
-  "date_human": "2026年10月31日",
-  "total": 12,
+  "date": "2026-11-01",
+  "date_human": "2026年11月1日",
+  "total": 5,
   "counts": {
     "模型发布/更新": 0,
-    "产品发布/更新": 2,
-    "行业动态": 8,
+    "产品发布/更新": 1,
+    "行业动态": 2,
     "论文研究": 1,
     "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-10-31",
+  "report_link": "https://aihot.news/daily/2026-11-01",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -20,17 +20,10 @@
       "items": [
         {
           "n": 1,
-          "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
-          "summary": "Anthropic 将 Claude 订阅套餐更名：Max 5x 改为 Max，Max 20x 改为 Ultra，价格…",
-          "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-          "url": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj"
-        },
-        {
-          "n": 2,
-          "title": "Gemini API 的 Computer Use 工具正式开放（GA）",
-          "summary": "Google 宣布 Gemini API 的 Computer Use 工具正式可用，覆盖两套 API。",
-          "source": "Gemini API：更新日志（网页）",
-          "url": "https://aihot.news/items/qit1hgequ8pknedqqvuei5wfh"
+          "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
+          "summary": "Figma推出Weave平台，连接创意工作流与画框，支持图像视频生成编辑，可打包工具一键运行。",
+          "source": "Figma AI / Agent / Make",
+          "url": "https://aihot.news/items/akdeq33m7cpr8m7zsfgvfiz5c"
         }
       ]
     },
@@ -38,60 +31,18 @@
       "name": "行业动态",
       "items": [
         {
+          "n": 2,
+          "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
+          "summary": "Nvidia洽谈为Anthropic数据中心担保数十亿美元融资，首栋建筑合同446亿美元。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/hx5dsruslfiiqhbsro2tvg1n8"
+        },
+        {
           "n": 3,
-          "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
-          "summary": "Cursor 发现 Claude Code VS Code 扩展被植入恶意软件，影响最多 5000 用户。",
-          "source": "X：Cursor (@cursor_ai)",
-          "url": "https://aihot.news/items/iu7xvjx1c2c5wqrpn0rwfxcb5"
-        },
-        {
-          "n": 4,
-          "title": "阿里巴巴：Apple 智能国行用户可自主选择是否开通千问集成功能",
-          "summary": "阿里巴巴千问集成 Apple 智能功能将于 12 月面向中国用户推出。",
+          "title": "彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施",
+          "summary": "五大科技巨头承诺未来数年投入超3万亿美元，谷歌超1万亿，Meta超8000亿。",
           "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/yrdu4gxaoljhhbkvw1xlvzc3p"
-        },
-        {
-          "n": 5,
-          "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
-          "summary": "Google Project Suncatcher 成功在太空运行大语言模型 Gemma 4。",
-          "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-          "url": "https://aihot.news/items/cms82puwtmpssdpbjmajoopr9"
-        },
-        {
-          "n": 6,
-          "title": "Jassy 称 AWS 五到十年内将成为万亿美元营收业务，2026 年 capex 约 2200 亿美元",
-          "summary": "Amazon CEO 称 AWS 未来五到十年内可成为年营收万亿美元业务。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/fxmexzrmo7pw52vc5j6ej17kl"
-        },
-        {
-          "n": 7,
-          "title": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌",
-          "summary": "Alphabet 等四家公司今年计划资本开支合计超 7400 亿美元。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/fxxkgtzpf2pb8xjnhu4jtis0b"
-        },
-        {
-          "n": 8,
-          "title": "Toyota 与 Waymo 深化自动驾驶合作，2027 年在日本测试自动驾驶 bZ4X 车队",
-          "summary": "Toyota 与 Waymo 将于 2027 年起在日本测试自动驾驶 bZ4X 车队。",
-          "source": "Waymo：Blog（网页）",
-          "url": "https://aihot.news/items/jdx4wtubcty1d08sl87jqekp9"
-        },
-        {
-          "n": 9,
-          "title": "OpenAI 汇编各方法庭之友意见，主张 AI 训练应适用合理使用原则",
-          "summary": "OpenAI 整理支持合理使用的法庭之友意见摘要，反对限缩合理使用。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/oas684tt9kpeds9cq7vgjvo1x"
-        },
-        {
-          "n": 10,
-          "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
-          "summary": "Sierra 宣布 ARR 突破 4 亿美元，五个月内翻倍。",
-          "source": "Sierra：Blog（RSS）",
-          "url": "https://aihot.news/items/hfhskyex3cjrs3huvpmi1z7bg"
+          "url": "https://aihot.news/items/htfc0ler37j2h4hoqll6jewz3"
         }
       ]
     },
@@ -99,11 +50,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 11,
-          "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
-          "summary": "Epoch AI 发现 GLM 5.3 能利用 Firefox 安全补丁漏洞读取电脑文件。",
-          "source": "Epoch AI：Gradient Updates（RSS）",
-          "url": "https://aihot.news/items/nxkr9ex5tfbhfhw1gvj9wsjuz"
+          "n": 4,
+          "title": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件",
+          "summary": "10月至少九个AI平台披露安全事件，涉及凭据窃取、agent swarm攻击等。",
+          "source": "Wiz：Research（安全研究）",
+          "url": "https://aihot.news/items/la0qb77ds4znf2r7ub14a3bqz"
         }
       ]
     },
@@ -111,11 +62,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 12,
-          "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "summary": "月之暗面发布 Kimi K3.1 Pro 的 3D 创作工作流程教程，含 4 案例 5 技巧。",
-          "source": "公众号：月之暗面（Kimi）",
-          "url": "https://aihot.news/items/ykvaq4vx3ydt23josezzan62r"
+          "n": 5,
+          "title": "OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News",
+          "summary": "OpenRouter发布教程，演示用TypeScript搭建常驻AI Agent监控Hacker News。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.news/items/upl3hjjdokqe13w3ieo9opr0v"
         }
       ]
     }
