@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-01",
-  "date_human": "2026年11月1日",
-  "total": 5,
+  "date": "2026-11-02",
+  "date_human": "2026年11月2日",
+  "total": 3,
   "counts": {
     "模型发布/更新": 0,
-    "产品发布/更新": 1,
-    "行业动态": 2,
-    "论文研究": 1,
-    "技巧与观点": 1
+    "产品发布/更新": 0,
+    "行业动态": 1,
+    "论文研究": 0,
+    "技巧与观点": 2
   },
-  "report_link": "https://aihot.news/daily/2026-11-01",
+  "report_link": "https://aihot.news/daily/2026-11-02",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -17,56 +17,40 @@
     },
     {
       "name": "产品发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
-          "summary": "Figma推出Weave平台，连接创意工作流与画框，支持图像视频生成编辑，可打包工具一键运行。",
-          "source": "Figma AI / Agent / Make",
-          "url": "https://aihot.news/items/akdeq33m7cpr8m7zsfgvfiz5c"
-        }
-      ]
+      "items": []
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 2,
-          "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
-          "summary": "Nvidia洽谈为Anthropic数据中心担保数十亿美元融资，首栋建筑合同446亿美元。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/hx5dsruslfiiqhbsro2tvg1n8"
-        },
-        {
-          "n": 3,
-          "title": "彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施",
-          "summary": "五大科技巨头承诺未来数年投入超3万亿美元，谷歌超1万亿，Meta超8000亿。",
-          "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/htfc0ler37j2h4hoqll6jewz3"
+          "n": 1,
+          "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
+          "summary": "OpenAI合并Plus和Pro用户的ChatGPT与Codex Token额度，Instant聊天不受影响。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/f6dxzur6d4pwjdhvm1x6m5rfp"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": [
-        {
-          "n": 4,
-          "title": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件",
-          "summary": "10月至少九个AI平台披露安全事件，涉及凭据窃取、agent swarm攻击等。",
-          "source": "Wiz：Research（安全研究）",
-          "url": "https://aihot.news/items/la0qb77ds4znf2r7ub14a3bqz"
-        }
-      ]
+      "items": []
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 5,
-          "title": "OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News",
-          "summary": "OpenRouter发布教程，演示用TypeScript搭建常驻AI Agent监控Hacker News。",
+          "n": 2,
+          "title": "OpenRouter 教程：用 Responses API 构建可在 Linux 沙箱验证 bug 的 AI 代码审查脚本",
+          "summary": "OpenRouter发布233行review.py教程，组合多个API实现沙箱运行检查bug并返回补丁。",
           "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/upl3hjjdokqe13w3ieo9opr0v"
+          "url": "https://aihot.news/items/yww15c701iat30p8ttjf029ij"
+        },
+        {
+          "n": 3,
+          "title": "Claude Code 技巧：任务变难时输入 ultrathink 提升当前回合推理努力",
+          "summary": "Addy Osmani分享Claude Code技巧：输入ultrathink可提升当前回合推理努力。",
+          "source": "X：Addy Osmani (@addyosmani)",
+          "url": "https://aihot.news/items/mhw3rtr5o13p5777y7el9tczk"
         }
       ]
     }
