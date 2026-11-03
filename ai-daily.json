@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-02",
-  "date_human": "2026年11月2日",
-  "total": 3,
+  "date": "2026-11-03",
+  "date_human": "2026年11月3日",
+  "total": 6,
   "counts": {
     "模型发布/更新": 0,
-    "产品发布/更新": 0,
-    "行业动态": 1,
-    "论文研究": 0,
-    "技巧与观点": 2
+    "产品发布/更新": 2,
+    "行业动态": 2,
+    "论文研究": 1,
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-11-02",
+  "report_link": "https://aihot.news/daily/2026-11-03",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -17,40 +17,63 @@
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Claude Platform 推出 message threads 公测，降低长会话智能体延迟",
+          "summary": "Anthropic 在 Claude Platform 推出 message threads 公测，缩短首 token…",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.news/items/sg5u3u91kw42j1grtyp3ny65n"
+        },
+        {
+          "n": 2,
+          "title": "腾讯混元发布 Hyra 2.0：让通用 agent 研发可复用的科学工具与模型",
+          "summary": "腾讯混元发布 Hyra 2.0，转向 agent 研发升级科学模型与工具，成果已公开。",
+          "source": "公众号：腾讯混元",
+          "url": "https://aihot.news/items/l37ydaic43icz85huclc2io6c"
+        }
+      ]
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 1,
-          "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
-          "summary": "OpenAI合并Plus和Pro用户的ChatGPT与Codex Token额度，Instant聊天不受影响。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/f6dxzur6d4pwjdhvm1x6m5rfp"
+          "n": 3,
+          "title": "OpenAI 推出 Grid Protectors 计划，从 Georgia 校园开始支持电网削峰",
+          "summary": "OpenAI 推出 Grid Protectors 计划，与电力公司合作降低算力校园用电需求。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/sxbs5a90fgybhyucacmzvrc6w"
+        },
+        {
+          "n": 4,
+          "title": "Anthropic 季度营收增长十二倍至近 170 亿美元，但净亏损达 233 亿美元",
+          "summary": "Anthropic 季度营收 170 亿美元，运营成本 175 亿美元，净亏损 233 亿美元。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/owfopy087lszd1cpfp3c82pxv"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 5,
+          "title": "OpenAI 训练并部署激活分类器作为前沿模型安全监控层",
+          "summary": "OpenAI 部署激活分类器阻断违规回复，实验显示比文本分类器更鲁棒。",
+          "source": "OpenAI：Alignment 研究博客（RSS）",
+          "url": "https://aihot.news/items/wlmiqh13694tqabyvu6nzvlrs"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
       "items": [
         {
-          "n": 2,
-          "title": "OpenRouter 教程：用 Responses API 构建可在 Linux 沙箱验证 bug 的 AI 代码审查脚本",
-          "summary": "OpenRouter发布233行review.py教程，组合多个API实现沙箱运行检查bug并返回补丁。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/yww15c701iat30p8ttjf029ij"
-        },
-        {
-          "n": 3,
-          "title": "Claude Code 技巧：任务变难时输入 ultrathink 提升当前回合推理努力",
-          "summary": "Addy Osmani分享Claude Code技巧：输入ultrathink可提升当前回合推理努力。",
-          "source": "X：Addy Osmani (@addyosmani)",
-          "url": "https://aihot.news/items/mhw3rtr5o13p5777y7el9tczk"
+          "n": 6,
+          "title": "数字生命卡兹克分享折腾一年的Agent自动化系统架构",
+          "summary": "自媒体作者分享 Agent 自动化系统，由事件触发工作，关键决策需人工拍板。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/dzwfvd9xp6v4qaj6olxezpier"
         }
       ]
     }
