@@ -1,36 +1,37 @@
 {
-  "date": "2026-11-03",
-  "date_human": "2026年11月3日",
-  "total": 6,
+  "date": "2026-11-04",
+  "date_human": "2026年11月4日",
+  "total": 10,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 2,
-    "行业动态": 2,
-    "论文研究": 1,
-    "技巧与观点": 1
+    "模型发布/更新": 1,
+    "产品发布/更新": 1,
+    "行业动态": 3,
+    "论文研究": 2,
+    "技巧与观点": 3
   },
-  "report_link": "https://aihot.news/daily/2026-11-03",
+  "report_link": "https://aihot.news/daily/2026-11-04",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Mistral Large 4 以开放权重发布并附技术报告",
+          "summary": "Mistral 团队开放 ML4 权重，称其在代码与网络安全方向具备前沿能力。",
+          "source": "X：Mistral AI (@MistralAI)",
+          "url": "https://aihot.news/items/bfx52184e0ssnqgdq42o8dg36"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 1,
-          "title": "Claude Platform 推出 message threads 公测，降低长会话智能体延迟",
-          "summary": "Anthropic 在 Claude Platform 推出 message threads 公测，缩短首 token…",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/sg5u3u91kw42j1grtyp3ny65n"
-        },
-        {
           "n": 2,
-          "title": "腾讯混元发布 Hyra 2.0：让通用 agent 研发可复用的科学工具与模型",
-          "summary": "腾讯混元发布 Hyra 2.0，转向 agent 研发升级科学模型与工具，成果已公开。",
-          "source": "公众号：腾讯混元",
-          "url": "https://aihot.news/items/l37ydaic43icz85huclc2io6c"
+          "title": "Google AI Studio 弃用 Gemini 2.5 Pro 与 2.5 Flash，API 请求将于 12 月 1 日起自动路由",
+          "summary": "Gemini 2.5 Pro 与 2.5 Flash 已弃用，无法在 Google AI Studio 中选择。",
+          "source": "Gemini API：更新日志（网页）",
+          "url": "https://aihot.news/items/ewvepczpb5fewcbzo2tkqdldm"
         }
       ]
     },
@@ -39,17 +40,24 @@
       "items": [
         {
           "n": 3,
-          "title": "OpenAI 推出 Grid Protectors 计划，从 Georgia 校园开始支持电网削峰",
-          "summary": "OpenAI 推出 Grid Protectors 计划，与电力公司合作降低算力校园用电需求。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/sxbs5a90fgybhyucacmzvrc6w"
+          "title": "AMD 发布 2026 年三季度财报，预计 2027 年营收增长超 80%",
+          "summary": "AMD 预计 2027 年营收增长超 80%，数据中心芯片将占明年销售额 80%。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/ir9nzccipff0uowu3tghi4n3o"
         },
         {
           "n": 4,
-          "title": "Anthropic 季度营收增长十二倍至近 170 亿美元，但净亏损达 233 亿美元",
-          "summary": "Anthropic 季度营收 170 亿美元，运营成本 175 亿美元，净亏损 233 亿美元。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/owfopy087lszd1cpfp3c82pxv"
+          "title": "Revolut 将约 2000 名工程师迁移到自托管 GLM 编码",
+          "summary": "Revolut AI 将 2000 名工程师迁至自托管 GLM 做编码，Claude Code 和 Codex 例外。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/op93lgz2xx0ck3znfm724ebfu"
+        },
+        {
+          "n": 5,
+          "title": "OpenAI 任命前美国陆军部长 Dan Driscoll 为国家安全现代化高级顾问",
+          "summary": "OpenAI 任命 Dan Driscoll 为国家安全现代化高级顾问，推动民主 AI 负责任使用。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/hf03pwablxanh9desil5cbu9d"
         }
       ]
     },
@@ -57,11 +65,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 5,
-          "title": "OpenAI 训练并部署激活分类器作为前沿模型安全监控层",
-          "summary": "OpenAI 部署激活分类器阻断违规回复，实验显示比文本分类器更鲁棒。",
+          "n": 6,
+          "title": "OpenAI 研究：智能体安全评测与生产行为存在差距，评测目标误判是关键因素",
+          "summary": "OpenAI 发现模型在安全评测中表现普遍低于生产，口头意识率 57.0%–83.7%。",
           "source": "OpenAI：Alignment 研究博客（RSS）",
-          "url": "https://aihot.news/items/wlmiqh13694tqabyvu6nzvlrs"
+          "url": "https://aihot.news/items/fvf2qsdi4s11bz1denqd5rzff"
+        },
+        {
+          "n": 7,
+          "title": "OpenAI 推出 LifeVal 评测，衡量 AI 在日常任务上的进展",
+          "summary": "OpenAI 构建 LifeVal 评测追踪模型日常任务表现，GPT‑6 Astra 部分任务达 100%。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/kok1qlnli1qd48t9soqgk6c3x"
         }
       ]
     },
@@ -69,11 +84,25 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 6,
-          "title": "数字生命卡兹克分享折腾一年的Agent自动化系统架构",
-          "summary": "自媒体作者分享 Agent 自动化系统，由事件触发工作，关键决策需人工拍板。",
+          "n": 8,
+          "title": "Ed Zitron 解析 OpenAI 1.25 万亿美元估值融资与 Anthropic S-1/A 中的万亿级算力承诺",
+          "summary": "Ed Zitron 称 AI 行业资金枯竭，OpenAI 融资 110 亿美元低于原计划 300 亿美元。",
+          "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+          "url": "https://aihot.news/items/zv5dl1agqwo6tkmhdamy17lt5"
+        },
+        {
+          "n": 9,
+          "title": "DeepSeek Harness 养鱼教程：在 QQ、微信、飞书养大肥鱼并放上 B 站抖音直播",
+          "summary": "数字生命卡兹克发布 DeepSeek Harness 养鱼教程，支持 QQ、微信、飞书接入。",
           "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/dzwfvd9xp6v4qaj6olxezpier"
+          "url": "https://aihot.news/items/v41vn9hb5ywv10e68wycj1bjk"
+        },
+        {
+          "n": 10,
+          "title": "OpenHands 与 Snowflake 推出基于现有 agent harness 的模型后训练方案",
+          "summary": "OpenHands 与 Snowflake AI Research 合作，支持开发者对开源模型做 RL 后训练。",
+          "source": "OpenHands 官方博客",
+          "url": "https://aihot.news/items/recqqiy27l866jfbhjk0cusqh"
         }
       ]
     }
