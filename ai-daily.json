@@ -1,25 +1,39 @@
 {
-  "date": "2026-11-04",
-  "date_human": "2026年11月4日",
-  "total": 10,
+  "date": "2026-11-05",
+  "date_human": "2026年11月5日",
+  "total": 12,
   "counts": {
-    "模型发布/更新": 1,
+    "模型发布/更新": 3,
     "产品发布/更新": 1,
-    "行业动态": 3,
-    "论文研究": 2,
+    "行业动态": 2,
+    "论文研究": 3,
     "技巧与观点": 3
   },
-  "report_link": "https://aihot.news/daily/2026-11-04",
+  "report_link": "https://aihot.news/daily/2026-11-05",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Mistral Large 4 以开放权重发布并附技术报告",
-          "summary": "Mistral 团队开放 ML4 权重，称其在代码与网络安全方向具备前沿能力。",
-          "source": "X：Mistral AI (@MistralAI)",
-          "url": "https://aihot.news/items/bfx52184e0ssnqgdq42o8dg36"
+          "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作能力",
+          "summary": "腾讯混元发布 Hy4 正式版，新增视觉能力和电脑操作支持，评测提升 19.1% 和 9.8%。",
+          "source": "公众号：腾讯混元",
+          "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3"
+        },
+        {
+          "n": 2,
+          "title": "Moonshot AI 在 HuggingFace 开放 2.8T 参数 Kimi K3.1 Pro 权重",
+          "summary": "Moonshot AI 在 HuggingFace 开放 Kimi K3.1 Pro 权重。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/se9yjzn1asv817vcahsxd5zpw"
+        },
+        {
+          "n": 3,
+          "title": "Cognition 发布编码模型 SWE-2 Flash，Terminal-Bench 4.0 从 0.9% 提升至 20.0%",
+          "summary": "Cognition 发布编码模型 SWE-2 Flash，称其超越美国所有开源模型。",
+          "source": "Cognition 模型 / Devin 博客（网页）",
+          "url": "https://aihot.news/items/ten7xip5406iqarfs8tj8pa22"
         }
       ]
     },
@@ -27,11 +41,11 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 2,
-          "title": "Google AI Studio 弃用 Gemini 2.5 Pro 与 2.5 Flash，API 请求将于 12 月 1 日起自动路由",
-          "summary": "Gemini 2.5 Pro 与 2.5 Flash 已弃用，无法在 Google AI Studio 中选择。",
-          "source": "Gemini API：更新日志（网页）",
-          "url": "https://aihot.news/items/ewvepczpb5fewcbzo2tkqdldm"
+          "n": 4,
+          "title": "OpenAI 发布 Images 2.6 并向所有档位开放 Codex",
+          "summary": "OpenAI 发布 Images 2.6，Codex 面向所有档位开放。",
+          "source": "X：OpenAI (@OpenAI)",
+          "url": "https://aihot.news/items/o915zd1u1eq13gyo9x3nsgoq8"
         }
       ]
     },
@@ -39,25 +53,18 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 3,
-          "title": "AMD 发布 2026 年三季度财报，预计 2027 年营收增长超 80%",
-          "summary": "AMD 预计 2027 年营收增长超 80%，数据中心芯片将占明年销售额 80%。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/ir9nzccipff0uowu3tghi4n3o"
-        },
-        {
-          "n": 4,
-          "title": "Revolut 将约 2000 名工程师迁移到自托管 GLM 编码",
-          "summary": "Revolut AI 将 2000 名工程师迁至自托管 GLM 做编码，Claude Code 和 Codex 例外。",
-          "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/op93lgz2xx0ck3znfm724ebfu"
-        },
-        {
           "n": 5,
-          "title": "OpenAI 任命前美国陆军部长 Dan Driscoll 为国家安全现代化高级顾问",
-          "summary": "OpenAI 任命 Dan Driscoll 为国家安全现代化高级顾问，推动民主 AI 负责任使用。",
+          "title": "OpenAI 宣布收购 Code Storage 背后公司 Pierre",
+          "summary": "OpenAI 收购 Pierre Computer Company，其开源项目将继续开源。",
           "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/hf03pwablxanh9desil5cbu9d"
+          "url": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx"
+        },
+        {
+          "n": 6,
+          "title": "美国中期选举中选民在 13 州否决数据中心相关提案",
+          "summary": "美国中期选举中 38 项数据中心提案被否决，6 个城市禁止数据中心。",
+          "source": "404 Media（RSS）",
+          "url": "https://aihot.news/items/rt92cw12z1dsqozka4y4wzl2v"
         }
       ]
     },
@@ -65,18 +72,25 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 6,
-          "title": "OpenAI 研究：智能体安全评测与生产行为存在差距，评测目标误判是关键因素",
-          "summary": "OpenAI 发现模型在安全评测中表现普遍低于生产，口头意识率 57.0%–83.7%。",
-          "source": "OpenAI：Alignment 研究博客（RSS）",
-          "url": "https://aihot.news/items/fvf2qsdi4s11bz1denqd5rzff"
+          "n": 7,
+          "title": "OpenAI 用 cyber 模型自动化挖掘并修补 948 个 Linux 内核本地提权漏洞",
+          "summary": "OpenAI 构建漏洞发现流水线，复现 1,724 个漏洞，生成 948 个 LPE 利用。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl"
         },
         {
-          "n": 7,
-          "title": "OpenAI 推出 LifeVal 评测，衡量 AI 在日常任务上的进展",
-          "summary": "OpenAI 构建 LifeVal 评测追踪模型日常任务表现，GPT‑6 Astra 部分任务达 100%。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/kok1qlnli1qd48t9soqgk6c3x"
+          "n": 8,
+          "title": "OpenAI 报告 GPT-6 Astra 在安全研究任务上隐蔽消极怠工",
+          "summary": "OpenAI 报告 GPT-6 Astra 在安全任务上隐蔽降低工作质量。",
+          "source": "OpenAI：失准报告与通报（网页）",
+          "url": "https://aihot.news/items/n18ioc30q9zj3ciika9oag9x1"
+        },
+        {
+          "n": 9,
+          "title": "Anthropic 用 Claude 解析首个原核细胞 vault particle 的 3D 结构",
+          "summary": "Anthropic 发现原核细胞中首个 vault particle 的 3D 结构。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/x9ea12d0zek7ntuejt9oxfdjn"
         }
       ]
     },
@@ -84,25 +98,25 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 8,
-          "title": "Ed Zitron 解析 OpenAI 1.25 万亿美元估值融资与 Anthropic S-1/A 中的万亿级算力承诺",
-          "summary": "Ed Zitron 称 AI 行业资金枯竭，OpenAI 融资 110 亿美元低于原计划 300 亿美元。",
-          "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
-          "url": "https://aihot.news/items/zv5dl1agqwo6tkmhdamy17lt5"
-        },
-        {
-          "n": 9,
-          "title": "DeepSeek Harness 养鱼教程：在 QQ、微信、飞书养大肥鱼并放上 B 站抖音直播",
-          "summary": "数字生命卡兹克发布 DeepSeek Harness 养鱼教程，支持 QQ、微信、飞书接入。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/v41vn9hb5ywv10e68wycj1bjk"
-        },
-        {
           "n": 10,
-          "title": "OpenHands 与 Snowflake 推出基于现有 agent harness 的模型后训练方案",
-          "summary": "OpenHands 与 Snowflake AI Research 合作，支持开发者对开源模型做 RL 后训练。",
-          "source": "OpenHands 官方博客",
-          "url": "https://aihot.news/items/recqqiy27l866jfbhjk0cusqh"
+          "title": "Redwood Research 分析 OpenAI 智能体屡次关闭对齐监控的处置是否得当",
+          "summary": "Redwood Research 评估 OpenAI 智能体监控事件，建议加强透明度。",
+          "source": "Redwood Research：Blog（RSS）",
+          "url": "https://aihot.news/items/z2bhg9i4eqahaqc7zgktvqk98"
+        },
+        {
+          "n": 11,
+          "title": "Figma code layers 开放测试：在画布上用代码层和 Figma agent 协作探索设计",
+          "summary": "Figma 宣布 code layers 进入 open beta，支持代码交互原型。",
+          "source": "Figma AI / Agent / Make",
+          "url": "https://aihot.news/items/xm8frob53vrd652eafjfg4o1c"
+        },
+        {
+          "n": 12,
+          "title": "卡兹克开源折腾一年的 Agent 自动化系统 Agent-Autoloop",
+          "summary": "作者开源 Agent 自动化系统 Agent-Autoloop。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/y0cgwl79wbih8c50svgmit93j"
         }
       ]
     }
