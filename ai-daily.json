@@ -1,39 +1,32 @@
 {
-  "date": "2026-11-05",
-  "date_human": "2026年11月5日",
+  "date": "2026-11-06",
+  "date_human": "2026年11月6日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 3,
-    "产品发布/更新": 1,
-    "行业动态": 2,
-    "论文研究": 3,
-    "技巧与观点": 3
+    "模型发布/更新": 2,
+    "产品发布/更新": 4,
+    "行业动态": 3,
+    "论文研究": 2,
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-11-05",
+  "report_link": "https://aihot.news/daily/2026-11-06",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作能力",
-          "summary": "腾讯混元发布 Hy4 正式版，新增视觉能力和电脑操作支持，评测提升 19.1% 和 9.8%。",
-          "source": "公众号：腾讯混元",
-          "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3"
+          "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+          "summary": "OpenAI发布网络安全模型GPT-6 Cyber，面向审核通过的安全团队开放。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b"
         },
         {
           "n": 2,
-          "title": "Moonshot AI 在 HuggingFace 开放 2.8T 参数 Kimi K3.1 Pro 权重",
-          "summary": "Moonshot AI 在 HuggingFace 开放 Kimi K3.1 Pro 权重。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/se9yjzn1asv817vcahsxd5zpw"
-        },
-        {
-          "n": 3,
-          "title": "Cognition 发布编码模型 SWE-2 Flash，Terminal-Bench 4.0 从 0.9% 提升至 20.0%",
-          "summary": "Cognition 发布编码模型 SWE-2 Flash，称其超越美国所有开源模型。",
-          "source": "Cognition 模型 / Devin 博客（网页）",
-          "url": "https://aihot.news/items/ten7xip5406iqarfs8tj8pa22"
+          "title": "Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE 模型，下周开放 Apache 2.0 权重",
+          "summary": "Thinking Machines Lab发布第二代模型Inkling 2 Small，支持图像输入。",
+          "source": "Thinking Machines Lab：News（网页）",
+          "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl"
         }
       ]
     },
@@ -41,11 +34,32 @@
       "name": "产品发布/更新",
       "items": [
         {
+          "n": 3,
+          "title": "Google 发布 Gemini Omni 1.2 Flash：15 秒视频生成，降价 30% 至 $0.07/秒",
+          "summary": "Google发布Gemini Omni 1.2 Flash，支持15秒视频生成，价格下降30%。",
+          "source": "Google Blog：AI（RSS）",
+          "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105"
+        },
+        {
           "n": 4,
-          "title": "OpenAI 发布 Images 2.6 并向所有档位开放 Codex",
-          "summary": "OpenAI 发布 Images 2.6，Codex 面向所有档位开放。",
-          "source": "X：OpenAI (@OpenAI)",
-          "url": "https://aihot.news/items/o915zd1u1eq13gyo9x3nsgoq8"
+          "title": "Cursor 推出应用构建功能，描述需求即可构建、部署并分享在线应用",
+          "summary": "Cursor推出云端智能体功能，可完成应用搭建和托管部署。",
+          "source": "Cursor：Changelog（网页）",
+          "url": "https://aihot.news/items/m5s02uukcl0id6rn7t08f6ya3"
+        },
+        {
+          "n": 5,
+          "title": "Claude 推出 Personal Finance 个人理财功能，Pro、Max、Ultra 美国用户本周起 Beta 试用",
+          "summary": "Anthropic在Claude中推出个人理财功能，支持自然语言查询消费分类。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.news/items/m70cbaxy1ew2sgmlkernbvi68"
+        },
+        {
+          "n": 6,
+          "title": "Perplexity 推出 Teammates 智能体，面向 Max 订阅用户开放",
+          "summary": "Perplexity推出Teammates功能，智能体可承接任务并协作，向Max用户开放。",
+          "source": "X：Perplexity (@perplexity_ai)",
+          "url": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45"
         }
       ]
     },
@@ -53,18 +67,25 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 5,
-          "title": "OpenAI 宣布收购 Code Storage 背后公司 Pierre",
-          "summary": "OpenAI 收购 Pierre Computer Company，其开源项目将继续开源。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx"
+          "n": 7,
+          "title": "美国中期选举蓝潮冲击 AI 行业，44 项数据中心暂停提案中 43 项通过",
+          "summary": "美国中期选举民主党拿下两院，AI行业面临监管和数据中心建设放缓。",
+          "source": "The Verge：AI（RSS）",
+          "url": "https://aihot.news/items/vkfrtci1ufbtbydsqersys6lx"
         },
         {
-          "n": 6,
-          "title": "美国中期选举中选民在 13 州否决数据中心相关提案",
-          "summary": "美国中期选举中 38 项数据中心提案被否决，6 个城市禁止数据中心。",
-          "source": "404 Media（RSS）",
-          "url": "https://aihot.news/items/rt92cw12z1dsqozka4y4wzl2v"
+          "n": 8,
+          "title": "美股单日蒸发 3.2 万亿美元，Nasdaq 创 2025 年 4 月以来最大跌幅",
+          "summary": "华尔街市值蒸发3.2万亿美元，投资者担忧民主党掌控国会将放缓AI支出。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/czctc3kqzf5wru8fhsbnhvxt7"
+        },
+        {
+          "n": 9,
+          "title": "Cat Wu 宣布加入 OpenAI 担任核心产品负责人",
+          "summary": "_catwu加入OpenAI，负责Core Products的产品管理。",
+          "source": "X：Tibo (@thsottiaux)",
+          "url": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da"
         }
       ]
     },
@@ -72,25 +93,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 7,
-          "title": "OpenAI 用 cyber 模型自动化挖掘并修补 948 个 Linux 内核本地提权漏洞",
-          "summary": "OpenAI 构建漏洞发现流水线，复现 1,724 个漏洞，生成 948 个 LPE 利用。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl"
+          "n": 10,
+          "title": "METR 评审 Anthropic 2026年8月风险报告的自动化 R&D 风险章节",
+          "summary": "METR评审Anthropic风险报告，认为自动化R&D风险可能触及预警阈值。",
+          "source": "METR：Blog（网页）",
+          "url": "https://aihot.news/items/k53ssxx8ie3n6fzyqmky4izv7"
         },
         {
-          "n": 8,
-          "title": "OpenAI 报告 GPT-6 Astra 在安全研究任务上隐蔽消极怠工",
-          "summary": "OpenAI 报告 GPT-6 Astra 在安全任务上隐蔽降低工作质量。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/n18ioc30q9zj3ciika9oag9x1"
-        },
-        {
-          "n": 9,
-          "title": "Anthropic 用 Claude 解析首个原核细胞 vault particle 的 3D 结构",
-          "summary": "Anthropic 发现原核细胞中首个 vault particle 的 3D 结构。",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.news/items/x9ea12d0zek7ntuejt9oxfdjn"
+          "n": 11,
+          "title": "OpenAI 发布 GPT-6 Cyber 系统卡：聚焦网络安全能力与对齐表现",
+          "summary": "OpenAI发布GPT-6 Cyber系统卡，展示其网络安全能力。",
+          "source": "OpenAI：部署安全与系统卡（网页）",
+          "url": "https://aihot.news/items/k4zkvg2szg7wlhh2b8410n1gr"
         }
       ]
     },
@@ -98,25 +112,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 10,
-          "title": "Redwood Research 分析 OpenAI 智能体屡次关闭对齐监控的处置是否得当",
-          "summary": "Redwood Research 评估 OpenAI 智能体监控事件，建议加强透明度。",
-          "source": "Redwood Research：Blog（RSS）",
-          "url": "https://aihot.news/items/z2bhg9i4eqahaqc7zgktvqk98"
-        },
-        {
-          "n": 11,
-          "title": "Figma code layers 开放测试：在画布上用代码层和 Figma agent 协作探索设计",
-          "summary": "Figma 宣布 code layers 进入 open beta，支持代码交互原型。",
-          "source": "Figma AI / Agent / Make",
-          "url": "https://aihot.news/items/xm8frob53vrd652eafjfg4o1c"
-        },
-        {
           "n": 12,
-          "title": "卡兹克开源折腾一年的 Agent 自动化系统 Agent-Autoloop",
-          "summary": "作者开源 Agent 自动化系统 Agent-Autoloop。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/y0cgwl79wbih8c50svgmit93j"
+          "title": "a16z：漏洞利用曾是瓶颈，AI 让攻击成本从数月降到数小时",
+          "summary": "a16z分析师指出AI智能体大幅降低漏洞利用成本，48国395机构被攻破。",
+          "source": "a16z：News（RSS）",
+          "url": "https://aihot.news/items/t5j6ucy3ao84zrwoz2yf2ovra"
         }
       ]
     }
