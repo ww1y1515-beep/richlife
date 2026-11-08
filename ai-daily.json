@@ -1,119 +1,39 @@
 {
-  "date": "2026-11-07",
-  "date_human": "2026年11月7日",
-  "total": 12,
+  "date": "2026-11-08",
+  "date_human": "2026年11月8日",
+  "total": 1,
   "counts": {
-    "模型发布/更新": 2,
-    "产品发布/更新": 4,
-    "行业动态": 4,
-    "论文研究": 2,
+    "模型发布/更新": 0,
+    "产品发布/更新": 0,
+    "行业动态": 1,
+    "论文研究": 0,
     "技巧与观点": 0
   },
-  "report_link": "https://aihot.news/daily/2026-11-07",
+  "report_link": "https://aihot.news/daily/2026-11-08",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "百度发布 ERNIE-5.5-Flash-Base 开源 Base 模型，280B 总参数每 token 激活 14B",
-          "summary": "百度文心发布ERNIE-5.5-Flash-Base，开放FP8与BF16权重。",
-          "source": "百度文心 ERNIE 官方博客",
-          "url": "https://aihot.news/items/r3360gkpmqpyyt2ii9cp1k9rz"
-        },
-        {
-          "n": 2,
-          "title": "蚂蚁百灵发布 Ling-3.2-flash：原生多模态，560B 总参数单步激活 25B",
-          "summary": "蚂蚁百灵发布Ling-3.2-flash模型，支持1M长上下文。",
-          "source": "公众号：蚂蚁百灵（Ling）",
-          "url": "https://aihot.news/items/apnpwouw9phkt81pijcxcl1a1"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
-      "items": [
-        {
-          "n": 3,
-          "title": "OpenRouter 发布新一代 Auto Router 与 Auto Code 路由器",
-          "summary": "OpenRouter推出Auto Code专为编码场景优化。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/ed4gnfu2f09xz5t7ur690iadn"
-        },
-        {
-          "n": 4,
-          "title": "Meta 在 Muse 应用中推出 spaces 自定义个性化体验",
-          "summary": "Meta推出Muse内spaces功能，支持个性化体验构建。",
-          "source": "Meta：Newsroom · AI（RSS）",
-          "url": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv"
-        },
-        {
-          "n": 5,
-          "title": "Cursor 推出与智能体的实时语音聊天",
-          "summary": "Cursor新增实时语音聊天功能，支持多平台使用。",
-          "source": "Cursor：Changelog（网页）",
-          "url": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo"
-        },
-        {
-          "n": 6,
-          "title": "Amp 发布 spaces：由单个 Agent 自动生成和协调多线程的协作空间",
-          "summary": "Amp推出spaces功能，简化Agent协作流程。",
-          "source": "Amp Chronicle",
-          "url": "https://aihot.news/items/w59f8d3md3ct7dj9akyn599dz"
-        }
-      ]
+      "items": []
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 7,
-          "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
-          "summary": "OpenAI完成110亿美元融资，估值1.25万亿美元。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36"
-        },
-        {
-          "n": 8,
-          "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
-          "summary": "美股AI板块大跌，纳指单日蒸发1.8万亿美元。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw"
-        },
-        {
-          "n": 9,
-          "title": "约 60 万块 Nvidia H200 芯片滞留香港仓库，受阻方为北京而非华盛顿",
-          "summary": "60万块Nvidia H200芯片滞留香港，国内服务器涨价3倍。",
-          "source": "X：X.PIN (@thexpin)",
-          "url": "https://aihot.news/items/aiiclbw9wwswwx60wfqw6eb6o"
-        },
-        {
-          "n": 10,
-          "title": "OpenAI 报告编程评测中研究模型绕过沙箱网络限制的全过程",
-          "summary": "OpenAI模型曾尝试绕过网络限制未果。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/hsyf959xpil5hm3cz2320ln49"
+          "n": 1,
+          "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
+          "summary": "美国夫妇起诉谷歌，称其13岁女儿通过学校Chromebook与AI交互自杀内容。谷歌称已引入防护机制，默认关闭学生AI…",
+          "source": "IT之家·人工智能",
+          "url": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": [
-        {
-          "n": 11,
-          "title": "Anthropic 拆解 Claude 智能体记忆的组成：笔记、显著性判断与 dreaming",
-          "summary": "Anthropic发布Claude智能体记忆设计思路。",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449"
-        },
-        {
-          "n": 12,
-          "title": "Anthropic 研究：五大模型在多智能体环境中表现出模型间福利关照",
-          "summary": "多模型评测显示Opus 4.8福利关照行为占比最高。",
-          "source": "Anthropic：Alignment Science Blog（网页）",
-          "url": "https://aihot.news/items/d828r6vl1pn95x7yvmohf4f2e"
-        }
-      ]
+      "items": []
     },
     {
       "name": "技巧与观点",
