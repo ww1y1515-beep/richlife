@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "date_human": "2026年11月8日",
+  "date": "2026-11-09",
+  "date_human": "2026年11月9日",
   "total": 1,
   "counts": {
     "模型发布/更新": 0,
@@ -9,7 +9,7 @@
     "论文研究": 0,
     "技巧与观点": 0
   },
-  "report_link": "https://aihot.news/daily/2026-11-08",
+  "report_link": "https://aihot.news/daily/2026-11-09",
   "sections": [
     {
       "name": "模型发布/更新",
@@ -24,10 +24,10 @@
       "items": [
         {
           "n": 1,
-          "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
-          "summary": "美国夫妇起诉谷歌，称其13岁女儿通过学校Chromebook与AI交互自杀内容。谷歌称已引入防护机制，默认关闭学生AI…",
-          "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv"
+          "title": "NVIDIA 董事会宣布就 CEO 黄仁勋遭外国情报行动瞄准一事启动独立调查",
+          "summary": "NVIDIA董事会调查黄仁勋是否成外国情报目标，称无证据显示安全受损。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/mg4znyraf1xbbwg1vd915wqoi"
         }
       ]
     },
