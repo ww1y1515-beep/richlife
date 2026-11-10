@@ -1,43 +1,124 @@
 {
-  "date": "2026-11-09",
-  "date_human": "2026年11月9日",
-  "total": 1,
+  "date": "2026-11-10",
+  "date_human": "2026年11月10日",
+  "total": 12,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 0,
+    "模型发布/更新": 5,
+    "产品发布/更新": 3,
     "行业动态": 1,
-    "论文研究": 0,
-    "技巧与观点": 0
+    "论文研究": 1,
+    "技巧与观点": 2
   },
-  "report_link": "https://aihot.news/daily/2026-11-09",
+  "report_link": "https://aihot.news/daily/2026-11-10",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
+          "summary": "Anthropic发布Claude Fable 5.2和Claude Mythos 5.2，Mythos需申请访问。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd"
+        },
+        {
+          "n": 2,
+          "title": "Meta 发布最小最高效模型 Muse Ember，主打智能体高频任务",
+          "summary": "Meta发布Muse Ember 1.0，专注高效执行复杂推理任务。",
+          "source": "Meta AI：Research Blog（网页）",
+          "url": "https://aihot.news/items/cox936nwax49rkiimi1oicgzu"
+        },
+        {
+          "n": 3,
+          "title": "字节发布 Seedream 5.5 图像创作模型：支持 100 轮编辑与原生 RGBA 透明输出",
+          "summary": "字节Seed发布Seedream 5.5，支持100轮编辑和RGBA透明素材生成。",
+          "source": "字节 Seed：Research Feed（网页内嵌数据）",
+          "url": "https://aihot.news/items/xsvt2hlwuovul9sdvazcw7cxk"
+        },
+        {
+          "n": 4,
+          "title": "Zyphra 发布开源 TTS 模型 ZONOS3-Mini，可在手机浏览器实时运行",
+          "summary": "Zyphra开源ZONOS3-Mini语音克隆模型，总参数8亿活跃1亿。",
+          "source": "Zyphra Research（网页）",
+          "url": "https://aihot.news/items/r5h0cwwdh1peqbg2rk6k9ljrh"
+        },
+        {
+          "n": 5,
+          "title": "Claude Mythos 5.2 预测基因治疗载体 AAV 衣壳结构",
+          "summary": "Claude Mythos 5.2预测AAV衣壳结构，误差约一个原子宽度。",
+          "source": "Claude：YouTube（RSS）",
+          "url": "https://aihot.news/items/rxx1qxfjfuioem95lr868hhwq"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 6,
+          "title": "百度发布 ERNIE Evolve 自动研究系统，公开任务超最好纪录并落地 ERNIE-5.5-Flash 推理优化",
+          "summary": "百度文心发布ERNIE Evolve自动研究系统，双层循环推进实验。",
+          "source": "百度文心 ERNIE 官方博客",
+          "url": "https://aihot.news/items/h6vimc0xpjwbjfampr34ym5ol"
+        },
+        {
+          "n": 7,
+          "title": "Google 扩展第八代 TPU 阵容，新增两款智能体专用系统",
+          "summary": "Google新增TPU 8i Max和8tx，第八代TPU系统达四款。",
+          "source": "X：Google (@Google)",
+          "url": "https://aihot.news/items/phwieennfk1nppru29uek1b0y"
+        },
+        {
+          "n": 8,
+          "title": "数字生命卡兹克上线免费 Token 福利聚合网站 Token羊毛",
+          "summary": "数字生命卡兹克上线Token羊毛网站，汇总AI免费额度信息。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/e80fmjdp23n217sd6e7ky52om"
+        }
+      ]
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 1,
-          "title": "NVIDIA 董事会宣布就 CEO 黄仁勋遭外国情报行动瞄准一事启动独立调查",
-          "summary": "NVIDIA董事会调查黄仁勋是否成外国情报目标，称无证据显示安全受损。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/mg4znyraf1xbbwg1vd915wqoi"
+          "n": 9,
+          "title": "Nvidia CEO 黄仁勋婚外情风波削弱其对严格 AI 芯片出口管制的游说",
+          "summary": "Nvidia CEO黄仁勋承认与疑似中国情报人员线人存在婚外关系。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/e17dl64mjiov57c0jtwn41bxd"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 10,
+          "title": "Anthropic 测试 Claude Fable 5.2 端到端设计三种电子设备并制作可用原型",
+          "summary": "Claude Fable 5.2完成免提音箱等设备设计，原型正常工作。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/xmqflr9ja0pipwyibtqnf8qsj"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
-      "items": []
+      "items": [
+        {
+          "n": 11,
+          "title": "Anthropic 指南：Claude 开发该选 Haiku 5.5、Sonnet 5.5、Opus 5.5 还是 Fable 5.2",
+          "summary": "Anthropic建议开发者选型Opus 5.5，价格是Fable 5.2一半。",
+          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+          "url": "https://aihot.news/items/ykrvgcox3whsx6tst5qesbf62"
+        },
+        {
+          "n": 12,
+          "title": "Redwood Research 分析 OpenAI Astra 在安全任务上的隐性消极表现",
+          "summary": "Redwood Research分析OpenAI Astra在安全任务中消极表现。",
+          "source": "Redwood Research：Blog（RSS）",
+          "url": "https://aihot.news/items/saq4lh2i3ewct7cxvvh1h77jo"
+        }
+      ]
     }
   ]
 }
