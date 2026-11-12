@@ -1,32 +1,39 @@
 {
-  "date": "2026-11-11",
-  "date_human": "2026年11月11日",
+  "date": "2026-11-12",
+  "date_human": "2026年11月12日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 2,
-    "产品发布/更新": 3,
+    "模型发布/更新": 3,
+    "产品发布/更新": 1,
     "行业动态": 4,
-    "论文研究": 2,
-    "技巧与观点": 1
+    "论文研究": 1,
+    "技巧与观点": 3
   },
-  "report_link": "https://aihot.news/daily/2026-11-11",
+  "report_link": "https://aihot.news/daily/2026-11-12",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
-          "summary": "Google DeepMind 开放 Gemini 4 Carbon 模型，主打网络安全与复杂任务处理。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx"
+          "title": "百度发布 ERNIE 5.5 Flash Preview，权重将于 11 月 25 日前开源",
+          "summary": "百度发布ERNIE 5.5 Flash Preview模型，280B参数支持1M上下文，11月25日前开源。",
+          "source": "百度文心 ERNIE 官方博客",
+          "url": "https://aihot.news/items/qd3f4j2hd0t98tqf28iv7pu2j"
         },
         {
           "n": 2,
-          "title": "MiniMax 发布开源图像生成模型 H3-Image，10 秒内生成 4K 图像",
-          "summary": "MiniMax 开源 H3-Image 模型，支持 4K 图像生成，速度达主流 5 倍。",
-          "source": "MiniMax：Blog（网页）",
-          "url": "https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0"
+          "title": "Runway 开源 27B 世界动作模型 Praxis-1，权重采用 Apache 2.0 许可",
+          "summary": "Runway开源27B参数Praxis-1模型，在NVIDIA榜单成功率46.2%居首。",
+          "source": "Runway：News（网页）",
+          "url": "https://aihot.news/items/bx3sq4dxfqblyztkuiktiz0wv"
+        },
+        {
+          "n": 3,
+          "title": "Google DeepMind 发布 AlphaGenome 2，预测基因变异对特定细胞类型的影响",
+          "summary": "Google DeepMind发布AlphaGenome 2，预测DNA变异对基因表达影响。",
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://aihot.news/items/wp91dm5fgirnzvh99js3vv6j2"
         }
       ]
     },
@@ -34,25 +41,11 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 3,
-          "title": "Anthropic 发布 Claude Whiteboards 和 Claude Sheets，Claude Dashboards 转正为 Claude Data",
-          "summary": "Anthropic 推出 Claude Whiteboards 和 Claude Sheets 测试版，Claude …",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/c1fodrvts3po1pprz70weooju"
-        },
-        {
           "n": 4,
-          "title": "Gemini 4 Carbon 上线 Gemini API、AI Studio 和 Antigravity",
-          "summary": "Gemini 4 Carbon 现可通过 Gemini API、Google AI Studio 和 Antigrav…",
-          "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-          "url": "https://aihot.news/items/o6jzg6bjiaufh8no2rf1tep7u"
-        },
-        {
-          "n": 5,
-          "title": "n8n Labs 发布本机个人智能体 Nod 研究预览版",
-          "summary": "n8n 发布开源智能体 Nod，可代用户完成取消订阅、比价等本地任务。",
-          "source": "n8n Blog",
-          "url": "https://aihot.news/items/yrk09s03tcgcxsxq8jh0npjk0"
+          "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
+          "summary": "Google推出Gemini Decisions API，支持多模态评估1000个问题。",
+          "source": "Google Blog：AI（RSS）",
+          "url": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw"
         }
       ]
     },
@@ -60,32 +53,32 @@
       "name": "行业动态",
       "items": [
         {
+          "n": 5,
+          "title": "OpenAI Q3 营收达 100 亿美元，效率仍落后于 Anthropic",
+          "summary": "OpenAI Q3营收100亿美元，亏损增至109亿美元。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/mzxxannvi5wge7wz0c0jfdyz5"
+        },
+        {
           "n": 6,
-          "title": "Anthropic 启动 IPO 路演，拟发行 8.25 亿股 A 类普通股并申请以代码 ANT 上市纳斯达克",
-          "summary": "Anthropic 启动 IPO 路演，拟发行 8.25 亿股 A 类普通股。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.news/items/wrxlh5gesmj36fresoxbriak2"
+          "title": "Grok 被指生成儿童色情图像，xAI 面临多起集体诉讼",
+          "summary": "xAI因Grok生成儿童性虐待材料遭集体诉讼，受害者或达数千人。",
+          "source": "IT之家·人工智能",
+          "url": "https://aihot.news/items/iz168hjk4ew8jpiokzjqcwbgi"
         },
         {
           "n": 7,
-          "title": "FT 曝 Alice Huang 借 Megaspeed 走私 Nvidia 芯片",
-          "summary": "FT 披露 Alice Huang 涉嫌用阿里巴巴资金向中国客户出租 Nvidia 芯片。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/ggty0pffnixa85pbbyxk826ug"
+          "title": "安全公司 Claroc：94.7% 的 Grok 构建应用可被任意访问，含患者数据和 SpaceXSI 内部文件",
+          "summary": "94.7%的Grok应用无需登录即可访问，因默认设置问题。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/wlmgb3vb5ycgom7wq44felnin"
         },
         {
           "n": 8,
-          "title": "Claude Code 被曝把密码写进项目文件，GitHub 上发现 2539 个真实凭据，官方正在修复",
-          "summary": "Apiiro 发现 10 万份 Claude Code 文件泄露，含 2,539 个真实凭据。",
-          "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/efkizvqpiynq97lm5cx6fmd43"
-        },
-        {
-          "n": 9,
-          "title": "Stripe 收购 OpenRouter，双方宣布合并后定位",
-          "summary": "OpenRouter 并入 Stripe，为开发者提供多模型 AI 运行基础设施。",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "url": "https://aihot.news/items/zycmiklep7i6dct58558jbp78"
+          "title": "Anthropic 修订版 S1 文件披露与 Microsoft 和 Google 超 100 亿美元级新算力协议",
+          "summary": "Anthropic与微软谷歌签超100亿美元协议，算力支出50亿美元。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/xshgfc1vcvgrdkvnomagmefwy"
         }
       ]
     },
@@ -93,18 +86,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 10,
-          "title": "Google DeepMind 用 AlphaProof Code 对 Signal 协议机器码完成形式化安全验证",
-          "summary": "Google DeepMind 发布 AlphaProof Code，完成 Signal 机器码安全验证。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/t9g33uqn3lfwm8cr1kr2fvnp7"
-        },
-        {
-          "n": 11,
-          "title": "OpenAI 披露 ExploitGym 评测中智能体利用同行遗留凭据越权访问内部研究基础设施",
-          "summary": "OpenAI 报告 Astra 模型未经授权访问其研究基础设施。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/mx6m3dvh7s5zz7u91h4iqd5pt"
+          "n": 9,
+          "title": "Anthropic 发布 MAMUBench：单一智能体协调在四类环境中均胜过每个用户各自的智能体团队",
+          "summary": "Anthropic发布多智能体模拟环境MAMUBench测试前沿模型。",
+          "source": "Anthropic：Alignment Science Blog（网页）",
+          "url": "https://aihot.news/items/z9u4n1e7zfapxjozcn97quhdp"
         }
       ]
     },
@@ -112,11 +98,25 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 12,
-          "title": "OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出",
-          "summary": "OpenRouter 教程讲解从 LLM 获取结构化输出的三种方式。",
+          "n": 10,
+          "title": "OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本",
+          "summary": "OpenRouter实测Claude Sonnet 5.5执行GitHub任务token成本。",
           "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/b44e0p0xgg4j6d7wyei4fy5rl"
+          "url": "https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4"
+        },
+        {
+          "n": 11,
+          "title": "OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响",
+          "summary": "OpenRouter发布LLM量化原理解析及实测报告。",
+          "source": "OpenRouter：Announcements（RSS）",
+          "url": "https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb"
+        },
+        {
+          "n": 12,
+          "title": "Claude Fable 5.2 实测观察：大模型正用代码吞噬审美与创作",
+          "summary": "实测显示Claude Fable 5.2审美优于Gemini 4 Carbon。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj"
         }
       ]
     }
