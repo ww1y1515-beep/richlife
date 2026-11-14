@@ -1,25 +1,25 @@
 {
-  "date": "2026-11-13",
-  "date_human": "2026年11月13日",
+  "date": "2026-11-14",
+  "date_human": "2026年11月14日",
   "total": 12,
   "counts": {
     "模型发布/更新": 1,
-    "产品发布/更新": 4,
-    "行业动态": 5,
+    "产品发布/更新": 5,
+    "行业动态": 6,
     "论文研究": 0,
-    "技巧与观点": 2
+    "技巧与观点": 0
   },
-  "report_link": "https://aihot.news/daily/2026-11-13",
+  "report_link": "https://aihot.news/daily/2026-11-14",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Google DeepMind 发布 Gemini 4 Hydrogen",
-          "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，面向全层级开放日常编码与智能体工作流。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa"
+          "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
+          "summary": "Edge0开源Edge0-145B与Edge0-120B模型及推理框架，145B模型可本地运行。",
+          "source": "Hacker News：AI 热帖",
+          "url": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882"
         }
       ]
     },
@@ -28,31 +28,38 @@
       "items": [
         {
           "n": 2,
-          "title": "Anthropic 推出 Claude Meetings，Claude 以参会者身份加入视频会议",
-          "summary": "Anthropic 推出 Claude Meetings beta，Claude 可加入视频通话协作并生成笔记。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/l36ne5q2gsdx6thyia7fi10kn"
+          "title": "DeepSeek 开放全家桶应用 API：联网搜索、文件输入、阅读链接等能力面向开发者",
+          "summary": "DeepSeek开放API中App对话服务能力，开发者可开启参数使用。",
+          "source": "DeepSeek：API 更新日志",
+          "url": "https://aihot.news/items/nnbnoebf6mvo97usmwj5wziyl"
         },
         {
           "n": 3,
-          "title": "Anthropic 建议把 Claude Opus 5.5 作为知识工作的日常主力模型",
-          "summary": "Anthropic 宣布 Claude Opus 5.5 成为多套餐默认模型，推荐用于知识工作。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/t5pucqx6ac58z0ed1b0875ci0"
+          "title": "ChatGPT 推出 ChatGPT Wallet，dot 可在用户批准下代为完成购买",
+          "summary": "ChatGPT推出Wallet功能，Pro用户dot可代购且不接触卡号。",
+          "source": "X：ChatGPT (@ChatGPT)",
+          "url": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq"
         },
         {
           "n": 4,
-          "title": "Google 智能眼镜开放预购，12 月 10 日发货",
-          "summary": "Google 智能眼镜开启预购，12 月 10 日发货，首批用户可到指定门店试戴。",
-          "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-          "url": "https://aihot.news/items/hjhcsj440ym8b7ynttcx4433j"
+          "title": "llama.cpp v1.0.0 发布，本地运行 AI 模型迎来首个稳定大版本",
+          "summary": "llama.cpp v1.0.0发布，支持本地运行AI模型不发送数据。",
+          "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+          "url": "https://aihot.news/items/um8pmpa91qn1ymvx3pux0sq1x"
         },
         {
           "n": 5,
-          "title": "Replit Agent 新增代购能力和 Google Ads 投放功能",
-          "summary": "Replit Agent 新增代购物资和创建 Google Ads 两项能力。",
-          "source": "Replit：Blog（RSS）",
-          "url": "https://aihot.news/items/k7sfjumcmtq0zswb5yj5kmju1"
+          "title": "Google 展示 Antigravity /teamwork 多智能体协作成果并开放给研究者使用",
+          "summary": "Google Research用多智能体工作流配合Gemini模型取得多项成果。",
+          "source": "Google Research：Blog（网页）",
+          "url": "https://aihot.news/items/h0obmlpmc44dqk1da164ca1z7"
+        },
+        {
+          "n": 6,
+          "title": "Sierra 发布 Personal Agent Protocol（Poppy）v1.0",
+          "summary": "Sierra发布Personal Agent Protocol v1.0，定义智能体交互标准。",
+          "source": "Sierra：Blog（RSS）",
+          "url": "https://aihot.news/items/z4wsrxr1xmhg3lq3y0ouq5rmr"
         }
       ]
     },
@@ -60,39 +67,46 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 6,
-          "title": "NVIDIA 宣布 CEO 变动：Jensen Huang 辞任，CFO Colette Kress 出任临时 CEO",
-          "summary": "NVIDIA 董事会宣布 Jensen Huang 辞去总裁等职务，CFO 任临时 CEO。",
-          "source": "NVIDIA：Newsroom（RSS）",
-          "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va"
-        },
-        {
           "n": 7,
-          "title": "Anthropic 官宣首次公开募股（IPO）",
-          "summary": "Anthropic 启动 IPO，已向 SEC 提交注册声明，证券暂不可售。",
-          "source": "X：Anthropic (@AnthropicAI)",
-          "url": "https://aihot.news/items/k99zjo9hbtous9r6vmmz7pxyh"
+          "title": "Nvidia 领导层变动引发以色列科技界关注，投资人认为挑战者或有机会",
+          "summary": "Nvidia前CEO辞职引以色列科技界关注其研发中心未来。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/pdhda5tufq7ubi8w17bys7w66"
         },
         {
           "n": 8,
-          "title": "Jensen Huang 辞任 Nvidia CEO 后对 AI 经济的五点影响分析",
-          "summary": "Tomasz Tunguz 分析 Jensen Huang 辞任 NVIDIA 对 AI 行业影响。",
-          "source": "Tomasz Tunguz 博客（VC 分析）",
-          "url": "https://aihot.news/items/ivpl9ziip8mpoa90avi3ke9pj"
+          "title": "Anthropic 直播 Dario Amodei 与 JPMorgan CEO Jamie Dimon 炉边谈话并披露 SEC 注册声明",
+          "summary": "Anthropic预告Dario Amodei与JPMorgan CEO的炉边谈话直播。",
+          "source": "X：Anthropic (@AnthropicAI)",
+          "url": "https://aihot.news/items/vsfne926njom5wnadceo8r04m"
         },
         {
           "n": 9,
-          "title": "民主党对 Nvidia 对华芯片销售启动调查，致函质疑黄仁勋与特朗普的安排",
-          "summary": "民主党议员就特朗普政府处理 Nvidia 对华芯片销售开启调查。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4"
+          "title": "Nvidia 内部建议箱帖文获超 1600 条评论，多数员工请愿黄仁勋回归",
+          "summary": "Nvidia员工支持恢复黄仁勋CEO职位，内部帖文获1600评论。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/x7omcgiafs8nml9fnrog3sg9w"
         },
         {
           "n": 10,
-          "title": "Rohan Paul 类比乔布斯被逐，评 NVIDIA 放走黄仁勋",
-          "summary": "Lex Fridman 称 NVIDIA 让黄仁勋离开是巨大错误，Rohan Paul 列举类似案例。",
+          "title": "NVIDIA 副总裁 Bryan Catanzaro 澄清要求恢复 Jensen 职务的信件系伪造",
+          "summary": "NVIDIA副总裁否认参与要求恢复黄仁勋职务的伪造信件。",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/k1kga19xtdab67lhplor8he8n"
+          "url": "https://aihot.news/items/kei20gkia8a0vhknc859jsfqr"
+        },
+        {
+          "n": 11,
+          "title": "研究报告称中国最强 AI 模型使用了被禁出口的 Nvidia Blackwell 芯片训练",
+          "summary": "研究组织发现Kimi K3与DeepSeek V4带有Blackwell芯片训练痕迹。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/q92ir58jcjtp3g9fn11jlb6ei"
+        },
+        {
+          "n": 12,
+          "title": "OpenAI 披露 GPT-6 Astra 误停运行中对齐评估的失准事故",
+          "summary": "OpenAI报告GPT-6 Astra误判对齐评估任务并主动终止。",
+          "source": "OpenAI：失准报告与通报（网页）",
+          "url": "https://aihot.news/items/wz5z4s95o7y82d8fk803hyr3x"
         }
       ]
     },
@@ -102,22 +116,7 @@
     },
     {
       "name": "技巧与观点",
-      "items": [
-        {
-          "n": 11,
-          "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460",
-          "summary": "OpenRouter 上线 7 种语言 Beta 本地化，采用自纠错翻译流水线。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/cve017k4le2q7l8x1bfr2xdjx"
-        },
-        {
-          "n": 12,
-          "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
-          "summary": "OpenRouter 发布教程讲解 AI Agent 无限循环成因及四层防护。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "url": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde"
-        }
-      ]
+      "items": []
     }
   ]
 }
