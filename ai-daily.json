@@ -1,122 +1,73 @@
 {
-  "date": "2026-11-14",
-  "date_human": "2026年11月14日",
-  "total": 12,
+  "date": "2026-11-15",
+  "date_human": "2026年11月15日",
+  "total": 5,
   "counts": {
-    "模型发布/更新": 1,
-    "产品发布/更新": 5,
-    "行业动态": 6,
-    "论文研究": 0,
-    "技巧与观点": 0
+    "模型发布/更新": 0,
+    "产品发布/更新": 0,
+    "行业动态": 3,
+    "论文研究": 1,
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-11-14",
+  "report_link": "https://aihot.news/daily/2026-11-15",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
-          "summary": "Edge0开源Edge0-145B与Edge0-120B模型及推理框架，145B模型可本地运行。",
-          "source": "Hacker News：AI 热帖",
-          "url": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
-      "items": [
-        {
-          "n": 2,
-          "title": "DeepSeek 开放全家桶应用 API：联网搜索、文件输入、阅读链接等能力面向开发者",
-          "summary": "DeepSeek开放API中App对话服务能力，开发者可开启参数使用。",
-          "source": "DeepSeek：API 更新日志",
-          "url": "https://aihot.news/items/nnbnoebf6mvo97usmwj5wziyl"
-        },
-        {
-          "n": 3,
-          "title": "ChatGPT 推出 ChatGPT Wallet，dot 可在用户批准下代为完成购买",
-          "summary": "ChatGPT推出Wallet功能，Pro用户dot可代购且不接触卡号。",
-          "source": "X：ChatGPT (@ChatGPT)",
-          "url": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq"
-        },
-        {
-          "n": 4,
-          "title": "llama.cpp v1.0.0 发布，本地运行 AI 模型迎来首个稳定大版本",
-          "summary": "llama.cpp v1.0.0发布，支持本地运行AI模型不发送数据。",
-          "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-          "url": "https://aihot.news/items/um8pmpa91qn1ymvx3pux0sq1x"
-        },
-        {
-          "n": 5,
-          "title": "Google 展示 Antigravity /teamwork 多智能体协作成果并开放给研究者使用",
-          "summary": "Google Research用多智能体工作流配合Gemini模型取得多项成果。",
-          "source": "Google Research：Blog（网页）",
-          "url": "https://aihot.news/items/h0obmlpmc44dqk1da164ca1z7"
-        },
-        {
-          "n": 6,
-          "title": "Sierra 发布 Personal Agent Protocol（Poppy）v1.0",
-          "summary": "Sierra发布Personal Agent Protocol v1.0，定义智能体交互标准。",
-          "source": "Sierra：Blog（RSS）",
-          "url": "https://aihot.news/items/z4wsrxr1xmhg3lq3y0ouq5rmr"
-        }
-      ]
+      "items": []
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 7,
-          "title": "Nvidia 领导层变动引发以色列科技界关注，投资人认为挑战者或有机会",
-          "summary": "Nvidia前CEO辞职引以色列科技界关注其研发中心未来。",
+          "n": 1,
+          "title": "马斯克等高管联署请愿，要求 Nvidia 恢复黄仁勋 CEO 职务",
+          "summary": "11.5万人联署要求Nvidia恢复黄仁勋CEO职务，包括马斯克等科技领袖。",
           "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/pdhda5tufq7ubi8w17bys7w66"
+          "url": "https://aihot.news/items/umoosrbjhi12kj7lv51qan4ju"
         },
         {
-          "n": 8,
-          "title": "Anthropic 直播 Dario Amodei 与 JPMorgan CEO Jamie Dimon 炉边谈话并披露 SEC 注册声明",
-          "summary": "Anthropic预告Dario Amodei与JPMorgan CEO的炉边谈话直播。",
-          "source": "X：Anthropic (@AnthropicAI)",
-          "url": "https://aihot.news/items/vsfne926njom5wnadceo8r04m"
+          "n": 2,
+          "title": "Cursor 披露安全事件调查结果，恶意 Claude Code 扩展波及最多 5000 用户",
+          "summary": "Cursor安全事件调查：攻击者利用Fireworks密钥读取训练数据，0.01%客户API凭证泄露。",
+          "source": "Cursor Blog",
+          "url": "https://aihot.news/items/e9o5h2c1o5f0xuh2bgqtc2w7k"
         },
         {
-          "n": 9,
-          "title": "Nvidia 内部建议箱帖文获超 1600 条评论，多数员工请愿黄仁勋回归",
-          "summary": "Nvidia员工支持恢复黄仁勋CEO职位，内部帖文获1600评论。",
+          "n": 3,
+          "title": "美联储金融稳定报告：AI成为华尔街头号金融风险",
+          "summary": "美联储报告：87%市场人士视AI为首要金融风险，AI基础设施债务达6800亿美元。",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/x7omcgiafs8nml9fnrog3sg9w"
-        },
-        {
-          "n": 10,
-          "title": "NVIDIA 副总裁 Bryan Catanzaro 澄清要求恢复 Jensen 职务的信件系伪造",
-          "summary": "NVIDIA副总裁否认参与要求恢复黄仁勋职务的伪造信件。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/kei20gkia8a0vhknc859jsfqr"
-        },
-        {
-          "n": 11,
-          "title": "研究报告称中国最强 AI 模型使用了被禁出口的 Nvidia Blackwell 芯片训练",
-          "summary": "研究组织发现Kimi K3与DeepSeek V4带有Blackwell芯片训练痕迹。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/q92ir58jcjtp3g9fn11jlb6ei"
-        },
-        {
-          "n": 12,
-          "title": "OpenAI 披露 GPT-6 Astra 误停运行中对齐评估的失准事故",
-          "summary": "OpenAI报告GPT-6 Astra误判对齐评估任务并主动终止。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/wz5z4s95o7y82d8fk803hyr3x"
+          "url": "https://aihot.news/items/xzt8t0xkgj3mm17k11s2yo3d4"
         }
       ]
     },
     {
       "name": "论文研究",
-      "items": []
+      "items": [
+        {
+          "n": 4,
+          "title": "Thinking Machines Lab 发布端到端 4-bit 训练技术报告",
+          "summary": "Thinking Machines Lab发布4-bit端到端训练方法，统一使用NVFP4和MXFP8数值配方。",
+          "source": "Thinking Machines Lab：官方博客",
+          "url": "https://aihot.news/items/sk6b7wgji4vbbkaa197ys334v"
+        }
+      ]
     },
     {
       "name": "技巧与观点",
-      "items": []
+      "items": [
+        {
+          "n": 5,
+          "title": "Nathan Lambert 分析黄仁勋辞职后美国开源模型生态的真空",
+          "summary": "分析称Nvidia黄仁勋辞职或影响开源模型生态，公司资金支持可能减少。",
+          "source": "Nathan Lambert：Interconnects（RSS）",
+          "url": "https://aihot.news/items/np6dwfqwflqe7vfse9kkfxj1n"
+        }
+      ]
     }
   ]
 }
