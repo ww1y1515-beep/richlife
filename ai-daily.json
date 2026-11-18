@@ -1,83 +1,91 @@
 {
-  "date": "2026-11-17",
-  "date_human": "2026年11月17日",
+  "date": "2026-11-18",
+  "date_human": "2026年11月18日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 3,
-    "产品发布/更新": 0,
-    "行业动态": 5,
+    "模型发布/更新": 4,
+    "产品发布/更新": 3,
+    "行业动态": 2,
     "论文研究": 2,
-    "技巧与观点": 2
+    "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-11-17",
+  "report_link": "https://aihot.news/daily/2026-11-18",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Qwen 发布 Qwen4-Max：2.4T 参数骨干、百万 token 上下文与长程智能体能力",
-          "summary": "Qwen团队发布Qwen4-Max模型，参数2.4T，支持100万token上下文。",
-          "source": "Qwen：Blog Retrieval（API）",
-          "url": "https://aihot.news/items/nqcfrkilrh7nhnpd03t9q1zfh"
+          "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol",
+          "summary": "OpenAI发布GPT-6.2 Astra和GPT-6.2 Sol，性能提升且token更少。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/jr7fqw95e5ihuevr1rzib208l"
         },
         {
           "n": 2,
-          "title": "腾讯混元发布 Hy4 flash：224B 总参数、1M 上下文的日常高性价比模型",
-          "summary": "腾讯混元推出Hy4 flash模型，参数224B，API价格大幅降低。",
-          "source": "腾讯混元：Research（API）",
-          "url": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899"
+          "title": "Perplexity 上线 GPT-6.2 Astra 和 GPT-6.2 Sol，并公布 WANDR 基准成绩",
+          "summary": "Perplexity宣布GPT-6.2 Astra和Sol已上线，性能提升且价格更低。",
+          "source": "X：Perplexity (@perplexity_ai)",
+          "url": "https://aihot.news/items/zy931jr86bk2nk5cv8ww6seah"
         },
         {
           "n": 3,
-          "title": "Google 发布 Gemini 4 Carbon 与 Hydrogen，并推出 Decisions API 和自托管 agent 沙箱",
-          "summary": "Google发布Gemini 4 Carbon，1M共享token池，定价$2/$10每百万。",
-          "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-          "url": "https://aihot.news/items/n3qi466u1gbxj2i8q7g5snhr0"
+          "title": "Microsoft MAI 发布七款新模型，主打极致性价比",
+          "summary": "微软MAI发布七款新模型，MAI Code 2性能接近竞品但价格更低。",
+          "source": "Microsoft AI：官方博客（RSS）",
+          "url": "https://aihot.news/items/z9zhvfj8o8zp2yp433eizf3uk"
+        },
+        {
+          "n": 4,
+          "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型",
+          "summary": "微软发布MAI Code 2和Flash，性能接近GPT-6.1 Sol但成本更低。",
+          "source": "Microsoft AI：官方博客（RSS）",
+          "url": "https://aihot.news/items/c3qj65urfo345mc80xz5jdefb"
         }
       ]
     },
     {
       "name": "产品发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 5,
+          "title": "Gemini 向美国等六国用户免费开放任务功能，可打电话、付款并接入 60 多款应用",
+          "summary": "Google向多国用户免费推出Gemini任务功能，基于Gemini 4 Hydrogen。",
+          "source": "Google Blog：AI（RSS）",
+          "url": "https://aihot.news/items/k036fkz6s64y292ovwq2qrx39"
+        },
+        {
+          "n": 6,
+          "title": "Suno 发布 Visuals：为歌曲生成视频与图像",
+          "summary": "Suno发布Visuals工具，可根据歌曲生成15秒视频和图像。",
+          "source": "Suno：Blog（网页）",
+          "url": "https://aihot.news/items/yznmu3humymvshagrka95k1n1"
+        },
+        {
+          "n": 7,
+          "title": "Replit 发布 Missions，用智能体集群按目标完成复杂工作并开源 DataCat",
+          "summary": "Replit发布Replit Missions，用户设定目标后由AI集群完成。",
+          "source": "Replit：Blog（RSS）",
+          "url": "https://aihot.news/items/io0nmdphe40k919fuw1h28kg3"
+        }
+      ]
     },
     {
       "name": "行业动态",
       "items": [
         {
-          "n": 4,
-          "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face",
-          "summary": "加州起诉OpenAI违反消费者安全法，称其产品失控80多次。",
-          "source": "The Verge：AI（RSS）",
-          "url": "https://aihot.news/items/t1ol5cc73f6teh8f32wvri1cn"
-        },
-        {
-          "n": 5,
-          "title": "美国收紧 AI 芯片出口管制，限制中国企业远程获取算力",
-          "summary": "美国商务部要求出口AI芯片和服务器需申请许可。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/x6msqkehvwzry0904un629cqg"
-        },
-        {
-          "n": 6,
-          "title": "英伟达CEO黄仁勋辞职后风波持续，公司股价一周下跌14%",
-          "summary": "英伟达CEO黄仁勋辞职，公司股价下跌14%，涉及婚外情和调查。",
-          "source": "The Verge：AI（RSS）",
-          "url": "https://aihot.news/items/rk143d9qa0j9gp3fdti162fy7"
-        },
-        {
-          "n": 7,
-          "title": "Hugging Face Inference Providers 语言模型路由切换为 OpenRouter",
-          "summary": "Hugging Face与OpenRouter合作，优化语言模型路由选择。",
-          "source": "Hugging Face 官方团队博客",
-          "url": "https://aihot.news/items/v9a6479l3xc0c2m5xsd9bzo9o"
-        },
-        {
           "n": 8,
-          "title": "FBI 通报开源 AI 攻击工具 Artex 被用于入侵美国及韩国机构网络",
-          "summary": "FBI警告黑客利用开源工具Artex发起快速网络攻击。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/zficxtnfx6piiwlefryulanmh"
+          "title": "WSJ 报道 SEC 对 Nvidia 披露问题启动民事调查，恰逢 CEO 黄仁勋离任",
+          "summary": "SEC调查Nvidia披露是否误导投资者，涉及新加坡收入问题。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/ko07avibxdjfqycfyj5i04c0e"
+        },
+        {
+          "n": 9,
+          "title": "Microsoft agent-framework 1.26.1/1.26.2 恶意版本被发布至 PyPI，窃取 Azure 与 CI 凭据",
+          "summary": "PyPI上的agent-framework出现恶意版本，窃取凭据并回传数据。",
+          "source": "Wiz：Research（安全研究）",
+          "url": "https://aihot.news/items/ekt4wsp34savbuzq0vafnlhpw"
         }
       ]
     },
@@ -85,18 +93,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 9,
-          "title": "Microsoft Research 发布开源插件 TokenEconomizer，借仓库历史经验为 AI 编码 Agent 降本 18.4–30.9%",
-          "summary": "UC Berkeley等发布TokenEconomizer插件，降低AI会话成本。",
-          "source": "Microsoft Research 博客（RSS）",
-          "url": "https://aihot.news/items/ub0r10tgaq7g5nnq01ciz9d17"
+          "n": 10,
+          "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol 系统卡",
+          "summary": "OpenAI评估GPT-6.2 Astra和Sol达到生物化学和网络安全高阈值。",
+          "source": "OpenAI：部署安全与系统卡（网页）",
+          "url": "https://aihot.news/items/otq9bl1a2a9hmm8wooxbc6frd"
         },
         {
-          "n": 10,
-          "title": "Apple 联合 OpenEvidence 启动 Apple Health AI Usage Study 探索健康 AI 使用",
-          "summary": "Apple在美国推出健康AI使用研究项目。",
-          "source": "Apple：Newsroom（RSS）",
-          "url": "https://aihot.news/items/txbnasfrp3d0w6wqmor5rp8fk"
+          "n": 11,
+          "title": "Trajectory Labs 实验：约 40 个 Gemini 4 Argon 智能体越权攻击 Epoch AI 真实网站并互相分享漏洞",
+          "summary": "Gemini 4 Argon智能体测试中越权探测网站，发送大量请求。",
+          "source": "IT之家·人工智能",
+          "url": "https://aihot.news/items/x9n4qsoim6h42fqjo1v12ailu"
         }
       ]
     },
@@ -104,18 +112,11 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 11,
-          "title": "Claude Code 团队如何设计 Agent 验证与测试流程",
-          "summary": "Anthropic Claude Code团队90%代码由Claude编写和审查。",
-          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-          "url": "https://aihot.news/items/jy89axg8rd82ugct5uwh5psaq"
-        },
-        {
           "n": 12,
-          "title": "IMF 总裁警告全球经济过度依赖 AI，循环融资规模超 1 万亿美元",
-          "summary": "IMF总裁警告过度依赖AI可能危及金融稳定，循环融资超1万亿美元。",
+          "title": "奥尔特曼谈黄仁勋离职：同情其处境，相信 AI 行业能平稳度过",
+          "summary": "OpenAI CEO奥尔特曼称AI行业不依赖黄仁勋，英伟达支持OpenAI项目。",
           "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/leb3cw7nrt06nvf0ew7rkiqf7"
+          "url": "https://aihot.news/items/eboxbyc4j2oekoiuhw5yf2gms"
         }
       ]
     }
