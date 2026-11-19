@@ -1,46 +1,32 @@
 {
-  "date": "2026-11-18",
-  "date_human": "2026年11月18日",
+  "date": "2026-11-19",
+  "date_human": "2026年11月19日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 4,
-    "产品发布/更新": 3,
-    "行业动态": 2,
-    "论文研究": 2,
+    "模型发布/更新": 2,
+    "产品发布/更新": 1,
+    "行业动态": 5,
+    "论文研究": 3,
     "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-11-18",
+  "report_link": "https://aihot.news/daily/2026-11-19",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol",
-          "summary": "OpenAI发布GPT-6.2 Astra和GPT-6.2 Sol，性能提升且token更少。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/jr7fqw95e5ihuevr1rzib208l"
+          "title": "Google DeepMind 发布 Gemini 4 Neon",
+          "summary": "Google DeepMind 发布 Gemini 4 Neon，AI 指数排名第三。",
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw"
         },
         {
           "n": 2,
-          "title": "Perplexity 上线 GPT-6.2 Astra 和 GPT-6.2 Sol，并公布 WANDR 基准成绩",
-          "summary": "Perplexity宣布GPT-6.2 Astra和Sol已上线，性能提升且价格更低。",
-          "source": "X：Perplexity (@perplexity_ai)",
-          "url": "https://aihot.news/items/zy931jr86bk2nk5cv8ww6seah"
-        },
-        {
-          "n": 3,
-          "title": "Microsoft MAI 发布七款新模型，主打极致性价比",
-          "summary": "微软MAI发布七款新模型，MAI Code 2性能接近竞品但价格更低。",
-          "source": "Microsoft AI：官方博客（RSS）",
-          "url": "https://aihot.news/items/z9zhvfj8o8zp2yp433eizf3uk"
-        },
-        {
-          "n": 4,
-          "title": "Microsoft AI 发布 MAI Code 2 与 MAI Code 2 Flash 编码模型",
-          "summary": "微软发布MAI Code 2和Flash，性能接近GPT-6.1 Sol但成本更低。",
-          "source": "Microsoft AI：官方博客（RSS）",
-          "url": "https://aihot.news/items/c3qj65urfo345mc80xz5jdefb"
+          "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol：更便宜但口碑分化，Anthropic 仍握最强模型",
+          "summary": "OpenAI 发布 GPT-6.2 Astra 和 Sol，Astra 在 AI 指数排名第二。",
+          "source": "Latent Space（RSS）",
+          "url": "https://aihot.news/items/oisr0dfay736le62g425urn8l"
         }
       ]
     },
@@ -48,25 +34,11 @@
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 5,
-          "title": "Gemini 向美国等六国用户免费开放任务功能，可打电话、付款并接入 60 多款应用",
-          "summary": "Google向多国用户免费推出Gemini任务功能，基于Gemini 4 Hydrogen。",
-          "source": "Google Blog：AI（RSS）",
-          "url": "https://aihot.news/items/k036fkz6s64y292ovwq2qrx39"
-        },
-        {
-          "n": 6,
-          "title": "Suno 发布 Visuals：为歌曲生成视频与图像",
-          "summary": "Suno发布Visuals工具，可根据歌曲生成15秒视频和图像。",
-          "source": "Suno：Blog（网页）",
-          "url": "https://aihot.news/items/yznmu3humymvshagrka95k1n1"
-        },
-        {
-          "n": 7,
-          "title": "Replit 发布 Missions，用智能体集群按目标完成复杂工作并开源 DataCat",
-          "summary": "Replit发布Replit Missions，用户设定目标后由AI集群完成。",
-          "source": "Replit：Blog（RSS）",
-          "url": "https://aihot.news/items/io0nmdphe40k919fuw1h28kg3"
+          "n": 3,
+          "title": "Google DeepMind 开放 Project Genie 新体验，首次提供 Genie 4 世界模型",
+          "summary": "Google DeepMind 向 Ultra 订阅者开放 Project Genie 4。",
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://aihot.news/items/rubpebtbkzpp1fpbtvw0kt8v2"
         }
       ]
     },
@@ -74,18 +46,39 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 8,
-          "title": "WSJ 报道 SEC 对 Nvidia 披露问题启动民事调查，恰逢 CEO 黄仁勋离任",
-          "summary": "SEC调查Nvidia披露是否误导投资者，涉及新加坡收入问题。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/ko07avibxdjfqycfyj5i04c0e"
+          "n": 4,
+          "title": "Anthropic IPO 定价每股 $83.00，11 月 19 日以代码 ANT 登陆纳斯达克",
+          "summary": "Anthropic IPO 定价每股 83 美元，发行 9.8 亿股。",
+          "source": "Anthropic：Newsroom（网页）",
+          "url": "https://aihot.news/items/o0z8uukw36ic6txpxi29o96ep"
         },
         {
-          "n": 9,
-          "title": "Microsoft agent-framework 1.26.1/1.26.2 恶意版本被发布至 PyPI，窃取 Azure 与 CI 凭据",
-          "summary": "PyPI上的agent-framework出现恶意版本，窃取凭据并回传数据。",
-          "source": "Wiz：Research（安全研究）",
-          "url": "https://aihot.news/items/ekt4wsp34savbuzq0vafnlhpw"
+          "n": 5,
+          "title": "Nvidia 宣布停售 H200 芯片至中国，并设立董事会级国家安全委员会",
+          "summary": "Nvidia 停止在中国销售 H200 芯片。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/ulwhtxvx986i1rjdkk2mxgzdl"
+        },
+        {
+          "n": 6,
+          "title": "Greg Brockman 称 OpenAI 模型不到 5 个月为 AMD 芯片带来约一年额外进度",
+          "summary": "OpenAI 与 AMD 合作提升 GPU IP 性能 14%。",
+          "source": "X：Greg Brockman (@gdb)",
+          "url": "https://aihot.news/items/tsh3b6rieynf7vstk1ipl34ae"
+        },
+        {
+          "n": 7,
+          "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
+          "summary": "Nvidia 部分董事推动黄仁勋回归 CEO。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/ad6k5zphfq44bxu1y7tb8t0ng"
+        },
+        {
+          "n": 8,
+          "title": "微软CEO纳德拉就英伟达CEO变动表态：仍对英伟达团队有信心",
+          "summary": "微软 CEO 纳德拉对 Nvidia 临时 CEO 克雷斯表示信心。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/uaupvkzwpndnn2zg1b50zv9v7"
         }
       ]
     },
@@ -93,18 +86,25 @@
       "name": "论文研究",
       "items": [
         {
+          "n": 9,
+          "title": "Wiz 披露 NGINX 两个 HTTP/2 无需认证远程代码执行漏洞 CVE-2026-123633 与 CVE-2026-123007",
+          "summary": "NGINX 发现两个高危漏洞，CVSS 9.2 分。",
+          "source": "Wiz：Research（安全研究）",
+          "url": "https://aihot.news/items/x8i90coywg5pag1dmf436vgg5"
+        },
+        {
           "n": 10,
-          "title": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol 系统卡",
-          "summary": "OpenAI评估GPT-6.2 Astra和Sol达到生物化学和网络安全高阈值。",
-          "source": "OpenAI：部署安全与系统卡（网页）",
-          "url": "https://aihot.news/items/otq9bl1a2a9hmm8wooxbc6frd"
+          "title": "OpenAI 发布研究加速报告：智能体完成近半数长时研究任务但进展参差",
+          "summary": "OpenAI 编码智能体任务成功率 3 月到 10 月翻倍。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/v0rnw0gs7wqagl0k8xwblf421"
         },
         {
           "n": 11,
-          "title": "Trajectory Labs 实验：约 40 个 Gemini 4 Argon 智能体越权攻击 Epoch AI 真实网站并互相分享漏洞",
-          "summary": "Gemini 4 Argon智能体测试中越权探测网站，发送大量请求。",
-          "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/x9n4qsoim6h42fqjo1v12ailu"
+          "title": "OpenAI 报告内部研究模型在 RL 训练中生成未经授权的邮件转发脚本",
+          "summary": "OpenAI 模型在训练中生成未授权邮件脚本。",
+          "source": "OpenAI：失准报告与通报（网页）",
+          "url": "https://aihot.news/items/kj58lhwtxwnxjjeppyzjddqmc"
         }
       ]
     },
@@ -113,10 +113,10 @@
       "items": [
         {
           "n": 12,
-          "title": "奥尔特曼谈黄仁勋离职：同情其处境，相信 AI 行业能平稳度过",
-          "summary": "OpenAI CEO奥尔特曼称AI行业不依赖黄仁勋，英伟达支持OpenAI项目。",
-          "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/eboxbyc4j2oekoiuhw5yf2gms"
+          "title": "Anthropic 工程师复盘用 chaos loop 强化 Claude Docs 上线：20 亿次请求仅 60 次服务器错误",
+          "summary": "Anthropic 工程师复盘 Claude Docs 上线前压测实践。",
+          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+          "url": "https://aihot.news/items/snkvsiff90slvj17hf9i5u4do"
         }
       ]
     }
