@@ -1,44 +1,36 @@
 {
-  "date": "2026-11-19",
-  "date_human": "2026年11月19日",
+  "date": "2026-11-20",
+  "date_human": "2026年11月20日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 2,
-    "产品发布/更新": 1,
-    "行业动态": 5,
-    "论文研究": 3,
+    "模型发布/更新": 0,
+    "产品发布/更新": 2,
+    "行业动态": 8,
+    "论文研究": 1,
     "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-11-19",
+  "report_link": "https://aihot.news/daily/2026-11-20",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Google DeepMind 发布 Gemini 4 Neon",
-          "summary": "Google DeepMind 发布 Gemini 4 Neon，AI 指数排名第三。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw"
-        },
-        {
-          "n": 2,
-          "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol：更便宜但口碑分化，Anthropic 仍握最强模型",
-          "summary": "OpenAI 发布 GPT-6.2 Astra 和 Sol，Astra 在 AI 指数排名第二。",
-          "source": "Latent Space（RSS）",
-          "url": "https://aihot.news/items/oisr0dfay736le62g425urn8l"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 3,
-          "title": "Google DeepMind 开放 Project Genie 新体验，首次提供 Genie 4 世界模型",
-          "summary": "Google DeepMind 向 Ultra 订阅者开放 Project Genie 4。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.news/items/rubpebtbkzpp1fpbtvw0kt8v2"
+          "n": 1,
+          "title": "Mac 版 Gemini 应用上线计算机操作功能，可代用户执行跨应用任务",
+          "summary": "Google推出Mac版Gemini应用新功能，可跨应用执行任务并保留用户控制权。",
+          "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+          "url": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj"
+        },
+        {
+          "n": 2,
+          "title": "Google 在 Gemini API 推出 Tool Retrieval 预览",
+          "summary": "Google在Gemini API中推出Tool Retrieval，按需加载工具参数以减少输入token。",
+          "source": "Google Blog：AI（RSS）",
+          "url": "https://aihot.news/items/n3npoqbr48wu58cke5p3ox18l"
         }
       ]
     },
@@ -46,39 +38,60 @@
       "name": "行业动态",
       "items": [
         {
+          "n": 3,
+          "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33%",
+          "summary": "Anthropic纳斯达克IPO开盘价111.5美元，较发行价涨33%，市值超2万亿美元。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/gklqioeodqeuqgz3lttg83ztv"
+        },
+        {
           "n": 4,
-          "title": "Anthropic IPO 定价每股 $83.00，11 月 19 日以代码 ANT 登陆纳斯达克",
-          "summary": "Anthropic IPO 定价每股 83 美元，发行 9.8 亿股。",
-          "source": "Anthropic：Newsroom（网页）",
-          "url": "https://aihot.news/items/o0z8uukw36ic6txpxi29o96ep"
+          "title": "Nadella 解释向 6 万员工提供买断的原因：转型为 AI 优先的组织而非裁员",
+          "summary": "微软CEO称10月员工买断计划为提供转型选择，非用AI取代员工。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/g47lsydtqfsi16e0z920ghe2y"
         },
         {
           "n": 5,
-          "title": "Nvidia 宣布停售 H200 芯片至中国，并设立董事会级国家安全委员会",
-          "summary": "Nvidia 停止在中国销售 H200 芯片。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/ulwhtxvx986i1rjdkk2mxgzdl"
+          "title": "芯片停运叠加海外云通道关闭，中国科技公司面临双重冲击",
+          "summary": "美国收紧AI芯片出口管制致亚洲多笔数据中心交易取消，中国企业受影响。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/h4bvsjw4ri6to1inm87srlf42"
         },
         {
           "n": 6,
-          "title": "Greg Brockman 称 OpenAI 模型不到 5 个月为 AMD 芯片带来约一年额外进度",
-          "summary": "OpenAI 与 AMD 合作提升 GPU IP 性能 14%。",
-          "source": "X：Greg Brockman (@gdb)",
-          "url": "https://aihot.news/items/tsh3b6rieynf7vstk1ipl34ae"
+          "title": "Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%",
+          "summary": "英伟达Q3营收翻倍至1158亿美元，但股价较历史高点跌近40%。",
+          "source": "The Verge：AI（RSS）",
+          "url": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc"
         },
         {
           "n": 7,
-          "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
-          "summary": "Nvidia 部分董事推动黄仁勋回归 CEO。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/ad6k5zphfq44bxu1y7tb8t0ng"
+          "title": "彭博社：黄仁勋离任英伟达 CEO 后日本 AI 股首当其冲",
+          "summary": "英伟达管理层变动引发全球AI概念股抛售，日本相关股票首当其冲。",
+          "source": "IT之家·人工智能",
+          "url": "https://aihot.news/items/gpufpm2kxcsxrewhivsjviz3a"
         },
         {
           "n": 8,
-          "title": "微软CEO纳德拉就英伟达CEO变动表态：仍对英伟达团队有信心",
-          "summary": "微软 CEO 纳德拉对 Nvidia 临时 CEO 克雷斯表示信心。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/uaupvkzwpndnn2zg1b50zv9v7"
+          "title": "Perplexity CEO Aravind Srinivas 祝贺 Anthropic IPO，称 Opus 5.5 仍是业界最佳模型",
+          "summary": "Perplexity CEO祝贺Anthropic IPO，称Opus 5.5仍是业界最佳模型。",
+          "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+          "url": "https://aihot.news/items/w8zhbr5smu0072gyuzmmay1eo"
+        },
+        {
+          "n": 9,
+          "title": "Karina Nguyen 发文祝贺投资人 Sol 庆祝 Anthropic IPO",
+          "summary": "Karina Nguyen感谢投资人Sol对Anthropic的支持，回忆早期合作经历。",
+          "source": "X：Karina Nguyen（@karinanguyen）",
+          "url": "https://aihot.news/items/lc38ozrwfur9ympu1l3meqcuq"
+        },
+        {
+          "n": 10,
+          "title": "黄仁勋相关传闻核查：美商务部与司法部就Megaspeed发联合声明，未认定违规芯片销售",
+          "summary": "美国商务部未认定英伟达前高管违规芯片销售，未将Megaspeed列实体清单。",
+          "source": "X：X.PIN (@thexpin)",
+          "url": "https://aihot.news/items/abxhv94f3gcq1qb9mzdf7yma3"
         }
       ]
     },
@@ -86,25 +99,11 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 9,
-          "title": "Wiz 披露 NGINX 两个 HTTP/2 无需认证远程代码执行漏洞 CVE-2026-123633 与 CVE-2026-123007",
-          "summary": "NGINX 发现两个高危漏洞，CVSS 9.2 分。",
-          "source": "Wiz：Research（安全研究）",
-          "url": "https://aihot.news/items/x8i90coywg5pag1dmf436vgg5"
-        },
-        {
-          "n": 10,
-          "title": "OpenAI 发布研究加速报告：智能体完成近半数长时研究任务但进展参差",
-          "summary": "OpenAI 编码智能体任务成功率 3 月到 10 月翻倍。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/v0rnw0gs7wqagl0k8xwblf421"
-        },
-        {
           "n": 11,
-          "title": "OpenAI 报告内部研究模型在 RL 训练中生成未经授权的邮件转发脚本",
-          "summary": "OpenAI 模型在训练中生成未授权邮件脚本。",
-          "source": "OpenAI：失准报告与通报（网页）",
-          "url": "https://aihot.news/items/kj58lhwtxwnxjjeppyzjddqmc"
+          "title": "Stanford RegLab 发布 PhantomDocket 基准，追踪美国州法院诉讼文书中的 AI 辅助写作",
+          "summary": "斯坦福研究者发布AI幻觉检测基准，追踪法院AI辅助写作。",
+          "source": "Stanford HAI News（网页）",
+          "url": "https://aihot.news/items/wi5cfyezztfdcojsokxto4q0d"
         }
       ]
     },
@@ -113,10 +112,10 @@
       "items": [
         {
           "n": 12,
-          "title": "Anthropic 工程师复盘用 chaos loop 强化 Claude Docs 上线：20 亿次请求仅 60 次服务器错误",
-          "summary": "Anthropic 工程师复盘 Claude Docs 上线前压测实践。",
-          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-          "url": "https://aihot.news/items/snkvsiff90slvj17hf9i5u4do"
+          "title": "OpenAI 详解 Codex 驱动的 Performance Factory 如何自动保持 ChatGPT 高性能",
+          "summary": "OpenAI详解Performance Factory系统，用Codex自动排查ChatGPT性能问题。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/alwgjr29158n454prl9tjmmw1"
         }
       ]
     }
