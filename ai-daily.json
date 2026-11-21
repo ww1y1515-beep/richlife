@@ -1,109 +1,95 @@
 {
-  "date": "2026-11-20",
-  "date_human": "2026年11月20日",
+  "date": "2026-11-21",
+  "date_human": "2026年11月21日",
   "total": 12,
   "counts": {
-    "模型发布/更新": 0,
-    "产品发布/更新": 2,
-    "行业动态": 8,
-    "论文研究": 1,
-    "技巧与观点": 1
+    "模型发布/更新": 3,
+    "产品发布/更新": 3,
+    "行业动态": 0,
+    "论文研究": 3,
+    "技巧与观点": 3
   },
-  "report_link": "https://aihot.news/daily/2026-11-20",
+  "report_link": "https://aihot.news/daily/2026-11-21",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": []
+      "items": [
+        {
+          "n": 1,
+          "title": "Thinking Machines Lab 发布可跑在笔记本上的开源权重模型 Inkling 2 Mini",
+          "summary": "Thinking Machines Lab 开源 Inkling 2 Mini，26.4B 参数，20GB 内存占用，…",
+          "source": "Thinking Machines Lab：News（网页）",
+          "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho"
+        },
+        {
+          "n": 2,
+          "title": "腾讯混元开放 Hy4 权重",
+          "summary": "腾讯混元发布 Hy4 多模态 MoE 模型，770B 参数，支持 1M 上下文，提供 GitHub 权重下载。",
+          "source": "X：腾讯混元 (@TencentHunyuan)",
+          "url": "https://aihot.news/items/jl6m0eymz9z0kleh54c3guowx"
+        },
+        {
+          "n": 3,
+          "title": "Google 发布 Gemini 4 Hydrogen，已上线 Gemini 应用和 Search",
+          "summary": "Google Gemini 4 Hydrogen 上线，主打速度和日常任务，支持智能体工作流。",
+          "source": "X：Google (@Google)",
+          "url": "https://aihot.news/items/wlcnqahdyb61gpeoddwj45yyy"
+        }
+      ]
     },
     {
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 1,
-          "title": "Mac 版 Gemini 应用上线计算机操作功能，可代用户执行跨应用任务",
-          "summary": "Google推出Mac版Gemini应用新功能，可跨应用执行任务并保留用户控制权。",
-          "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-          "url": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj"
+          "n": 4,
+          "title": "ChatGPT 推出 Space：统一管理页面、幻灯片、图片与文件",
+          "summary": "ChatGPT 侧边栏 Space 新增页面、幻灯片等功能，支持协作和自动更新。",
+          "source": "X：ChatGPT (@ChatGPT)",
+          "url": "https://aihot.news/items/ekf0so0xitc52thkrxx3mwax1"
         },
         {
-          "n": 2,
-          "title": "Google 在 Gemini API 推出 Tool Retrieval 预览",
-          "summary": "Google在Gemini API中推出Tool Retrieval，按需加载工具参数以减少输入token。",
-          "source": "Google Blog：AI（RSS）",
-          "url": "https://aihot.news/items/n3npoqbr48wu58cke5p3ox18l"
+          "n": 5,
+          "title": "browser-use 1.0 发布：用一个 Python REPL 工具替代 24 个浏览器动作",
+          "summary": "Browser Use 发布 browser-use 1.0，用单一 REPL 替代 24 个浏览器动作。",
+          "source": "Browser Use",
+          "url": "https://aihot.news/items/wibzzhd168cafn7o3gl8336di"
+        },
+        {
+          "n": 6,
+          "title": "Google 回顾 Duplex 十年演进：如何在 Gemini Tasks 中替用户打电话给商家",
+          "summary": "Google Research 回顾 Duplex 十年演进，上线自动致电商家功能。",
+          "source": "Google Research：Blog（网页）",
+          "url": "https://aihot.news/items/t68rgyv46hdbp52212ozxleh3"
         }
       ]
     },
     {
       "name": "行业动态",
-      "items": [
-        {
-          "n": 3,
-          "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33%",
-          "summary": "Anthropic纳斯达克IPO开盘价111.5美元，较发行价涨33%，市值超2万亿美元。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/gklqioeodqeuqgz3lttg83ztv"
-        },
-        {
-          "n": 4,
-          "title": "Nadella 解释向 6 万员工提供买断的原因：转型为 AI 优先的组织而非裁员",
-          "summary": "微软CEO称10月员工买断计划为提供转型选择，非用AI取代员工。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/g47lsydtqfsi16e0z920ghe2y"
-        },
-        {
-          "n": 5,
-          "title": "芯片停运叠加海外云通道关闭，中国科技公司面临双重冲击",
-          "summary": "美国收紧AI芯片出口管制致亚洲多笔数据中心交易取消，中国企业受影响。",
-          "source": "The Decoder：AI News（RSS）",
-          "url": "https://aihot.news/items/h4bvsjw4ri6to1inm87srlf42"
-        },
-        {
-          "n": 6,
-          "title": "Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%",
-          "summary": "英伟达Q3营收翻倍至1158亿美元，但股价较历史高点跌近40%。",
-          "source": "The Verge：AI（RSS）",
-          "url": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc"
-        },
-        {
-          "n": 7,
-          "title": "彭博社：黄仁勋离任英伟达 CEO 后日本 AI 股首当其冲",
-          "summary": "英伟达管理层变动引发全球AI概念股抛售，日本相关股票首当其冲。",
-          "source": "IT之家·人工智能",
-          "url": "https://aihot.news/items/gpufpm2kxcsxrewhivsjviz3a"
-        },
-        {
-          "n": 8,
-          "title": "Perplexity CEO Aravind Srinivas 祝贺 Anthropic IPO，称 Opus 5.5 仍是业界最佳模型",
-          "summary": "Perplexity CEO祝贺Anthropic IPO，称Opus 5.5仍是业界最佳模型。",
-          "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-          "url": "https://aihot.news/items/w8zhbr5smu0072gyuzmmay1eo"
-        },
-        {
-          "n": 9,
-          "title": "Karina Nguyen 发文祝贺投资人 Sol 庆祝 Anthropic IPO",
-          "summary": "Karina Nguyen感谢投资人Sol对Anthropic的支持，回忆早期合作经历。",
-          "source": "X：Karina Nguyen（@karinanguyen）",
-          "url": "https://aihot.news/items/lc38ozrwfur9ympu1l3meqcuq"
-        },
-        {
-          "n": 10,
-          "title": "黄仁勋相关传闻核查：美商务部与司法部就Megaspeed发联合声明，未认定违规芯片销售",
-          "summary": "美国商务部未认定英伟达前高管违规芯片销售，未将Megaspeed列实体清单。",
-          "source": "X：X.PIN (@thexpin)",
-          "url": "https://aihot.news/items/abxhv94f3gcq1qb9mzdf7yma3"
-        }
-      ]
+      "items": []
     },
     {
       "name": "论文研究",
       "items": [
         {
-          "n": 11,
-          "title": "Stanford RegLab 发布 PhantomDocket 基准，追踪美国州法院诉讼文书中的 AI 辅助写作",
-          "summary": "斯坦福研究者发布AI幻觉检测基准，追踪法院AI辅助写作。",
-          "source": "Stanford HAI News（网页）",
-          "url": "https://aihot.news/items/wi5cfyezztfdcojsokxto4q0d"
+          "n": 7,
+          "title": "Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作证明黎曼猜想，放出 1737 万行 Lean 代码",
+          "summary": "Anthropic 数学家与 Claude 合作证明黎曼猜想，放出 175187 个 Lean 文件。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4"
+        },
+        {
+          "n": 8,
+          "title": "METR 发布 2026 年 11 月能力测量更新：AI R&D 相关能力每约 3.6 个月翻倍且更难测量",
+          "summary": "METR 评测显示模型能力在 TH1.1 与 TH2 任务上每 3.6 个月翻倍。",
+          "source": "METR：Research（网页）",
+          "url": "https://aihot.news/items/sn8qb9u8fqka3mpnmy0r1nz4b"
+        },
+        {
+          "n": 9,
+          "title": "MiniMax 内部模型 MIM 实现多项密码分析实用攻击并开源验证轨迹",
+          "summary": "MiniMax 用 MIM 模型自动化密码分析，取得多个首个实用破解。",
+          "source": "MiniMax：Blog（网页）",
+          "url": "https://aihot.news/items/sakj36g0tvzaeoianryyn6o6g"
         }
       ]
     },
@@ -111,11 +97,25 @@
       "name": "技巧与观点",
       "items": [
         {
+          "n": 10,
+          "title": "Runway 详解如何构建智能体驱动的软件工厂",
+          "summary": "Runway 智能体驱动 38% 合并 PR，批准等待中位数降至 5 分钟。",
+          "source": "Runway：News（网页）",
+          "url": "https://aihot.news/items/wnw22hxqlwsd58lzsm44psc6g"
+        },
+        {
+          "n": 11,
+          "title": "DeepSeek Harness 发布100天，作者分享13个实用插件玩法",
+          "summary": "卡兹克在DeepSeek Harness发布100天之际分享了13个插件玩法。",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "url": "https://aihot.news/items/amx0tnq9rthd6ssx81np25ldc"
+        },
+        {
           "n": 12,
-          "title": "OpenAI 详解 Codex 驱动的 Performance Factory 如何自动保持 ChatGPT 高性能",
-          "summary": "OpenAI详解Performance Factory系统，用Codex自动排查ChatGPT性能问题。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "url": "https://aihot.news/items/alwgjr29158n454prl9tjmmw1"
+          "title": "OpenHands 详解用 Agent 自动修复自家镜像 CVE 的软件工厂",
+          "summary": "OpenHands 用 Agent 流水线处理 CVE 修复，人每天仅读一条 Slack 消息。",
+          "source": "OpenHands 官方博客",
+          "url": "https://aihot.news/items/i94tul4bae051uizh2kkpn2r4"
         }
       ]
     }
