@@ -1,123 +1,80 @@
 {
-  "date": "2026-11-21",
-  "date_human": "2026年11月21日",
-  "total": 12,
+  "date": "2026-11-22",
+  "date_human": "2026年11月22日",
+  "total": 6,
   "counts": {
-    "模型发布/更新": 3,
-    "产品发布/更新": 3,
-    "行业动态": 0,
-    "论文研究": 3,
-    "技巧与观点": 3
+    "模型发布/更新": 0,
+    "产品发布/更新": 1,
+    "行业动态": 1,
+    "论文研究": 4,
+    "技巧与观点": 0
   },
-  "report_link": "https://aihot.news/daily/2026-11-21",
+  "report_link": "https://aihot.news/daily/2026-11-22",
   "sections": [
     {
       "name": "模型发布/更新",
-      "items": [
-        {
-          "n": 1,
-          "title": "Thinking Machines Lab 发布可跑在笔记本上的开源权重模型 Inkling 2 Mini",
-          "summary": "Thinking Machines Lab 开源 Inkling 2 Mini，26.4B 参数，20GB 内存占用，…",
-          "source": "Thinking Machines Lab：News（网页）",
-          "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho"
-        },
-        {
-          "n": 2,
-          "title": "腾讯混元开放 Hy4 权重",
-          "summary": "腾讯混元发布 Hy4 多模态 MoE 模型，770B 参数，支持 1M 上下文，提供 GitHub 权重下载。",
-          "source": "X：腾讯混元 (@TencentHunyuan)",
-          "url": "https://aihot.news/items/jl6m0eymz9z0kleh54c3guowx"
-        },
-        {
-          "n": 3,
-          "title": "Google 发布 Gemini 4 Hydrogen，已上线 Gemini 应用和 Search",
-          "summary": "Google Gemini 4 Hydrogen 上线，主打速度和日常任务，支持智能体工作流。",
-          "source": "X：Google (@Google)",
-          "url": "https://aihot.news/items/wlcnqahdyb61gpeoddwj45yyy"
-        }
-      ]
+      "items": []
     },
     {
       "name": "产品发布/更新",
       "items": [
         {
-          "n": 4,
-          "title": "ChatGPT 推出 Space：统一管理页面、幻灯片、图片与文件",
-          "summary": "ChatGPT 侧边栏 Space 新增页面、幻灯片等功能，支持协作和自动更新。",
-          "source": "X：ChatGPT (@ChatGPT)",
-          "url": "https://aihot.news/items/ekf0so0xitc52thkrxx3mwax1"
-        },
-        {
-          "n": 5,
-          "title": "browser-use 1.0 发布：用一个 Python REPL 工具替代 24 个浏览器动作",
-          "summary": "Browser Use 发布 browser-use 1.0，用单一 REPL 替代 24 个浏览器动作。",
-          "source": "Browser Use",
-          "url": "https://aihot.news/items/wibzzhd168cafn7o3gl8336di"
-        },
-        {
-          "n": 6,
-          "title": "Google 回顾 Duplex 十年演进：如何在 Gemini Tasks 中替用户打电话给商家",
-          "summary": "Google Research 回顾 Duplex 十年演进，上线自动致电商家功能。",
-          "source": "Google Research：Blog（网页）",
-          "url": "https://aihot.news/items/t68rgyv46hdbp52212ozxleh3"
+          "n": 1,
+          "title": "Qwen4 Max 上线 Together AI，单次调用修复 Tornado 整仓 bug",
+          "summary": "Together AI上线阿里Qwen4 Max模型，支持1M token上下文，2026年11月前7折优惠。",
+          "source": "Together AI 研究与产品博客（RSS）",
+          "url": "https://aihot.news/items/rlj39tzyujneo0u35iyrfb4uc"
         }
       ]
     },
     {
       "name": "行业动态",
-      "items": []
+      "items": [
+        {
+          "n": 2,
+          "title": "Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件",
+          "summary": "Together AI因AI编码代理泄露Hugging Face凭证，导致MiniMax等推理服务提示词样本被下载。",
+          "source": "Together AI 研究与产品博客（RSS）",
+          "url": "https://aihot.news/items/xqe6lbb5zsjp9xbsc1o912cs0"
+        }
+      ]
     },
     {
       "name": "论文研究",
       "items": [
         {
-          "n": 7,
-          "title": "Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作证明黎曼猜想，放出 1737 万行 Lean 代码",
-          "summary": "Anthropic 数学家与 Claude 合作证明黎曼猜想，放出 175187 个 Lean 文件。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4"
+          "n": 3,
+          "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
+          "summary": "Anthropic数学家与Claude合作证明黎曼猜想，Lean语言证明超25万页。",
+          "source": "The Decoder：AI News（RSS）",
+          "url": "https://aihot.news/items/tje8i8y21ttk7jjmqet5bpxuq"
         },
         {
-          "n": 8,
-          "title": "METR 发布 2026 年 11 月能力测量更新：AI R&D 相关能力每约 3.6 个月翻倍且更难测量",
-          "summary": "METR 评测显示模型能力在 TH1.1 与 TH2 任务上每 3.6 个月翻倍。",
-          "source": "METR：Research（网页）",
-          "url": "https://aihot.news/items/sn8qb9u8fqka3mpnmy0r1nz4b"
+          "n": 4,
+          "title": "研究者向 AI 供应链埋入 200 万个金丝雀，揭露敏感数据泄露",
+          "summary": "研究测试显示OpenRouter等AI路由服务泄露200万金丝雀链接中的敏感信息。",
+          "source": "Ars Technica：AI（RSS）",
+          "url": "https://aihot.news/items/agm7klro03kcu9weuix1bt4su"
         },
         {
-          "n": 9,
-          "title": "MiniMax 内部模型 MIM 实现多项密码分析实用攻击并开源验证轨迹",
-          "summary": "MiniMax 用 MIM 模型自动化密码分析，取得多个首个实用破解。",
-          "source": "MiniMax：Blog（网页）",
-          "url": "https://aihot.news/items/sakj36g0tvzaeoianryyn6o6g"
+          "n": 5,
+          "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
+          "summary": "Columbia和MIT论文展示Claude算法改进3SUM和APSP，推翻原有假设。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/d32df9vzpliz9m348fug74inq"
+        },
+        {
+          "n": 6,
+          "title": "OpenAI 发布 MedChemBench：评估 AI 模型解读分子结构与实验数据的能力",
+          "summary": "OpenAI推出MedChemBench评估AI模型化学能力，GPT-6.2 Astra得分84.5%。",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "url": "https://aihot.news/items/p52mxe56big96tb6cx9qr1rij"
         }
       ]
     },
     {
       "name": "技巧与观点",
-      "items": [
-        {
-          "n": 10,
-          "title": "Runway 详解如何构建智能体驱动的软件工厂",
-          "summary": "Runway 智能体驱动 38% 合并 PR，批准等待中位数降至 5 分钟。",
-          "source": "Runway：News（网页）",
-          "url": "https://aihot.news/items/wnw22hxqlwsd58lzsm44psc6g"
-        },
-        {
-          "n": 11,
-          "title": "DeepSeek Harness 发布100天，作者分享13个实用插件玩法",
-          "summary": "卡兹克在DeepSeek Harness发布100天之际分享了13个插件玩法。",
-          "source": "X：卡兹克 (@Khazix0918)",
-          "url": "https://aihot.news/items/amx0tnq9rthd6ssx81np25ldc"
-        },
-        {
-          "n": 12,
-          "title": "OpenHands 详解用 Agent 自动修复自家镜像 CVE 的软件工厂",
-          "summary": "OpenHands 用 Agent 流水线处理 CVE 修复，人每天仅读一条 Slack 消息。",
-          "source": "OpenHands 官方博客",
-          "url": "https://aihot.news/items/i94tul4bae051uizh2kkpn2r4"
-        }
-      ]
+      "items": []
     }
   ]
 }
