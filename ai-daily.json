@@ -17,7 +17,7 @@
         {
           "n": 1,
           "title": "智谱发布GLM-5.4：首个Loop Transformer架构旗舰模型开启泛Coding",
-          "summary": "智谱发布GLM-5.4模型，采用Loop Transformer架构，28层共享权重循环执行两轮，智能水平达2-3T级…",
+          "summary": "智谱发布GLM-5.4模型，采用Loop Transformer架构，智能水平达2-3T级效果。",
           "source": "公众号：智谱（GLM）",
           "url": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz"
         }
@@ -29,28 +29,28 @@
         {
           "n": 2,
           "title": "Anthropic 推出 Claude Ship 测试版，自动完成 PR 审查、修复与审批",
-          "summary": "Anthropic发布Claude Ship测试版，含Code Review、PR Steward和Claude Ap…",
+          "summary": "Anthropic发布Claude Ship测试版，含PR审查和自动修复功能。",
           "source": "Claude：Blog（网页）",
           "url": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks"
         },
         {
           "n": 3,
           "title": "ChatGPT 推出面向日常对话优化的 GPT-6.2 Sol",
-          "summary": "ChatGPT推出GPT-6.2 Sol，优化日常对话，能识别照片文字和路牌，根据偏好缩小选项范围。",
+          "summary": "ChatGPT推出GPT-6.2 Sol，优化日常对话，支持图片文字识别。",
           "source": "X：Tibo (@thsottiaux)",
           "url": "https://aihot.news/items/gl6fl6hsisrt26tg83li0j4gk"
         },
         {
           "n": 4,
           "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用",
-          "summary": "Google扩展Search的AI Mode，用户可连接Google Wallet、Drive和Gemini应用，Wa…",
+          "summary": "Google扩展AI Mode，支持连接Wallet、Drive和Gemini应用。",
           "source": "Google Blog：AI（RSS）",
           "url": "https://aihot.news/items/cyorgi8t8dm2fo6ee3b5a6qs2"
         },
         {
           "n": 5,
           "title": "Claude 推出插件，统一连接器与技能的接入方式",
-          "summary": "Claude将连接器和技能合并为插件，提供统一接入工具方式，已上线Free、Pro、Max和Ultra套餐。",
+          "summary": "Claude合并连接器和技能为插件，提供超万种工具接入。",
           "source": "X：Claude (@claudeai)",
           "url": "https://aihot.news/items/h1vnjuwxsli7ku7rpocjlr3s2"
         }
@@ -62,28 +62,28 @@
         {
           "n": 6,
           "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
-          "summary": "NVIDIA宣布黄仁勋复任总裁、CEO及董事会成员，董事会一致投票通过，临时CEO继续担任CFO。",
+          "summary": "NVIDIA董事会投票通过黄仁勋复任CEO，调查继续。",
           "source": "X：X.PIN (@thexpin)",
           "url": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l"
         },
         {
           "n": 7,
           "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
-          "summary": "Trump支持NVIDIA复职黄仁勋，称其回归不构成国家安全风险，司法部长确认无违法行为证据。",
+          "summary": "Trump支持NVIDIA复职黄仁勋，称无国家安全风险。",
           "source": "TechCrunch：AI（RSS）",
           "url": "https://aihot.news/items/uop2ab4998l6dxugsgtg7w7rn"
         },
         {
           "n": 8,
           "title": "俄勒冈州和弗吉尼亚州起诉 SpaceX 指控 Grok 生成色情深伪防护不足",
-          "summary": "俄勒冈州和弗吉尼亚州起诉SpaceX，指控其忽视防护并虚假宣传X平台和Grok AI安全性。",
+          "summary": "两州起诉SpaceX，指控Grok AI生成非自愿色情深伪内容。",
           "source": "The Verge：AI（RSS）",
           "url": "https://aihot.news/items/vlxrimiuixb91iodhjh5hxmte"
         },
         {
           "n": 9,
           "title": "Anthropic IPO 前三家机构如何重注押注",
-          "summary": "TechCrunch报道Notable Capital、GIC和Baillie Gifford在Anthropic I…",
+          "summary": "TechCrunch报道Anthropic IPO前投资逻辑。",
           "source": "TechCrunch：AI（RSS）",
           "url": "https://aihot.news/items/dus34samsjrld1qopq65v54uq"
         }
@@ -95,14 +95,14 @@
         {
           "n": 10,
           "title": "Anthropic 访谈 58 家企业客户：AI 采用的价值、雇佣影响与组织重组",
-          "summary": "Anthropic研究发现多数AI应用通过扩大产出创造价值，三分之二公司因AI减少招聘。",
+          "summary": "Anthropic研究显示AI应用多通过扩大产出创造价值。",
           "source": "Anthropic：Research（发表成果 · 网页）",
           "url": "https://aihot.news/items/gj8mzwrgqlkvim6xe382a35q2"
         },
         {
           "n": 11,
           "title": "Google DeepMind 用 Gemini 4 智能体团队与 Lean 形式化验证改进量子算法",
-          "summary": "Google DeepMind用Gemini 4智能体团队改进量子算法，开源Lean库、问题规格和验证解法。",
+          "summary": "Google DeepMind用Gemini 4改进量子算法，开源Lean库。",
           "source": "Google DeepMind：Blog（RSS）",
           "url": "https://aihot.news/items/pjpgapf3mbvmy98cywxhwf07n"
         }
@@ -114,7 +114,7 @@
         {
           "n": 12,
           "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
-          "summary": "a16z联合The Prompting Company测试Grok Bot等智能体购物表现，比对YipitData消费…",
+          "summary": "a16z测试多智能体购物表现，比对消费数据。",
           "source": "a16z：News（RSS）",
           "url": "https://aihot.news/items/qkxvs90ewfu3k430sdefndv56"
         }
