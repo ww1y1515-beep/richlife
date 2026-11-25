@@ -1,25 +1,25 @@
 {
-  "date": "2026-11-24",
-  "date_human": "2026年11月24日",
+  "date": "2026-11-25",
+  "date_human": "2026年11月25日",
   "total": 12,
   "counts": {
     "模型发布/更新": 1,
     "产品发布/更新": 4,
-    "行业动态": 4,
-    "论文研究": 2,
+    "行业动态": 3,
+    "论文研究": 3,
     "技巧与观点": 1
   },
-  "report_link": "https://aihot.news/daily/2026-11-24",
+  "report_link": "https://aihot.news/daily/2026-11-25",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "智谱发布GLM-5.4：首个Loop Transformer架构旗舰模型开启泛Coding",
-          "summary": "智谱发布GLM-5.4模型，采用Loop Transformer架构，智能水平达2-3T级效果。",
-          "source": "公众号：智谱（GLM）",
-          "url": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz"
+          "title": "Cognition 发布 SWE-2.1 及高速版 SWE-2.1 Lightning",
+          "summary": "Cognition发布SWE-2.1，网络安全能力显著提升。",
+          "source": "Cognition 模型 / Devin 博客（网页）",
+          "url": "https://aihot.news/items/gflb0kkwzma61spkzpp1uxmrk"
         }
       ]
     },
@@ -28,31 +28,31 @@
       "items": [
         {
           "n": 2,
-          "title": "Anthropic 推出 Claude Ship 测试版，自动完成 PR 审查、修复与审批",
-          "summary": "Anthropic发布Claude Ship测试版，含PR审查和自动修复功能。",
+          "title": "Claude 推出 Install as app：artifacts 可安装为 Mac 和 Windows 桌面应用",
+          "summary": "Anthropic推出Claude桌面应用beta版。",
           "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks"
+          "url": "https://aihot.news/items/zcpto4b7qb8sr6v6n223kd2sx"
         },
         {
           "n": 3,
-          "title": "ChatGPT 推出面向日常对话优化的 GPT-6.2 Sol",
-          "summary": "ChatGPT推出GPT-6.2 Sol，优化日常对话，支持图片文字识别。",
-          "source": "X：Tibo (@thsottiaux)",
-          "url": "https://aihot.news/items/gl6fl6hsisrt26tg83li0j4gk"
+          "title": "Anthropic 为 Claude 推出 Skills over MCP 公测及 Tasks、Elicitation 等更新",
+          "summary": "Anthropic公开测试Claude的Skills over MCP功能。",
+          "source": "Claude：Blog（网页）",
+          "url": "https://aihot.news/items/kjd2qp2iuk9zxdfqj5qk2a8f9"
         },
         {
           "n": 4,
-          "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用",
-          "summary": "Google扩展AI Mode，支持连接Wallet、Drive和Gemini应用。",
-          "source": "Google Blog：AI（RSS）",
-          "url": "https://aihot.news/items/cyorgi8t8dm2fo6ee3b5a6qs2"
+          "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
+          "summary": "OpenAI与Cisco合作推出开源Linux运行时Shirudo。",
+          "source": "X：Tibo (@thsottiaux)",
+          "url": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h"
         },
         {
           "n": 5,
-          "title": "Claude 推出插件，统一连接器与技能的接入方式",
-          "summary": "Claude合并连接器和技能为插件，提供超万种工具接入。",
-          "source": "X：Claude (@claudeai)",
-          "url": "https://aihot.news/items/h1vnjuwxsli7ku7rpocjlr3s2"
+          "title": "MiniMax 发布 H3 Family 系列模型，H3 开源百日衍生模型达 1472 个、下载量超 1.48 亿次",
+          "summary": "MiniMax发布H3 Family旗舰模型系列。",
+          "source": "公众号：MiniMax（稀宇科技）",
+          "url": "https://aihot.news/items/f1380j6hyrxn0rnz6666nu3b8"
         }
       ]
     },
@@ -61,31 +61,24 @@
       "items": [
         {
           "n": 6,
-          "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
-          "summary": "NVIDIA董事会投票通过黄仁勋复任CEO，调查继续。",
-          "source": "X：X.PIN (@thexpin)",
-          "url": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l"
+          "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
+          "summary": "Nvidia董事会恢复黄仁勋职务，Megaspeed被列入实体清单。",
+          "source": "ChinaTalk（RSS）",
+          "url": "https://aihot.news/items/zto0pspydy8330r0bvwqb6j5z"
         },
         {
           "n": 7,
-          "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
-          "summary": "Trump支持NVIDIA复职黄仁勋，称无国家安全风险。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/uop2ab4998l6dxugsgtg7w7rn"
+          "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day",
+          "summary": "黑客利用AI智能体11分钟攻破医学影像AI应用。",
+          "source": "Ars Technica：AI（RSS）",
+          "url": "https://aihot.news/items/ygbhvp086wl672gfxuhfgl23x"
         },
         {
           "n": 8,
-          "title": "俄勒冈州和弗吉尼亚州起诉 SpaceX 指控 Grok 生成色情深伪防护不足",
-          "summary": "两州起诉SpaceX，指控Grok AI生成非自愿色情深伪内容。",
-          "source": "The Verge：AI（RSS）",
-          "url": "https://aihot.news/items/vlxrimiuixb91iodhjh5hxmte"
-        },
-        {
-          "n": 9,
-          "title": "Anthropic IPO 前三家机构如何重注押注",
-          "summary": "TechCrunch报道Anthropic IPO前投资逻辑。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/dus34samsjrld1qopq65v54uq"
+          "title": "ChinaTalk 分析 BIS 租赁算力新规或为美国换取约六个月算力领先",
+          "summary": "美国BIS发布租赁算力新规，需许可门槛约760块H100。",
+          "source": "ChinaTalk（RSS）",
+          "url": "https://aihot.news/items/yz5va6l60tfkmdampmsiz0jq2"
         }
       ]
     },
@@ -93,18 +86,25 @@
       "name": "论文研究",
       "items": [
         {
+          "n": 9,
+          "title": "OpenAI 发布 preprint：湿实验验证 GPT-6 系列模型具备内在蛋白质设计能力",
+          "summary": "OpenAI证实GPT-6具备内在蛋白质设计能力。",
+          "source": "X：OpenAI (@OpenAI)",
+          "url": "https://aihot.news/items/vld1kqsp7wkz3o3qo1ubc9sg9"
+        },
+        {
           "n": 10,
-          "title": "Anthropic 访谈 58 家企业客户：AI 采用的价值、雇佣影响与组织重组",
-          "summary": "Anthropic研究显示AI应用多通过扩大产出创造价值。",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.news/items/gj8mzwrgqlkvim6xe382a35q2"
+          "title": "Anthropic 发布 Siren 评估：Claude 在弱沙盒中 21-32% 场景会越界访问",
+          "summary": "Anthropic发布Claude安全评估Siren，违规率降至2%。",
+          "source": "X：Anthropic (@AnthropicAI)",
+          "url": "https://aihot.news/items/gat7lwf755dyryyd45gvlesxz"
         },
         {
           "n": 11,
-          "title": "Google DeepMind 用 Gemini 4 智能体团队与 Lean 形式化验证改进量子算法",
-          "summary": "Google DeepMind用Gemini 4改进量子算法，开源Lean库。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://aihot.news/items/pjpgapf3mbvmy98cywxhwf07n"
+          "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
+          "summary": "OpenClaw等推出ShellBench，含100个日常任务评测。",
+          "source": "OpenClaw：Blog（网页）",
+          "url": "https://aihot.news/items/frmncgr2jcrvfm3t6jgabqhfh"
         }
       ]
     },
@@ -113,10 +113,10 @@
       "items": [
         {
           "n": 12,
-          "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
-          "summary": "a16z测试多智能体购物表现，比对消费数据。",
-          "source": "a16z：News（RSS）",
-          "url": "https://aihot.news/items/qkxvs90ewfu3k430sdefndv56"
+          "title": "Ed Zitron 撰文批评 NVIDIA 董事会在政府施压下恢复黄仁勋 CEO 职务",
+          "summary": "Ed Zitron批评NVIDIA董事会恢复黄仁勋CEO职务。",
+          "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+          "url": "https://aihot.news/items/lb66i6g7eq01l6hx0rr8f7k9r"
         }
       ]
     }
