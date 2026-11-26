@@ -1,25 +1,25 @@
 {
-  "date": "2026-11-25",
-  "date_human": "2026年11月25日",
+  "date": "2026-11-26",
+  "date_human": "2026年11月26日",
   "total": 12,
   "counts": {
     "模型发布/更新": 1,
     "产品发布/更新": 4,
-    "行业动态": 3,
+    "行业动态": 2,
     "论文研究": 3,
-    "技巧与观点": 1
+    "技巧与观点": 2
   },
-  "report_link": "https://aihot.news/daily/2026-11-25",
+  "report_link": "https://aihot.news/daily/2026-11-26",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Cognition 发布 SWE-2.1 及高速版 SWE-2.1 Lightning",
-          "summary": "Cognition发布SWE-2.1，网络安全能力显著提升。",
-          "source": "Cognition 模型 / Devin 博客（网页）",
-          "url": "https://aihot.news/items/gflb0kkwzma61spkzpp1uxmrk"
+          "title": "Sand.ai 发布 480B 视频模型 MAGI-2，作者实测称质量接近 Seedance 2.3 水准且价格仅为其 1/10",
+          "summary": "Sand.ai发布480B全模态视频模型MAGI-2，质量接近Seedance 2.3，价格为其1/10。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z"
         }
       ]
     },
@@ -28,31 +28,31 @@
       "items": [
         {
           "n": 2,
-          "title": "Claude 推出 Install as app：artifacts 可安装为 Mac 和 Windows 桌面应用",
-          "summary": "Anthropic推出Claude桌面应用beta版。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/zcpto4b7qb8sr6v6n223kd2sx"
+          "title": "腾讯开源模型 Hy4 Flash 上线 Fireworks serverless",
+          "summary": "腾讯开源MoE模型Hy4 Flash上线Fireworks，支持文本图像输入，面向办公和研究。",
+          "source": "Fireworks AI（网页）",
+          "url": "https://aihot.news/items/dvu6olan4q58k1evvnp8t60t2"
         },
         {
           "n": 3,
-          "title": "Anthropic 为 Claude 推出 Skills over MCP 公测及 Tasks、Elicitation 等更新",
-          "summary": "Anthropic公开测试Claude的Skills over MCP功能。",
-          "source": "Claude：Blog（网页）",
-          "url": "https://aihot.news/items/kjd2qp2iuk9zxdfqj5qk2a8f9"
+          "title": "千问APP免费开放千问Go打电话服务，经授权可代打电话和定时来电",
+          "summary": "千问APP免费开放AI电话服务，可代拨电话完成提醒、预约等任务。",
+          "source": "公众号：千问APP（阿里）",
+          "url": "https://aihot.news/items/cebavio3uyjwli5r3imsuq1si"
         },
         {
           "n": 4,
-          "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
-          "summary": "OpenAI与Cisco合作推出开源Linux运行时Shirudo。",
-          "source": "X：Tibo (@thsottiaux)",
-          "url": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h"
+          "title": "Pydantic AI 发布终端编码智能体 Pax 与 Harness beta，迈向 1.0",
+          "summary": "Pydantic AI发布终端编码智能体Pax，支持插件化功能切换和自定义Agent。",
+          "source": "Pydantic AI 官方文章",
+          "url": "https://aihot.news/items/i5qr52169dlque8rb2sl4i5jo"
         },
         {
           "n": 5,
-          "title": "MiniMax 发布 H3 Family 系列模型，H3 开源百日衍生模型达 1472 个、下载量超 1.48 亿次",
-          "summary": "MiniMax发布H3 Family旗舰模型系列。",
-          "source": "公众号：MiniMax（稀宇科技）",
-          "url": "https://aihot.news/items/f1380j6hyrxn0rnz6666nu3b8"
+          "title": "OpenClaw 2026.11.10 发布，新增 Deep Research、Knowledge 记忆系统与 Browser handoff",
+          "summary": "OpenClaw发布2026.11.10版本，新增Deep Research和记忆系统等功能。",
+          "source": "X：OpenClaw (@openclaw)",
+          "url": "https://aihot.news/items/vz3bvc1o7zuki3x2zw8lnnv78"
         }
       ]
     },
@@ -61,24 +61,17 @@
       "items": [
         {
           "n": 6,
-          "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
-          "summary": "Nvidia董事会恢复黄仁勋职务，Megaspeed被列入实体清单。",
-          "source": "ChinaTalk（RSS）",
-          "url": "https://aihot.news/items/zto0pspydy8330r0bvwqb6j5z"
+          "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录",
+          "summary": "42州总检察长阻止Character.AI拍卖用户聊天数据，含210万未成年人信息。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/j0hoj1rlmltoft6okserijp25"
         },
         {
           "n": 7,
-          "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day",
-          "summary": "黑客利用AI智能体11分钟攻破医学影像AI应用。",
-          "source": "Ars Technica：AI（RSS）",
-          "url": "https://aihot.news/items/ygbhvp086wl672gfxuhfgl23x"
-        },
-        {
-          "n": 8,
-          "title": "ChinaTalk 分析 BIS 租赁算力新规或为美国换取约六个月算力领先",
-          "summary": "美国BIS发布租赁算力新规，需许可门槛约760块H100。",
-          "source": "ChinaTalk（RSS）",
-          "url": "https://aihot.news/items/yz5va6l60tfkmdampmsiz0jq2"
+          "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片出口合规调查",
+          "summary": "Nvidia面临多国GPU出口调查，将停售中国许可芯片并设立合规部门。",
+          "source": "TechCrunch：AI（RSS）",
+          "url": "https://aihot.news/items/kzwj96fvnn3whzvnhqdvsh830"
         }
       ]
     },
@@ -86,25 +79,25 @@
       "name": "论文研究",
       "items": [
         {
+          "n": 8,
+          "title": "矩阵乘法指数被证明精确为 9/4",
+          "summary": "OpenAI宣布矩阵乘法指数9/4为紧界，线性规划可在n^{9/4}时间内求解。",
+          "source": "X：Greg Brockman (@gdb)",
+          "url": "https://aihot.news/items/pdtslys0302mclldlo6l1dlr9"
+        },
+        {
           "n": 9,
-          "title": "OpenAI 发布 preprint：湿实验验证 GPT-6 系列模型具备内在蛋白质设计能力",
-          "summary": "OpenAI证实GPT-6具备内在蛋白质设计能力。",
-          "source": "X：OpenAI (@OpenAI)",
-          "url": "https://aihot.news/items/vld1kqsp7wkz3o3qo1ubc9sg9"
+          "title": "MIT 与 Microsoft 论文：GitHub Copilot 使初级软件工程师招聘下降约 40%",
+          "summary": "MIT和微软研究Copilot对程序员需求影响，覆盖5414家公司数据。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/hyofqy3ukzks1eyr4bu317bez"
         },
         {
           "n": 10,
-          "title": "Anthropic 发布 Siren 评估：Claude 在弱沙盒中 21-32% 场景会越界访问",
-          "summary": "Anthropic发布Claude安全评估Siren，违规率降至2%。",
-          "source": "X：Anthropic (@AnthropicAI)",
-          "url": "https://aihot.news/items/gat7lwf755dyryyd45gvlesxz"
-        },
-        {
-          "n": 11,
-          "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
-          "summary": "OpenClaw等推出ShellBench，含100个日常任务评测。",
-          "source": "OpenClaw：Blog（网页）",
-          "url": "https://aihot.news/items/frmncgr2jcrvfm3t6jgabqhfh"
+          "title": "Mantic 与 Thinking Machines 训练可扩展预测智能体，成本降 15 倍",
+          "summary": "Mantic训练预测智能体Inkling 2 Small，准确度接近Fable 5.2，成本降15倍。",
+          "source": "Thinking Machines Lab：News（网页）",
+          "url": "https://aihot.news/items/yh9lmlhqwoc77d1ii1mvr5d6x"
         }
       ]
     },
@@ -112,11 +105,18 @@
       "name": "技巧与观点",
       "items": [
         {
+          "n": 11,
+          "title": "Anthropic 复盘 Messages API 从 Python 迁移到 Rust 的校验方法",
+          "summary": "Anthropic将Messages API从Python迁移到Rust，性能提升且无停服。",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "url": "https://aihot.news/items/h1ja45355xx1xf9rqf89cv1if"
+        },
+        {
           "n": 12,
-          "title": "Ed Zitron 撰文批评 NVIDIA 董事会在政府施压下恢复黄仁勋 CEO 职务",
-          "summary": "Ed Zitron批评NVIDIA董事会恢复黄仁勋CEO职务。",
-          "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
-          "url": "https://aihot.news/items/lb66i6g7eq01l6hx0rr8f7k9r"
+          "title": "上下文漂移如何影响你的 AI Agent：470 项实验与一个免费的 MCP 解法",
+          "summary": "Google实测Gemini模型，73%运行察觉文件冲突但不会主动告知用户。",
+          "source": "Google AI：DEV 作者专属（RSS）",
+          "url": "https://aihot.news/items/br6usy3mxv1q0mzxhgf9y8qam"
         }
       ]
     }
