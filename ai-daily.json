@@ -1,25 +1,25 @@
 {
-  "date": "2026-11-26",
-  "date_human": "2026年11月26日",
-  "total": 12,
+  "date": "2026-11-27",
+  "date_human": "2026年11月27日",
+  "total": 9,
   "counts": {
     "模型发布/更新": 1,
-    "产品发布/更新": 4,
-    "行业动态": 2,
-    "论文研究": 3,
-    "技巧与观点": 2
+    "产品发布/更新": 1,
+    "行业动态": 1,
+    "论文研究": 2,
+    "技巧与观点": 4
   },
-  "report_link": "https://aihot.news/daily/2026-11-26",
+  "report_link": "https://aihot.news/daily/2026-11-27",
   "sections": [
     {
       "name": "模型发布/更新",
       "items": [
         {
           "n": 1,
-          "title": "Sand.ai 发布 480B 视频模型 MAGI-2，作者实测称质量接近 Seedance 2.3 水准且价格仅为其 1/10",
-          "summary": "Sand.ai发布480B全模态视频模型MAGI-2，质量接近Seedance 2.3，价格为其1/10。",
-          "source": "公众号：数字生命卡兹克",
-          "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z"
+          "title": "蚂蚁 inclusionAI 开源 Ming-Image-0.2-Design 图像生成模型",
+          "summary": "蚂蚁开源Ming-Image-0.2-Design，改进构图光照文字渲染，适用于电商UI设计。",
+          "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
+          "url": "https://aihot.news/items/hdvt6wswzycj78wnr7r43xn6o"
         }
       ]
     },
@@ -28,31 +28,10 @@
       "items": [
         {
           "n": 2,
-          "title": "腾讯开源模型 Hy4 Flash 上线 Fireworks serverless",
-          "summary": "腾讯开源MoE模型Hy4 Flash上线Fireworks，支持文本图像输入，面向办公和研究。",
-          "source": "Fireworks AI（网页）",
-          "url": "https://aihot.news/items/dvu6olan4q58k1evvnp8t60t2"
-        },
-        {
-          "n": 3,
-          "title": "千问APP免费开放千问Go打电话服务，经授权可代打电话和定时来电",
-          "summary": "千问APP免费开放AI电话服务，可代拨电话完成提醒、预约等任务。",
-          "source": "公众号：千问APP（阿里）",
-          "url": "https://aihot.news/items/cebavio3uyjwli5r3imsuq1si"
-        },
-        {
-          "n": 4,
-          "title": "Pydantic AI 发布终端编码智能体 Pax 与 Harness beta，迈向 1.0",
-          "summary": "Pydantic AI发布终端编码智能体Pax，支持插件化功能切换和自定义Agent。",
-          "source": "Pydantic AI 官方文章",
-          "url": "https://aihot.news/items/i5qr52169dlque8rb2sl4i5jo"
-        },
-        {
-          "n": 5,
-          "title": "OpenClaw 2026.11.10 发布，新增 Deep Research、Knowledge 记忆系统与 Browser handoff",
-          "summary": "OpenClaw发布2026.11.10版本，新增Deep Research和记忆系统等功能。",
-          "source": "X：OpenClaw (@openclaw)",
-          "url": "https://aihot.news/items/vz3bvc1o7zuki3x2zw8lnnv78"
+          "title": "OpenAI 测试私有推理功能",
+          "summary": "私有推理——机密计算，在模型处理提示词和响应时对其进行严格控制，现已进入测试阶段：",
+          "source": "X：Greg Brockman (@gdb)",
+          "url": "https://aihot.news/items/lewbr91m3z1dyea1n7pbm3bnl"
         }
       ]
     },
@@ -60,18 +39,11 @@
       "name": "行业动态",
       "items": [
         {
-          "n": 6,
-          "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录",
-          "summary": "42州总检察长阻止Character.AI拍卖用户聊天数据，含210万未成年人信息。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/j0hoj1rlmltoft6okserijp25"
-        },
-        {
-          "n": 7,
-          "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片出口合规调查",
-          "summary": "Nvidia面临多国GPU出口调查，将停售中国许可芯片并设立合规部门。",
-          "source": "TechCrunch：AI（RSS）",
-          "url": "https://aihot.news/items/kzwj96fvnn3whzvnhqdvsh830"
+          "n": 3,
+          "title": "FT 报道 Nvidia 暂停向东南亚四国发运服务器",
+          "summary": "Nvidia通知Dell等停止向东南亚发运服务器，因美国要求AI芯片需申请许可。",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "url": "https://aihot.news/items/rlt60gq96bl1cf5b88o8rbj30"
         }
       ]
     },
@@ -79,25 +51,18 @@
       "name": "论文研究",
       "items": [
         {
-          "n": 8,
-          "title": "矩阵乘法指数被证明精确为 9/4",
-          "summary": "OpenAI宣布矩阵乘法指数9/4为紧界，线性规划可在n^{9/4}时间内求解。",
-          "source": "X：Greg Brockman (@gdb)",
-          "url": "https://aihot.news/items/pdtslys0302mclldlo6l1dlr9"
+          "n": 4,
+          "title": "OEMpocalypse Part 2：利用 Knox DualDAR 漏洞链 root Galaxy S23 与 S26 旗舰机",
+          "summary": "Calif Research利用漏洞在Galaxy S23等机型上高可靠获取root权限。",
+          "source": "Calif：Research（AI 漏洞研究）",
+          "url": "https://aihot.news/items/g5yjacklnlbp3v51hkzciksjy"
         },
         {
-          "n": 9,
-          "title": "MIT 与 Microsoft 论文：GitHub Copilot 使初级软件工程师招聘下降约 40%",
-          "summary": "MIT和微软研究Copilot对程序员需求影响，覆盖5414家公司数据。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "url": "https://aihot.news/items/hyofqy3ukzks1eyr4bu317bez"
-        },
-        {
-          "n": 10,
-          "title": "Mantic 与 Thinking Machines 训练可扩展预测智能体，成本降 15 倍",
-          "summary": "Mantic训练预测智能体Inkling 2 Small，准确度接近Fable 5.2，成本降15倍。",
-          "source": "Thinking Machines Lab：News（网页）",
-          "url": "https://aihot.news/items/yh9lmlhqwoc77d1ii1mvr5d6x"
+          "n": 5,
+          "title": "Calif 披露 Tor Browser 15.0.22 UAF 漏洞链可致真实 IP 泄露",
+          "summary": "Calif研究显示恶意网站可绕过Tor Browser防御泄露用户真实IP。",
+          "source": "Calif：Research（AI 漏洞研究）",
+          "url": "https://aihot.news/items/gv1y811sp5p9kl7p3ci7xjt5n"
         }
       ]
     },
@@ -105,18 +70,32 @@
       "name": "技巧与观点",
       "items": [
         {
-          "n": 11,
-          "title": "Anthropic 复盘 Messages API 从 Python 迁移到 Rust 的校验方法",
-          "summary": "Anthropic将Messages API从Python迁移到Rust，性能提升且无停服。",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "url": "https://aihot.news/items/h1ja45355xx1xf9rqf89cv1if"
+          "n": 6,
+          "title": "Dario Amodei 澄清不主张向 AI 交出人类自由意志",
+          "summary": "Anthropic CEO否认主张交出人类自由意志，强调AI需民主治理。",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "url": "https://aihot.news/items/e6gp31eup40d99unaon9umnpo"
         },
         {
-          "n": 12,
-          "title": "上下文漂移如何影响你的 AI Agent：470 项实验与一个免费的 MCP 解法",
-          "summary": "Google实测Gemini模型，73%运行察觉文件冲突但不会主动告知用户。",
-          "source": "Google AI：DEV 作者专属（RSS）",
-          "url": "https://aihot.news/items/br6usy3mxv1q0mzxhgf9y8qam"
+          "n": 7,
+          "title": "Karpathy 用 Claude Code 和 Opus 5.5 把美国真实数据做成文明风格游戏地图",
+          "summary": "Karpathy用Claude Code构建美国文明风格游戏地图，整合31个真实数据源。",
+          "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+          "url": "https://aihot.news/items/gc4qp85ij5qzhu53qzkg8quqj"
+        },
+        {
+          "n": 8,
+          "title": "卡兹克把《人生意义设计课》做成AI Prompt，帮你设计人生的意义",
+          "summary": "公众号作者改编斯坦福课程为多轮对话Prompt，生成个人意义设计手册。",
+          "source": "公众号：数字生命卡兹克",
+          "url": "https://aihot.news/items/mruv0rx3oxnkjy9ll805qaidc"
+        },
+        {
+          "n": 9,
+          "title": "Philipp Schmid 撰文解释为何在 Skills 与 CLI 兴起后仍更看好 MCP",
+          "summary": "Philipp Schmid看好MCP，Linear等工具每周创建240万条issue和页面。",
+          "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+          "url": "https://aihot.news/items/jcdfpftbam647yhc210dbace9"
         }
       ]
     }
